@@ -1,4 +1,3 @@
-# data analysis code 
 ## import template
 ```
 import numpy as np
@@ -34,4 +33,12 @@ for file in os.listdir(folder_path):
 ## check string in 
 ```
 pd.Series.str.contains(string)
+```
+## import anything from parent dir
+```
+import sys
+import os
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+sys.path.append(parent_dir)
 ```
