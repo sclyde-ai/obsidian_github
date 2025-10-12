@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT_information_technoloy/the cloud, cloud computing.md",
+                "file": "数学 mathematics/確率論 probability theory/確率論 probability theory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "the cloud, cloud computing"
+              "title": "確率論 probability theory"
             }
           }
         ]
@@ -164,6 +164,8 @@
   },
   "active": "931bee40eacb3ff0",
   "lastOpenFiles": [
+    "数学 mathematics/代数学 algebra/体 field.md",
+    "IT_information_technoloy/the cloud, cloud computing.md",
     "IT_information_technoloy/blockchain.md",
     "言語 language/English/passive.md",
     "社会科学 social science/金融 finance/企業金融 corporate finance/間接金融 indirect finance.md",
@@ -188,8 +190,6 @@
     "社会科学 social science/金融 finance/投資理論 investment theory/derivatives pricing/理論 theory/数理金融 mathematical finance.md",
     "言語 language/English/on trial.md",
     "言語 language/English/accused.md",
-    "社会科学 social science/金融 finance/資産 assets/金融資産 financial asset.md",
-    "社会科学 social science/金融 finance/株取引 day trading.md",
     "数学 mathematics/計算機科学 情報工学 computer science/機械学習 machine learning/手法 method",
     "数学 mathematics/代数学 algebra/線形代数 linear algebra",
     "数学 mathematics/代数学 algebra/数 number",
