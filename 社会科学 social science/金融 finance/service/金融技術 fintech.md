@@ -1,12 +1,7 @@
 - 技術 technology
 
-    - SE security element
-        - embedded SE
-    - VMC verified mark certificate
-        ロゴの正当性
-        - BIMI brand indicators for message identification
-        - DMARC domain-based message authentication reporting & conformance
-            送信元の安全性
+
+    
     - C2PA
         the coalition for content provenance and authenticity  
     - CAI
