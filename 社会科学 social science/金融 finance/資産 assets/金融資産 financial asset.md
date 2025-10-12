@@ -17,6 +17,4 @@
 
 
 - その他 others
-    - 
-    - subsidiary
     - redemption
