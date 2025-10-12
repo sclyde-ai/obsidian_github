@@ -29,7 +29,7 @@ internet上で管理する無形の財産
     - CDBC central digital bank currency 中央銀行デジタル通貨
         中央銀行から発行されているデジタル通貨
         a digital currency issued by a central bank.
-- digital wallet
+- 電子財布 digital wallet
             様々な価値情報を保存、管理し、決済や送金などのやり取りを安全かつ便利に行うための電子的な財布
             an app or online service used to make payments electronically or to store electronic tickets, documents, etc.
             - 機能 function
@@ -49,5 +49,3 @@ internet上で管理する無形の財産
                     online 
                 - cold wallet
                     offline 
-- FPE format preserving encryption
-- multi-signature address
