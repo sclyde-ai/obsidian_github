@@ -1,126 +1,126 @@
-    - 測度 measure
-        - 可測空間 measurable space
-            - 集合X
-            - 完全加法族F
-                [完全加法族/可算加法族/σ-加法族 σ-field/σ-algebra](https://www.notion.so/field-algebra-216ec42dd04b818888e3ff7e92bd559c?pvs=21)
-            $$ (X, \mathcal F) $$
-            を可測空間という
-        - 測度空間 measure space
-            - 集合X
-            - 完全加法族F
-                [完全加法族/可算加法族/σ-加法族 σ-field/σ-algebra](https://www.notion.so/field-algebra-216ec42dd04b818888e3ff7e92bd559c?pvs=21)
-            - 測度u
-                [測度 measure](https://www.notion.so/measure-216ec42dd04b81cf9d21f1df3e1fc229?pvs=21)
-            $$ (X, \mathcal F, \mu) $$
-            を測度空間という
-            - 完備測度空間 complete
-                - 測度空間(X, F, u)
-                $$ \forall N \in \mathcal F, \forall A \subset N \\ \mu(N) = 0 \Rightarrow A \in \mathcal F \land \mu(A) = 0 $$
-            - Borel measure space
-                F is Borel field
-        - 完全加法族/可算加法族/σ-加法族 σ-field/σ-algebra
+- 測度 measure
+    - 可測空間 measurable space
+        - 集合X
+        - 完全加法族F
+            [完全加法族/可算加法族/σ-加法族 σ-field/σ-algebra](https://www.notion.so/field-algebra-216ec42dd04b818888e3ff7e92bd559c?pvs=21)
+        $$ (X, \mathcal F) $$
+        を可測空間という
+    - 測度空間 measure space
+        - 集合X
+        - 完全加法族F
+            [完全加法族/可算加法族/σ-加法族 σ-field/σ-algebra](https://www.notion.so/field-algebra-216ec42dd04b818888e3ff7e92bd559c?pvs=21)
+        - 測度u
+            [測度 measure](https://www.notion.so/measure-216ec42dd04b81cf9d21f1df3e1fc229?pvs=21)
+        $$ (X, \mathcal F, \mu) $$
+        を測度空間という
+        - 完備測度空間 complete
+            - 測度空間(X, F, u)
+            $$ \forall N \in \mathcal F, \forall A \subset N \\ \mu(N) = 0 \Rightarrow A \in \mathcal F \land \mu(A) = 0 $$
+        - Borel measure space
+            F is Borel field
+    - 完全加法族/可算加法族/σ-加法族 σ-field/σ-algebra
+        - 空集合
+        $$ \phi \in \mathcal{F} $$
+        - 補集合
+            $$ \forall A \in \mathcal{F}, A^c \in \mathcal{F} $$
+        - 完全加法性/可算加法性
+            $$
+            \forall n \in \N, A_n \in \mathcal{F} \Rightarrow \bigcup_{n=1}^\infin A_n \in \mathcal{F} $$
+        この時、Fを完全加法族/可算加法族/σ-加法族という。
+        - theorem
+            - 積集合を含む
+                $$ \bigcap_{n= 1}^\infin A_n = (\bigcup_{n= 1}^\infin A_n^c)^c \\ A \cap B = (A^c \cup B^c)^c
+                $$
+            - 差集合を含む
+                $$ A/B = A \cap B^c $$
+        - 有限加法族
             - 空集合
-            $$ \phi \in \mathcal{F} $$
+                $$ \phi \in \mathcal{F} $$
             - 補集合
                 $$ \forall A \in \mathcal{F}, A^c \in \mathcal{F} $$
-            - 完全加法性/可算加法性
-                $$
-                \forall n \in \N, A_n \in \mathcal{F} \Rightarrow \bigcup_{n=1}^\infin A_n \in \mathcal{F} $$
-            この時、Fを完全加法族/可算加法族/σ-加法族という。
-            - theorem
-                - 積集合を含む
-                    $$ \bigcap_{n= 1}^\infin A_n = (\bigcup_{n= 1}^\infin A_n^c)^c \\ A \cap B = (A^c \cup B^c)^c
-                    $$
-                - 差集合を含む
-                    $$ A/B = A \cap B^c $$
-            - 有限加法族
-                - 空集合
-                    $$ \phi \in \mathcal{F} $$
-                - 補集合
-                    $$ \forall A \in \mathcal{F}, A^c \in \mathcal{F} $$
-                - 有限加法性
-                    $$ \forall A,B \in \mathcal F\Rightarrow A \cup B \in \mathcal F $$
-                - theorem 定理
-                    有限加法族の直和は有限加法族
-            - 生成される完全加法族 generated
-                - 集合X
-                - Xの部分集合族F_0
-                - σ‐加法族全体の集合 $\mathscr F$
-                $$ \sigma[\mathcal{F}_0] = \bigcap \{\mathcal{F} \in \mathfrak{F}| \mathcal{F}_0 \subset \mathcal{F}\} $$
-                - 「生成される」の意味
-                    「高々可算個の集合の共通部分・和集合・補集合・差集合を取る操作」を可算回行うこと
-                - process to generate
-                    1. F_0の要素を追加
-                    2. 空集合Φを追加
-                    3. 全ての要素の補集合を追加
-                    4. 生成可能な全ての可算和を追加
-                    5. 上記を繰り返す
-                - example
-                    - 有限集合
-                        $$ X = \{1, 2, 3\}, F_0 = \{\{1\}\} $$
-                        $$ 1.\ \sigma(F_0) = \{\{1\}\} \\ 2.\ \sigma(F_0) = \{\phi, \{1\}\} \\ 3.\ \sigma(F_0) = \{\phi, \{1\}, \{2, 3\}, X\} $$
-                        $$ X = \{1, 2, 3\}, F_0 = \{\{1\}, \{2\}\} $$
-                        $$ 1.\ \sigma(F_0) = \{\{1\}, \{2\}\} \\ 2.\ \sigma(F_0) = \{\phi, \{1\}, \{2\}\} \\ 3.\ \sigma(F_0) = \{\phi, \{1\},\{2\}, \{2, 3\}, \{3, 1\}, X\} \\ 4.\ \sigma(F_0) = \{\phi, \{1\},\{2\}, \{1, 2\}, \{2, 3\}, \{3, 1\}, X\} \\ 5.\ \sigma(F_0) = \{\phi, \{1\},\{2\}, \{3\}, \{1, 2\}, \{2, 3\}, \{3, 1\}, X\}
-                        $$
-                    - 実数上の開区間
-                        $$ X = \mathbb R, F_0 = \{(a, b) | a < b, \forall a, b \in \R\} $$
-                        1. 開集合を全て追加
-                            $$ \{(a, b) | a < b, \forall a, b \in \R\} $$
-                        2. 2つの片側無限閉区間を全て追加（開区間の補集合）
-                            $$ \{(-\infin, a], [b, \infin) | a < b, \forall a, b \in \R\} $$
-                        3. 片側無限開区間を全て追加（開区間と片側無限閉区間の和集合）
-                            $$ \{(-\infin, b) | \forall b \in \R\} \\ \{(a, \infin) | \forall a \in \R\} $$
-                        4. 片側閉区間を全て追加（片側無限開区間の補集合）
-                            $$ \{(-\infin, a] | \forall a \in \R\} \\ \{[b, \infin) | \forall b \in \R\} $$
-                        5. 閉区間を全て追加（片側無限閉区間の和集合）
-                            $$ \{[a, b] | a < b, \forall, b \in \R\} $$
-                        6. 半区間を全て追加（開区間と閉区間の和集合）
-                            $$ \{(a, b] | a < b, \forall, b \in \R\} \\ \{[a, b) | a < b, \forall, b \in \R\} $$
-            - Borel加法族 Borel field
-                - 位相空間(X, O)
-                $$ \mathcal B(X) = \sigma(\mathcal O(X)) $$
-                この時、BをBorel fieldという
-                Oは開集合系でも閉集合系でもよい
-                - Borel set
-                    - closed interval
-                    - open interval
-                    - open set
-                    - closed set
-                - 実数上のボレル集合
-                    $$ (a,b) \\ [a, b] \\ [a, b) \\ {a} \\ \mathbb Q \\ \R / \mathbb Q $$
+            - 有限加法性
+                $$ \forall A,B \in \mathcal F\Rightarrow A \cup B \in \mathcal F $$
+            - theorem 定理
+                有限加法族の直和は有限加法族
+        - 生成される完全加法族 generated
+            - 集合X
+            - Xの部分集合族F_0
+            - σ‐加法族全体の集合 $\mathscr F$
+            $$ \sigma[\mathcal{F}_0] = \bigcap \{\mathcal{F} \in \mathfrak{F}| \mathcal{F}_0 \subset \mathcal{F}\} $$
+            - 「生成される」の意味
+                「高々可算個の集合の共通部分・和集合・補集合・差集合を取る操作」を可算回行うこと
+            - process to generate
+                1. F_0の要素を追加
+                2. 空集合Φを追加
+                3. 全ての要素の補集合を追加
+                4. 生成可能な全ての可算和を追加
+                5. 上記を繰り返す
             - example
-                - 自明なσ加法族 trivial
-                    $$ \{\phi, X\} $$
-                - 冪集合 power set
-                    $$ 2^X $$
-                - コイン投げ
-                    $$ X = \{H, T\} $$
-                    - 表か裏か
-                        $$ \mathcal F = \{\phi, \{H\}, \{T\}, X\} $$
-                    - 投げたか否か
-                        $$ \mathcal F = \{\phi, X\} $$
                 - 有限集合
-                    $$ X = \{1, 2, 3\} $$
-                    - どの要素か
-                        $$ \mathcal F = \{\phi, \{1\}, \{2\}, \{3\}, \{2, 3\}, \{3, 1\}, \{1, 2\}, X\} $$
-                    - 1か否か
-                        $$ \mathcal F = \{\phi, \{1\}, \{2, 3\}, X\} $$
-                    - 2か否か
-                        $$ \mathcal F = \{\phi, \{2\} ,\{3, 1\}, X\} $$
-                    - 3か否か
-                        $$ \mathcal F = \{\phi, \{3\}, \{1, 2\}, X\} $$
-                    - 集合内の要素か否か
-                        $$ \mathcal F = \{\phi, X\} $$
-                - さいころ
-                    $$ \Omega = \{\omega_1, \omega_2,\omega_3,\omega_4,\omega_5, \omega_6\} $$
-                    - 偶数かどうか
-                        $$ A = \{ \omega_2,\omega_4, \omega_6\} $$
-                        - 台集合
-                            $$ \Omega $$
-                        - 完全加法族
-                            $$ \{\phi, A, A^c, \Omega\} $$
-                        - 確率測度
-                            $$ P(S) = \begin{matrix} A \end{matrix} $$
+                    $$ X = \{1, 2, 3\}, F_0 = \{\{1\}\} $$
+                    $$ 1.\ \sigma(F_0) = \{\{1\}\} \\ 2.\ \sigma(F_0) = \{\phi, \{1\}\} \\ 3.\ \sigma(F_0) = \{\phi, \{1\}, \{2, 3\}, X\} $$
+                    $$ X = \{1, 2, 3\}, F_0 = \{\{1\}, \{2\}\} $$
+                    $$ 1.\ \sigma(F_0) = \{\{1\}, \{2\}\} \\ 2.\ \sigma(F_0) = \{\phi, \{1\}, \{2\}\} \\ 3.\ \sigma(F_0) = \{\phi, \{1\},\{2\}, \{2, 3\}, \{3, 1\}, X\} \\ 4.\ \sigma(F_0) = \{\phi, \{1\},\{2\}, \{1, 2\}, \{2, 3\}, \{3, 1\}, X\} \\ 5.\ \sigma(F_0) = \{\phi, \{1\},\{2\}, \{3\}, \{1, 2\}, \{2, 3\}, \{3, 1\}, X\}
+                    $$
+                - 実数上の開区間
+                    $$ X = \mathbb R, F_0 = \{(a, b) | a < b, \forall a, b \in \R\} $$
+                    1. 開集合を全て追加
+                        $$ \{(a, b) | a < b, \forall a, b \in \R\} $$
+                    2. 2つの片側無限閉区間を全て追加（開区間の補集合）
+                        $$ \{(-\infin, a], [b, \infin) | a < b, \forall a, b \in \R\} $$
+                    3. 片側無限開区間を全て追加（開区間と片側無限閉区間の和集合）
+                        $$ \{(-\infin, b) | \forall b \in \R\} \\ \{(a, \infin) | \forall a \in \R\} $$
+                    4. 片側閉区間を全て追加（片側無限開区間の補集合）
+                        $$ \{(-\infin, a] | \forall a \in \R\} \\ \{[b, \infin) | \forall b \in \R\} $$
+                    5. 閉区間を全て追加（片側無限閉区間の和集合）
+                        $$ \{[a, b] | a < b, \forall, b \in \R\} $$
+                    6. 半区間を全て追加（開区間と閉区間の和集合）
+                        $$ \{(a, b] | a < b, \forall, b \in \R\} \\ \{[a, b) | a < b, \forall, b \in \R\} $$
+        - Borel加法族 Borel field
+            - 位相空間(X, O)
+            $$ \mathcal B(X) = \sigma(\mathcal O(X)) $$
+            この時、BをBorel fieldという
+            Oは開集合系でも閉集合系でもよい
+            - Borel set
+                - closed interval
+                - open interval
+                - open set
+                - closed set
+            - 実数上のボレル集合
+                $$ (a,b) \\ [a, b] \\ [a, b) \\ {a} \\ \mathbb Q \\ \R / \mathbb Q $$
+        - example
+            - 自明なσ加法族 trivial
+                $$ \{\phi, X\} $$
+            - 冪集合 power set
+                $$ 2^X $$
+            - コイン投げ
+                $$ X = \{H, T\} $$
+                - 表か裏か
+                    $$ \mathcal F = \{\phi, \{H\}, \{T\}, X\} $$
+                - 投げたか否か
+                    $$ \mathcal F = \{\phi, X\} $$
+            - 有限集合
+                $$ X = \{1, 2, 3\} $$
+                - どの要素か
+                    $$ \mathcal F = \{\phi, \{1\}, \{2\}, \{3\}, \{2, 3\}, \{3, 1\}, \{1, 2\}, X\} $$
+                - 1か否か
+                    $$ \mathcal F = \{\phi, \{1\}, \{2, 3\}, X\} $$
+                - 2か否か
+                    $$ \mathcal F = \{\phi, \{2\} ,\{3, 1\}, X\} $$
+                - 3か否か
+                    $$ \mathcal F = \{\phi, \{3\}, \{1, 2\}, X\} $$
+                - 集合内の要素か否か
+                    $$ \mathcal F = \{\phi, X\} $$
+            - さいころ
+                $$ \Omega = \{\omega_1, \omega_2,\omega_3,\omega_4,\omega_5, \omega_6\} $$
+                - 偶数かどうか
+                    $$ A = \{ \omega_2,\omega_4, \omega_6\} $$
+                    - 台集合
+                        $$ \Omega $$
+                    - 完全加法族
+                        $$ \{\phi, A, A^c, \Omega\} $$
+                    - 確率測度
+                        $$ P(S) = \begin{matrix} A \end{matrix} $$
         - 測度 measure
             - 非負性 non-negative
                 $$ 0 \leq \mu(A) \leq \infin, \forall A \in \mathcal{F},\\ \mu(\phi) = 0 $$
