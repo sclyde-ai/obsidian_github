@@ -13,7 +13,8 @@ finance + technology
 - 技術 technology
     - [[DeFi decentralized finance]]
     - [[組込型金融 embedded finance]]
-    - [[SE security element]]
+    - SE security element
+        a physically isolated, tamper-resistant chip in an electronic device that securely stores sensitive data and runs secure applications
     - VMC verified mark certificate
         ロゴの正当性
         - BIMI brand indicators for message identification
@@ -49,3 +50,5 @@ finance + technology
         - digital identity 
         - digital biometrics
 - 安全性と危険性 security & risk
+    - [[CASB cloud access security broker]]
+    - [[shadow AI]]
