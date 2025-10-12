@@ -1,0 +1,7 @@
+- 匿名化
+- 秘匿化
+- 原則
+    - 完全制
+    - 健全性
+    - 零知識性
+- HVZKIP honest verifier zero knowledge interactive proof

@@ -1,0 +1,2 @@
+global
+network of networks

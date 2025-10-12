@@ -1,0 +1,1 @@
+a strategic management responsibility

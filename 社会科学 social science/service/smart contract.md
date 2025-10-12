@@ -1,0 +1,1 @@
+約のsmoothな検証、執行、実行、交渉を意図したcomputer protocolである

@@ -1,0 +1,30 @@
+- Global financial centres index
+- 北米 North America
+    - New York(USA)
+        - wall street
+    - San Francisco(USA)
+    - Chicago(USA)
+        - the loop
+    - Los Angeles(USA)
+    - Washington D.C.(USA)
+    - Boston(USA)
+- 欧米 Europe
+    - London(UK)
+        - the city
+    - Frankfurt(Germany)
+    - Dublin(Ireland)
+    - Geneva(Switzerland)
+    - Luxembourg
+    - Paris(France)
+    - Amsterdam(Netherlands)
+    - Zurich(Switzerland)
+- 東亜 East and South Asia
+    - 香港 Hong Kong(China)
+    - Singapore
+    - 上海 Shanghai(China)
+    - 深圳 Shenzhen(China)
+    - 서울 Seoul(Korea)
+    - 北京 Beijing(China)
+    - 東京 Tokyo(Japan)
+- 中東 Middle East
+    - Dubai(UAE United Arab Emirates)

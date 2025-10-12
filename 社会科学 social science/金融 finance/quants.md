@@ -1,0 +1,7 @@
+- front office
+- middle office
+- model quants
+- desk quants
+- structurer
+- ivory tower quants
+- crystal ball quants
