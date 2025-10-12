@@ -1,0 +1,4 @@
+
+            - 金 gold
+            - 銀 silver
+            - 白金 platinum

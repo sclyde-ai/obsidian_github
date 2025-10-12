@@ -1,4 +1,4 @@
-基金 fund
+
             a sum of money saved or made available for a particular purpose.
             - 投資信託 investment trust
                 - 公募投資信託 publicly offered
