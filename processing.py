@@ -3,14 +3,14 @@ import re
 from pathlib import Path
 import sys
 
-def remove_empty_lines(filepath):
+def remove_empty_lines(file_path):
     try:
-        with open(filepath, 'r', encoding='utf-8') as f:
+        with open(file_path, 'r', encoding='utf-8') as f:
             lines = f.readlines()
 
         non_empty_lines = [line for line in lines if line.strip()]
 
-        with open(filepath, 'w', encoding='utf-8') as f:
+        with open(file_path, 'w', encoding='utf-8') as f:
             f.writelines(non_empty_lines)
 
     except Exception as e:
@@ -21,7 +21,7 @@ def remove_end_indnet(file_path):
         try:
             f.seek(-1, os.SEEK_END)
         except OSError:
-            print("the file is empty")
+            print("the file_path is empty")
             exit()
 
         if f.read(1) == b'\n':
@@ -40,30 +40,22 @@ def count_leading_spaces(file_path) -> list:
         print(f"an error has occured: {e}")
         return None
 
-def remove_leading_spaces(file, num_chars):
+def remove_leading_spaces(file_path, num_chars):
     try:
         lines = []
-        with open(file, 'r', encoding='utf-8') as f_in:
+        with open(file_path, 'r', encoding='utf-8') as f_in:
             for line in f_in:
                 print(line)
                 lines.append(line[num_chars:])
         
-        with open(file, 'w', encoding='utf-8') as f_out:
+        with open(file_path, 'w', encoding='utf-8') as f_out:
             for line in lines:
                 f_out.write(line)
     except Exception as e:
         print(f"an error has occured: {e}")
 
-if __name__ == '__main__':
-
-    if '-r' in sys.argv[1]:
-        md_files = Path('.').rglob('*.md')
-    if '-d' in sys.argv[1]:
-        md_files = Path(sys.argv[2]).rglob('*.md')
-    else:
-        md_files = sys.argv[1:]
-
-    for file in md_files:
+def processing_files(files: list):
+    for file in files:
         try:
             print(file)
             remove_empty_lines(file)
@@ -72,3 +64,16 @@ if __name__ == '__main__':
             remove_leading_spaces(file, min_number)
         except:
             continue
+
+if __name__ == '__main__':
+
+    if '-r' in sys.argv[1]:
+        files = Path('.').rglob('*.md')
+    if '-d' in sys.argv[1]:
+        files = []
+        for folder in sys.argv[1:]:
+            files = Path(folder).rglob('*.md')
+    else:
+        files = sys.argv[1:]
+    
+    processing_files(files)
