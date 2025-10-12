@@ -1,9 +1,9 @@
 # shortcut確認方法
-    1. ctrl+k
-    2. ctrl+s
+1. ctrl+k
+2. ctrl+s
 # short cut list
-ctrl+c	copy
-ctrl+x	cut
+- ctrl+c	copy
+- ctrl+x	cut
 ctrl+f	検索
 ctrl+s	変更保存
 ctrl+alt+s	すべてのfileの変更保存
