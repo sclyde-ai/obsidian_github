@@ -5,11 +5,6 @@
     | 流動性 liquidity |  |
 - 資産分類 asset class
     - traditional investment
-        - 現金 cash
-            | 収益性 return  | low |
-            | --- | --- |
-            | 安全性 risk  | high |
-            | 流動性 liquidity | high |
         - 預金 deposit
             金融機関に預けたお金
             a sum of money placed or kept in a bank account
