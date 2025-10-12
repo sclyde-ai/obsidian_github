@@ -1,24 +1,41 @@
-<<<<<<< HEAD
-# data型
+### data型
 - bool
-# 書式code
+
+### prefix
+- f
+    formated string literal
+- b
+    bytes literal
+- r
+    raw string literal
+- u
+    unicode string literal
+
+
+### 書式code
 - strfftime 
-=======
-# useful template
-## import anything from parent dir
-import sys
-import os
-current_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.dirname(current_dir)
-sys.path.append(parent_dir)
->>>>>>> c52adb2fba94a91752c12fb86426c243eb8f3720
-# with & context manager
-## context manegerあり
+
+### useful template
+- import anything from parent dir
+	```
+	import sys
+    import os
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.dirname(current_dir)
+    sys.path.append(parent_dir)
+	```
+
+### with & context manager
+- context manegerあり
+    ```
     with ContextManeger() as file:
         ...
-## context mangerなし
+    ```
+- context mangerなし
+    ```
     file = ContextManager()
     try:
         ...
     finally:
         file.close()
+    ```

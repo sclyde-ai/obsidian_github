@@ -3,29 +3,7 @@
 - string
 - object
 - category
-# function
-- pd.to_datetime()
-    Seriesをdatetime型に変換する
-    - 引数一覧
-        - format: strftime
-            strftimeの形式で文字列を認識する
-        - dayfirst: bool
-    - 自動で認識する形式
-        - YYYY-MM-DD HH:MM:SS
-        - YYYY/MM/DD
-        - YYYY.MM.DD
-- .merge()
-    - 引数
-        - left_index
-# pd.DataFrame()
-## property
-## method
-    - .groupby()
-    - .resample(frequency)
-        freqencyごとにresamplingする
-        - .last()
-    - .join()
-- .apply()
+
 # accessor
 data型固有の属性やmethodをSeriesから直接利用可能にする機能
 - .dt
