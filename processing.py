@@ -56,8 +56,10 @@ def remove_leading_spaces(file, num_chars):
 
 if __name__ == '__main__':
 
-    if sys.argv[1] == '-r':
+    if '-r' in sys.argv[1]:
         md_files = Path('.').rglob('*.md')
+    if '-d' in sys.argv[1]:
+        md_files = Path(sys.argv[2]).rglob('*.md')
     else:
         md_files = sys.argv[1:]
 
