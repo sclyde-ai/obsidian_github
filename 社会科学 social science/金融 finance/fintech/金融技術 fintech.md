@@ -1,7 +1,19 @@
+finance + technology
+金融serviceと情報技術を結びつけたさまざまな革新的な動きのこと
+        - fintech 1.0
+            ITによる金融機能の効率化・高度化
+        - fintech 2.0
+            - unbundling 部品化
+                金融機関から一体的に提供されていた金融機能を分解して提供すること
+        - fintech 3.0
+            API ecosystem
+        - fintech 4.0
+            - re-bundling 再結合
+                unbundlingされたものを顧客の要望に応じて最適な形で再結合
 - 技術 technology
-
-    - SE security element
-        - embedded SE
+    - [[DeFi decentralized finance]]
+    - [[組込型金融 embedded finance]]
+    - [[SE security element]]
     - VMC verified mark certificate
         ロゴの正当性
         - BIMI brand indicators for message identification
@@ -36,3 +48,4 @@
         - artificial intelligence & machine learning
         - digital identity 
         - digital biometrics
+- 安全性と危険性 security & risk
