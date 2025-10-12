@@ -1,1 +1,1 @@
-bsidian_github# obsidian_github
+私の知識の宝物庫です。
