@@ -1,4 +1,3 @@
-- volatility smile
     ![image.jpeg](image.jpeg)
 - volatility skew
     - forward skew

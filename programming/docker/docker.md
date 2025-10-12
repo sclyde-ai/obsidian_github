@@ -1,4 +1,3 @@
-        - docker engine
             アプリケーションを構築し、コンテナ化するためのクライアントサーバー型アプリケーション
             - docker daemon
             - docker engine REST api

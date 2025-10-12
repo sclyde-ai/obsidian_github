@@ -1,4 +1,3 @@
-- DDL data definition language
     - CREATE
         - database
             ```sql

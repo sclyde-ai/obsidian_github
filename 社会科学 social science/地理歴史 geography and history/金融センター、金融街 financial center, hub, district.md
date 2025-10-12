@@ -1,4 +1,3 @@
-- Global financial centres index
 - 北米 North America
     - New York(USA)
         - wall street

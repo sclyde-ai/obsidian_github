@@ -1,4 +1,3 @@
-web情報のresourceに対してHTTPを用いて操作を行うAPIの設計
 - stateless
     serverがclientの情報を保持しない
 - client-server

@@ -1,1 +1,1 @@
-a strategic management responsibility
+ strategic management responsibility

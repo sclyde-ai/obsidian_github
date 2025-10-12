@@ -1,4 +1,3 @@
-the on-demand delivery of and access to computing services and resources, including servers, storage, databases, networking, software, analytics and intelligence over the internet
 - types
     - IaaS infrastructure as a service
         - networking

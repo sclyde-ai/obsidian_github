@@ -1,4 +1,3 @@
-- 回帰分析 regression analysis
     - 線形回帰分析 linear regression
         - data
             nはデータ数

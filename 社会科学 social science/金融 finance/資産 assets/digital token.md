@@ -1,4 +1,3 @@
-blockchain上で発行される特定の価値や権利を表すdigital asse
 a digital representation of something of value or right        
 - tokenization トークン化
     a data security process that replaces sensitive data with a non-sensitive equivalent called a token

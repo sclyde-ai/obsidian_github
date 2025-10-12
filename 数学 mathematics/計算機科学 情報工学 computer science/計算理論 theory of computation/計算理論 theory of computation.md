@@ -1,4 +1,3 @@
-- 計算模型 model of computation
     - turing machine
         $$ M = (Q, \Gamma, b, \Sigma, \delta, q_0, F) $$
         - 状態 Q
