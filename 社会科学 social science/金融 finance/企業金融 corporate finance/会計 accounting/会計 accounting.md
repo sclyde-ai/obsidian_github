@@ -271,41 +271,7 @@
                     | 雑益 | 雑損 |
                 - 
 財務諸表分析 fundamental analysis
-        - profitability 収益性
-            - return
-                ![image.jpeg](image%205.jpeg)
-            
                 
-                
-                
-                
-        - liquidity 流動性
-            
-            
-        - solvency 支払可能性
-            
-            
-            - internet coverage ratio
-        - efficiency 効率性
-            - 
-            - 
-            - 
-        - valuation 株価評価
-            - book value
-                $$
-                Asset - Liability
-                $$
-            - 
-            
-            - 
-            - 
-            - 
-            - 
-            - 
-            - dividend yield
-            - markup
-                the difference between the selling price of a good or service and its marginal cost
-                ![image.png](学問%20academics/notion/economics/ExportBlock-5173355a-40b0-4550-b453-181e6713355d-Part-1/image%204.png)
 簿記論/財務諸表論
     本支店会計
             - 本店集中計算制度
