@@ -1,4 +1,4 @@
-    ![image.jpeg](image.jpeg)
+
 - volatility skew
     - forward skew
         ![download.jpg](download.jpg)
