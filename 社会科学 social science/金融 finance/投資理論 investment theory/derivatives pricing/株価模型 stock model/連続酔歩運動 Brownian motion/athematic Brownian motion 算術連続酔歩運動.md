@@ -1,5 +1,4 @@
-
-                - SDE stochastic differential equations
-                    $$
-                    dS_t = \mu dt + \sigma dW_t
-                    $$
+- SDE stochastic differential equations
+    $$
+    dS_t = \mu dt + \sigma dW_t
+    $$

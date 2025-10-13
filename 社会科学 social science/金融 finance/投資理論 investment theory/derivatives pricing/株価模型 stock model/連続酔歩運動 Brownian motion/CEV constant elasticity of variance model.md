@@ -1,4 +1,3 @@
-
-                $$
-                dS_t = \sigma S_t^\beta dW_t
-                $$
+$$
+dS_t = \sigma S_t^\beta dW_t
+$$
