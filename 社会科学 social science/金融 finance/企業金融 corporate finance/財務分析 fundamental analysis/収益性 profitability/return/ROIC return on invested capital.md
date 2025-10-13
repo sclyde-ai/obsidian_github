@@ -2,10 +2,7 @@
                     $$
                     \frac{NOPAT}{Invested\ Capital}
                     $$
-                    - NOPAT Net Operating Profit After Tax
-                        $$
-                        Operating\ Income \times (1-Tax)
-                        $$
+                    
                     - Invested Capital
                         +Equity
                         +Debt
