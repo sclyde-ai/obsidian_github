@@ -1,0 +1,4 @@
+
+                    $$
+                    \frac{Net \ Incone}{Revenue}
+                    $$

@@ -1,0 +1,4 @@
+
+                    $$
+                    \frac{Operating\ Income}{Revenue}
+                    $$

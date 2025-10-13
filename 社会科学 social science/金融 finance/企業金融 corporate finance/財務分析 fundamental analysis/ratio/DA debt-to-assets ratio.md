@@ -1,0 +1,4 @@
+
+                $$
+                \frac{Liability}{Asset}
+                $$

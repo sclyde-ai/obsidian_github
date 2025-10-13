@@ -278,39 +278,17 @@
                 
                 
                 
-                - 
-            - margin
-                - 
-                - operating profit margin
-                    $$
-                    \frac{Operating\ Income}{Revenue}
-                    $$
-                - net profit margin
-                    $$
-                    \frac{Net \ Incone}{Revenue}
-                    $$
+                
         - liquidity 流動性
-            - current ratio
-                $$
-                \frac{Current\ Asset}{Current\ Liability}
-                $$
-            - quick ratio
-                $$
-                \frac{Current\ Asset - Inventory}{Current\ Liability}
-                $$
+            
+            
         - solvency 支払可能性
-            - D/E debt-to-equity ratio
-                $$
-                \frac{Liability}{Equity}
-                $$
-            - D/A debt-to-assets ratio
-                $$
-                \frac{Liability}{Asset}
-                $$
+            
+            
             - internet coverage ratio
         - efficiency 効率性
-            - asset turnover ratio
-            - inventory turnover ratio
+            - 
+            - 
             - receivable turnover ratio
         - valuation 株価評価
             - book value
