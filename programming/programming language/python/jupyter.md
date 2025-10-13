@@ -1,4 +1,7 @@
-## image
+### 仮想環境の設定
+
+
+### image
 - jupyter/base-notebook : basic 
 - jupyter/scipy-notebook :base-notebook + NumPy, SciPy, pandas, Matplotlib
 - jupyter/datascience-notebook : scipy-notebook + scikit-learn, R, Julia
