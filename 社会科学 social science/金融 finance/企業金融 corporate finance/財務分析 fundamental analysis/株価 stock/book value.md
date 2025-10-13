@@ -1,4 +1,3 @@
-
-                $$
-                Asset - Liability
-                $$
+$$
+Asset - Liability
+$$

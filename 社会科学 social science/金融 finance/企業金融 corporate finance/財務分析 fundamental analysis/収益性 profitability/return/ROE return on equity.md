@@ -1,5 +1,4 @@
-
-                    $$
-                    \frac{Net \ Income}{Equity}
-                    $$
-                    manipulatable
+$$
+\frac{Net \ Income}{Equity}
+$$
+manipulatable

@@ -1,4 +1,3 @@
-
-                $$
-                \frac{Liability}{Asset}
-                $$
+$$
+\frac{Liability}{Asset}
+$$

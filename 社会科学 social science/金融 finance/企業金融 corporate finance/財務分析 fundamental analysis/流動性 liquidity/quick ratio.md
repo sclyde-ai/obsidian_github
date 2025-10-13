@@ -1,4 +1,3 @@
-
-                $$
-                \frac{Current\ Asset - Inventory}{Current\ Liability}
-                $$
+$$
+\frac{Current\ Asset - Inventory}{Current\ Liability}
+$$

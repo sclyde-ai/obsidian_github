@@ -1,4 +1,3 @@
-
-                $$
-                \frac{Liability}{Equity}
-                $$
+$$
+\frac{Liability}{Equity}
+$$

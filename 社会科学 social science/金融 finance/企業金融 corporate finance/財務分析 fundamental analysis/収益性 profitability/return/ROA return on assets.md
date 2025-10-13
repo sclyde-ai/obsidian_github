@@ -1,5 +1,4 @@
-
-                    $$
-                    \frac{Net\ Income}{Asset}
-                    $$
-                    manipulable
+$$
+\frac{Net\ Income}{Asset}
+$$
+manipulable

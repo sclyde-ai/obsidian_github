@@ -1,4 +1,3 @@
-
-                        $$
-                        Operating\ Income \times (1-Tax)
-                        $$
+$$
+Operating\ Income \times (1-Tax)
+$$

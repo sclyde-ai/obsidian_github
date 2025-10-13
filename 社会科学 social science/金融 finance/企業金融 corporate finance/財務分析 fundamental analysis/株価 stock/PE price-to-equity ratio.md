@@ -1,4 +1,3 @@
-
-                $$
-                \frac{Share \ Price}{EPS}
-                $$
+$$
+\frac{Share \ Price}{EPS}
+$$

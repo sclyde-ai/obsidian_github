@@ -1,4 +1,3 @@
-
-                    $$
-                    \frac{Revenue -Cost\ of\ Goods \ Sold}{Revenue}
-                    $$
+$$
+\frac{Revenue -Cost\ of\ Goods \ Sold}{Revenue}
+$$

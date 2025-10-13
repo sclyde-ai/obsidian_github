@@ -1,4 +1,3 @@
-
-                    $$
-                    \frac{Net \ Incone}{Revenue}
-                    $$
+$$
+\frac{Net \ Incone}{Revenue}
+$$

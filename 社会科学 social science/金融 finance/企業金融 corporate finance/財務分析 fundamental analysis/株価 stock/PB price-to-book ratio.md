@@ -1,4 +1,3 @@
-
-                $$
-                \frac{Market \ Cap}{Net \ Book \ Value}
-                $$
+$$
+\frac{Market \ Cap}{Net \ Book \ Value}
+$$

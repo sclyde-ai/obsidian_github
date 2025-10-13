@@ -1,4 +1,3 @@
-
-                $$
-                \frac{Current\ Asset}{Current\ Liability}
-                $$
+$$
+\frac{Current\ Asset}{Current\ Liability}
+$$

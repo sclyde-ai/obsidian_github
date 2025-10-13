@@ -1,4 +1,3 @@
-
-                $$
-                \frac{Market \ Cap}{Revenue}
-                $$
+$$
+\frac{Market \ Cap}{Revenue}
+$$

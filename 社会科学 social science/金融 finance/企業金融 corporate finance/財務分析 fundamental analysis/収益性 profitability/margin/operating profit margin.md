@@ -1,4 +1,3 @@
-
-                    $$
-                    \frac{Operating\ Income}{Revenue}
-                    $$
+$$
+\frac{Operating\ Income}{Revenue}
+$$
