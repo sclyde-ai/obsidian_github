@@ -289,17 +289,14 @@
         - efficiency 効率性
             - 
             - 
-            - receivable turnover ratio
+            - 
         - valuation 株価評価
             - book value
                 $$
                 Asset - Liability
                 $$
             - EPS earnings per share
-            - P/E price-to-equity ratio
-                $$
-                \frac{Share \ Price}{EPS}
-                $$
+            
             - P/B price-to-book ratio
                 $$
                 \frac{Market \ Cap}{Net \ Book \ Value}
