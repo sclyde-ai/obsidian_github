@@ -1428,36 +1428,17 @@
         - short rate
             
             
-            - CIR Cox-Ingasoll-Ross
-                $$
-                dr_t = (a -b r_t)dt+\sigma \sqrt r_t dW_t
-                $$
-            - Vasicek
-                $$
-                dr_t = \beta(\theta-r_t)dt+\sigma dW_t
-                $$
-                - solution
-                    $$
-                    r_t = r_0 e^{-at}+b(1-e^{-at})+\sigma e^{-at} \int_0^t e^{as} d W_s
-                    $$
-            - Omstein-Uhlenbeck
-                $$
-                dr_t = -\theta(r_t-\mu)dt+\sigma dW_t
-                $$
-            - Black-Karasinski
-                $$
-                d \ln r_t = \frac{dr_t}{r_t} =  (\theta_t-a_t\ln r_t)dt + \sigma d W_t
-                $$
-            - Black-Derman-Toy
-                $$
-                \ln r_{t+1} = \ln r_t + \theta_t + \sigma_tZ
-                $$
+         
+            
+            
+            
+            
             - G++
         - momentary forward rate
-            - Health-Jarrow-Morton frame work
+            - 
         - forward rate
-            - LIBOR market model
-            - swap market model
+            
+            - 
         - shifted lognormal/displaced diffusion model
         - Brace-Gatarek-Musiela
         - Health-Jarrow-Morton

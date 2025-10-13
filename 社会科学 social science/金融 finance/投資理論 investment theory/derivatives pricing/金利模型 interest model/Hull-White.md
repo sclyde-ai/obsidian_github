@@ -1,4 +1,4 @@
-Hull-White
+
                 $$
                 dr_t = (a_t- b_t r_t)dt+\sigma_t dW_t 
                 $$
