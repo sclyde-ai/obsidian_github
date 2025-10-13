@@ -295,19 +295,13 @@
                 $$
                 Asset - Liability
                 $$
-            - EPS earnings per share
+            - 
             
-            - P/B price-to-book ratio
-                $$
-                \frac{Market \ Cap}{Net \ Book \ Value}
-                $$
-            - P/S price-to-sales ratio
-                $$
-                \frac{Market \ Cap}{Revenue}
-                $$
-            - PER price earnings ratio 株価収益率
-            - ESR economic solvency ratio
-            - PEG price/earning-to-growth ratio
+            - 
+            - 
+            - 
+            - 
+            - 
             - dividend yield
             - markup
                 the difference between the selling price of a good or service and its marginal cost

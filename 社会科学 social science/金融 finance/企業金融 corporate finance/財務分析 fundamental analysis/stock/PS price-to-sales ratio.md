@@ -1,0 +1,4 @@
+
+                $$
+                \frac{Market \ Cap}{Revenue}
+                $$
