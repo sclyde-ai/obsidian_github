@@ -4,5 +4,4 @@ a fungible & tradable financial instrument with monetary value
     伝統的、流動性が高い
 - 第二有価証券/みなし有価証券
     alternative、流動性が低い
-- arrow-debreu security
 - 証券化 securitization
