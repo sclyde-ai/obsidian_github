@@ -275,36 +275,12 @@
             - return
                 ![image.jpeg](image%205.jpeg)
             
-                - ROIC return of invested capital
-                    $$
-                    \frac{NOPAT}{Invested\ Capital}
-                    $$
-                    - NOPAT Net Operating Profit After Tax
-                        $$
-                        Operating\ Income \times (1-Tax)
-                        $$
-                    - Invested Capital
-                        +Equity
-                        +Debt
-                        -Excess Cash
-                        -Non Operating Assets
-                    - not manipulatable
-                - WACC weighted average cost of capital
-                    $$
-                    \frac{E}{E+D}C_e + \frac{D}{E+D}C_d(1-Tax)
-                    $$
-                    - E equity
-                    - D debt
-                    - C_e cost of equity
-                    - C_d cost of debt
-                    - T tax
-                - ROI return on investment
-                - ROAS return on advertising spend
+                
+                
+                
+                - 
             - margin
-                - gross profit margin
-                    $$
-                    \frac{Revenue -Cost\ of\ Goods \ Sold}{Revenue}
-                    $$
+                - 
                 - operating profit margin
                     $$
                     \frac{Operating\ Income}{Revenue}
