@@ -53,46 +53,7 @@
                     $$
                     V_t \geq 0
                     $$
-- 数理金融 mathematical finance
-    - how to
-        - hedge
-        - 複製 duplication
-            - option
-                $$
-                O_1 = 
-                \left\{
-                \begin{matrix}
-                a - K \\
-                0
-                \end{matrix}
-                \right.
-                $$
-            - portfolio
-                $$
-                P_1 = 
-                \left\{
-                \begin{matrix}
-                ay - x(1+r) \\
-                by - x(1+r)
-                \end{matrix}
-                \right.
-                $$
-            - 一物一価の法則 law of one price
-                $$
-                a - K = ay - x(1+r) \\
-                0 = by - x(1+r)
-                $$
-            $$
-            a-K - 0 = ay - by \\
-            a - K = (a-b)y \\
-            y = \frac{a - K}{a-b} \\
-            x = \frac{b}{1+r} y
-            $$
-            $$
-            x = \frac{b}{1+r} \frac{a - K}{a- b} \\
-            y = \frac{a - K}{a-b}
-            $$
-        - risk neutral factor            
+
             
          
             
@@ -100,14 +61,3 @@
             
             
 
-    
-    - calculation method
-        
-        - 
-        - 
-        - 
-        - 
-        - Levenberg-Marquardt
-        - Feller condition
-        - Turnbull-Wakeman
-        - moment matching
