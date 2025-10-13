@@ -274,16 +274,7 @@
         - profitability 収益性
             - return
                 ![image.jpeg](image%205.jpeg)
-                - ROA return of asset
-                    $$
-                    \frac{Net\ Income}{Asset}
-                    $$
-                    manipulable
-                - ROE return of equity
-                    $$
-                    \frac{Net \ Income}{Equity}
-                    $$
-                    manipulatable
+            
                 - ROIC return of invested capital
                     $$
                     \frac{NOPAT}{Invested\ Capital}
