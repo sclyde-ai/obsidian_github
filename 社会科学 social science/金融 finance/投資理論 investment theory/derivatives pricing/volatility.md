@@ -102,3 +102,4 @@
 - functional ito calculus
 - Breeden-Litzenberger
 - Fokker-Planck equation
+- 資産の分散は3〜5年が多い

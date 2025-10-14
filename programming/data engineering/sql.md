@@ -38,3 +38,5 @@ DROP TABLE table_name;
 \d : 
 \dt : tableを一覧で表示する
 \l : 
+- link
+  https://zenn.dev/umi_mori/books/331c0c9ef9e5f0
