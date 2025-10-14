@@ -1,3 +1,22 @@
+# 環境構築
+1. venv作成
+```
+python -m venv venv
+```
+2. activate
+	```
+	# linux & mac
+	source venv/bin/activate
+	```
+	
+	```
+	# windows
+	.\venv\Scripts\activate
+	```
+2. install
+```
+pip install -r requirements.txt
+```
 ## image
 - jupyter/base-notebook : basic 
 - jupyter/scipy-notebook :base-notebook + NumPy, SciPy, pandas, Matplotlib
