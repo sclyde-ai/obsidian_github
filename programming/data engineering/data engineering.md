@@ -64,7 +64,6 @@
                     occurs when two or more processes are unable to proceed because each is waiting for the other to release resources
                 - commit
                 - aport
-            
             - backup
                 - 完全 full
                     | Sunday  | Monday | Tuesday  | Wednesday |
@@ -86,6 +85,5 @@
                 | full | long | short |
                 | differential | middle | middle |
                 | incremental | short | long |
-        
         - data warehouse
         - data lake

@@ -1,6 +1,6 @@
- big data
-            - 4V
-                - volume
-                - velocity
-                - variety
-                - veracity
+big data
+           - 4V
+               - volume
+               - velocity
+               - variety
+               - veracity

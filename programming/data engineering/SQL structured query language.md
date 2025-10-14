@@ -1,4 +1,3 @@
-  
 - DML data manipulation language
     - INSERT INTO VALUES
         ```sql

@@ -68,7 +68,7 @@ if __name__ == '__main__':
 
     if '-r' in sys.argv[1]:
         files = Path('.').rglob('*.md')
-    if '-d' in sys.argv[1]:
+    if '-d' in sys.argv[1] or '-d' in sys.argv[-1]:
         files = []
         for folder in sys.argv[1:]:
             files = Path(folder).rglob('*.md')
