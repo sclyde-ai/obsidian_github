@@ -1,27 +1,4 @@
-    - CREATE
-        - database
-            ```sql
-            CREATE DATABASE database_name;
-            ```
-        - table
-            ```sql
-            CREATE TABLE table_name (
-                column1 datatype,
-                column2 datatype,
-                column3 datatype,
-                ...
-            );
-            ```
-    - DROP
-        - database
-            ```sql
-            DROP DATABASE table_name;
-            ```
-        - table
-            ```sql
-            DROP TABLE table_name;
-            ```
-    - ALTER
+  
 - DML data manipulation language
     - INSERT INTO VALUES
         ```sql
