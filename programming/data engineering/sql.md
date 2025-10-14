@@ -9,12 +9,10 @@
 		tableのcolumnにvalueを追加する
 - UPSERT
 - CREATE
-	- database
 ```sql
+-- database
 CREATE DATABASE database_name;
-```
-	- table
-```sql
+-- table
 CREATE TABLE table_name (
 	column1 datatype,
 	column2 datatype,
@@ -23,14 +21,12 @@ CREATE TABLE table_name (
 );
 ```
 - DROP
-	- database
 ```sql
+-- database
 DROP DATABASE table_name;
+-- table
+DROP TABLE table_name;
 ```
-	- table
-	```sql
-	DROP TABLE table_name;
-	```
 - ALTER
 # transaction operation
 - BEGIN
