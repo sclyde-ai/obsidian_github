@@ -13,7 +13,15 @@ python -m venv venv
 	# windows
 	.\venv\Scripts\activate
 	```
-2. install
+2. install ipykernel
+```
+pip install jupyter ipykernel
+```
+3. registar
+```
+python -m ipykernel install --user --name="my-project-env" --display-name=""
+```
+3. install
 ```
 pip install -r requirements.txt
 ```
