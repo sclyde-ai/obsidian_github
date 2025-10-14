@@ -12,32 +12,9 @@
                     to give
             - something given
             - facts that are given
-    - data analysis
-        - the process
-        - using data
-        - for decision-making
-        - wiki
-            the process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making 
-        - Cambridge
-            the process of examining information, especially using a computer, in order to find something out, or to help with making decisions.
-        - cousera
-            the process of working with data to derive useful information, which can then be used to make data-informed decisions.
-    - data mining
-        - extract information
-        - from large data
-        - wiki
-            the process of extracting and finding patterns in massive data sets involving methods at the intersection of machine learning, statistics, and database system
-        - Cambridge
-            the process of using special software to look at large amounts of computer data in order to find out useful information.
-        - Oxford
-            the practice of analysing large databases in order to generate new information.
-    - data science
-        - wiki
-            a concept to unify statistics, data analysis, informatics, and their related methods to understand and analyze actual phenomena with data.
-        - IBM
-            Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI) and machine learning with specific subject matter expertise to uncover actionable insights hidden in an organization’s data. 
-        - cousera
-            Data science is the scientific study of data. Data scientists ask questions and find ways to answer those questions with data. They may work on capturing data, transforming raw data into a usable form, analyzing data, and creating predictive models.
+    
+    
+    
     - 統計 statistics
         - 集団の
         - 特性を
@@ -49,21 +26,9 @@
             - Cambridge
                 a collection of numerical facts or measurements, as about people, business conditions, or weather
     - data
-        - big data
-            - 4V
-                - volume
-                - velocity
-                - variety
-                - veracity
+    
         - data mining
-            仮説を発見
-            - CRISP-DM CRoss Industry Standard Process for Data Mining
-                - Business Understanding
-                - Data Understanding
-                - Data Preparation
-                - Modeling
-                - Evaluation
-                - Development
+            
         - 外れ値 outlier
             データの大部分から外れた値
             - 異常値
@@ -126,9 +91,3 @@
                     - under sampling
                     - over sampling
                 - weighting
-- 実学 practical science
-    - fermi problem
-    - 医療統計
-        
-    - marketing
-        - association analysis
