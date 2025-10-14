@@ -1,0 +1,5 @@
+- Oxford
+	 - the activity of obtaining knowledge
+	 - knowledge or a piece of information obtained by study
+- Cambridge
+- 
