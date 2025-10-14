@@ -19,7 +19,7 @@ pip install jupyter ipykernel
 ```
 3. registar
 ```
-python -m ipykernel install --user --name="my-project-env" --display-name=""
+python -m ipykernel install --user --name="computational_finance"
 ```
 3. install
 ```
