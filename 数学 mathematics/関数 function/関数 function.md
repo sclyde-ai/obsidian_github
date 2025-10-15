@@ -233,4 +233,3 @@ $$ g_n(x)\{f(x)\}^n + g_{n-1}(x)\{f( x)\}^{n-1} + \dots + g_1(x)f(x) + g_0(x) = 
     - def (Fourier transfrom)
         $$ \delta(x) = \frac{1}{2\pi} \int_{-\infin}^{\infin} e^{-ikx}dk $$
         1のFourier変換はdelta関数になる
-- hello
