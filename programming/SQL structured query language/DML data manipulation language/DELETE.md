@@ -1,0 +1,1 @@
+tableからrecordを削除する
