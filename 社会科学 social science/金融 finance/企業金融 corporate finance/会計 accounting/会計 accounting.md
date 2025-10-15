@@ -1,4 +1,4 @@
- financial statement(English)
+financial statement(English)
         - BS balance sheet
             - credit
                 - Assets

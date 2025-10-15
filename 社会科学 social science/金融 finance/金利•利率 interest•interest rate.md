@@ -95,4 +95,4 @@
         - BGCR Broad General Collateral Rate
             FRB of new york
     - ESTR euro short term rate
-        ECB
+        ECBp
