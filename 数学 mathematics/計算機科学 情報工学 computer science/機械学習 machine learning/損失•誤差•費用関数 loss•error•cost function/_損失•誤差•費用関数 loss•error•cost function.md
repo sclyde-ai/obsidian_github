@@ -1,12 +1,3 @@
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- TD time difference error
+
 - website
     [論文読みサポート: 深層学習における損失関数 - Qiita](https://qiita.com/hiyoko1729/items/4351d7e5c6cfbef3ec1a)

@@ -1,0 +1,31 @@
+
+        - 
+        - 
+        - 
+        - 
+    
+        - 
+        - 
+        - ReLU Rectified Linear Unit
+            $$
+            f(x) = 
+            \left\{
+            \begin{matrix}
+            0 & if & x < 0 \\
+            x & if & x \geq0 
+            \end{matrix}
+            \right.
+            $$
+            $$
+            f(x) = \max(0, x) = \frac{x+|x|}{2}
+            $$
+        - PReLU
+        - leakyReLU
+        - ELU
+        - GELU Gaussian Error Linear Unit
+            $$
+            f(x) = x \Phi(x)
+            $$
+            - \Phi 正規分布の累積分布関数
+        - Swish
+        - Mish
