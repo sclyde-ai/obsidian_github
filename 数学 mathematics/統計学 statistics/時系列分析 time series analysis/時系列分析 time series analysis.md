@@ -12,27 +12,6 @@ $$
 - 線形模型 linear model
     
     
-    - 
-    
-    
--
-    - ARCH autoregressive conditional heteroscedasticity
-        過去の誤差が現在の分散に影響
-        $$
-        \sigma^2_t = \alpha_0 + \sum_{i=1}^q \alpha_i \epsilon_{t-i}
-        $$
-    - GARCH generalized autoregressive conditional heteroscedasticity
-        過去の誤差と分散が現在の分散に影響
-        $$
-        \sigma^2_t = \alpha_0 + \sum_{i=1}^q \alpha_i \epsilon_{t-i} + \sum_{j=1}^p \beta_j\sigma_{t-j}
-        $$
-    - EGARCH exponential GARCH
-    - FIGARCH
-    - GJR GARCH
-    - DCC-GARCH
-    - LSTM-GARCH
-    - GARCH-M
-    - Heston-Nandi GARCH
 - 状態空間模型 state space model
     観測できない「状態」が「観測値」に影響を与える
     - 画像 image
