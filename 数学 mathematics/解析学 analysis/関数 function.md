@@ -1,5 +1,5 @@
-    $$ g_n(x)\{f(x)\}^n + g_{n-1}(x)\{f( x)\}^{n-1} + \dots + g_1(x)f(x) + g_0(x) = 0 $$
-    - 有理関数 rational function
+$$ g_n(x)\{f(x)\}^n + g_{n-1}(x)\{f( x)\}^{n-1} + \dots + g_1(x)f(x) + g_0(x) = 0 $$
+- 有理関数 rational function
         $$ f(x) = \frac{g(x)}{h(x)} $$
         - 多項式関数 polynomial function
             $$ f(x) = a_nx^n + a_{n-1} x^{n-1} + \dots + a_1x + a_0 \\ a_0, ..., a_n \in \R $$
