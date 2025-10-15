@@ -14,13 +14,8 @@ $$
     
     - 
     
-    - ARIMA AR integrated MA
-        階差系列がARMA
-        $$
-        y_t -y_{t-d}= c + \sum_{k=1}^p \phi_k y_{t-k} + \sum_{k=1}^q \theta_k\epsilon_{t-k} + \epsilon_t
-        $$
-    - SARIMA seasonal ARIMA
-        時系列方向と周期方向にARIMAを用いる
+    
+-
     - ARCH autoregressive conditional heteroscedasticity
         過去の誤差が現在の分散に影響
         $$
