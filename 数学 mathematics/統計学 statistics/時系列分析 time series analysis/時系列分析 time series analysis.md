@@ -2,16 +2,7 @@ $$
 \{y_t\}_{t \in T}
 $$
 - T 時間(全順序集合)
-
-    
-
-
-
-
-
 - 線形模型 linear model
-    
-    
 - 状態空間模型 state space model
     観測できない「状態」が「観測値」に影響を与える
     - 画像 image
