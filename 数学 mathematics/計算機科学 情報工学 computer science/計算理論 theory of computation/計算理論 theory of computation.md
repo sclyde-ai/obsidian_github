@@ -1,8 +1,8 @@
-    - turing machine
+- turing machine
         $$ M = (Q, \Gamma, b, \Sigma, \delta, q_0, F) $$
         - 状態 Q
         - 字母 alphabet
-    - lambda calculus
+- lambda calculus
 - 計算複雑性理論 computational complexity theory
     - PP probabilistic polynomial time
         - NP
