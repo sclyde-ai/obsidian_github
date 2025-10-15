@@ -1,0 +1,1 @@
+tableやuserなどのobjectを作成する
