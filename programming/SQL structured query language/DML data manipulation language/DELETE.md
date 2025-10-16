@@ -1,1 +1,1 @@
-tableからrecordを削除する
+ableからrecordを削除する

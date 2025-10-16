@@ -1,1 +1,1 @@
-ntonym: [[passive]]
+tonym: [[passive]]

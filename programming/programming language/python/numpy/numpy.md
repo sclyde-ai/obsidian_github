@@ -5,7 +5,6 @@
         - ndim
         - shape
         - size
-
 # making vector
 - np.array(object)
     objectのnumpyを作成する
@@ -21,7 +20,6 @@
     startからstopまでstepずつ増える配列を作成する
 - np.random.rand(shape)
     shapeの大きさの乱数行列を作成する
-
 # operation function
 - +
     足し算
@@ -37,6 +35,4 @@
     転置する
 - np.dot(A, B)
     A@B
-
 - 
-

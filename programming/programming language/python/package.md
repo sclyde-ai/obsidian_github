@@ -2,7 +2,6 @@
 - __init__.py
 - setup.py
 - pyproject.toml
-
 ## layout
 -  src layout
     project/

@@ -271,7 +271,6 @@ financial statement(English)
                     | 雑益 | 雑損 |
                 - 
 財務諸表分析 fundamental analysis
-                
 簿記論/財務諸表論
     本支店会計
             - 本店集中計算制度

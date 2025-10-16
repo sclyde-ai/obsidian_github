@@ -7,4 +7,3 @@
 - Cambridge
   1. a roughly cut piece
   2. a part of something, especially a large part
-  

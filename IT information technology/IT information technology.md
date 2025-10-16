@@ -1,4 +1,3 @@
-
 - words
     - daemon
         a type of computer program that runs in the background, performing various tasks without direct interaction from the user

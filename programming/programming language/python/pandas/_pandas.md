@@ -3,7 +3,6 @@
 - string
 - object
 - category
-
 # accessor
 data型固有の属性やmethodをSeriesから直接利用可能にする機能
 - .dt

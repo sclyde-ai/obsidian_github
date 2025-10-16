@@ -1,1 +1,1 @@
-tableのrecordを更新する
+ableのrecordを更新する

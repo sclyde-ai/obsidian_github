@@ -1,5 +1,4 @@
-
-            - programming language
-                - COBOL
-                - Java
-                - Python
+- programming language
+    - COBOL
+    - Java
+    - Python

@@ -1,1 +1,1 @@
- H(X) = - \sum_{x \in \chi} p(x)\log \ p(x) \\ = -E_p[\log\ p(X)] $$
+(X) = - \sum_{x \in \chi} p(x)\log \ p(x) \\ = -E_p[\log\ p(X)] $$
