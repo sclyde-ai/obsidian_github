@@ -3,17 +3,17 @@ from pathlib import Path
 import sys
 
 def remove_empty_lines(file_path):
-    # try:
-    with open(file_path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
 
-    non_empty_lines = [line for line in lines if line.strip()]
+        non_empty_lines = [line for line in lines if line.strip()]
 
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.writelines(non_empty_lines)
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.writelines(non_empty_lines)
 
-    # except Exception as e:
-    #     print(f"an error has occured: {e}")
+    except Exception as e:
+        print(f"an error has occured: {e}")
 
 
 def remove_end_indnet(file_path):
@@ -28,7 +28,7 @@ def remove_end_indnet(file_path):
             f.seek(-1, os.SEEK_END)
             f.truncate()
 
-def count_leading_spaces(file_path) -> list:
+def count_leading_spaces(file_path):
     try:
         spaces_numbers = []
         with open(file_path, 'r', encoding='utf-8') as f:
