@@ -19,6 +19,7 @@
     shapeの大きさのvalueの要素のみの行列を作成する
 - np.arange(start, stop, step)
     startからstopまでstepずつ増える配列を作成する
+- np.random.rand(shape)
 
 - 
 
