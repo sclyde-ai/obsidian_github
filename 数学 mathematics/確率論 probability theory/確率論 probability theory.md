@@ -731,48 +731,11 @@
     - 確率変数列 random variable sequence
         $$ \{X_n\} \\ X_n : \Omega \rightarrow \R
         $$
-        - 各点収束 pointwise convergent
-            $$ \lim_{n \to \infin} X_n(\omega) \in \R $$
-            この時、確率変数X_nはwで各点収束する
-            $$ \forall \omega \in \Omega :\lim_{n \to \infin} X_n(\omega)\in \R $$
-            この時、確率変数X_nは各点収束する
-            $$ \forall \omega \in \Omega :\lim_{n \to \infin} X_n(\omega)= X(\omega) $$
-            Xを各点極限という
-        - 確率収束 converges in probability 確率極限 probability limit
-            - 同一確率空間上の確率変数列 $\{X_n\}$
-            - probability 0 version
-                $$ \forall \epsilon > 0, \lim_{n \rightarrow \infin} P(|X_n-X| \geq \epsilon\}) = 0 $$
-                - strict def
-                    $$ \forall \epsilon > 0, \forall \delta > 0, \exist N \in \N, \forall n > N, \\ |\mathbb P(\{\omega \in \Omega: |X_n(\omega)-X(\omega)| \geq \epsilon\})| < \delta $$
-            - probability 1 version
-                $$ \forall \epsilon > 0, \lim_{n \rightarrow \infin} P(|X_n-X| < \epsilon) = 1 $$
-                - strict def
-                    $$ \forall \epsilon > 0, \forall \delta > 0, \exist N \in \N, \forall n > N, \\ |\mathbb P(\{\omega \in \Omega: |X_n(\omega)-X(\omega)| < \epsilon\})-1| < \delta $$
-            この時、確率変数列 $\{X_n\}$は確率変数Xへ確率収束する
-            - 表記
-                $$ X_n \to X\ c.p. \\ X_n \stackrel{p}{\to} X $$
-            確率変数Xを確率変数列 $\{X_n\}$の確率極限という
-        - 概収束 almost sure/everywhere convergent 概極限 almost sure/everywhere limit
-            - 同一確率空間上の確率変数列 $\{X_n\}$
-            $$ P(\{\forall \omega \in \Omega :\lim_{n \to \infin} X_n(\omega)\in \R \}) = 1 $$
-            この時、確率変数列 $\{X_n\}$は概収束する
-            - 表記
-                $$ X_n \to X\ a.s./a.e. \\ X_n \stackrel{a.s./a.e.}{\to} X $$
-            $$ X : \Omega \to \R \\ \forall \omega \in A: X(\omega) = \lim_{n \to \infin} X_n(\omega) $$
-            確率変数Xを確率変数列 $\{X_n\}$の概極限という
-        - 分布収束/法則収束 converges in distribution/law 分布極限/法則極限 limit in distribution/law
-            $$ \lim_{n \rightarrow \infin} F_{X_n}(x) = F_X(x) $$
-            確率変数列 $\{X_n\}$は確率変数Xに分布収束するという
-            - 表記
-                $$ X_n \to X\ c.d. \\ X_n \stackrel{d}{\to} X $$
-            確率変数Xを確率変数列 $\{X_n\}$の分布/法則極限という
-            $F_X$を漸近/極限分布 asymptotic/limiting distributionという
-        - 平均収束 convergence in mean
-            $$ \lim_{n \to \infin} \mathbb E(|X_n - X|^r) = 0 $$
-            この時、確率変数列 $\{X_n\}$は確率変数Xへr次平均収束する
-            - 表記
-                $$ X_n \to X\ c.p. \\ X_n \stackrel{p}{\to} X $$
-            確率変数Xを確率変数列 $\{X_n\}$のr次平均極限という
+        - 
+    
+        
+        - 
+        
     - 極限定理 limit theorem
         - Markov’s inequality
             X is non-negative
