@@ -6,7 +6,7 @@
         - shape
         - size
 
-# function
+# making vector
 - np.array(object)
     objectのnumpyを作成する
 - np.zeros(shape)
@@ -20,6 +20,20 @@
 - np.arange(start, stop, step)
     startからstopまでstepずつ増える配列を作成する
 - np.random.rand(shape)
+    shapeの大きさの乱数行列を作成する
 
+# operation function
+- 
+
+# operator
+- +
+    足し算
+- -
+    引き算
+- *
+    要素ごとの掛け算
+- /
+    要素ごとの割り算
+- 
 - 
 
