@@ -1,3 +1,3 @@
 
-        機械学習の分類問題において、異なるクラスを明確に分けるための境界線や超曲面のこと
-        the hypersurface that divides a feature space, separating different classes in a classification model by defining the points where the model switches from predicting one class to another
+	機械学習の分類問題において、異なるクラスを明確に分けるための境界線や超曲面のこと
+	the hypersurface that divides a feature space, separating different classes in a classification model by defining the points where the model switches from predicting one class to another
