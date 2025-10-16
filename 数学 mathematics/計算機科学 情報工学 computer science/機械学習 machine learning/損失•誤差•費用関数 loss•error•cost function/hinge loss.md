@@ -1,5 +1,4 @@
-
-    maximum margin
-    $$
-    \max(1 - t \cdot y, 0)
-    $$
+maximum margin
+$$
+\max(1 - t \cdot y, 0)
+$$

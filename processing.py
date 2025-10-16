@@ -21,8 +21,8 @@ def remove_end_indnet(file_path):
         try:
             f.seek(-1, os.SEEK_END)
         except OSError:
-            print("the file_path is empty")
-            exit()
+            # This happens on an empty file, which is fine.
+            return
 
         if f.read(1) == b'\n':
             f.seek(-1, os.SEEK_END)
@@ -45,12 +45,10 @@ def remove_leading_spaces(file_path, num_chars):
         lines = []
         with open(file_path, 'r', encoding='utf-8') as f_in:
             for line in f_in:
-                print(line)
                 lines.append(line[num_chars:])
         
         with open(file_path, 'w', encoding='utf-8') as f_out:
-            for line in lines:
-                f_out.write(line)
+            f_out.writelines(lines)
     except Exception as e:
         print(f"an error has occured: {e}")
 
@@ -60,19 +58,26 @@ def processing_files(files: list):
             print(file)
             remove_empty_lines(file)
             numbers_of_spaces = count_leading_spaces(file)
-            min_number = min(numbers_of_spaces)
-            remove_leading_spaces(file, min_number)
-        except:
+            if numbers_of_spaces: # Check if list is not empty
+                min_number = min(numbers_of_spaces)
+                remove_leading_spaces(file, min_number)
+        except Exception as e:
+            print(f"Error processing {file}: {e}")
             continue
 
 if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        # Exit if no files or options are provided
+        sys.exit(0)
 
-    if '-r' in sys.argv[1]:
+    # Use if/elif/else for proper argument parsing
+    if sys.argv[1] == '-r':
         files = Path('.').rglob('*.md')
-    if '-d' in sys.argv[1] or '-d' in sys.argv[-1]:
+    elif sys.argv[1] == '-d':
         files = []
-        for folder in sys.argv[1:]:
-            files = Path(folder).rglob('*.md')
+        # Start from the third argument to get folders
+        for folder in sys.argv[2:]:
+            files.extend(Path(folder).rglob('*.md'))
     else:
         files = sys.argv[1:]
     

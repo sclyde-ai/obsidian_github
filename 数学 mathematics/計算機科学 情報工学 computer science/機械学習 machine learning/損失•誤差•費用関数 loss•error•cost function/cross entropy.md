@@ -1,4 +1,3 @@
-
-    $$
-    -t \cdot \log y
-    $$
+$$
+-t \cdot \log y
+$$
