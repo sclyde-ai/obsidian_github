@@ -2,9 +2,7 @@
 - np.ndarry
     - properties
         - dtype
-            data型
         - ndim
-            
         - shape
         - size
 
