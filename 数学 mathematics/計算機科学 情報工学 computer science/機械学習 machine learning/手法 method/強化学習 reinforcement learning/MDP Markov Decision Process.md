@@ -6,9 +6,9 @@ A --action--> E
 E --reward--> A
 E --state--> A
 ```
-- state $S = \{S_1, S_2, ...\}$
-- action $A = \{A_1, A_2, ...\}$
-- reward $R = \{R_1, R_2, ...\}$
+- 状態 state $S = \{S_1, S_2, ...\}$
+- 行動 action $A = \{A_1, A_2, ...\}$
+- 報酬 reward $R = \{R_1, R_2, ...\}$
 - state transition probability
     $$
     p(s_{t+1} | s_t, a_t)
@@ -19,6 +19,6 @@ E --state--> A
     $$
 - return
     $$
-    G_t = \sum_{k = t}^\infin d^{k-t}R_t
+    G_t = \sum_{k = t}^\infty d^{k-t}R_t
     $$
 - state value function

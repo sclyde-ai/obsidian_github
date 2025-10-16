@@ -7,20 +7,20 @@ graph LR
 agent --action--> environment
 environment --reward--> agent
 ```
-- action value
-    - sample average
+- 行動価値 action value
+    - 標本平均 sample average
         $$
         Q_n = \frac{\sum_{i=1}^n R_i}{n} \\ Q_{n-1} = \frac{\sum_{i=1}^{n-1} R_i}{n-1} \\
         nQ_n = (n-1)Q_n + R_n \\
         Q_n = Q_{n-1}-\frac{Q_{n-1}}{n} + \frac{R_n}{n} \\
         Q_n = Q_{n-1} + \frac{1}{n}(R_n - Q_{n-1})
         $$
-        this is used for satationary problem
+        定常問題を解く際に使われる
     - exponential moving average
         $$
         Q_n = Q_{n-1} + \alpha(R_n - Q_{n-1})
         $$
-        this is used for non-stationary problem
+        非定常問題を解く際に使われる
 - bandit(environment)
     the machine to return win(1) or lose(0) with the win rate
     endogenous: win rate of a bandit
