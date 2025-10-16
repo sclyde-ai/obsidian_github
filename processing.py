@@ -3,17 +3,18 @@ from pathlib import Path
 import sys
 
 def remove_empty_lines(file_path):
-    try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
+    # try:
+    with open(file_path, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
 
-        non_empty_lines = [line for line in lines if line.strip()]
+    non_empty_lines = [line for line in lines if line.strip()]
 
-        with open(file_path, 'w', encoding='utf-8') as f:
-            f.writelines(non_empty_lines)
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.writelines(non_empty_lines)
 
-    except Exception as e:
-        print(f"an error has occured: {e}")
+    # except Exception as e:
+    #     print(f"an error has occured: {e}")
+
 
 def remove_end_indnet(file_path):
     with open(file_path, 'rb+') as f:
