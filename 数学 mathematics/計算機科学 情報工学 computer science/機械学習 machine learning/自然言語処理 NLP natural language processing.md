@@ -1,12 +1,12 @@
-    - 言語
-        - Oxford
-            一定のきまりに従い音声や文字・記号を連ねて、意味を表すもの。
-    - language
-        - Cambridge
-            a system of communication consisting of sounds, words, and grammar
-        - Britannica
-        - Oxford
-            The form of words in which something is communicated; manner or style of expression.
+- 言語
+	- Oxford
+		一定のきまりに従い音声や文字・記号を連ねて、意味を表すもの。
+- language
+	- Cambridge
+		a system of communication consisting of sounds, words, and grammar
+	- Britannica
+	- Oxford
+		The form of words in which something is communicated; manner or style of expression.
 - 思考 thinking
 - 理解
 - 生成
@@ -19,9 +19,21 @@
     | 機械 |  |  |
     | 動物 |  |  |
 - 形態素解析
-    文章を形態素（意味を持つ最小の単位）に分解し、それぞれの品詞や情報を識別する技術
-    - 形態素
-        意味を持つ最小の単位
+    自然言語の文章を形態素に分割して解析すること
+	- 形態素 morpheme
+	    意味を持つ最小単位
+	- 形態素lattice
+	    ![img](https://leadinge.co.jp/rd/wp-content/uploads/2021/04/20210412_c-1.png)
+	- 日本語library
+	    - 最小費用法
+	        - MeCab
+	            一番利用されている
+	            - 辞書
+	                - 
+	        - Janome
+	        - Sudachi
+	    - 点推測法
+	        - Vibrato
 - 構文解析/統語解析
     文字列をその言語の文法規則に従って解釈し、単語や句の関係性を明らかにして、文の構造を理解・分析する過程
 - 機械翻訳

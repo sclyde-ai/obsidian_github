@@ -1,80 +1,15 @@
 1. 報酬関数/誤差関数を決める
 2. 使う関数を決める
 3. 報酬関数/誤差関数を最大化するパラメータを探す(学習)
-- 学習手法 learning method
-    - 教師あり学習 supervised learning
-    - 教師なし学習 unsupervised learning
     
 - 模型評価 model assessment/evaluation
     - 汎用性/汎化性能 generalization
         未知の新しいデータに対しても正確な予測や分類を行える能力
     - 過学習 overfitting
         機械学習モデルが訓練データに過剰に適合し、その結果として未知のデータ（検証データ）に対する予測精度が低下してしまう現象
-    - 混合行列
-	    - 正解率 accuracy
-	    - 適合率
-	    - 再現率
-	    - F値
-    - 交差検証 CV cross validation
-        データを分割して学習と検証を繰り返すこと
-        - 排他的 exhaustive
-            learn and test on all possible ways to divide the original sample into a training and a validation set
-            - leave one out
-                1. データを一つ選ぶ
-                2. そのデータを検証に使い、他のn-1個を訓練に使う
-                3. 全通り(n回)行う
-                - gif
-                    ![image.gif](image.gif)
-            - leave p out
-                1. データをp個選ぶ
-                2. そのデータを検証に使い、他のn-p個を訓練に使う
-                3. 全通り(n!/p!(n-p)!回)行う
-        - 非排他的 non-exhaustive
-            - 標本分割 holdout
-                訓練データと検証データに分割すること
-                - 訓練データ train data
-                    模型の訓練に使うデータ
-                - 検証データ test data
-                    模型の検証に使うデータ
-            - k-分割交差検証 k-fold cross validation
-                1. データをk個に分割
-                2. 1つを検証に使い、他のk-1個を訓練に使う
-                3. 全通り(k回)行う
-                - gif
-                    ![image.gif](image%201.gif)
-            - repeated random sub-sampling validation
-    - 正則化 regularization
-        - 意味 meaning
-            - 日本語
-                過学習を防ぎ、モデルの汎化能力を高めるための手法
-            - English
-                a technique to reduce overfitting in machine learning models by adding a penalty to the loss function
-        $$
-        \min_w E(w) + \lambda R(w)
-        $$
-        - E 誤差項
-        - R 正則化項
-        - L1正則化/LASSO回帰
-            - 正則化項
-                $$
-                R(w) = \sum_j w_j^2
-                $$
-            - 解
-                $$
-                \sum_j w_j^2 =r
-                $$
-        - L2正則化/Ridge回帰
-            - 正則化項
-                $$
-                R(w) = \sum_j |w_j|
-                $$
-            - 解
-                $$
-                \sum_j |w_j|=r
-                $$
-    - 決定境界 decision boundary
-        機械学習の分類問題において、異なるクラスを明確に分けるための境界線や超曲面のこと
-        the hypersurface that divides a feature space, separating different classes in a classification model by defining the points where the model switches from predicting one class to another
+    - 
+    - 
+    - 
     - bias-variance tradeoff
         汎化誤差はbiasとvarianceとerrorに分解できる
         |  | overfitting | underfitting |
