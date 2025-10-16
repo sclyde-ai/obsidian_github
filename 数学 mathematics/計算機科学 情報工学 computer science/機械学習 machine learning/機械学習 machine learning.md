@@ -4,31 +4,17 @@
 - 学習手法 learning method
     - 教師あり学習 supervised learning
     - 教師なし学習 unsupervised learning
-    - 回帰 regression
-        - 定式化 formulation
-            - 入力/説明変数
-                $$
-                x = (x_1, x_2, ..., x_n) \in \R^n
-                $$
-            - 出力/目的変数
-                $$
-                y = (y_1, y_2,...,y_m) = f(x) \in \R^m
-                $$
-            - 回帰式
-                $$
-                f : \R^n \to \R^m
-                $$
-            - 教師データ
-                $$
-                t = (t_1, t_2,...,t_m)
-                $$
-    - 
     
 - 模型評価 model assessment/evaluation
     - 汎用性/汎化性能 generalization
         未知の新しいデータに対しても正確な予測や分類を行える能力
     - 過学習 overfitting
         機械学習モデルが訓練データに過剰に適合し、その結果として未知のデータ（検証データ）に対する予測精度が低下してしまう現象
+    - 混合行列
+	    - 正解率 accuracy
+	    - 適合率
+	    - 再現率
+	    - F値
     - 交差検証 CV cross validation
         データを分割して学習と検証を繰り返すこと
         - 排他的 exhaustive
