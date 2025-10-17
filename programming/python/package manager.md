@@ -5,3 +5,5 @@
 - uv
 - Poetry
 - Rye
+- PDM
+- pipenv
