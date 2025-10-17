@@ -1,0 +1,2 @@
+- gossip protocol
+- virtual voting
