@@ -113,7 +113,7 @@
         - CDF
             $$ \exp(-(\frac{x-m}{s})^{-\alpha}) $$
             ![Frechet_cdf.svg.png](attachment:5e9e15f3-5e14-426b-9442-72e975062081:Frechet_cdf.svg.png)
-    !d et- Gumbel
+    - Gumbel
         - parameter
             - location $\mu$
             - scale $\beta$
@@ -121,4 +121,16 @@
         - CDF
             $$ \exp(-\exp(-\frac{x-\mu}{\beta})) $$
             ![Gumbel-Cumulative.svg.png](attachment:73734e5e-ae08-46e8-b8cc-c3469410af3b:Gumbel-Cumulative.svg.png)
-  k  - maxweby
+  k  - maxwell
+        熱力学的平衡状態において気体分子の速度が従う分布関数
+        - PDF
+            $$ \sqrt{\frac{2}{\pi}} \frac{x^2}{a^3} \exp(-\frac{x^2}{2a^2}) $$
+            ![image.png](attachment:29431730-b02a-42ac-a218-43879f7ac32d:image.png)
+        - CDF
+        [マクスウェル分布](https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%AF%E3%82%B9%E3%82%A6%E3%82%A7%E3%83%AB%E5%88%86%E5%B8%83)
+    - Rayleigh
+        - 正規分布 X, Y
+        - PDF
+            $$ \frac{x}{\sigma^2}\exp(-\frac{x^2}{2\sigma^2}) $$
+        - CDF
+            $$ 1-\exp(-\frac{x^2}{2\sigma^2}) $$
