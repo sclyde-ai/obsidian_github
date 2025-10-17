@@ -1,0 +1,7 @@
+- pip
+- venv
+- Conda
+- Anaconda
+- uv
+- Poetry
+- Rye
