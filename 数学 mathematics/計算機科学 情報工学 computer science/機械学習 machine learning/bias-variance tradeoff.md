@@ -47,9 +47,8 @@
     \mathbb E[\epsilon (- \hat f + \mathbb E[\hat f])]
     \\
     $$
-    - $\mathbb E[
-    (f- \mathbb E[\hat f])^2]$
-        $$
+    - 第一項 
+    -  $$
         \mathbb E[
         (f- \mathbb E[\hat f])^2] 
         = (f- \mathbb E[\hat f])^2
