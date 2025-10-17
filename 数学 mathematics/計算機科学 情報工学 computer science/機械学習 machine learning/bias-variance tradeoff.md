@@ -4,32 +4,26 @@
 | bias | low | high |
 | variance | high | low |
 - 設定 setting
-    - dataset
-        $$
+    - dataset$$
         D = \{d_i\}_{i = 1}^m \\
         d_i = ((x_1,y_1),(x_2, y_2),...,(x_n, y_n))
         $$
-    - 真のmodel
-        $$
+    - 真のmodel $$
         y = f(x)+ \epsilon \\
         \epsilon \sim N(0, \sigma^2)
         $$
-    - 予測model
-        $$
+    - 予測model $$
         \hat f (x; D)
         $$
-- bias
-    $$
+- bias $$
     Bias[\hat f(x)] = \mathbb E[\hat f(x)] -f(x)
     $$
     予測模型の平均と真の模型の差を表す指標
-- variance
-    $$
+- variance $$
     Var[\hat f(x)] = \mathbb E[\hat f(x)^2] - \mathbb E[\hat f(x)]^2
     $$
     訓練dataによるばらつきを表す指標
-- bias-variance decomposition
-    $$
+- bias-variance decomposition $$
     \mathbb E[(y-\hat y)^2] 
     =\mathbb E[(y-\hat f)^2] 
     =\mathbb E[(f+\epsilon -\hat f)^2]
