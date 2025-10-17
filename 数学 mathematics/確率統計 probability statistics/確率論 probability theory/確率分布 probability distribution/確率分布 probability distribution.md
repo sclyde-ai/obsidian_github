@@ -23,13 +23,7 @@
     
         
 
-    - 超幾何分布 hypergeometric
-        $$ HG(N, M, n) = \frac{\binom{M}{k}\binom{N-M}{n-k}}{\binom{N}{n}} \\ \max\{0, n-(N-M)\} \leq k \leq \min\{n, M\} $$
-        - meaning
-            赤玉M個、白玉N-M個から
-            n個を非復元無作為抽出
-            した時の赤玉の個数
-        - 有限母集団補正 finite population correction
+    
 - 連続分布 continuous
     - 指数型分布族 exponential family
         - 正規分布 normal/gauss
