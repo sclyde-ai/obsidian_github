@@ -19,7 +19,7 @@
         
         
         
-        
+
     
         
 
@@ -96,35 +96,13 @@
                 $$ 1-\exp(-(\frac{t}{\tau})^m) $$
                 ![Weibull_CDF.svg.png](attachment:f97313c8-cf5c-4b0c-997c-813baddf0d75:Weibull_CDF.svg.png)
     - 連続一様分布 continuous uniform
-    - 対数正規分布 logarithm
-        - 母数 parameter
-        - PDF
-            $$ N(\mu, \sigma) = \frac{1}{\sigma \sqrt{2\pi}}\exp{\left(−\frac{1}2\left(\frac{\ln x−\mu}{\sigma}\right)^2\right)} $$
-        - 積率 moment
-            - 期待値 expectation
-                $$ \exp({\mu + \frac{\sigma^2}{2}}) $$
-            - 中央値 median
-                $$ \exp (\mu) $$
-            - 最頻値 mode
-                $$ \exp (\mu -\sigma^2) $$
+    
     - 複素正規分布 complex normal
-    - t
-        - 標準正規分布 Z
-        - カイ二乗分布 W
-        $$ t = \frac{Z}{\sqrt{\frac{W}{n}}} $$
-    - F
-        - カイ二乗分布 X, Y
-        - 標本の大きさ n, m
-        $$ F = \frac{\frac{X}{n}}{\frac{Y}{m}} $$
-    - Cauchy
-        $$ \frac{1}{\pi} \frac{\sigma}{\pi x^2 + \sigma^2} $$
-    - logistic/sigmoid
-        $$ \frac{1}{1+\exp(-x)} $$
-    - levy
-        - PDF
-            $$ \sqrt \frac{c}{2\pi} \frac{\exp(-\frac{c}{2x})}{x^{\frac{3}{2}}} $$
-            ![image.png](attachment:5b92e06d-0331-4bdb-bf72-069cd582325f:image.png)
-        - CDF
+    - 
+    - 
+    - 
+    - 
+    - 
     - Gomperts
     - Frechet
         - parameter
