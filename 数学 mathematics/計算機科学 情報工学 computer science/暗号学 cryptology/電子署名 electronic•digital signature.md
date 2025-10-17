@@ -1,4 +1,3 @@
- 
         - parameter
             - m 平文 plaintext
             - s 署名 signature
@@ -12,8 +11,6 @@
             $$ S: (m, sk) \to s $$
         - V 検証算法 verification algorithm
             $$ V: (m, s, pk) \to \{1, 0\} $$
-
-
     公開鍵暗号方式 PKC public key cryptography
     | 送信者 |  | 受信者 |
     | --- | --- | --- |

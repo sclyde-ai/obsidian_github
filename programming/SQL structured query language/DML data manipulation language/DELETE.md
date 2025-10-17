@@ -1,1 +1,1 @@
-ableからrecordを削除する
+bleからrecordを削除する

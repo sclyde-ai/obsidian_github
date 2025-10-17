@@ -728,7 +728,6 @@
         - example
             $$ X \sim U(0, 1) \\ Y = -X \sim U(0, 1) $$
             $$ F_X = F_Y \\ X \ne Y $$
-        
     - 極限定理 limit theorem
         - Markov’s inequality
             X is non-negative

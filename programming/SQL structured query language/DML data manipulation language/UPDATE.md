@@ -1,1 +1,1 @@
-ableのrecordを更新する
+bleのrecordを更新する
