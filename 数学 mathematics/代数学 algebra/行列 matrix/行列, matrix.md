@@ -1,19 +1,9 @@
-- 相等 equivalent
-    $$ A = \begin{pmatrix} a_{11} & a_{12} & \dots & a_{1n} \\ a_{21} & a_{22} & \dots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \dots & a_{mn} \end{pmatrix} B = \begin{pmatrix} b_{11} & b_{12} & \dots & b_{1n} \\ b_{21} & b_{22} & \dots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \dots & b_{mn} \end{pmatrix} \\ A = B, a_{i, j} = b_{i, j} $$
-- 和と差
-    $$ A \pm B = \begin{pmatrix} a_{11}+b_{11} & a_{12}+b_{12} & \dots & a_{1n}+b_{1n} \\ a_{21}+b_{21} & a_{22}+b_{22} & \dots & a_{2n}+b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1}+b_{m1} & a_{m2}+b_{m2} & \dots & a_{mn}+b_{mn} \end{pmatrix} $$
-- scalar multiplication
-    $$ kA = \begin{pmatrix} ka_{11} & ka_{12} & \dots & ka_{1n} \\ ka_{21} & ka_{22} & \dots & ka_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ ka_{m1} & ka_{m2} & \dots & ka_{mn} \end{pmatrix} $$
+- 
+- 
+- 
 - 形状 shape
-    - 正方行列 square
-        $(n, n)$ 型行列をn次正方行列という
-    - 三角行列 triangular matrix
-        - 上三角行列 upper
-            $$ \begin{pmatrix} a_{11} & a_{12} & \dots & a_{1n} \\ & a_{22} & \dots & a_{2n} \\ & & \ddots & \vdots \\ \text{\huge{0}} & & & a_{nn} \end{pmatrix} $$
-        - 下三角行列 lower
-            $$ \begin{pmatrix} a_{11} & & & \text{\huge{0}} \\ a_{21} & a_{22} \\ \vdots & & \ddots \\ a_{n1} & a_{n2} & \dots & a_{nn} \end{pmatrix} $$
-        - 対角行列 diagonal
-            $$ \begin{pmatrix} a_{11} \\ & a_{22} & & \text{\huge{0}} \\ & & \ddots \\ & \text{\huge{0}} & & \ddots \\ & & & & a_{nn} \end{pmatrix} $$
+    - 
+    - 
     - 転置行列 transpose
         $$ A^\top = \begin{pmatrix} a_{11} & a_{21} & \dots & a_{m1} \\ a_{12} & a_{22} & \dots & a_{m2} \\ \vdots & \vdots & \ddots & \vdots \\ a_{1n} & a_{2n} & \dots & a_{mn} \end{pmatrix} $$
         転置行列は $(n, m)$ 型行列である
