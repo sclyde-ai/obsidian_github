@@ -49,3 +49,4 @@ internet上で管理する無形の財産
 			online 
 		- cold wallet
 			offline 
+- [[電子印 digital token]]
