@@ -1,5 +1,4 @@
-定値行列 defined
-        - 
+
         - 正定値 positive defined matrix
             $$ A \succ 0 \\ x^TAx > 0, \forall x \in \R^n, $$
             Aを正定値行列という
