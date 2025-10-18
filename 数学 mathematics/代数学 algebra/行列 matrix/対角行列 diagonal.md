@@ -1,0 +1,2 @@
+
+            $$ \begin{pmatrix} a_{11} \\ & a_{22} & & \text{\huge{0}} \\ & & \ddots \\ & \text{\huge{0}} & & \ddots \\ & & & & a_{nn} \end{pmatrix} $$
