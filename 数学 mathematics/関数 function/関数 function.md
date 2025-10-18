@@ -10,26 +10,3 @@
         $$ f(-x) = f(x) $$
     - 奇関数 odd function
         $$ f(-x) = -f(x) $$
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- logistic function
-    $$ f(x) = \frac{L}{1+e^{-k(x-x_0)}} $$
-- Lorentzian function
-- Weierstrass function
-- topologist’s sine curve
-    $$ \{(x, sin\frac{1}{x}):x \in(0,1]\} \cup\{(0,0)\} $$
-- δ(delta) function of Dirac
-    $$
-    $$
-    - def (Fourier transfrom)
-        $$ \delta(x) = \frac{1}{2\pi} \int_{-\infin}^{\infin} e^{-ikx}dk $$
-        1のFourier変換はdelta関数になる
