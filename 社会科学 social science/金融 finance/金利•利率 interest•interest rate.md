@@ -64,6 +64,7 @@
         k(s, t) + k(t, u) = k(s, u)
         $$
 - 利率は暗黙に年率換算
+- volatilityも暗黙に年率換算
 - 例 example
     - unit
         - bps/basis points
