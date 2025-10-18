@@ -745,6 +745,7 @@
         -LI \preceq \nabla^2 f(x) \preceq LI
         $$
         if and only if Lipschitz continuous 
+- Holder continuous    
 - 線形計画 linear programming
     - 等式標準系
         $$
