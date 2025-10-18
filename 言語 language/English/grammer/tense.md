@@ -1,1 +1,1 @@
-ammatical category in verbs that indicates the time of an action or event, with the three main types being past, present, and future
+mmatical category in verbs that indicates the time of an action or event, with the three main types being past, present, and future

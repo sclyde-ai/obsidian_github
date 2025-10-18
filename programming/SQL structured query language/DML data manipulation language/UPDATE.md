@@ -1,1 +1,1 @@
-leのrecordを更新する
+eのrecordを更新する
