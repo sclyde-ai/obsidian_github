@@ -357,6 +357,3 @@
     - 角谷の不動点定理
     - **Borsuk–Ulam theorem**
 - 射影幾何学
-- website
-    https://mathlandscape.com/t0-sp/
-    https://old.math.jp/wiki/%E4%BD%8D%E7%9B%B8%E7%A9%BA%E9%96%93%E8%AB%961%EF%BC%9A%E4%BD%8D%E7%9B%B8%E7%A9%BA%E9%96%93
