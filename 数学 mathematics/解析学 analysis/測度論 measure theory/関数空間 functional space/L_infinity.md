@@ -1,0 +1,1 @@
+$L^\infin (X, \mu)$ essential supremum

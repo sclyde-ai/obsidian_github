@@ -1,18 +1,8 @@
-- 関数空間 functional space
+
     
 
 
-    - $L^p_{loc} (X, \mu)$ local
-        - 測度空間 $(X, \mu)$
-        - compact set K
-        $$
-        \int_K |f| d\mu< \infin, \forall K \subset X
-        $$
-        この時、fを局所可積分という。
-        局所可積分な関数全体の集合を $L_{loc}^1$という
-        $$
-        L_{loc}^1 = \{f | \int_K |f|d\mu < \infin, \forall K \subset X\}
-        $$
+    
 - 収束 converge
     - 加法的集合関数
         - 可測空間(X, F)
@@ -38,7 +28,7 @@
         $$
     - 概収束
         - 零集合N
-            ‣ 
+            
         $$
         \lim_{n \to \infin } f_n(x) = f(x), \forall x \in X/N
         $$
