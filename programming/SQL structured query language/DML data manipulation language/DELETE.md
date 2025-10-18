@@ -1,1 +1,1 @@
-eからrecordを削除する
+からrecordを削除する

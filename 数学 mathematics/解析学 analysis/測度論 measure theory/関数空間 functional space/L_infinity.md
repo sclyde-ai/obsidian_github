@@ -1,1 +1,1 @@
-$L^\infin (X, \mu)$ essential supremum
+L^\infin (X, \mu)$ essential supremum

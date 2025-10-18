@@ -1,8 +1,3 @@
-
-    
-
-
-    
 - 収束 converge
     - 加法的集合関数
         - 可測空間(X, F)
@@ -28,7 +23,6 @@
         $$
     - 概収束
         - 零集合N
-            
         $$
         \lim_{n \to \infin } f_n(x) = f(x), \forall x \in X/N
         $$

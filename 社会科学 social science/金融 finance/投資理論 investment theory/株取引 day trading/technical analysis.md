@@ -1,4 +1,3 @@
-
  - 傾向 trend
     - MA moving average 移動平均
         near-term
