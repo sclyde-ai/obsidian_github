@@ -16,14 +16,6 @@
 - 指数型分布族 exponential family
 - 離散分布 discrete
     - 指数型分布族 exponential family
-        
-        
-        
-
-    
-        
-
-    
 - 連続分布 continuous
     - 指数型分布族 exponential family
         - 正規分布 normal/gauss
@@ -96,7 +88,6 @@
                 $$ 1-\exp(-(\frac{t}{\tau})^m) $$
                 ![Weibull_CDF.svg.png](attachment:f97313c8-cf5c-4b0c-997c-813baddf0d75:Weibull_CDF.svg.png)
     - 連続一様分布 continuous uniform
-    
     - 複素正規分布 complex normal
     - 
     - 
