@@ -2,42 +2,10 @@
 
 
 
-- 完備内積空間 Hilbert space
-    完備な内積空間
-- 中線定理 parallelogram low
-    $$
-    \|x+y\|^2 + \|x-y\|^2 = 2(\|x\|^2+\|y\|^2)
-    $$
-- T_0空間 Kolmogorov space
-    - topological space (X, O)
-    $$
-     \exist \mathcal O_x \subset \mathcal O, x \in \mathcal O_x \land y \notin \mathcal O_x
-    \\ \lor \\
-     \exist \mathcal O_y \subset \mathcal O, x \notin \mathcal O_y \land y \in \mathcal O_y
-    $$
-    ![image.png](学問%20academics/notion/math/ExportBlock-cb2c20a1-8e45-4a53-98cb-57377ce1c41e-Part-1/image%207.png)
-- T_1空間 Frechet space
-    - topological space
-    $$
-     \exist \mathcal O_x \subset \mathcal O, x \in \mathcal O_x \land y \notin \mathcal O_x
-    \\ \land \\
-     \exist \mathcal O_y \subset \mathcal O, x \notin \mathcal O_y \land y \in \mathcal O_y
-    $$
-    ![image.png](image%208.png)
-    - 一点集合は閉集合
-- T_2空間 Hausdoff space
-    - topological space (X, O)
-    $$
-     \exist \mathcal O_x, \mathcal O_y \subset \mathcal O, \mathcal O_x \cup \mathcal O_y = \phi \\ (x \in \mathcal O_x \land y \notin \mathcal O_x)
-    \land
-    (x \notin \mathcal O_y \land y \in \mathcal O_y)
-    $$
-    ![image.png](image%209.png)
-- Sierpinski space
-    $$
-    X= \{0, 1\} \\
-    \mathcal O = \{\phi, \{0\}, X\}
-    $$
+
+
+
+
 - 包含関係
     - 位相空間
         - 距離空間
