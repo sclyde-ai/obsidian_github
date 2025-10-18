@@ -23,4 +23,3 @@
     - 標本化定理 sampling theorem
         元の信号をその最大周波数の2倍を超えた周波数で標本化すればよい
 - youtube
-    https://youtube.com/watch?v=fGos3wrKeHY&si=u_3Gw6Chsxyge6AS
