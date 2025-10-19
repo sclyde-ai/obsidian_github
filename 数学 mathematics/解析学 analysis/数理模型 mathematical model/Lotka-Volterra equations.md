@@ -1,5 +1,5 @@
 $$
-\frac{dx}{dt}=ax-bxy \\
+\frac{dx}{dt}=ax-bxy $$ $$
 \frac{dy}{dt}=cxy-dy
 $$
 xは被食者、yは捕食者

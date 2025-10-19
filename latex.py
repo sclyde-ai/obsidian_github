@@ -43,6 +43,7 @@ if __name__ == '__main__':
             replace(file, "\R ", "\mathbb R")
             replace(file, "\mathbb Rightarrow", "\Rightarrow")
             replace(file, "\\\\", "$$ $$")
+            # replace(file, "$$ $$", "\\\\")
             # replace(file, "\\N", "\mathbb N")
 
         except Exception as e:

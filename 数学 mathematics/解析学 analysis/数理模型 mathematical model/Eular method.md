@@ -1,6 +1,6 @@
 $$
-w(t+1) = w(t) - $$ $$nabla L(w)
+w(t+1) = w(t) - \nabla L(w)
 $$
 $$
-$$ $$frac{dw}{dt} = - $$ $$nabla L(W(t))
+\frac{dw}{dt} = - \nabla L(W(t))
 $$
