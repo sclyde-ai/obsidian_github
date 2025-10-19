@@ -1,6 +1,5 @@
 ### data型
 - bool
-
 ### prefix
 - f
     formated string literal
@@ -10,13 +9,9 @@
     raw string literal
 - u
     unicode string literal
-
-
 ### 書式code
 - strfftime 
-
 ### useful template
-
 ### with & context manager
 - context manegerあり
     ```

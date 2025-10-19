@@ -1,1 +1,1 @@
-のrecordを更新する
+recordを更新する

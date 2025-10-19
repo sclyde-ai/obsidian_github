@@ -50,7 +50,6 @@ $$ (G, S, V) $$
 		C^{k_2} \mod n
 		$$
 		はmと一致する
-
 - 公開鍵基盤 PKI public key infrastructure
     internet上で安全な情報交換を支えるためのsecurity基盤
     a system that uses digital certificates to authenticate and encrypt data, ensuring secure communication and transactions by verifying the identities of users, devices, and services

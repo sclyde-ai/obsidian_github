@@ -1,1 +1,1 @@
-m: [[passive]]
+: [[passive]]
