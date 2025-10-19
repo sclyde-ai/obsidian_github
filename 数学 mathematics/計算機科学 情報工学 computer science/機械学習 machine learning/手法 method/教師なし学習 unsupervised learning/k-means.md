@@ -4,16 +4,16 @@
          $d \in \mathbb N$ : dimension 
         - observations
             $$
-            \{x_i \in \mathbb R^d :  i \in \{1,...,n\}\}
+            \{x_i \in \R^d :  i \in \{1,...,n\}\}
             $$
         - means/centroids
             $$
-            \{\mu_i \in \mathbb R^d :  i \in \{1,...,k\}\}
+            \{\mu_i \in \R^d :  i \in \{1,...,k\}\}
             $$
             it can take any average
         - within-cluster sum of square
             $$
-            S =\{S_i \in \mathbb R :  i \in \{1,...,k\}\}
+            S =\{S_i \in \mathbb R:  i \in \{1,...,k\}\}
             $$
     $$
     \argmin_S \sum_{i=1}^k \sum_{x \in S_i} \|x-\mu_i\|^p

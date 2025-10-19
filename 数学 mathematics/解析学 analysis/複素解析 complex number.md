@@ -34,8 +34,8 @@ $$
     w = u+iv \\
     z = e^w \\
     re^{i\theta} = e^u\cdot e^{iv} \\
-    r = e^u \mathbb Rightarrow u = \ln r\\
-    e^{i\theta} = e^{iv} \mathbb Rightarrow v = \theta + 2n\pi
+    r = e^u \Rightarrow u = \ln r\\
+    e^{i\theta} = e^{iv} \Rightarrow v = \theta + 2n\pi
     $$
     $$
     w = \ln z = \ln r +i(\theta + 2n\pi) \\

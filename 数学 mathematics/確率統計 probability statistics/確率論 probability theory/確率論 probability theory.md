@@ -15,7 +15,7 @@
         を測度空間という
         - 完備測度空間 complete
             - 測度空間(X, F, u)
-            $$ \forall N \in \mathcal F, \forall A \subset N \\ \mu(N) = 0 \mathbb Rightarrow A \in \mathcal F \land \mu(A) = 0 $$
+            $$ \forall N \in \mathcal F, \forall A \subset N \\ \mu(N) = 0 \Rightarrow A \in \mathcal F \land \mu(A) = 0 $$
         - Borel measure space
             F is Borel field
     - 完全加法族/可算加法族/σ-加法族 σ-field/σ-algebra
@@ -25,7 +25,7 @@
             $$ \forall A \in \mathcal{F}, A^c \in \mathcal{F} $$
         - 完全加法性/可算加法性
             $$
-            \forall n \in \mathbb N, A_n \in \mathcal{F} \mathbb Rightarrow \bigcup_{n=1}^\infty A_n \in \mathcal{F} $$
+            \forall n \in \mathbb N, A_n \in \mathcal{F} \Rightarrow \bigcup_{n=1}^\infty A_n \in \mathcal{F} $$
         この時、Fを完全加法族/可算加法族/σ-加法族という。
         - theorem
             - 積集合を含む
@@ -39,7 +39,7 @@
             - 補集合
                 $$ \forall A \in \mathcal{F}, A^c \in \mathcal{F} $$
             - 有限加法性
-                $$ \forall A,B \in \mathcal F\mathbb Rightarrow A \cup B \in \mathcal F $$
+                $$ \forall A,B \in \mathcal F\Rightarrow A \cup B \in \mathcal F $$
             - theorem 定理
                 有限加法族の直和は有限加法族
         - 生成される完全加法族 generated
@@ -63,19 +63,19 @@
                     $$ 1.\ \sigma(F_0) = \{\{1\}, \{2\}\} \\ 2.\ \sigma(F_0) = \{\phi, \{1\}, \{2\}\} \\ 3.\ \sigma(F_0) = \{\phi, \{1\},\{2\}, \{2, 3\}, \{3, 1\}, X\} \\ 4.\ \sigma(F_0) = \{\phi, \{1\},\{2\}, \{1, 2\}, \{2, 3\}, \{3, 1\}, X\} \\ 5.\ \sigma(F_0) = \{\phi, \{1\},\{2\}, \{3\}, \{1, 2\}, \{2, 3\}, \{3, 1\}, X\}
                     $$
                 - 実数上の開区間
-                    $$ X = \mathbb R, F_0 = \{(a, b) | a < b, \forall a, b \in \mathbb R\} $$
+                    $$ X = \R, F_0 = \{(a, b) | a < b, \forall a, b \in \R\} $$
                     1. 開集合を全て追加
-                        $$ \{(a, b) | a < b, \forall a, b \in \mathbb R\} $$
+                        $$ \{(a, b) | a < b, \forall a, b \in \R\} $$
                     2. 2つの片側無限閉区間を全て追加（開区間の補集合）
-                        $$ \{(-\infty, a], [b, \infty) | a < b, \forall a, b \in \mathbb R\} $$
+                        $$ \{(-\infty, a], [b, \infty) | a < b, \forall a, b \in \R\} $$
                     3. 片側無限開区間を全て追加（開区間と片側無限閉区間の和集合）
-                        $$ \{(-\infty, b) | \forall b \in \mathbb R\} \\ \{(a, \infty) | \forall a \in \mathbb R\} $$
+                        $$ \{(-\infty, b) | \forall b \in \R\} \\ \{(a, \infty) | \forall a \in \R\} $$
                     4. 片側閉区間を全て追加（片側無限開区間の補集合）
-                        $$ \{(-\infty, a] | \forall a \in \mathbb R\} \\ \{[b, \infty) | \forall b \in \mathbb R\} $$
+                        $$ \{(-\infty, a] | \forall a \in \R\} \\ \{[b, \infty) | \forall b \in \R\} $$
                     5. 閉区間を全て追加（片側無限閉区間の和集合）
-                        $$ \{[a, b] | a < b, \forall, b \in \mathbb R\} $$
+                        $$ \{[a, b] | a < b, \forall, b \in \R\} $$
                     6. 半区間を全て追加（開区間と閉区間の和集合）
-                        $$ \{(a, b] | a < b, \forall, b \in \mathbb R\} \\ \{[a, b) | a < b, \forall, b \in \mathbb R\} $$
+                        $$ \{(a, b] | a < b, \forall, b \in \R\} \\ \{[a, b) | a < b, \forall, b \in \R\} $$
         - Borel加法族 Borel field
             - 位相空間(X, O)
             $$ \mathcal B(X) = \sigma(\mathcal O(X)) $$
@@ -87,7 +87,7 @@
                 - open set
                 - closed set
             - 実数上のボレル集合
-                $$ (a,b) \\ [a, b] \\ [a, b) \\ {a} \\ \mathbb Q \\ \mathbb R / \mathbb Q $$
+                $$ (a,b) \\ [a, b] \\ [a, b) \\ {a} \\ \mathbb Q \\ \mathbb R/ \mathbb Q $$
         - example
             - 自明なσ加法族 trivial
                 $$ \{\phi, X\} $$
@@ -130,13 +130,13 @@
                 $$ \mu(\bigcup_{n=1}^\infty A_n) = \sum_{n=1}^\infty \mu(A_n) $$
             - property
                 - 単調性
-                    $$ A \subset B \mathbb Rightarrow \mu(A) \leq \mu(B) \\ \forall A, B \in \mathcal{F} $$
+                    $$ A \subset B \Rightarrow \mu(A) \leq \mu(B) \\ \forall A, B \in \mathcal{F} $$
                     - 証明
-                        $$ A \subset B \mathbb Rightarrow B = A \cup (B/A) \\ \mu(B) = \mu(A) + \mu(B/A) \\ \mu(B/A) \geq0 \mathbb Rightarrow \mu(B) \geq \mu(A) $$
+                        $$ A \subset B \Rightarrow B = A \cup (B/A) \\ \mu(B) = \mu(A) + \mu(B/A) \\ \mu(B/A) \geq0 \Rightarrow \mu(B) \geq \mu(A) $$
                 - 劣加法性
                     $$ \mu(\bigcup_{n=1}^\infty A_n) \leq \sum_{n=1}^\infty \mu(A_n) \\ \{A_n\} \in \mathcal F $$
                     - 証明
-                        $$ B_1=A_1, B_n = A_n/\bigcup_{i=1}^{n-1} A_i \\ \mathbb Rightarrow \forall i, j \in \mathbb N, B_i \cap B_j \neq \phi \\ B_n \subset A_n \\ \bigcup_{n=1}^\infty A_n = \bigcup_{n=1}^\infty B_n \\ \mathbb Rightarrow \mu(\bigcup_{n=1}^\infty A_n) = \mu(\bigcup_{n=1}^\infty B_n) = \sum_{n=1}^\infty B_n \leq \sum_{n=1}^\infty A_n
+                        $$ B_1=A_1, B_n = A_n/\bigcup_{i=1}^{n-1} A_i \\ \Rightarrow \forall i, j \in \mathbb N, B_i \cap B_j \neq \phi \\ B_n \subset A_n \\ \bigcup_{n=1}^\infty A_n = \bigcup_{n=1}^\infty B_n \\ \Rightarrow \mu(\bigcup_{n=1}^\infty A_n) = \mu(\bigcup_{n=1}^\infty B_n) = \sum_{n=1}^\infty B_n \leq \sum_{n=1}^\infty A_n
                         $$
                 - 有限加法性
                 - 上方連続性
@@ -192,7 +192,7 @@
                     [可測空間 measurable space](https://www.notion.so/measurable-space-216ec42dd04b81eb81a5c19fc5636ae0?pvs=21)
                 - measure u, v
                     [測度 measure](https://www.notion.so/measure-216ec42dd04b81cf9d21f1df3e1fc229?pvs=21)
-                $$ \mu(A) = 0, A \in \mathcal F \mathbb Rightarrow \nu(A) = 0 $$
+                $$ \mu(A) = 0, A \in \mathcal F \Rightarrow \nu(A) = 0 $$
                 この時、vがuに関して絶対連続であるという
                 表記 $\nu \ll \mu$
                 - 同値 equivalent
@@ -213,7 +213,7 @@
                     $$ \nu = \nu_c + \nu_s \\ \nu_c \ll \mu, \nu_s \perp \mu $$
                     - proof
                         - 有限測度の場合
-                            $$ \alpha = \sup_{N \in \mathcal F, \mu(N) = 0} \nu(N) \\ = \sup\{\nu(N) \in \mathbb R | \forall N \in \mathcal F, \mu(N)=0\} $$
+                            $$ \alpha = \sup_{N \in \mathcal F, \mu(N) = 0} \nu(N) \\ = \sup\{\nu(N) \in \mathbb R| \forall N \in \mathcal F, \mu(N)=0\} $$
         - 可測関数 measurable function
             - measurable space (X, F) (Y, E)
             $$ f : X \to Y \\ f^{-1} (E) := \{x \in X | f(x) \in E\} \in \mathcal F $$
@@ -387,7 +387,7 @@
             - example
                 - heads or tails
                 - real number
-                    $$ (\mathbb R, \mathcal B(\mathbb R), \mu_X) $$
+                    $$ (\R, \mathcal B(\R), \mu_X) $$
         - 確率測度 probability measure
             - 可測空間 measurable space $(\Omega, \mathcal F)$
                 [可測空間 mesurable space $(\Omega, \mathcal F)$](https://www.notion.so/mesurable-space-Omega-mathcal-F-216ec42dd04b8114af34e95b07ec8c08?pvs=21)
@@ -398,27 +398,27 @@
                     $$ \forall i, j \in \mathbb N, A_i \cap A_j = \phi $$
                 $$ \mathbb P(\bigcup_{n = 1}^\infty A_n) = \sum_{n = 1}^\infty \mathbb P(A_n) $$
             - 離散 discrete
-                $$ P(X=x) = p_i \\ \sum_i p_i = 1 \\ x \in \mathbb R $$
+                $$ P(X=x) = p_i \\ \sum_i p_i = 1 \\ x \in \mathbb R$$
             - 連続 continuous
                 $$ P(X \in A) = \int_A f(x)dx \in[0, 1] $$
                 $$ P(a \leq X \leq b) = \int_a^b f(x) dx $$
             - property
                 - $P(\phi) = 0$
-                    $$ \Omega \in \mathcal F \mathbb Rightarrow \phi = A^c \in \mathcal F \\ \forall k \geq 1, A_k = \phi \ \mathbb Rightarrow \\ P(\phi) = P(\bigcup_{k=1}^\infty A_k) = \sum_{k=1}^\infty P(A_k) = \sum_{k=1}^\infty P(\phi) $$
+                    $$ \Omega \in \mathcal F \Rightarrow \phi = A^c \in \mathcal F \\ \forall k \geq 1, A_k = \phi \ \Rightarrow \\ P(\phi) = P(\bigcup_{k=1}^\infty A_k) = \sum_{k=1}^\infty P(A_k) = \sum_{k=1}^\infty P(\phi) $$
                 - finite additivity
                     - A is disjoint
                         $$ \forall i, j \in \mathbb N, A_i \cap A_j = \phi $$
-                    $$ \Omega \in \mathcal F \mathbb Rightarrow \phi = A^c \in \mathcal F \\ \forall k \geq N+1, A_k = \phi \ \mathbb Rightarrow \\ P(\bigcup_{k=1}^\infty A_k) = \sum_{k=1}^\infty P(A_k) \\ P(\bigcup_{k=1}^N A_k) + P(\bigcup_{k=N+1}^\infty A_k) = \sum_{k=1}^N P(A_k) + \sum_{k=N+1}^\infty P(A_k) \\
+                    $$ \Omega \in \mathcal F \Rightarrow \phi = A^c \in \mathcal F \\ \forall k \geq N+1, A_k = \phi \ \Rightarrow \\ P(\bigcup_{k=1}^\infty A_k) = \sum_{k=1}^\infty P(A_k) \\ P(\bigcup_{k=1}^N A_k) + P(\bigcup_{k=N+1}^\infty A_k) = \sum_{k=1}^N P(A_k) + \sum_{k=N+1}^\infty P(A_k) \\
                     P(\bigcup_{k=1}^N A_k) + P(\phi) = \sum_{k=1}^N P(A_k) + \sum_{k=N+1}^\infty P(\phi) \\ P(\bigcup_{k=1}^N A_k) = \sum_{k=1}^N P(A_k) $$
                 - 補集合の確率
                     $$ A \cup A^c = \Omega \\ 1 =P(\Omega) = P(A\cup A^c) = P(A)+ P(A^c) \\ P(A^c) = 1 - P(A) $$
                 - 差集合の確率
-                    $$ A, B \in \mathcal F, A \subset B \\ \mathbb Rightarrow P(B/A) = P(B)-P(A) $$
+                    $$ A, B \in \mathcal F, A \subset B \\ \Rightarrow P(B/A) = P(B)-P(A) $$
                     $$
                     B/A = B\cap A^c \in \mathcal F\\ B = (B/A) \cup A, (B/A) \cap A = \phi \\ P(B) = P(B/A) + P(A) $$
                 - 和集合の確率
                 - 単調性
-                    $$ A, B \in \mathcal F,A \subset B \mathbb Rightarrow P(A) \leq P(B) $$
+                    $$ A, B \in \mathcal F,A \subset B \Rightarrow P(A) \leq P(B) $$
                     $$ P(B/A) \geq 0 $$
                 - 加法定理
                     $$ P(A\cup B) = P(A) + P(B) - P(A \cap B) $$
@@ -438,7 +438,7 @@
                         有限加法性より
                         $$ = \lim_{n \to \infty} P(\bigcup_{k=1}^n B_k) \\ = \lim_{n \to \infty } P(A_n) $$
                 - 単調連続性（増加列）
-                    $$ A_n \uparrow A \mathbb Rightarrow \mathbb P(A_n) \uparrow \mathbb P(A) $$
+                    $$ A_n \uparrow A \Rightarrow \mathbb P(A_n) \uparrow \mathbb P(A) $$
                     - description
                         $$ A_1 \subset A_2 \subset ... \\ \lim_{k\to \infty} P(A_k) = P(\lim_{k \to \infty} A_k) $$
                     - proof
@@ -451,7 +451,7 @@
                         劣加法性より
                         $$ \leq \sum_{k=1}^\infty P(A_k) $$
                 - 単調連続性（減少列）
-                    $$ A_n \downarrow A \mathbb Rightarrow \mathbb P(A_n) \downarrow \mathbb P(A) $$
+                    $$ A_n \downarrow A \Rightarrow \mathbb P(A_n) \downarrow \mathbb P(A) $$
                     - description
                         $$ A_1 \supset A_2 \supset ... \\ \lim_{k\to \infty} P(A_k) = P(\lim_{k \to \infty} A_k) $$
                 - Fatouの補題
@@ -460,15 +460,15 @@
                         $$ B_n = \bigcap_{k=n}^\infty A_k $$
                         $$ P(\liminf A_k) = P(\bigcup_{n=1}^\infty \bigcap_{k=1}^\infty A_k) = P(\bigcup_{k=1}^\infty B_n) = \lim P(B_n) \leq \liminf P(A_k) $$
                         B_nの定義より
-                        $$ \forall k \geq n, B_n \subset A_k, P(B_n) \leq P(A_k) \mathbb Rightarrow P(B_n) \leq \inf_{k\geq n} P(A_k) $$
+                        $$ \forall k \geq n, B_n \subset A_k, P(B_n) \leq P(A_k) \Rightarrow P(B_n) \leq \inf_{k\geq n} P(A_k) $$
                 - Borel-Cantelli lemma 1
                     - 事象列
-                    $$ \sum_{n=1}^\infty P(A_n) < \infty \mathbb Rightarrow P(\limsup_{n \to \infty} A_n) = 0 $$
+                    $$ \sum_{n=1}^\infty P(A_n) < \infty \Rightarrow P(\limsup_{n \to \infty} A_n) = 0 $$
                     - proof
                         $$ E_k = \bigcup_{n=k}^\infty A_n \\ \limsup_{n \to \infty} A_n \subset E_k \\ P(\limsup_{n \to \infty} A_n) \leq P(E_k) \leq \sum_{n=k}^\infty P(A_n) $$
                 - Borel-Cantelli lemma 2
                     - 互いに独立な事象列
-                    $$ \sum_{n=1}^\infty P(A_n) = \infty \mathbb Rightarrow P(\limsup_{n \to \infty} A_n) = 1 $$
+                    $$ \sum_{n=1}^\infty P(A_n) = \infty \Rightarrow P(\limsup_{n \to \infty} A_n) = 1 $$
                     - proof
                         $$ \forall k \in \mathbb N, P(\bigcup_{n=k}^\infty A_n) = 1 $$
                         let me prove it
@@ -477,7 +477,7 @@
         - 確率変数 random variable
             事象を数値で表現
             - Borel field B
-            $$ X : \Omega \rightarrow \mathbb R \\ \{\omega \in \Omega| X(\omega) \in B\} \in \mathcal F, \forall B \in \mathcal B(\mathbb R) $$
+            $$ X : \Omega \rightarrow \mathbb R\\ \{\omega \in \Omega| X(\omega) \in B\} \in \mathcal F, \forall B \in \mathcal B(\R) $$
             then, X is called the random variable
             - 確率要素 random element
                 確率変数の一般化
@@ -491,7 +491,7 @@
             - 確率空間 probability space $(\Omega, \mathcal F, P)$
             - 確率変数 random variable X
             - Borel field B
-            $$ \mu_X: \mathcal B (\mathbb R) \to \mathbb R \\ \mu_X(B) = \mathbb P (X\in B) $$
+            $$ \mu_X: \mathcal B (\R) \to \mathbb R\\ \mu_X(B) = \mathbb P (X\in B) $$
             then, \mu is the distribution measure
             - 分布が等しい identically distributed
                 $$ \mathbb P(X \in A) = \mathbb P(Y \in A) $$
@@ -503,7 +503,7 @@
                 - measure 2
                     $$ \mathbb P [a, b] = b^2 -a^2 $$
         - 累積分布関数/分布関数 cumulative distribution function/distribution function
-            $$ F_X(x) = \mathbb P(X\leq x) = \mu_X(-\infty, x] \\ x \in \mathbb R $$
+            $$ F_X(x) = \mathbb P(X\leq x) = \mu_X(-\infty, x] \\ x \in \mathbb R$$
             then, F is the cumulative distribution function
             - theorem
                 - order
@@ -514,7 +514,7 @@
                     $$ \lim_{x \to +\infty} F_X(x) = 1 \\ \lim_{x \to -\infty} F_X(x) = 0 $$
                     - proof
                         $$ \lim_{x \to -\infty} P(X \leq x) = \lim_{x \to -\infty} \mu(-\infty, x] \\ = \mu(\phi) = 0 $$
-                        $$ \lim_{x \to \infty} P(X \leq x) = \lim_{x \to \infty} \mu(-\infty, x] \\ = \mu(\mathbb R) = 1
+                        $$ \lim_{x \to \infty} P(X \leq x) = \lim_{x \to \infty} \mu(-\infty, x] \\ = \mu(\R) = 1
                         $$
                 - right-hand continuous
                     - proof
@@ -528,13 +528,13 @@
                     $$ \mu_X[a, b] = \lim_{n \to \infty }\mu_X(a-\frac{1}{n}, b] = F(b) - \lim_{n \to \infty}F(a-\frac{1}{n}) $$
         - 確率密度関数 probability density function
             縦軸は確率密度
-            $$ \mu_X(B) = \mathbb P(X \in B) = \int_B f_X(x) dx \\ B \in \mathcal B(\mathbb R) $$
+            $$ \mu_X(B) = \mathbb P(X \in B) = \int_B f_X(x) dx \\ B \in \mathcal B(\R) $$
             then, f is the density function
             - continuous
-                $$ F(x) = \int_{-\infty}^x f(x)dx \\ \int_{-\infty}^{\infty} f(x)dx = 1 \\f(x) \geq 0, x \in \mathbb R $$
+                $$ F(x) = \int_{-\infty}^x f(x)dx \\ \int_{-\infty}^{\infty} f(x)dx = 1 \\f(x) \geq 0, x \in \mathbb R$$
         - 確率質量関数 probability mass function
             縦軸は確率
-            $$ \mu_X(B) = \sum_{\{i;x_i \in B\}} p_i \\ B \in \mathcal B(\mathbb R) $$
+            $$ \mu_X(B) = \sum_{\{i;x_i \in B\}} p_i \\ B \in \mathcal B(\R) $$
             - another uniform distribution
                 - random variable
                     $$ Y_n(\omega) = \left\{ \begin{matrix} 1 & if & \omega_n = H \\ 0 & if & \omega_n = T \end{matrix} \right. \\ X = \sum_{n=1}^\infty \frac{Y_n}{2^n} $$
@@ -569,19 +569,19 @@
             $$ \mathbb E[X] = \int_{\Omega} X(\omega) d\mathbb P(\omega) = \mu $$
             - property
                 - discrete
-                    $$ X =\{x_0, x_1, ..., x_n \}\\ \mathbb Rightarrow \\ \mathbb E[X] = \sum_{k=0}^n x_k\mathbb P(X = x_k) $$
+                    $$ X =\{x_0, x_1, ..., x_n \}\\ \Rightarrow \\ \mathbb E[X] = \sum_{k=0}^n x_k\mathbb P(X = x_k) $$
                 - integrability
                     X is integrable
                     if and only if
                     $$ \mathbb E[|X|] < \infty $$
                 - comparison
-                    $$ \mathbb P(X \leq Y) = 1 \\ \mathbb Rightarrow \\ \mathbb E[X] \leq \mathbb E[Y] $$
+                    $$ \mathbb P(X \leq Y) = 1 \\ \Rightarrow \\ \mathbb E[X] \leq \mathbb E[Y] $$
                 - linearity
                     $$ \mathbb E[aX+bY] = a \mathbb E[X] + b \mathbb E[Y] $$
                 - scalar
-                    $$ X = c \mathbb Rightarrow \mathbb E[X] = c $$
+                    $$ X = c \Rightarrow \mathbb E[X] = c $$
                 - zero
-                    $$ X \geq 0 \land \mathbb E[X] = 0 \mathbb Rightarrow X = 0 $$
+                    $$ X \geq 0 \land \mathbb E[X] = 0 \Rightarrow X = 0 $$
                 - absolute value
                     $$ |\mathbb E[X]| \leq \mathbb E[|X|] $$
                 - Jensen’s inequality
@@ -603,7 +603,7 @@
                 - $V[X] = \mathbb E[X^2] - \mathbb (E[X])^2$
                     $$ Var[X] = \mathbb E[(X-\mu)^2] \\ = \mathbb E[X^2 - 2X\mu + \mu^2] \\ = \mathbb E[X^2] -2\mu \mathbb E[X] + \mu^2 \\ = \mathbb E[X^2] -2\mu^2 + \mu^2 \\ = \mathbb E[X^2] - \mu^2 \\ = \mathbb E[X^2] - \mathbb (E[X])^2 $$
                 - constant
-                    $$ X = c \mathbb Rightarrow V[c] = 0 $$
+                    $$ X = c \Rightarrow V[c] = 0 $$
                 - scalar
                     $$ V[kX] = k^2 V[X] $$
                 - linearity
@@ -648,8 +648,8 @@
     - 多変量確率変数 multivariate random variable
         - 確率方向量 probability vector
             - n個の連続型確率変数
-                $$ X_1 : \Omega \to \mathbb R \\ \vdots \\ X_n : \Omega \to \mathbb R $$
-            $$ (X_1, ..., X_n):\Omega \to \mathbb R^n $$
+                $$ X_1 : \Omega \to \mathbb R\\ \vdots \\ X_n : \Omega \to \mathbb R$$
+            $$ (X_1, ..., X_n):\Omega \to \R^n $$
         - 同時確率分布 joint probability distribution
             $$ p(x, y) = P(X = x, Y=y)\\ F(x, y) = P(X \leq x, Y \leq y) $$
         - 周辺分布 marginal distribution

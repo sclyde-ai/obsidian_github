@@ -19,11 +19,11 @@
         3. スカラー単位元
             $$ 1x = x1 = x $$
 - 部分ベクトル空間 vector subspace
-    $$ a, b \in V' \mathbb Rightarrow a+b \in V' \\ k \in \mathbb R, a \in V' \mathbb Rightarrow ka \in V' $$
+    $$ a, b \in V' \Rightarrow a+b \in V' \\ k \in \R, a \in V' \Rightarrow ka \in V' $$
 - 一次独立 linearly independent
-    $$ v_1, ..., v_n \in V, k_1, ..., k_n \in K, \\ k_1v_1+...+k_nv_n = 0 \mathbb Rightarrow k_1=...=k_n=0 $$
+    $$ v_1, ..., v_n \in V, k_1, ..., k_n \in K, \\ k_1v_1+...+k_nv_n = 0 \Rightarrow k_1=...=k_n=0 $$
     - 例1
-        $$ \mathbb R[x]= \{a_nx^n+...+a_1x+a_0|a_1, ..., a_n \in\mathbb R\} $$
+        $$ \R[x]= \{a_nx^n+...+a_1x+a_0|a_1, ..., a_n \in\R\} $$
     - 例2
         有理数Q上のベクトル空間で
         $$ 1, \sqrt 2 $$
@@ -38,8 +38,8 @@
 - 次元 dimension
 - 例 example
     - n次元ベクトル
-        $$ \mathbb R^n = \{(x_1, x_2, ..., x_n)|x_1, x_2,..., x_n \in \mathbb R\} $$
+        $$ \R^n = \{(x_1, x_2, ..., x_n)|x_1, x_2,..., x_n \in \R\} $$
     - 数列
-        $$ l(\mathbb R) = \{\{a_n\}|a_n \in \mathbb R \} $$
+        $$ l(\R) = \{\{a_n\}|a_n \in \mathbb R\} $$
     - 多項式
     - 関数

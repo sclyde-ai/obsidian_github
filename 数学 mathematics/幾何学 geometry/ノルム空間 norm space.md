@@ -1,5 +1,5 @@
 - vector space V on K
-- norm $V \rightarrow \mathbb R$
+- norm $V \rightarrow \R$
     - 正値
         $$
         \| x \| > 0

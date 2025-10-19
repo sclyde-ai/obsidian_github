@@ -40,11 +40,11 @@
                 凹性=近接凹性
                 - proof
                     - 有限集合 V
-                    $f : z^V \to \mathbb R \cup\{-\infty\}$
+                    $f : z^V \to \mathbb R\cup\{-\infty\}$
         - M凹関数
             - 関数 f
                 $$
-                f : \Z^V \to \mathbb R \cup\{-\infty\} 
+                f : \Z^V \to \mathbb R\cup\{-\infty\} 
                 $$
             $$
             \forall x, y \in dom(f) \\
@@ -69,7 +69,7 @@
             - 命題3
                 fがM 凹関数ならば
                 $$
-                dom\ f \subset \{x \in \mathbb R^V | \sum_{v \in V} x(v) = c, c \in \mathbb R\}
+                dom\ f \subset \{x \in \R^V | \sum_{v \in V} x(v) = c, c \in \R\}
                 $$
                 実行定義域は必ずある超平面上に存在
                 成分和は必ず一定
@@ -81,7 +81,7 @@
         - M natural 凹関数
             - 関数 f
                 $$
-                f : \Z^V \to \mathbb R \cup\{-\infty\} 
+                f : \Z^V \to \mathbb R\cup\{-\infty\} 
                 $$
             $$
             \forall x, y \in dom(f) \\
@@ -93,21 +93,21 @@
             $$
             - 別表現
                 $$
-                f : \Z^V \to \mathbb R \cup \{-\infty\} \\
+                f : \Z^V \to \mathbb R\cup \{-\infty\} \\
                 \existss \hat f \in M, \\
-                \hat f : \Z^{\hat V} \to \mathbb R \cup \{-\infty\} \\
+                \hat f : \Z^{\hat V} \to \mathbb R\cup \{-\infty\} \\
                 f(x) = \hat f(x, x_0)
                 $$
             - 命題1
                 $$
                 \forall x \in dom\ f, (x, -x_v)\in dom\ \hat f \\
                 \forall x \in dom\ f, (x, -x_v)(v) = \sum_{v \in V} x_v - x_v = 0 \\
-                dom\ \hat f \subset \{x \in \mathbb R^n|x_v = 0\}
+                dom\ \hat f \subset \{x \in \R^n|x_v = 0\}
                 $$
             - 命題2
                 $\hat f$がＭ凹関数 $\Leftrightarrow$ f がM natural 凹関数
                 $$
-                \hat f: \Z^{\hat V} \to \mathbb R \cup \{-\infty\} \\
+                \hat f: \Z^{\hat V} \to \mathbb R\cup \{-\infty\} \\
                 \hat f(x, x_0) = 
                 \left\{
                 \begin{matrix}
@@ -118,7 +118,7 @@
                 $$
             - theorem
                 $$
-                f : \Z^V \to \mathbb R \cup\{-\infty\} \\
+                f : \Z^V \to \mathbb R\cup\{-\infty\} \\
                 \forall x, y \in dom(f) \\
                 \forall u \in Supp^+(x-y) \\
                 \existss v \in Supp^-(x-y)\cup \{o\} \\
@@ -126,11 +126,11 @@
                 $$
             - 関係式
                 $$
-                f:\Z^V \to \mathbb R \cup \{-\infty\}, M\ natural \{\infty\}
+                f:\Z^V \to \mathbb R\cup \{-\infty\}, M\ natural \{\infty\}
                 $$
                 必要十分
                 $$
-                f:\Z^V \to \mathbb R \cup \{-\infty\}, M
+                f:\Z^V \to \mathbb R\cup \{-\infty\}, M
                 $$
         - L natural 凸集合
         - 層族
@@ -144,7 +144,7 @@
             $$
         - 層凹関数
             $$
-            \forall z \in \mathcal F, \existss f_z : \mathbb R \to \mathbb R \cup \{-\infty\} \\f(x) = \sum_{z \in \mathcal F} f_z(x(z)), x(z) = \sum_{v \in z}x_v
+            \forall z \in \mathcal F, \existss f_z : \mathbb R\to \mathbb R\cup \{-\infty\} \\f(x) = \sum_{z \in \mathcal F} f_z(x(z)), x(z) = \sum_{v \in z}x_v
             $$
             f_zを層凹関数という
             - 命題
@@ -183,7 +183,7 @@
                             $$
         - M凹関数演算最適化
             - theorem1
-                $f, g : \Z^V \to \mathbb R \cup \{-\infty\}$ がM natural 凹関数であるとする
+                $f, g : \Z^V \to \mathbb R\cup \{-\infty\}$ がM natural 凹関数であるとする
                 - 正の定数倍
                     $$
                     \hat f(x) = \lambda f(x), \forall x \in \Z^V
@@ -216,7 +216,7 @@
                 - 直和
                     $$
                     \hat f(x, y) = f(x) + g(y), x, y \in \Z^V \\
-                    f: \Z^V \times \Z ^V \to \mathbb R \{-\infty\}
+                    f: \Z^V \times \Z ^V \to \mathbb R\{-\infty\}
                     $$
                     - proof
                         $$
@@ -226,7 +226,7 @@
                         - $v \in supp^+ (y'-y)$
                 \hat f はM natural 凹関数
             - theorem2
-                - $f : \Z^V \to \mathbb R \cup \{-\infty\}$ はM natural 凹関数
+                - $f : \Z^V \to \mathbb R\cup \{-\infty\}$ はM natural 凹関数
                 - 条件1
                     $$
                     x\in domf, \max_{x \in dom f} f(x)
@@ -251,7 +251,7 @@
                     $$
                     - M natural
                         $$
-                        f : \Z^V \to \mathbb R \cup\{-\infty\} \\
+                        f : \Z^V \to \mathbb R\cup\{-\infty\} \\
                         f(x) + f(y) \leq f(x - \xi(y-x)) + f(y - \xi(y-x)) \\
                         \forall x, y \in dom(f) \\
                         \forall u \in Supp^+(x-y) \\
@@ -279,17 +279,17 @@
                     x - x_u + x_v, y + x_u - x_v \in S
                     $$
                 - theorem
-                    $f : \Z^V \to \mathbb R \cup \{-\infty\}$ がM natural 凹関数
+                    $f : \Z^V \to \mathbb R\cup \{-\infty\}$ がM natural 凹関数
                     ならば
                     $dom \ f, \argmax\ f$ はM natural 凸集合となる
                     - proof
                         - dom f
                             $$
-                            f : \Z^V \to \mathbb R \cup\{-\infty\} \\
+                            f : \Z^V \to \mathbb R\cup\{-\infty\} \\
                             \forall x, y \in dom(f) \\
                             \forall u \in Supp^+(x-y) \\
                             \existss v \in Supp^-(x-y) \cup \{o\} \\ 
-                            f(x - x_u + x_v)), f(y + x_u-x_v) \in \mathbb R\\
+                            f(x - x_u + x_v)), f(y + x_u-x_v) \in \R\\
                             $$
                             $$
                             x - x_u + x_v, y + x_u -x_v \in dom(f)
@@ -303,7 +303,7 @@
                     $$
                     - 注意
                         $$
-                        \existss c \in \mathbb R, dom(f) \subset \{x \in \mathbb R^V | x_v = c\}
+                        \existss c \in \R, dom(f) \subset \{x \in \R^V | x_v = c\}
                         $$
                     - proof
                         $||x-y||_1$ についての帰納法で示す
@@ -334,7 +334,7 @@
                         4. 
         - 準線形効用
             $$
-            u(x) = f(x) - p\cdot x, p \in \mathbb R^V
+            u(x) = f(x) - p\cdot x, p \in \R^V
             $$
             - 命題
                 uがM natural 凹関数
@@ -347,8 +347,8 @@
                 \forall v \in V
                 $$
                 - $x \in \{0, 1\}^V$
-                    $f: \{0, 1\}^V \to \mathbb R \cup \{-\infty\}$ は
-                    集合値関数 $f:2^V \to \mathbb R \cup \{-\infty\}$
+                    $f: \{0, 1\}^V \to \mathbb R\cup \{-\infty\}$ は
+                    集合値関数 $f:2^V \to \mathbb R\cup \{-\infty\}$
                     とみなせる
                     - 劣モジュラ性
                         $$
@@ -382,7 +382,7 @@
                                 $$
                                 1 = |Supp^+(x - y)| = |Supp^-(x-y)|
                                 \\
-                                \mathbb Rightarrow x = y + e_u - e_v \\
+                                \Rightarrow x = y + e_u - e_v \\
                                 x \lor y = x + e_v = y + e_u \\
                                 x \land y = y - e_v
                                 $$
@@ -429,7 +429,7 @@
                     M natural 凹関数でないものが存在
                 - 命題
                     f がM natural 凹関数 
-                    $D(f, p)$が $\forall p \in \mathbb R^V$ でM natural 凸集合
+                    $D(f, p)$が $\forall p \in \R^V$ でM natural 凸集合
                 - 需要対応
                     $$
                     D(f, p) = \argmax\{f(x) - p\cdot x|x \in \Z^V\}
@@ -442,27 +442,27 @@
                     $$
                     X \notin D (f, p) 
                     \\ 
-                    \mathbb Rightarrow 
+                    \Rightarrow 
                     \\
                     \existss Y \subset V \\
                     |X|Y|, |Y|X| \leq 1 \\
                     f(X) - p(X) < f(X) -p(Y)
                     $$
                     - 命題
-                        $f : \{0, 1\}^V \to \mathbb R \cup \{-\infty\}$
+                        $f : \{0, 1\}^V \to \mathbb R\cup \{-\infty\}$
                         局所最適性=最適性
                         よりM natural 凹関数は単調改良性を満たす
                 - 粗代替性 GS
                     $$
                     X \in D(f, P), p \leq q 
                     \\
-                    \mathbb Rightarrow
+                    \Rightarrow
                     \\
                     \existss Y \in D(f, q)\\
                     \{v \in X | p(v) = q(v)\} \subset Y
                     $$
                 - theorem
-                    $f: \{0, 1\}^V \to \mathbb R \cup\{-\infty\}$
+                    $f: \{0, 1\}^V \to \mathbb R\cup\{-\infty\}$
                     1. f が M natural 関数
                     2. f が SI を満たす
                     3. f が GS を満たす
@@ -471,17 +471,17 @@
                     $$
                     X \in D(f, p), p \leq q 
                     \\ 
-                    \mathbb Rightarrow 
+                    \Rightarrow 
                     \\
                     \existss Y \in D(f, q), |Y| \leq |X|
                     $$
                     - 命題
-                        $f:\{0, 1\}^V \to \mathbb R\cup\{-\infty\}$ がM natural 凹関数
+                        $f:\{0, 1\}^V \to \R\cup\{-\infty\}$ がM natural 凹関数
                         ならば
                         f は LADを満たす
                     - 選択の意味での場合
                         $$
-                        Y \subset X \mathbb Rightarrow |C(Y)| \leq |C(X)|
+                        Y \subset X \Rightarrow |C(Y)| \leq |C(X)|
                         $$
                         $$
                         C^f(X) = \argmax \{f(Y) | Y \subset X\}
@@ -496,7 +496,7 @@
                         $$
                         \forall X, Y \subset V \\
                         Y \subset X \land C(X) \subset Y \\
-                        \mathbb Rightarrow \\
+                        \Rightarrow \\
                         C(Y) = C(X)
                         $$
                         - アローの公理と等価
@@ -507,7 +507,7 @@
                         $$
                         Y \subset X \land C(X) \cap Y \ne \phi
                         \\
-                        \mathbb Rightarrow 
+                        \Rightarrow 
                         \\ 
                         \\ Y\cap C(X) \subset C(Y)
                         $$
@@ -518,7 +518,7 @@
                             補完的な財（一緒にすると効用が増加）
                             - 別表現 (sen’s $\alpha$, chernoff)
                                 $$
-                                Y \subset X \mathbb Rightarrow R(Y) \subset R(X) 
+                                Y \subset X \Rightarrow R(Y) \subset R(X) 
                                 $$
                                 - $R$
                                     $$
@@ -527,13 +527,13 @@
                                 - 相似条件 (sen’s $\beta$, dual chernoff)
                                     $$
                                     Y \subset X \land C(X) \cap Y \ne \phi \\
-                                    \mathbb Rightarrow \\
+                                    \Rightarrow \\
                                     C(X) \subset Y \cap C(X) 
                                     $$
         - 経済学へのM凹性の応用
             1. 1. M凹性と代替性
                 V : 不可分財の集合
-                $f : \Z^V \to \mathbb R \cup\{-\infty\}$ : 財の組み合わせに対する満足度
+                $f : \Z^V \to \mathbb R\cup\{-\infty\}$ : 財の組み合わせに対する満足度
                 - 効用関数 u
                     $$
                     u(x) = f(x) - px
@@ -576,7 +576,7 @@
     - local minimizer
         - neighborhood
             $$
-            \mathcal N := \{x \in \mathbb R^n |\ \|x - x^*\|^2 \}
+            \mathcal N := \{x \in \R^n |\ \|x - x^*\|^2 \}
             $$
         $$
         x^* \in \mathcal D, f(x) \geq f(x^*), \forall x \in \mathcal N \cap \mathcal D
@@ -783,47 +783,47 @@
             x = (x_1, x_2, ..., x_m)^\top
             $$
         $$
-        \min c^\top x \mathbb Rightarrow \max b^\top y
+        \min c^\top x \Rightarrow \max b^\top y
         $$
-        - $(Ax, b) \mathbb Rightarrow y$
+        - $(Ax, b) \Rightarrow y$
             $$
             c^\top x \geq c^\top A^{-1} b \geq y^\top b \\
             x \geq A^{-1}b
             $$
             - equal
                 $$
-                Ax = b \mathbb Rightarrow \forall y \in \mathbb R^n
+                Ax = b \Rightarrow \forall y \in \R^n
                 $$
                 $$
-                Ax \geq b \land Ax \leq b \mathbb Rightarrow y \geq 0 \lor y \leq 0
+                Ax \geq b \land Ax \leq b \Rightarrow y \geq 0 \lor y \leq 0
                 $$
             - greater
                 $$
-                Ax \geq b \mathbb Rightarrow y \geq 0 
+                Ax \geq b \Rightarrow y \geq 0 
                 $$
             - lower
                 $$
-                Ax \leq b \mathbb Rightarrow y \leq 0
+                Ax \leq b \Rightarrow y \leq 0
                 $$
-        - $x \mathbb Rightarrow (A^\top y, c)$
+        - $x \Rightarrow (A^\top y, c)$
             $$
             c^\top x \geq c^\top A^{-1} b \geq y^\top b \\
             c^\top A^{-1} \geq y^\top
             $$
             - equal
                 $$
-                \forall x \in \mathbb R^m \mathbb Rightarrow A^\top y = c
+                \forall x \in \R^m \Rightarrow A^\top y = c
                 $$
                 $$
-                x \geq 0 \lor x \leq 0 \mathbb Rightarrow A^\top y \geq c \land A^\top y \leq c
+                x \geq 0 \lor x \leq 0 \Rightarrow A^\top y \geq c \land A^\top y \leq c
                 $$
             - greater
                 $$
-                x \geq 0 \mathbb Rightarrow A^\top y \leq c
+                x \geq 0 \Rightarrow A^\top y \leq c
                 $$
             - lower
                 $$
-                x \leq 0 \mathbb Rightarrow A^\top y \geq c
+                x \leq 0 \Rightarrow A^\top y \geq c
                 $$
         - proof
             $$
@@ -930,7 +930,7 @@
                 $$
             - weight
                 $$
-                W : E \to \mathbb R \\
+                W : E \to \mathbb R\\
                 w_{ij} = W((i, j))
                 $$
             - capacity constraint

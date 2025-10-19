@@ -5,5 +5,5 @@ $$
 - 代数構造
 - irrational number
     $$
-    \mathbb Q/\mathbb R
+    \mathbb Q/\R
     $$

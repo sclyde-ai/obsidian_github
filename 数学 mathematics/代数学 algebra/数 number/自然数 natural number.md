@@ -13,15 +13,15 @@ $$
             $$
         - 対称律 symmetric
             $$
-            \forall x, y \in \mathbb N, x = y \mathbb Rightarrow y = x
+            \forall x, y \in \mathbb N, x = y \Rightarrow y = x
             $$
         - 推移律 transitive
             $$
-            \forall x, y, z \in \mathbb N, x = y \land y = z \mathbb Rightarrow x = z
+            \forall x, y, z \in \mathbb N, x = y \land y = z \Rightarrow x = z
             $$
         - 閉包 closed
             $$
-            \forall x, y \in \mathbb N, x \in \mathbb N \land x = y \mathbb Rightarrow y \in \mathbb N
+            \forall x, y \in \mathbb N, x \in \mathbb N \land x = y \Rightarrow y \in \mathbb N
             $$
     - 次写像 successor function
         - 最初 first element
@@ -34,7 +34,7 @@ $$
             $$
         - 単写 injection
             $$
-            S(n)=S(m) \mathbb Rightarrow n=m
+            S(n)=S(m) \Rightarrow n=m
             $$
         - 非周期性 non-cycle
             $$
@@ -44,6 +44,6 @@ $$
             $$
             0 \in K \\
             \forall k \in K, S(k) \in K \\
-            \mathbb Rightarrow \mathbb N \subset K
+            \Rightarrow \mathbb N \subset K
             $$
 - 代数構造

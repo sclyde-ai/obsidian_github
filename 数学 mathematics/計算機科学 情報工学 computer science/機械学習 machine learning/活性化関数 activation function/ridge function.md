@@ -1,3 +1,3 @@
 $$
-f : \mathbb R^d \to \mathbb R
+f : \R^d \to \R
 $$

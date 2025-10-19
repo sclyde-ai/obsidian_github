@@ -11,7 +11,7 @@
 - 背理法
     A \to Bを証明
     $$
-    A \mathbb Rightarrow B \\ 
+    A \Rightarrow B \\ 
     \Leftrightarrow \lnot A \lor B \\
     \Leftrightarrow \lnot (A \land \lnot B)
     $$
@@ -22,7 +22,7 @@
     可能性演算子$\Diamond$
     - 公理系E
         $$
-        P \Leftrightarrow Q \mathbb Rightarrow \Box P \Leftrightarrow \Box Q
+        P \Leftrightarrow Q \Rightarrow \Box P \Leftrightarrow \Box Q
         $$
     - 公理系K
         $$

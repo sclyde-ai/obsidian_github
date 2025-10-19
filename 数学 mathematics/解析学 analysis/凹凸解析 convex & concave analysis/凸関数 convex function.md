@@ -1,10 +1,10 @@
-$f : \mathbb R^n \to \mathbb R$ 
+$f : \R^n \to \R$ 
             $$
-            \forall x \in \mathbb R^n, \forall \lambda \in[0, 1],\\ f(\lambda x + (1- \lambda)y) \leq \lambda f(x)+ (1-\lambda)f(y)
+            \forall x \in \R^n, \forall \lambda \in[0, 1],\\ f(\lambda x + (1- \lambda)y) \leq \lambda f(x)+ (1-\lambda)f(y)
             $$
             - 準凸関数
                 $$
-                \forall x \in \mathbb R^n, \forall \lambda \in[0, 1],\\ f(\lambda x + (1- \lambda)y) \leq \max(f(x), f(y))
+                \forall x \in \R^n, \forall \lambda \in[0, 1],\\ f(\lambda x + (1- \lambda)y) \leq \max(f(x), f(y))
                 $$
             - 凸包
                 最小の凸集合
@@ -202,13 +202,13 @@ $f : \mathbb R^n \to \mathbb R$
                     [命題(接超平面が下=凸関数)](https://www.notion.so/224ec42dd04b806198cde2e6cc876b66?pvs=21) 
                     上記の命題より凸関数である
             - 命題(局所最適解は大域最適)
-                - $f: X \to \mathbb R$
+                - $f: X \to \R$
                 - xは局所最適解
                     $$
                     \existss x \in X, \forall y \in U(x,r), f(x) \leq f(y)
                     $$
                 $$
-                \forall y \in \mathbb R^n, \existss \lambda \in (0, 1), \\ 
+                \forall y \in \R^n, \existss \lambda \in (0, 1), \\ 
                 \lambda x + (1-\lambda)y \in O \\
                 \lambda f(x) + (1-\lambda)f(y) \\ \geq f(\lambda x + (1-\lambda)y) \\\geq \lambda f(x) +(1 - \lambda)f(y) \\
                 \geq f(x)

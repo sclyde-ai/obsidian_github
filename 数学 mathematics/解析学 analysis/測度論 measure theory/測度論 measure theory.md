@@ -2,7 +2,7 @@
     - 加法的集合関数
         - 可測空間(X, F)
         $$
-        E = \sum_{n=1}^\infty E_n, E_n \in \mathcal F \\ \mathbb Rightarrow \Phi(E) = \sum_{n=1}^\infty \Phi(E_n) 
+        E = \sum_{n=1}^\infty E_n, E_n \in \mathcal F \\ \Rightarrow \Phi(E) = \sum_{n=1}^\infty \Phi(E_n) 
         $$
         $\Phi(E)$をXの上の加法的集合関数という
         - 単調増加
@@ -31,7 +31,7 @@
         $$
     - 上昇列各点収束/増大列各点収束
         $$
-        f_n(x) \uparrow f(x), \forall x\in \mathbb R
+        f_n(x) \uparrow f(x), \forall x\in \R
         $$
         - 上昇列/増加列
             $$
@@ -85,14 +85,14 @@
             $$
         $$
         f(x) = \sum^n_{i=1} a_i 1_{A_i} (x) \\
-        a_1, ..., a_n \in \mathbb R
+        a_1, ..., a_n \in \R
         $$
     - 可測関数は単関数で近似可能
         - 非負の場合
             - 可測関数f (域値は実数)
                 [可測関数 measurable function ](https://www.notion.so/measurable-function-216ec42dd04b815cac0cd90812258c6f?pvs=21) 
             $$
-            \existss \{f_n\}, f_n(x) \uparrow f(x), \forall x\in \mathbb R
+            \existss \{f_n\}, f_n(x) \uparrow f(x), \forall x\in \R
             $$
             - 上昇列各点収束
                 [上昇列各点収束/増大列各点収束](https://www.notion.so/216ec42dd04b8112b7a3e8df0e2dffe1?pvs=21) 
@@ -106,10 +106,10 @@
                 - 可測空間(X, F)
                     ‣ 
                 $$
-                f : (X, \mathcal F) \rightarrow \mathbb R \\ f^{-1}(G) \in \mathcal F, \forall G \in \mathcal G
+                f : (X, \mathcal F) \rightarrow \mathbb R\\ f^{-1}(G) \in \mathcal F, \forall G \in \mathcal G
                 $$
             $$
-            \existss \{f_n\}, f_n(x) \to f(x), \forall x\in \mathbb R
+            \existss \{f_n\}, f_n(x) \to f(x), \forall x\in \R
             $$
             - 証明 proof
                 $$
@@ -121,7 +121,7 @@
     - 非負単関数の積分
         - A_iは有限非交叉
             $$
-            a_1, ..., a_n \in \mathbb R, A_1,...,A_n \in \mathcal F, A_i \cap A_j \ne \phi, \bigcup_{i = 1}^n A_i = A
+            a_1, ..., a_n \in \R, A_1,...,A_n \in \mathcal F, A_i \cap A_j \ne \phi, \bigcup_{i = 1}^n A_i = A
             $$
         $$
         \int_A f\ d\mu = \int_A \sum^n_{i=1} a_i 1_{A_i} d\mu=\sum^n_{i=1} a_i \mu(A_i) 
@@ -192,21 +192,21 @@
         - 一次元
             - 可積分関数f
                 $$
-                f : \mathbb R \to \mathbb C \\
-                \int_{\mathbb R} |f|dx < \infty
+                f : \mathbb R\to \mathbb C \\
+                \int_{\R} |f|dx < \infty
                 $$
-            - almost everywhere $x \in \mathbb R^n$
+            - almost everywhere $x \in \R^n$
             $$
             \lim_{h \to 0} \frac{1}{h} \int_x^{x+h} |f(y)-f(x)|dy = 0
             $$
         - 多次元
             - 可積分関数f
                 $$
-                f : \mathbb R^n \to \mathbb C \\
-                \int_{\mathbb R^n} |f|dx < \infty
+                f : \R^n \to \mathbb C \\
+                \int_{\R^n} |f|dx < \infty
                 $$
             - 開球 B(x, r)
-            - almost everywhere $x \in \mathbb R^n$
+            - almost everywhere $x \in \R^n$
             $$
             \lim_{r \downarrow 0} \frac{1}{|B(x, r)|} \int_{B(x, r)} |f(y)-f(x)|dy = 0
             $$

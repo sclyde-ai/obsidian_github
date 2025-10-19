@@ -1,6 +1,6 @@
 - 定義 def
     set X
-    - 距離 metric  $X \times X \to \mathbb R$
+    - 距離 metric  $X \times X \to \R$
         - 正値
             $$
             d(x,y) \geq 0
@@ -29,7 +29,7 @@
 - 基本列/コーシー列 cauchy sequence
     $$
     \{a_n\} \subset X \\
-    \forall \epsilon \in \mathbb R_{++}, \existss N \in \mathbb N, \forall n,m \in \mathbb N, \\ n, m \geq N \mathbb Rightarrow d(a_n, a_m) < \epsilon
+    \forall \epsilon \in \R_{++}, \existss N \in \mathbb N, \forall n,m \in \mathbb N, \\ n, m \geq N \Rightarrow d(a_n, a_m) < \epsilon
     $$
     を基本列という
 - 完備距離空間 complete metric space
@@ -60,7 +60,7 @@
         d(x, y) = 
         \begin{equation}
           \begin{cases}
-        |x-y| & (x = ky, \forall k \in \mathbb R) \\
+        |x-y| & (x = ky, \forall k \in \R) \\
         |x| + |y| & others
           \end{cases}
         \end{equation}

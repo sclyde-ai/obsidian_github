@@ -3,15 +3,15 @@
         - 定式化 formulation
             - 入力/説明変数
                 $$
-                x = (x_1, x_2, ..., x_n) \in \mathbb R^n
+                x = (x_1, x_2, ..., x_n) \in \R^n
                 $$
             - 出力/目的変数
                 $$
-                y = (y_1, y_2,...,y_m) = f(x) \in \mathbb R^m
+                y = (y_1, y_2,...,y_m) = f(x) \in \R^m
                 $$
             - 回帰式
                 $$
-                f : \mathbb R^n \to \mathbb R^m
+                f : \R^n \to \R^m
                 $$
             - 教師データ
                 $$

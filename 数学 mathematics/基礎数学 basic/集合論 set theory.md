@@ -10,11 +10,11 @@
                 $$
             - 推移律 trasitivity
                 $$
-                \forall x, y, z \in X, x \leq y \land y \leq z \mathbb Rightarrow x \leq z
+                \forall x, y, z \in X, x \leq y \land y \leq z \Rightarrow x \leq z
                 $$
             - 対称律 symmetry
                 $$
-                \forall x, y \in X, x \leq y \mathbb Rightarrow y \leq x
+                \forall x, y \in X, x \leq y \Rightarrow y \leq x
                 $$
         - 同値類
         - 商集合
@@ -26,7 +26,7 @@
                 $$
             - 推移律 transitive
                 $$
-                \forall x, y, z \in X, x \leq y \land y \leq z \mathbb Rightarrow x \leq z
+                \forall x, y, z \in X, x \leq y \land y \leq z \Rightarrow x \leq z
                 $$
         - 半順序関係 partially ordered relation
             - 反射律 reflectivity
@@ -35,11 +35,11 @@
                 $$
             - 推移律 trasitivity
                 $$
-                \forall x, y, z \in X, x \leq y \land y \leq z \mathbb Rightarrow x \leq z
+                \forall x, y, z \in X, x \leq y \land y \leq z \Rightarrow x \leq z
                 $$
             - 反対称律 antisymmetry
                 $$
-                \forall x, y \in X, x \leq y \land y \leq x \mathbb Rightarrow x = y
+                \forall x, y \in X, x \leq y \land y \leq x \Rightarrow x = y
                 $$
         - 全順序関係 totally ordered relation
             - 反射律 reflectivity
@@ -48,11 +48,11 @@
                 $$
             - 推移律 trasitivity
                 $$
-                \forall x, y, z \in X, x \leq y \land y \leq z \mathbb Rightarrow x \leq z
+                \forall x, y, z \in X, x \leq y \land y \leq z \Rightarrow x \leq z
                 $$
             - 反対称律 antisymmetry
                 $$
-                \forall x, y \in X, x \leq y \land y \leq x \mathbb Rightarrow x = y
+                \forall x, y \in X, x \leq y \land y \leq x \Rightarrow x = y
                 $$
             - 完全律 complete
                 $$
@@ -101,9 +101,9 @@
     $$
     - proof
         $$
-        x \in \liminf A_n \mathbb Rightarrow x \in \limsup A_n \\
+        x \in \liminf A_n \Rightarrow x \in \limsup A_n \\
         \existss n \in \mathbb N, \forall k \geq n, x \in A_k 
-        \mathbb Rightarrow 
+        \Rightarrow 
         \existss m \in \mathbb N, \forall l \geq m, x \in A_l
         $$
         を示す
@@ -115,23 +115,23 @@
             $$
             \forall k \geq n, x \in A_k 
             \\
-            \mathbb Rightarrow
+            \Rightarrow
             \existss l \geq n, x \in A_l
             \\
-            \mathbb Rightarrow
+            \Rightarrow
             \existss l \geq n \geq m, x \in A_l 
             \\
-            \mathbb Rightarrow
+            \Rightarrow
             \forall m \leq n, \existss l \geq m, x \in A_l
             $$
         - $\forall m > n$
             $$
             \forall k \geq n, x \in A_k 
             \\
-            \mathbb Rightarrow 
-            \forall k \geq n \mathbb Rightarrow \existss l \geq m > n \\
-            \mathbb Rightarrow \existss l \geq m > n, x \in A_l\\
-            \mathbb Rightarrow \forall m > n, \existss l\geq m,  x \in A_l
+            \Rightarrow 
+            \forall k \geq n \Rightarrow \existss l \geq m > n \\
+            \Rightarrow \existss l \geq m > n, x \in A_l\\
+            \Rightarrow \forall m > n, \existss l\geq m,  x \in A_l
             $$
 - 極限集合 limit
     $$

@@ -16,9 +16,9 @@ then, T is called linear operator
         1. upper bounded
             $$ \existss M > 0, \|Tx\| \leq M \|x\| $$
         2. upper continuous
-            $$ \{x_n\}\subset D(T), x \in D(T), x_n \to x \mathbb Rightarrow Tx_n \to Tx $$
+            $$ \{x_n\}\subset D(T), x \in D(T), x_n \to x \Rightarrow Tx_n \to Tx $$
         3. continuous
-            $$ \{x_n\}\subset D(T), x_n \to y \mathbb Rightarrow Tx_n \to Ty $$
+            $$ \{x_n\}\subset D(T), x_n \to y \Rightarrow Tx_n \to Ty $$
         - proof
             - 1 → 2
             - 2 → 1
