@@ -23,7 +23,7 @@
     $$
     - 実数の開集合
         $$
-        \forall a \in A, \existss \epsilon > 0, (a- \epsilon, a+ \epsilon) \subset A
+        \forall a \in A, \exists \epsilon > 0, (a- \epsilon, a+ \epsilon) \subset A
         $$
     - 距離空間の開集合
     - 例
@@ -48,7 +48,7 @@
 - 近傍 neighborhood
     Xを位相空間、$x \in X$、 $V \subset X$
     $$
-    \existss U \in \mathcal O, U \subset X, x \in U \subset V
+    \exists U \in \mathcal O, U \subset X, x \in U \subset V
     $$
     Vを近傍という
     - 開近傍 open

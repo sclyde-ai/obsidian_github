@@ -28,7 +28,7 @@ $$ (G, S, V) $$
 		$$
 		- 公開鍵
 			$$
-			k_{pub}\in \mathbb N := \lnot (\existss m \in \mathbb N/1, ma=k_{pub} \land mb = (p-1)(q-1), \forall a, b \in \mathbb N)
+			k_{pub}\in \mathbb N := \lnot (\exists m \in \mathbb N/1, ma=k_{pub} \land mb = (p-1)(q-1), \forall a, b \in \mathbb N)
 			$$
 			を公開鍵という
 		- 秘密鍵

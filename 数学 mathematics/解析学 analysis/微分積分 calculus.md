@@ -1,7 +1,7 @@
 - 定理 theorem
     - 中間値の定理
         閉区間 [a, b], 連続関数f
-        $$ \forall k \in [f(a), f(b)], \existss c \in [a,b], f(c) = k $$
+        $$ \forall k \in [f(a), f(b)], \exists c \in [a,b], f(c) = k $$
         - proof
             - 区間収縮法
                 let me define the two sequence
@@ -22,22 +22,22 @@
                 $$ \lim_{n \to \infty} f(a_n) = \alpha = f(c) \\ \lim_{n \to \infty} f(b_n) = \beta = f(c) \\ f(c) = k $$
     - 有界性定理
         有界閉区間 [a, b], 連続関数f
-        $$ \existss m, M \in \R, m \leq f(x) \leq M, \forall x \in [a, b] $$
+        $$ \exists m, M \in \mathbb R m \leq f(x) \leq M, \forall x \in [a, b] $$
     - 最大値最小値原理 ワイエルシュトラウス
         有界閉区間 [a, b], 連続関数f
-        $$ \existss c, d \in \R, f(c) \leq f(x) \leq f(d), \forall x \in [a, b] $$
+        $$ \exists c, d \in \mathbb R f(c) \leq f(x) \leq f(d), \forall x \in [a, b] $$
     - ロルの定理
         有界閉区間 [a, b], 連続関数f, fは開区間(a, b)で微分可能
-        $$ f(a) = f(b) \Rightarrow \existss c \in (a, b), f'(c)=0 $$
+        $$ f(a) = f(b) \Rightarrow \exists c \in (a, b), f'(c)=0 $$
         - proof
-            - $\existss t \in [a, b], f(a) < f(t)$
+            - $\exists t \in [a, b], f(a) < f(t)$
                 - 最大値の原理
-                    $$ \existss c \in (a, b), \max f(c) $$
+                    $$ \exists c \in (a, b), \max f(c) $$
     - 平均値の定理
         有界閉区間 [a, b], 連続関数f, fは開区間(a, b)で微分可能
-        $$ \Rightarrow \existss c \in (a, b), f'(c) = \frac{f(b)-f(a)}{b-a} $$
+        $$ \Rightarrow \exists c \in (a, b), f'(c) = \frac{f(b)-f(a)}{b-a} $$
     - 積分の平均値の定理
-        $$ \existss c \in [a, b], f(c) = \frac{1}{b-a} \int_a^b f(x)dx $$
+        $$ \exists c \in [a, b], f(c) = \frac{1}{b-a} \int_a^b f(x)dx $$
     - テイラーの定理
         閉区間[a, x], n階微分可能な関数f
         $$ \sum_{k=0}^{n-1} \frac{f^{(l)}(a)}{j!}(x-a)^k + \frac{f^{(n)}(c)}{n!}(x-a)^n $$
@@ -46,13 +46,13 @@
     - テイラーの定理
 - 極限 limit
     $$ \lim_{x \to a} f(x) = \alpha $$
-    $$ \forall \epsilon>0, \existss \delta >0, \forall x \in \R, \\ 0 < |x-a|< \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
+    $$ \forall \epsilon>0, \exists \delta >0, \forall x \in \mathbb R \\ 0 < |x-a|< \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
     - 左極限
         $$ \lim_{x \to a-} f(x) = \alpha $$
-        $$ \forall \delta>0, \existss \epsilon >0, \forall x \in \R, \\ 0 < a-x < \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
+        $$ \forall \delta>0, \exists \epsilon >0, \forall x \in \mathbb R \\ 0 < a-x < \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
     - 右極限
         $$ \lim_{x \to a+} f(x) = \alpha $$
-        $$ \forall \delta>0, \existss \epsilon >0, \forall x \in \R, \\ 0 < x-a < \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
+        $$ \forall \delta>0, \exists \epsilon >0, \forall x \in \mathbb R \\ 0 < x-a < \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
     - theorem
         - 一意性
             $$ a_n = b_n \Rightarrow \alpha = \beta, \forall n \in \mathbb N $$
@@ -66,13 +66,13 @@
             $$ a_n \leq b_n \Rightarrow \alpha \leq \beta $$
 - 連続性 continuous
     $$ \lim_{x \to a} f(x) = f(a) $$
-    $$ \forall \delta>0, \existss \epsilon >0, \forall x \in \R, \\ 0 < |x-a|< \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
+    $$ \forall \delta>0, \exists \epsilon >0, \forall x \in \mathbb R \\ 0 < |x-a|< \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
     - 左連続 left-hand
         $$ a \in X \\ \lim_{x \to a+} f(x) \in \mathbb R\\ \lim_{x \to a-} f(x) = f(a) $$
-        $$ \forall \delta>0, \existss \epsilon >0, \forall x \in \R, \\ 0 < |x-a|< \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
+        $$ \forall \delta>0, \exists \epsilon >0, \forall x \in \mathbb R \\ 0 < |x-a|< \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
     - 右連続 right-hand
         $$ a \in X \\ \lim_{x \to a+} f(x) \in \mathbb R\\ \lim_{x \to a+} f(x) = f(a) $$
-        $$ \forall \delta>0, \existss \epsilon >0, \forall x \in \R, \\ 0 < |x-a|< \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
+        $$ \forall \delta>0, \exists \epsilon >0, \forall x \in \mathbb R \\ 0 < |x-a|< \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
 - 微分可能性 differentiable
     $$ f'(a) = \frac{df}{dx} (a) = \\ \lim_{h \to 0} \frac{f(a+h)-f(a)}{h} \\ \lim_{x \to a} \frac{f(x)-f(a)}{x-a} $$
     if it exists, f(x) is differentiable at a
@@ -91,7 +91,7 @@
             任意の点aの十分近くでテイラー展開可能
 - 微分 differentiate
     - 導関数 derivative function
-        $$ f'(x) = \frac{df}{dx} (x) = \frac{d}{dx} f(x) \\ \forall a \in U, \existss f'(a) $$
+        $$ f'(x) = \frac{df}{dx} (x) = \frac{d}{dx} f(x) \\ \forall a \in U, \exists f'(a) $$
         f(x) is differentiable on U
     - 演算 operation
         - 線形性
@@ -131,12 +131,12 @@
             $$ \forall i \in \{1, 2, ..., n\}, f_{x_i} (p_1, ... , p_n) = 0\\ $$
             - 極大
                 - neighborhood U
-                $f : A \to \R, A \subset \R^n$
-                $$ \existss a \in A, \existss \delta \in \R, \forall x \in U(a, \delta), f(x) \leq f(a) $$
+                $f : A \to \mathbb R A \subset \mathbb R$
+                $$ \exists a \in A, \exists \delta \in \mathbb R \forall x \in U(a, \delta), f(x) \leq f(a) $$
             - 極小
                 - neighborhood U
-                $f : A \to \R, A \subset \R^n$
-                $$ \existss a \in A, \existss \delta \in \R, \forall x \in U(a, \delta), f(x) \geq f(a) $$
+                $f : A \to \mathbb R A \subset \mathbb R$
+                $$ \exists a \in A, \exists \delta \in \mathbb R \forall x \in U(a, \delta), f(x) \geq f(a) $$
             - 鞍点
 - 級数 series
     - マクローリン級数 Maclaurin series
@@ -211,13 +211,13 @@
         $$ g(x, y)=0 \Rightarrow D_f(a, b)>0 $$
     - 条件2
         $$ g_x(a, b)\ne 0 \land g_y(a, b) \ne 0 $$
-    $$ \existss k \in \R, F_x(a, b, k) = F_y(a, b, k) = F_\lambda(a, b, k) = 0 \\ F(x, y, \lambda) = f(x, y) - \lambda g(x, y) $$
+    $$ \exists k \in \mathbb R F_x(a, b, k) = F_y(a, b, k) = F_\lambda(a, b, k) = 0 \\ F(x, y, \lambda) = f(x, y) - \lambda g(x, y) $$
     - how to use
         制約条件gの下でのfの最大/最小化
         $$ \max / \min f(x, y)\ s.t.\ g(x, y) = 0 $$
 - Laudau’s notation
     - big O
-        $$ \existss M, \delta > 0, |x-a| < \delta \Rightarrow \\ |f(x)| \leq M |g(x)| \\
+        $$ \exists M, \delta > 0, |x-a| < \delta \Rightarrow \\ |f(x)| \leq M |g(x)| \\
         $$
     - small o
         $$ \lim_{x \to a} \left|\frac{f(x)}{g(x)}\right| = 0 $$

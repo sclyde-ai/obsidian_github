@@ -49,7 +49,7 @@
             $$
             \forall x, y \in dom(f) \\
             \forall u \in Supp^+(x-y) \\
-            \existss v \in Supp^-(x-y) \\
+            \exists v \in Supp^-(x-y) \\
             f(x) + f(y) \leq f(x - e_u + e_v) + f(y + e_u - e_v )
             $$
             - 命題1
@@ -75,7 +75,7 @@
                 成分和は必ず一定
                 よって変数 $x \in \Z^V$ の自由度は $|v| -1$ 
                 $$
-                \existss o \notin V, \hat V = V \cup\{o\} 
+                \exists o \notin V, \hat V = V \cup\{o\} 
                 $$
             - example
         - M natural 凹関数
@@ -86,7 +86,7 @@
             $$
             \forall x, y \in dom(f) \\
             \forall u \in Supp^+(x-y) \\
-            \existss v \in Supp^-(x-y) \\
+            \exists v \in Supp^-(x-y) \\
             f(x) + f(y) \leq f(x - e_u + e_v) + f(y + e_u - e_v ) \\
             \lor \\
             f(x) + f(y) \leq f(x - e_u) + f(y + e_u)
@@ -94,7 +94,7 @@
             - 別表現
                 $$
                 f : \Z^V \to \mathbb R\cup \{-\infty\} \\
-                \existss \hat f \in M, \\
+                \exists \hat f \in M, \\
                 \hat f : \Z^{\hat V} \to \mathbb R\cup \{-\infty\} \\
                 f(x) = \hat f(x, x_0)
                 $$
@@ -102,7 +102,7 @@
                 $$
                 \forall x \in dom\ f, (x, -x_v)\in dom\ \hat f \\
                 \forall x \in dom\ f, (x, -x_v)(v) = \sum_{v \in V} x_v - x_v = 0 \\
-                dom\ \hat f \subset \{x \in \R^n|x_v = 0\}
+                dom\ \hat f \subset \{x \in \mathbb R|x_v = 0\}
                 $$
             - 命題2
                 $\hat f$がＭ凹関数 $\Leftrightarrow$ f がM natural 凹関数
@@ -121,7 +121,7 @@
                 f : \Z^V \to \mathbb R\cup\{-\infty\} \\
                 \forall x, y \in dom(f) \\
                 \forall u \in Supp^+(x-y) \\
-                \existss v \in Supp^-(x-y)\cup \{o\} \\
+                \exists v \in Supp^-(x-y)\cup \{o\} \\
                 f(x) + f(y) \leq f(x - e_u + e_v) + f(y + e_u - e_v ) 
                 $$
             - 関係式
@@ -144,7 +144,7 @@
             $$
         - 層凹関数
             $$
-            \forall z \in \mathcal F, \existss f_z : \mathbb R\to \mathbb R\cup \{-\infty\} \\f(x) = \sum_{z \in \mathcal F} f_z(x(z)), x(z) = \sum_{v \in z}x_v
+            \forall z \in \mathcal F, \exists f_z : \mathbb R\to \mathbb R\cup \{-\infty\} \\f(x) = \sum_{z \in \mathcal F} f_z(x(z)), x(z) = \sum_{v \in z}x_v
             $$
             f_zを層凹関数という
             - 命題
@@ -173,7 +173,7 @@
                             \geq 0
                             $$
                             近接凹性を用いた
-                        2. $\existss z \in F_u, y(z) \geq x(z)$
+                        2. $\exists z \in F_u, y(z) \geq x(z)$
                             Fが層族なので
                             $$
                             u \in z_1 \subset z_2 \subset ... \subset z_v
@@ -239,7 +239,7 @@
                 - proof
                     xが後者の条件を満たすが
                     $$
-                    \existss x \in dom f, f(y)>f(x)
+                    \exists x \in dom f, f(y)>f(x)
                     $$
                     であると仮定する
                     $$
@@ -255,7 +255,7 @@
                         f(x) + f(y) \leq f(x - \xi(y-x)) + f(y - \xi(y-x)) \\
                         \forall x, y \in dom(f) \\
                         \forall u \in Supp^+(x-y) \\
-                        \existss v \in Supp^-(x-y) \cup \{o\}
+                        \exists v \in Supp^-(x-y) \cup \{o\}
                         $$
                     条件2より $f(x) \geq f(x - x_u + x_v)$ なので
                     $$
@@ -275,7 +275,7 @@
                     $$
                     \forall x, y \in S,\\
                     \forall u \in Supp^+(x-y) \\
-                    \existss v \in Supp^-(x-y) \cup \{o\}\\
+                    \exists v \in Supp^-(x-y) \cup \{o\}\\
                     x - x_u + x_v, y + x_u - x_v \in S
                     $$
                 - theorem
@@ -288,7 +288,7 @@
                             f : \Z^V \to \mathbb R\cup\{-\infty\} \\
                             \forall x, y \in dom(f) \\
                             \forall u \in Supp^+(x-y) \\
-                            \existss v \in Supp^-(x-y) \cup \{o\} \\ 
+                            \exists v \in Supp^-(x-y) \cup \{o\} \\ 
                             f(x - x_u + x_v)), f(y + x_u-x_v) \in \R\\
                             $$
                             $$
@@ -303,7 +303,7 @@
                     $$
                     - 注意
                         $$
-                        \existss c \in \R, dom(f) \subset \{x \in \R^V | x_v = c\}
+                        \exists c \in \mathbb R dom(f) \subset \{x \in \R^V | x_v = c\}
                         $$
                     - proof
                         $||x-y||_1$ についての帰納法で示す
@@ -444,7 +444,7 @@
                     \\ 
                     \Rightarrow 
                     \\
-                    \existss Y \subset V \\
+                    \exists Y \subset V \\
                     |X|Y|, |Y|X| \leq 1 \\
                     f(X) - p(X) < f(X) -p(Y)
                     $$
@@ -458,7 +458,7 @@
                     \\
                     \Rightarrow
                     \\
-                    \existss Y \in D(f, q)\\
+                    \exists Y \in D(f, q)\\
                     \{v \in X | p(v) = q(v)\} \subset Y
                     $$
                 - theorem
@@ -473,7 +473,7 @@
                     \\ 
                     \Rightarrow 
                     \\
-                    \existss Y \in D(f, q), |Y| \leq |X|
+                    \exists Y \in D(f, q), |Y| \leq |X|
                     $$
                     - 命題
                         $f:\{0, 1\}^V \to \R\cup\{-\infty\}$ がM natural 凹関数
@@ -576,7 +576,7 @@
     - local minimizer
         - neighborhood
             $$
-            \mathcal N := \{x \in \R^n |\ \|x - x^*\|^2 \}
+            \mathcal N := \{x \in \mathbb R |\ \|x - x^*\|^2 \}
             $$
         $$
         x^* \in \mathcal D, f(x) \geq f(x^*), \forall x \in \mathcal N \cap \mathcal D
@@ -792,7 +792,7 @@
             $$
             - equal
                 $$
-                Ax = b \Rightarrow \forall y \in \R^n
+                Ax = b \Rightarrow \forall y \in \mathbb R
                 $$
                 $$
                 Ax \geq b \land Ax \leq b \Rightarrow y \geq 0 \lor y \leq 0

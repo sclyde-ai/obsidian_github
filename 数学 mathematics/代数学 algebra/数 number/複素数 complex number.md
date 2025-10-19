@@ -14,11 +14,11 @@ $$
             $$
         - 単位元
             $$
-            \existss 0 \in \R, x+0=0+x=x, \forall x \in \R
+            \exists 0 \in \mathbb R x+0=0+x=x, \forall x \in \R
             $$
         - 逆元
             $$
-            \existss -x \in \R, x+(-x)= (-x)+x = 0, \forall x \in \R
+            \exists -x \in \mathbb R x+(-x)= (-x)+x = 0, \forall x \in \R
             $$
     - 乗法
         - 結合律
@@ -31,11 +31,11 @@ $$
             $$
         - 単位元
             $$
-            \existss 1 \in \R, x \cdot 1= 1\cdot x = x, \forall x \in \R
+            \exists 1 \in \mathbb R x \cdot 1= 1\cdot x = x, \forall x \in \R
             $$
         - 逆元
             $$
-            \existss y \in \R, x \cdot x^{-1}= x^{-1} \cdot x = 1, \forall x\in \R
+            \exists y \in \mathbb R x \cdot x^{-1}= x^{-1} \cdot x = 1, \forall x\in \R
             $$
     - 分配律
         $$

@@ -1,11 +1,11 @@
 $$ \lim_{x \to a} f(x) = \alpha $$
-$$ \forall \epsilon>0, \existss \delta >0, \forall x \in \R, \\ 0 < |x-a|< \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
+$$ \forall \epsilon>0, \exists \delta >0, \forall x \in \mathbb R \\ 0 < |x-a|< \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
 - 左極限
     $$ \lim_{x \to a-} f(x) = \alpha $$
-    $$ \forall \delta>0, \existss \epsilon >0, \forall x \in \R, \\ 0 < a-x < \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
+    $$ \forall \delta>0, \exists \epsilon >0, \forall x \in \mathbb R \\ 0 < a-x < \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
 - 右極限
     $$ \lim_{x \to a+} f(x) = \alpha $$
-    $$ \forall \delta>0, \existss \epsilon >0, \forall x \in \R, \\ 0 < x-a < \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
+    $$ \forall \delta>0, \exists \epsilon >0, \forall x \in \mathbb R \\ 0 < x-a < \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
 - theorem
     - 一意性
         $$ a_n = b_n \Rightarrow \alpha = \beta, \forall n \in \mathbb N $$

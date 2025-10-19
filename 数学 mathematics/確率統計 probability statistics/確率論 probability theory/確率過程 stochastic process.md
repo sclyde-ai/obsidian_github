@@ -71,7 +71,7 @@ $X(t)$ は任意の時間tで確率変数となる
             $$ P(x_3, t_3|x_1, t_1)=\int dx_2 P(x_3, t_3|x_2,t_2) P(x_2, t_2|x_1,t_1) $$
         - 状態の分類
             - 到着可能
-                $$ i \to j : \existss n \geq 0, P_{ij} > 0 $$
+                $$ i \to j : \exists n \geq 0, P_{ij} > 0 $$
                 - $i \to i$
                     $$ P_{ii}^{(0)} = 1 $$
             - 相互到着可能
@@ -130,7 +130,7 @@ $X(t)$ は任意の時間tで確率変数となる
                         - cor
                             $$ \sum_{n =1}^\infty P_{ij}^{(n)} = \frac{f_{ij}}{1 - g_i} $$
         - 周期性
-            $$ \existss n \geq 1, P_{ii}^{(n)} > 0 $$
+            $$ \exists n \geq 1, P_{ii}^{(n)} > 0 $$
             $$ I_i = \{n \in \mathbb N| P_{ii}^{(n)} > 0\} $$
             $I_i$ の最大公約数を周期 $d_i$
             - 非周期的
@@ -139,27 +139,27 @@ $X(t)$ は任意の時間tで確率変数となる
                 $I_i$ は加法的な集合
                 $$ n, m \in I_i \Rightarrow n + m \in I_i $$
                 - proof
-                    $$ \existss n, m \in \mathbb N , P_{ii}^{(n)} > 0, P_{ii}^{(m)} > 0 $$
+                    $$ \exists n, m \in \mathbb N , P_{ii}^{(n)} > 0, P_{ii}^{(m)} > 0 $$
                     Chapman-Kolmogorov equationより
                     $$ P_{ii}^{(n+m)} \geq P_{ii}^{(n)}P_{ii}^{(m)} > 0 $$
             - remark
                 $$ 2, 3 \in I_i $$
                 ならば非周期的
             - gcd
-                $$ \gcd(A_1, ..., A_m) = d \\ \Rightarrow \existss c_i \in \Z, c_1 A_1 + \cdots + c_M A_M = d $$
+                $$ \gcd(A_1, ..., A_m) = d \\ \Rightarrow \exists c_i \in \Z, c_1 A_1 + \cdots + c_M A_M = d $$
             - theorem 2
                 $I_i$ は差が $d_i$ の2つの $I_i$ の要素を含む
-                $$ \existss n_1, ..., n_M \in I_i, \gcd(A_1, ..., A_m) = d \\ \Rightarrow \existss c_i \in \Z, c_1 A_1 + \cdots + c_M A_M = d $$
+                $$ \exists n_1, ..., n_M \in I_i, \gcd(A_1, ..., A_m) = d \\ \Rightarrow \exists c_i \in \Z, c_1 A_1 + \cdots + c_M A_M = d $$
                 $$ c_i > 0, (1 \leq i \leq S) \\ c_i > 0, (S \leq i \leq M) $$
                 としても一般性を失わない
                 $$ n_1 c_1 + \cdots + n_Sc_S = (-c_{S+1})n_{S+1} + \cdots + (-c_M) n_M + d_i $$
                 $$ l = n_1 c_1 + \cdots + n_Sc_S \in I_i \\ m = (-c_{S+1})n_{S+1} + \cdots + (-c_M) n_M \in I_i $$
                 $$ l - m = d_i $$
             - theorem 3
-                $$ I_i \ne \phi \\ \existss n_1 \in I_i, n_1 + n d_i \in I_i, \forall n \geq 0 $$
+                $$ I_i \ne \phi \\ \exists n_1 \in I_i, n_1 + n d_i \in I_i, \forall n \geq 0 $$
                 $$ n_1, n_1 + d_i, n_1 + 2d_i , ... \in I_i $$
                 - proof
-                    $$ \existss n_0 \in \mathbb N, n_0, n_0 + d_i \in I_i $$
+                    $$ \exists n_0 \in \mathbb N, n_0, n_0 + d_i \in I_i $$
                     $I_i$ の加法性より
                     $$ K_2 = \{2n_0, 2n_0+d_i, 2n_0+2d_i, \} \subset I_i \\ K_j = \{jn_0, jn_0+d_i, \cdots ,jn_0+jd_i, \} \subset I_i $$
                     $$ K_{j + d_i} = \{(j + d_i)n_0, \cdots ,(j + d_i)(n_0+d_i)\} \subset I_i $$

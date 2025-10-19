@@ -37,11 +37,13 @@ if __name__ == '__main__':
     for file in files:
         try:
             print(file)
-            replace(file, "\exist", "\exists")
-            replace(file, "\existss", "\exists")
-            replace(file, "\existsss", "\exists")
+            # replace(file, "\exist", "\exists")
+            # replace(file, "\existss", "\exists")
+            # replace(file, "\existsss", "\exists")
             replace(file, "\infin", "\infty")
-            replace(file, "\R ", "\mathbb R")
+            # replace(file, "\R ", "\mathbb R")
+            # replace(file, "\R,", "\mathbb R")
+            # replace(file, "\R^n", "\mathbb R")
             # replace(file, "\mathbb R", "\R")
             # replace(file, "\\N", "\mathbb N")
 

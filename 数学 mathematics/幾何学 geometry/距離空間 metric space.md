@@ -29,7 +29,7 @@
 - 基本列/コーシー列 cauchy sequence
     $$
     \{a_n\} \subset X \\
-    \forall \epsilon \in \R_{++}, \existss N \in \mathbb N, \forall n,m \in \mathbb N, \\ n, m \geq N \Rightarrow d(a_n, a_m) < \epsilon
+    \forall \epsilon \in \R_{++}, \exists N \in \mathbb N, \forall n,m \in \mathbb N, \\ n, m \geq N \Rightarrow d(a_n, a_m) < \epsilon
     $$
     を基本列という
 - 完備距離空間 complete metric space

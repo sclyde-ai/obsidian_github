@@ -7,7 +7,7 @@ $$
     $$
 - 指示関数
     $$
-    \delta_S : \R^n \to \R\cup\{\infty\} \\
+    \delta_S : \mathbb R \to \R\cup\{\infty\} \\
     \delta_S(x) = 
     \left\{
     \begin{matrix}
@@ -17,15 +17,15 @@ $$
     \right.
     $$
     - theorem
-        $\delta_S : \R^n \to \R\cup\{\infty\}$ 
+        $\delta_S : \mathbb R \to \R\cup\{\infty\}$ 
         が凸関数 
         必要十分条件
-        $S \subset \R^n$ が凸集合
+        $S \subset \mathbb R$ が凸集合
         - proof
             $$
             A = \forall x \in S \land \forall y \in S \\
             B = \lambda x + (1-\lambda)y \in S, \forall \lambda \in [0, 1] \\
-            C = \forall x \in \R^n, \forall \lambda \in[0, 1],\\ f(\lambda x + (1- \lambda)y) \leq \lambda f(x)+ (1-\lambda)f(y)
+            C = \forall x \in \mathbb R, \forall \lambda \in[0, 1],\\ f(\lambda x + (1- \lambda)y) \leq \lambda f(x)+ (1-\lambda)f(y)
             $$
             - \Rightarrow
                 $$
@@ -43,9 +43,9 @@ $$
                 $$
                 しかし、 $\lnot B$ より
                 $$
-                \lambda x + (1-\lambda)y \notin S, \existss \lambda \in [0, 1] \\
+                \lambda x + (1-\lambda)y \notin S, \exists \lambda \in [0, 1] \\
                 \Leftrightarrow \\
-                \delta_S(\lambda x + (1-\lambda)y) = \infty, \existss \lambda \in [0, 1]
+                \delta_S(\lambda x + (1-\lambda)y) = \infty, \exists \lambda \in [0, 1]
                 $$
                 よって矛盾
             - \Leftarrow
@@ -69,17 +69,17 @@ $$
                 $$
                 により矛盾
 - 実行定義域
-    関数 $f: \R^n \to \mathbb R\cup\{\infty\}$
+    関数 $f: \mathbb R \to \mathbb R\cup\{\infty\}$
     - dom
         $$
-        dom(f) = \{x \in \R^n|f(x)< \infty\}
+        dom(f) = \{x \in \mathbb R|f(x)< \infty\}
         $$
     - argmin
         $$
-        \argmin(f) = \{x \in \R^n | f(y) \geq f(x), \forall y \in \R^n  \}
+        \argmin(f) = \{x \in \mathbb R | f(y) \geq f(x), \forall y \in \mathbb R  \}
         $$
     - theorem
-        $f : \R^n \to \R\cup\{\infty \}$ を凸関数とする
+        $f : \mathbb R \to \R\cup\{\infty \}$ を凸関数とする
         この時、 $dom(f), \argmin(f)$ 
         は凸集合
         - proof
@@ -91,7 +91,7 @@ $$
                 $$
             - argmin
                 $\argmin(f) \ne \phi$
-                $\alpha = \min_{x \in \R^n} f(x)$
+                $\alpha = \min_{x \in \mathbb R} f(x)$
                 $$
                 \forall x, y\in dom(f), \forall \lambda \in [0, 1] \\
                 \alpha = \lambda f(x) + (1-\lambda)f(y) \geq f(\lambda x+ (1-\lambda)y) \geq \alpha \\

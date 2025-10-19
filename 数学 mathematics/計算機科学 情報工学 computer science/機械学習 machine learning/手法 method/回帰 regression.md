@@ -3,7 +3,7 @@
         - 定式化 formulation
             - 入力/説明変数
                 $$
-                x = (x_1, x_2, ..., x_n) \in \R^n
+                x = (x_1, x_2, ..., x_n) \in \mathbb R
                 $$
             - 出力/目的変数
                 $$
@@ -11,7 +11,7 @@
                 $$
             - 回帰式
                 $$
-                f : \R^n \to \R^m
+                f : \mathbb R \to \R^m
                 $$
             - 教師データ
                 $$

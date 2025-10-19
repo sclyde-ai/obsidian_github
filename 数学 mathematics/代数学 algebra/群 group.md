@@ -6,11 +6,11 @@
         $$
     - 単位元 identity
         $$
-        \existss e \in X, x \cdot e = e\cdot x=x, \forall x\in X
+        \exists e \in X, x \cdot e = e\cdot x=x, \forall x\in X
         $$
     - 逆元 inverse
         $$
-        \existss x^{-1} \in X, x\cdot x^{-1} = x^{-1}\cdot x = e, \forall x \in X
+        \exists x^{-1} \in X, x\cdot x^{-1} = x^{-1}\cdot x = e, \forall x \in X
         $$
     - 交換律 commutative
         $$

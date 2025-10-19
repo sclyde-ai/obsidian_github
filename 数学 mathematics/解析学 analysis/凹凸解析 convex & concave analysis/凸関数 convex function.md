@@ -1,10 +1,10 @@
-$f : \R^n \to \R$ 
+$f : \mathbb R \to \R$ 
             $$
-            \forall x \in \R^n, \forall \lambda \in[0, 1],\\ f(\lambda x + (1- \lambda)y) \leq \lambda f(x)+ (1-\lambda)f(y)
+            \forall x \in \mathbb R, \forall \lambda \in[0, 1],\\ f(\lambda x + (1- \lambda)y) \leq \lambda f(x)+ (1-\lambda)f(y)
             $$
             - 準凸関数
                 $$
-                \forall x \in \R^n, \forall \lambda \in[0, 1],\\ f(\lambda x + (1- \lambda)y) \leq \max(f(x), f(y))
+                \forall x \in \mathbb R, \forall \lambda \in[0, 1],\\ f(\lambda x + (1- \lambda)y) \leq \max(f(x), f(y))
                 $$
             - 凸包
                 最小の凸集合
@@ -205,10 +205,10 @@ $f : \R^n \to \R$
                 - $f: X \to \R$
                 - xは局所最適解
                     $$
-                    \existss x \in X, \forall y \in U(x,r), f(x) \leq f(y)
+                    \exists x \in X, \forall y \in U(x,r), f(x) \leq f(y)
                     $$
                 $$
-                \forall y \in \R^n, \existss \lambda \in (0, 1), \\ 
+                \forall y \in \mathbb R, \exists \lambda \in (0, 1), \\ 
                 \lambda x + (1-\lambda)y \in O \\
                 \lambda f(x) + (1-\lambda)f(y) \\ \geq f(\lambda x + (1-\lambda)y) \\\geq \lambda f(x) +(1 - \lambda)f(y) \\
                 \geq f(x)

@@ -1,6 +1,6 @@
 - topological space (X, O)
 $$
- \existss \mathcal O_x, \mathcal O_y \subset \mathcal O, \mathcal O_x \cup \mathcal O_y = \phi \\ (x \in \mathcal O_x \land y \notin \mathcal O_x)
+ \exists \mathcal O_x, \mathcal O_y \subset \mathcal O, \mathcal O_x \cup \mathcal O_y = \phi \\ (x \in \mathcal O_x \land y \notin \mathcal O_x)
 \land
 (x \notin \mathcal O_y \land y \in \mathcal O_y)
 $$

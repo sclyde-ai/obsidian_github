@@ -1,5 +1,5 @@
 - 導関数 derivative function
-    $$ f'(x) = \frac{df}{dx} (x) = \frac{d}{dx} f(x) \\ \forall a \in U, \existss f'(a) $$
+    $$ f'(x) = \frac{df}{dx} (x) = \frac{d}{dx} f(x) \\ \forall a \in U, \exists f'(a) $$
     f(x) is differentiable on U
 - 演算 operation
     - 線形性

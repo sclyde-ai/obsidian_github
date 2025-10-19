@@ -63,7 +63,7 @@
                     $$ 1.\ \sigma(F_0) = \{\{1\}, \{2\}\} \\ 2.\ \sigma(F_0) = \{\phi, \{1\}, \{2\}\} \\ 3.\ \sigma(F_0) = \{\phi, \{1\},\{2\}, \{2, 3\}, \{3, 1\}, X\} \\ 4.\ \sigma(F_0) = \{\phi, \{1\},\{2\}, \{1, 2\}, \{2, 3\}, \{3, 1\}, X\} \\ 5.\ \sigma(F_0) = \{\phi, \{1\},\{2\}, \{3\}, \{1, 2\}, \{2, 3\}, \{3, 1\}, X\}
                     $$
                 - 実数上の開区間
-                    $$ X = \R, F_0 = \{(a, b) | a < b, \forall a, b \in \R\} $$
+                    $$ X = \mathbb R F_0 = \{(a, b) | a < b, \forall a, b \in \R\} $$
                     1. 開集合を全て追加
                         $$ \{(a, b) | a < b, \forall a, b \in \R\} $$
                     2. 2つの片側無限閉区間を全て追加（開区間の補集合）
@@ -184,9 +184,9 @@
             - σ-有限測度 σ-finite
                 - mesurable space (X, F)
                 - measure u
-                $$ \existss \{A_n\} \subset \mathcal F, A_n \uparrow X \land \mu(A_n) < \infty $$
+                $$ \exists \{A_n\} \subset \mathcal F, A_n \uparrow X \land \mu(A_n) < \infty $$
                 - another description
-                    $$ \existss \{A_n\} \subset \mathcal F, X= \bigcup^\infty_{n=1} A_n \land \mu(A_n) < \infty $$
+                    $$ \exists \{A_n\} \subset \mathcal F, X= \bigcup^\infty_{n=1} A_n \land \mu(A_n) < \infty $$
             - 絶対連続 absolutely continuous
                 - mesurable space (X, F)
                     [可測空間 measurable space](https://www.notion.so/measurable-space-216ec42dd04b81eb81a5c19fc5636ae0?pvs=21)
@@ -200,7 +200,7 @@
                     - interpretation
                         測度を持つ集合が等しい（値が等しいとは限らない）
                 - 特異 singular
-                    $$ \existss A \in \mathcal F, \mu(A) = \nu(A^c) = 0 $$
+                    $$ \exists A \in \mathcal F, \mu(A) = \nu(A^c) = 0 $$
                     表記 $\mu \perp \nu$
                     - interpretation
                         測度を持つ集合が完全に異なる
@@ -340,7 +340,7 @@
             $$ FV_T(f) = \int_0^T|f'(t)| dt $$
             - proof
                 - the mean value theorem
-                    $$ f'(t_j^_) = \frac{f(t_{j+1})-f(t_j)}{t_{j+1}-t_j}, \existss t_j^_ \in [t_j, t_{j+1}] $$
+                    $$ f'(t_j^_) = \frac{f(t_{j+1})-f(t_j)}{t_{j+1}-t_j}, \exists t_j^_ \in [t_j, t_{j+1}] $$
                 $$ \lim_{|\Pi| \to 0} \sum_{j=0}^{n-1} |f(t_{j+1}) -f(t_j)| \\ = \lim_{|\Pi| \to 0} \sum_{j=0}^{n-1} |f'(t_j^*)|(t_{j+1} - t_j) \\ = \int_0^T|f'(t)| dt $$
     - quadratic variation
         $$ [f, f](T) = \lim_{\|\Pi\| \to 0} \sum_{j=0}^{n-1}(f(t_{j+1})-f(t_j))^2 $$
@@ -371,12 +371,12 @@
             - limit
                 - limit supremum
                     $$ \limsup_{n \to \infty} A_n = \bigcap_{n=1}^{\infty} \bigcup_{k=n}^{\infty} A_k $$
-                    $$ \forall n \in \mathbb N, \existss k \geq n, \omega \in A_k $$
+                    $$ \forall n \in \mathbb N, \exists k \geq n, \omega \in A_k $$
                     「無限回A_nが起こる」
                     「事象が無限に頻繁に発生する」
                 - limit infimum
                     $$ \liminf_{n \to \infty} A_n = \bigcup_{n=1}^{\infty} \bigcap_{k=n}^{\infty} A_k $$
-                    $$ \existss n \in \mathbb N, \forall k \geq n, \omega \in A_k $$
+                    $$ \exists n \in \mathbb N, \forall k \geq n, \omega \in A_k $$
                     「ある時点以降ずっとA_nが起こり続ける」
                     「事象がある時点以降恒常的に発生する」
                 - inequity
@@ -387,7 +387,7 @@
             - example
                 - heads or tails
                 - real number
-                    $$ (\R, \mathcal B(\R), \mu_X) $$
+                    $$ (\mathbb R \mathcal B(\R), \mu_X) $$
         - 確率測度 probability measure
             - 可測空間 measurable space $(\Omega, \mathcal F)$
                 [可測空間 mesurable space $(\Omega, \mathcal F)$](https://www.notion.so/mesurable-space-Omega-mathcal-F-216ec42dd04b8114af34e95b07ec8c08?pvs=21)
@@ -649,7 +649,7 @@
         - 確率方向量 probability vector
             - n個の連続型確率変数
                 $$ X_1 : \Omega \to \mathbb R\\ \vdots \\ X_n : \Omega \to \mathbb R$$
-            $$ (X_1, ..., X_n):\Omega \to \R^n $$
+            $$ (X_1, ..., X_n):\Omega \to \mathbb R $$
         - 同時確率分布 joint probability distribution
             $$ p(x, y) = P(X = x, Y=y)\\ F(x, y) = P(X \leq x, Y \leq y) $$
         - 周辺分布 marginal distribution

@@ -1,4 +1,4 @@
-$$ B = P^{-1} A P, \existss P $$
+$$ B = P^{-1} A P, \exists P $$
 A and B are similar
 - equivalence relation
     - reflexivity

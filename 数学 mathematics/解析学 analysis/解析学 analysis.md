@@ -71,7 +71,7 @@
             \lim_{n \to \infty} f_n(x) = f(x), \forall x \in X
             $$
             $$
-            \forall \epsilon > 0, \existss N \in \mathbb N, \forall n > N, |f_n(x)-f(x)|<\epsilon, \forall x \in X
+            \forall \epsilon > 0, \exists N \in \mathbb N, \forall n > N, |f_n(x)-f(x)|<\epsilon, \forall x \in X
             $$
         - 概収束
             - 零集合N
@@ -80,7 +80,7 @@
             \lim_{n \to \infty } f_n(x) = f(x), \forall x \in X/N
             $$
             $$
-            \forall \epsilon > 0, \existss N \in \mathbb N, \forall n > N, |f_n(x)-f(x)|<\epsilon, \forall x \in X/N
+            \forall \epsilon > 0, \exists N \in \mathbb N, \forall n > N, |f_n(x)-f(x)|<\epsilon, \forall x \in X/N
             $$
         - 上昇列各点収束/増大列各点収束
             $$
@@ -103,7 +103,7 @@
                 A(f_1 > t) \subset A(f_2 > t) \subset ... \land \bigcup^\infty_{n = 1} A(f_n > t) = A(f > t)\\
                 \lambda_{f_1}(t) \leq \lambda_{f_2}(t) \leq ... \land \lim_{n \to \infty}\lambda_{f_n} (t) = \lambda_f (t)
                 $$
-                1. $\existss a > 0, \lambda_f (a) = \infty$
+                1. $\exists a > 0, \lambda_f (a) = \infty$
                     $$
                     $$
                 2. $\lambda_f (a) < \infty, \forall t > 0$
@@ -145,7 +145,7 @@
                 - 可測関数f (域値は実数)
                     [可測関数 measurable function ](https://www.notion.so/measurable-function-216ec42dd04b815cac0cd90812258c6f?pvs=21) 
                 $$
-                \existss \{f_n\}, f_n(x) \uparrow f(x), \forall x\in \R
+                \exists \{f_n\}, f_n(x) \uparrow f(x), \forall x\in \R
                 $$
                 - 上昇列各点収束
                     [上昇列各点収束/増大列各点収束](https://www.notion.so/216ec42dd04b8112b7a3e8df0e2dffe1?pvs=21) 
@@ -162,7 +162,7 @@
                     f : (X, \mathcal F) \rightarrow \mathbb R\\ f^{-1}(G) \in \mathcal F, \forall G \in \mathcal G
                     $$
                 $$
-                \existss \{f_n\}, f_n(x) \to f(x), \forall x\in \R
+                \exists \{f_n\}, f_n(x) \to f(x), \forall x\in \R
                 $$
                 - 証明 proof
                     $$
@@ -174,7 +174,7 @@
         - 非負単関数の積分
             - A_iは有限非交叉
                 $$
-                a_1, ..., a_n \in \R, A_1,...,A_n \in \mathcal F, A_i \cap A_j \ne \phi, \bigcup_{i = 1}^n A_i = A
+                a_1, ..., a_n \in \mathbb R A_1,...,A_n \in \mathcal F, A_i \cap A_j \ne \phi, \bigcup_{i = 1}^n A_i = A
                 $$
             $$
             \int_A f\ d\mu = \int_A \sum^n_{i=1} a_i 1_{A_i} d\mu=\sum^n_{i=1} a_i \mu(A_i) 
@@ -248,18 +248,18 @@
                     f : \mathbb R\to \mathbb C \\
                     \int_{\R} |f|dx < \infty
                     $$
-                - almost everywhere $x \in \R^n$
+                - almost everywhere $x \in \mathbb R$
                 $$
                 \lim_{h \to 0} \frac{1}{h} \int_x^{x+h} |f(y)-f(x)|dy = 0
                 $$
             - 多次元
                 - 可積分関数f
                     $$
-                    f : \R^n \to \mathbb C \\
-                    \int_{\R^n} |f|dx < \infty
+                    f : \mathbb R \to \mathbb C \\
+                    \int_{\mathbb R} |f|dx < \infty
                     $$
                 - 開球 B(x, r)
-                - almost everywhere $x \in \R^n$
+                - almost everywhere $x \in \mathbb R$
                 $$
                 \lim_{r \downarrow 0} \frac{1}{|B(x, r)|} \int_{B(x, r)} |f(y)-f(x)|dy = 0
                 $$
@@ -269,7 +269,7 @@
             - vがuに関して絶対連続
             - $f \in L_{loc}^1$
             $$
-            \existss!f \in L_{loc}^1 (\mu), \nu(A) = \int_A f\ d\mu, A \in \mathcal F
+            \exists!f \in L_{loc}^1 (\mu), \nu(A) = \int_A f\ d\mu, A \in \mathcal F
             $$
             この時、fをRadon-Nikodym derivativeという
             $$
