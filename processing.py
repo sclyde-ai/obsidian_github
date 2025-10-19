@@ -52,19 +52,6 @@ def remove_leading_spaces(file_path, num_chars):
     except Exception as e:
         print(f"an error has occured: {e}")
 
-def processing_files(files: list):
-    for file in files:
-        try:
-            print(file)
-            remove_empty_lines(file)
-            numbers_of_spaces = count_leading_spaces(file)
-            if numbers_of_spaces: # Check if list is not empty
-                min_number = min(numbers_of_spaces)
-                remove_leading_spaces(file, min_number)
-        except Exception as e:
-            print(f"Error processing {file}: {e}")
-            continue
-
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         # Exit if no files or options are provided
@@ -81,4 +68,14 @@ if __name__ == '__main__':
     else:
         files = sys.argv[1:]
     
-    processing_files(files)
+    for file in files:
+        try:
+            print(file)
+            remove_empty_lines(file)
+            numbers_of_spaces = count_leading_spaces(file)
+            if numbers_of_spaces: # Check if list is not empty
+                min_number = min(numbers_of_spaces)
+                remove_leading_spaces(file, min_number)
+        except Exception as e:
+            print(f"Error processing {file}: {e}")
+            continue
