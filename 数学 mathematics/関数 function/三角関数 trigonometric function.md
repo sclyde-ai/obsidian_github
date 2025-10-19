@@ -1,4 +1,4 @@
-![image.png](attachment:fa058d7f-64af-40de-b2f9-a363d10ed8be:image.png)
+
 ||def|differential|calculus|
 |---|---|---|---|
 |sin||cos|-cos|

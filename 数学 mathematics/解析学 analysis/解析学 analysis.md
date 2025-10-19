@@ -1,4 +1,3 @@
-[微分積分 calculus](https://www.notion.so/calculus-216ec42dd04b81f8bc86fb3a81ca77ff?pvs=21)
 - 測度論 measure theory
     - 関数空間 functional space
         - $L^0 (X, \mu)$ u-測度可能な関数
