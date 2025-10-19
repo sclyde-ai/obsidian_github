@@ -5,7 +5,7 @@
         - 定式化 formulation
             - 分類数
                 $$
-                m \in \N
+                m \in \mathbb N
                 $$
             - 入力
                 $$
@@ -17,7 +17,7 @@
                 $$
             - 分類
                 $$
-                C: \R^n \to \{1,2,...,m\}^n
+                C: \mathbb R^n \to \{1,2,...,m\}^n
                 $$
             - 教師データ
                 $$

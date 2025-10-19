@@ -6,7 +6,7 @@
 - 部分分数分解
 - 積分公式集
 - 広義積分
-    $$ \int_a^{+\infin} f(x)dx = \lim_{c \to +\infin} \int_a^c f(x)dx $$
+    $$ \int_a^{+\infty} f(x)dx = \lim_{c \to +\infty} \int_a^c f(x)dx $$
     - 収束判定条件1
     - 収束判定条件2
 - 三角置換積分

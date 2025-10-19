@@ -2,7 +2,7 @@ data/series
     - panel data
     - time series data
         $$
-        \{ y_t\}_{-\infin}^\infin
+        \{ y_t\}_{-\infty}^\infty
         $$
         特定の対象
         複数の時間

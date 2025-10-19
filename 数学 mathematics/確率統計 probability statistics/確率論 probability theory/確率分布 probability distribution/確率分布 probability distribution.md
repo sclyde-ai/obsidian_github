@@ -37,12 +37,12 @@
             - 特性関数 characteristic function
                 $$ \mathbb E[e^{itX}] = \exp \left(i\mu t - \frac{1}{2}\sigma^2 t^2\right) $$
                 - proof
-                    # $$ \mathbb E[e^{itX}] = \int_{-\infin}^\infin e^{itx} \frac{1}{\sigma \sqrt{2\pi}}\exp{\left(−\frac{1}2\left(\frac{x−\mu}{\sigma}\right)^2\right)} dx \\
-                    # \frac{1}{\sigma \sqrt{2\pi}} \int_{-\infin}^\infin\exp{\left(itx −\frac{1}2\left(\frac{x−\mu}{\sigma}\right)^2\right)} dx \\ = \frac{1}{\sigma \sqrt{2\pi}} \int_{-\infin}^\infin\exp{\left(itx −\frac{1}2\left(\frac{x−\mu}{\sigma}\right)^2\right)} dx \\
-                    # \frac{1}{\sigma \sqrt{2\pi}} \int_{-\infin}^\infin\exp{ \left( −\frac{1}{2}\left(\frac{x^2 −2\mu x - 2it\sigma^2x + \mu^2 }{\sigma^2}\right) \right) } dx \\
-                    # \frac{1}{\sigma \sqrt{2\pi}} \int_{-\infin}^\infin\exp{ \left( −\frac{1}{2}\left(\frac{(x−(\mu +it\sigma^2))^2 - (\mu +it\sigma^2)^2 + \mu^2 }{\sigma^2}\right) \right) } dx \\
-                    # \frac{1}{\sigma \sqrt{2\pi}} \int_{-\infin}^\infin\exp{ \left( −\frac{1}{2}\left(\left(\frac{x−(\mu +it\sigma^2)}{\sigma}\right)^2 - 2it\mu +t^2\sigma^2 \right) \right)}dx \\
-                    \exp{ \left(it\mu -\frac{1}{2}t^2\sigma^2\right) } \frac{1}{\sigma \sqrt{2\pi}} \int_{-\infin}^\infin\exp{ \left( −\frac{1}{2}\left(\left(\frac{x−(\mu +it\sigma^2)}{\sigma}\right)^2 \right) \right)}dx \\ = \exp{ \left(i\mu t-\frac{1}{2}\sigma^2 t^2 \right) } $$
+                    # $$ \mathbb E[e^{itX}] = \int_{-\infty}^\infty e^{itx} \frac{1}{\sigma \sqrt{2\pi}}\exp{\left(−\frac{1}2\left(\frac{x−\mu}{\sigma}\right)^2\right)} dx \\
+                    # \frac{1}{\sigma \sqrt{2\pi}} \int_{-\infty}^\infty\exp{\left(itx −\frac{1}2\left(\frac{x−\mu}{\sigma}\right)^2\right)} dx \\ = \frac{1}{\sigma \sqrt{2\pi}} \int_{-\infty}^\infty\exp{\left(itx −\frac{1}2\left(\frac{x−\mu}{\sigma}\right)^2\right)} dx \\
+                    # \frac{1}{\sigma \sqrt{2\pi}} \int_{-\infty}^\infty\exp{ \left( −\frac{1}{2}\left(\frac{x^2 −2\mu x - 2it\sigma^2x + \mu^2 }{\sigma^2}\right) \right) } dx \\
+                    # \frac{1}{\sigma \sqrt{2\pi}} \int_{-\infty}^\infty\exp{ \left( −\frac{1}{2}\left(\frac{(x−(\mu +it\sigma^2))^2 - (\mu +it\sigma^2)^2 + \mu^2 }{\sigma^2}\right) \right) } dx \\
+                    # \frac{1}{\sigma \sqrt{2\pi}} \int_{-\infty}^\infty\exp{ \left( −\frac{1}{2}\left(\left(\frac{x−(\mu +it\sigma^2)}{\sigma}\right)^2 - 2it\mu +t^2\sigma^2 \right) \right)}dx \\
+                    \exp{ \left(it\mu -\frac{1}{2}t^2\sigma^2\right) } \frac{1}{\sigma \sqrt{2\pi}} \int_{-\infty}^\infty\exp{ \left( −\frac{1}{2}\left(\left(\frac{x−(\mu +it\sigma^2)}{\sigma}\right)^2 \right) \right)}dx \\ = \exp{ \left(i\mu t-\frac{1}{2}\sigma^2 t^2 \right) } $$
         - 多変量正規分布 multivariate normal distribution
             $$ \frac{1}{\sqrt{(2 \pi)^k\det \Sigma}} \exp \left(-\frac{1}{2}(\bm x -\bm \mu)^\top \Sigma^{-1}(\bm x - \bm \mu)\right) $$
         - 指数分布 exponential
@@ -50,9 +50,9 @@
                 $$ \exp(\lambda) = \left\{ \begin{matrix} \lambda e^{-\lambda x} & x \geq 0 \\ 0 & x < 0 \end{matrix} \right. $$
             - moment
                 - expectation
-                    $$ \mathbb E[X] \\ = \int_0^\infin x \lambda e^{-\lambda x} dx \\ = \lambda \int_0^\infin x e^{-\lambda x} dx \\ = \lambda (\left[-\frac{x}{\lambda}e^{-\lambda x}\right]_0^\infin -\int_0^\infin -\frac{1}{\lambda}e^{-\lambda x}dx)\\ = \int_0^\infin e^{-\lambda x}dx \\ = \left[-\frac{1}{\lambda}e^{-\lambda x}\right]_0^\infin \\ = \frac{1}{\lambda} $$
+                    $$ \mathbb E[X] \\ = \int_0^\infty x \lambda e^{-\lambda x} dx \\ = \lambda \int_0^\infty x e^{-\lambda x} dx \\ = \lambda (\left[-\frac{x}{\lambda}e^{-\lambda x}\right]_0^\infty -\int_0^\infty -\frac{1}{\lambda}e^{-\lambda x}dx)\\ = \int_0^\infty e^{-\lambda x}dx \\ = \left[-\frac{1}{\lambda}e^{-\lambda x}\right]_0^\infty \\ = \frac{1}{\lambda} $$
                 - variance
-                    $$ \mathbb E[X^2] \\ = \int_0^\infin x^2 \lambda e^{-\lambda x} dx \\ = \lambda \int_0^\infin x^2 e^{-\lambda x} dx \\ = \lambda (\left[-\frac{x^2}{\lambda}e^{-\lambda x}\right]_0^\infin -\int_0^\infin -\frac{2x}{\lambda}e^{-\lambda x}dx)\\ = \frac{2}{\lambda}\int_0^\infin xe^{-\lambda x}dx \\ = \frac{2}{\lambda^2}
+                    $$ \mathbb E[X^2] \\ = \int_0^\infty x^2 \lambda e^{-\lambda x} dx \\ = \lambda \int_0^\infty x^2 e^{-\lambda x} dx \\ = \lambda (\left[-\frac{x^2}{\lambda}e^{-\lambda x}\right]_0^\infty -\int_0^\infty -\frac{2x}{\lambda}e^{-\lambda x}dx)\\ = \frac{2}{\lambda}\int_0^\infty xe^{-\lambda x}dx \\ = \frac{2}{\lambda^2}
                     $$
                     $$ Var(X) = \frac{2}{\lambda^2} - \left(\frac{1}{\lambda}\right)^2 = \frac{1}{\lambda^2} $$
         - gamma
@@ -61,7 +61,7 @@
                 $\alpha > 0$ : shape parameter
             $$ Gam(\alpha, \lambda) = \left\{ \begin{matrix} \frac{1}{\Gamma(\alpha)} \lambda^\alpha x^{\alpha-1}e^{-\lambda x} &(x>0) \\ 0 & (x \leq0) \end{matrix} \right.
             $$
-            $$ \Gamma(\alpha) = \int_{0}^\infin x^{\alpha-1} e^{-x}dx $$
+            $$ \Gamma(\alpha) = \int_{0}^\infty x^{\alpha-1} e^{-x}dx $$
             - theorem
                 - $\Gamma(1) = 1$
                 - $\Gamma(\frac{1}{2}) = \sqrt{\pi}$
@@ -70,7 +70,7 @@
                 - $Gam(\frac{1}{2}, \frac{1}{2}) = N(0, 1)$
                 - $Gam(\frac{n}{2}, \frac{1}{2}) = \chi^2()$
             - expectation
-                $$ \mathbb E[X] = \int_{0}^\infin \frac{1}{\Gamma(\alpha)} \lambda^\alpha x^{\alpha}e^{-\lambda x} \\ = \frac{\alpha}{\lambda}\int_{0}^\infin \frac{1}{\Gamma(\alpha+1)} \lambda^{\alpha+1} x^{\alpha}e^{-\lambda x} \\ =\frac{\alpha}{\lambda} $$
+                $$ \mathbb E[X] = \int_{0}^\infty \frac{1}{\Gamma(\alpha)} \lambda^\alpha x^{\alpha}e^{-\lambda x} \\ = \frac{\alpha}{\lambda}\int_{0}^\infty \frac{1}{\Gamma(\alpha+1)} \lambda^{\alpha+1} x^{\alpha}e^{-\lambda x} \\ =\frac{\alpha}{\lambda} $$
             - variance
         - beta
         - xi

@@ -3,10 +3,10 @@ $L^p (X, \mu)$ p norm
         - 一般の可測関数の積分
             [一般の可測関数の積分](https://www.notion.so/216ec42dd04b81a88464f953c487d5b6?pvs=21) 
         $$
-        \int_X |f|^p d\mu< \infin
+        \int_X |f|^p d\mu< \infty
         $$
         この時、fを可積分という
         可積分な関数全体の集合を $L^p$という
         $$
-        L^p = \{f | \int_K |f|^pd\mu < \infin\}
+        L^p = \{f | \int_K |f|^pd\mu < \infty\}
         $$

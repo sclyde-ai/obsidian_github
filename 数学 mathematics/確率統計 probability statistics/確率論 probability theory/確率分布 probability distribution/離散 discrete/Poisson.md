@@ -4,9 +4,9 @@ $$ Po(\lambda) = \frac{\lambda^k}{k!} e^{-\lambda} $$
     k : the number of events
 - moment
     - expectation
-        $$ \mathbb E[X] = \sum_{k=1}^\infin k \mathbb P(X = k) \\ = \sum_{k=1}^\infin ke^{-\lambda}\frac{\lambda^k}{k!} \\ = e^{-\lambda} \sum_{k=1}^\infin \frac{\lambda^k}{(k-1)!} \\ = e^{-\lambda} \lambda \sum_{k=1}^\infin\frac{\lambda^{k-1}}{(k-1)!} \\ = \lambda e^{-\lambda} \sum_{k=0}^\infin \frac{\lambda^k}{k!} \\ = \lambda e^{-\lambda} e^{\lambda} \\= \lambda $$
+        $$ \mathbb E[X] = \sum_{k=1}^\infty k \mathbb P(X = k) \\ = \sum_{k=1}^\infty ke^{-\lambda}\frac{\lambda^k}{k!} \\ = e^{-\lambda} \sum_{k=1}^\infty \frac{\lambda^k}{(k-1)!} \\ = e^{-\lambda} \lambda \sum_{k=1}^\infty\frac{\lambda^{k-1}}{(k-1)!} \\ = \lambda e^{-\lambda} \sum_{k=0}^\infty \frac{\lambda^k}{k!} \\ = \lambda e^{-\lambda} e^{\lambda} \\= \lambda $$
     - variance
-        $$ \mathbb E[X^2] = \mathbb E[X(X-1)] + \mathbb E[X] \\ = \sum_{k=2}^\infin k(k-1) e^{-\lambda}\frac{\lambda^k}{k!} + \lambda \\ = e^{-\lambda} \sum_{k=2}^\infin \frac{\lambda^k}{(k-2)!} + \lambda \\ = \lambda^2 e^{-\lambda} \sum_{k=2}^\infin \frac{\lambda^{k-2}}{(k-2)!} + \lambda \\ = \lambda^2 e^{-\lambda} e^\lambda + \lambda \\ = \lambda^2 + \lambda $$
+        $$ \mathbb E[X^2] = \mathbb E[X(X-1)] + \mathbb E[X] \\ = \sum_{k=2}^\infty k(k-1) e^{-\lambda}\frac{\lambda^k}{k!} + \lambda \\ = e^{-\lambda} \sum_{k=2}^\infty \frac{\lambda^k}{(k-2)!} + \lambda \\ = \lambda^2 e^{-\lambda} \sum_{k=2}^\infty \frac{\lambda^{k-2}}{(k-2)!} + \lambda \\ = \lambda^2 e^{-\lambda} e^\lambda + \lambda \\ = \lambda^2 + \lambda $$
         $$ Var(X) = \mathbb E[X^2] - (\mathbb E[X])^2 \\ = \lambda^2 + \lambda - \lambda^2 \\ = \lambda $$
 - Poisson is the limit of Binomial
     $$ np = \lambda \\ p = \frac{\lambda}{n} $$

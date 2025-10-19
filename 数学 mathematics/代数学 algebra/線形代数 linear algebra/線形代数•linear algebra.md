@@ -37,7 +37,7 @@
 - 
 - ベクトル空間の双対
     - vector space V
-    $$ V^* := \{f : V \to \R^n| f: linear\ mapping\} \\ (f+g)(x) = f(x) + g(x) \\ (\alpha f)(x) = \alpha f(x) $$
+    $$ V^* := \{f : V \to \mathbb R^n| f: linear\ mapping\} \\ (f+g)(x) = f(x) + g(x) \\ (\alpha f)(x) = \alpha f(x) $$
     V^* is a linear space
     - proof
         - 加法

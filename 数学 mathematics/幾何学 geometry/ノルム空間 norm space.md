@@ -30,7 +30,7 @@
         $$
         \|x \|_2 = \sqrt[2]{\sum x_i^2}
         $$
-    - $L^\infin$ norm
+    - $L^\infty$ norm
         $$
-        \|x \|_\infin = \sqrt[\infin]{\sum x_i^\infin} = \max(|x_1|, ...)
+        \|x \|_\infty = \sqrt[\infty]{\sum x_i^\infty} = \max(|x_1|, ...)
         $$

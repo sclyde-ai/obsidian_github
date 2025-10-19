@@ -1,20 +1,20 @@
 関数を三角関数に分解
 - 三角関数系 trigonometric system
     $$
-    \{\cos nx, \sin nx| n \in \N\} \\
-    \{1, \cos x, \sin x, \cos 2x, \sin 2x, ...| n \in \N\}
+    \{\cos nx, \sin nx| n \in \mathbb N\} \\
+    \{1, \cos x, \sin x, \cos 2x, \sin 2x, ...| n \in \mathbb N\}
     $$
 - フーリエ級数 Fourier series
     $$
-    f(x) = \frac{a_0}{2}+ \sum_{n=1}^\infin (a_n \cos nx + b_n \sin nx)
+    f(x) = \frac{a_0}{2}+ \sum_{n=1}^\infty (a_n \cos nx + b_n \sin nx)
     $$
 - フーリエ級数 Fourier transform
     $$
-    \hat f(\xi) = \int_{-\infin}^\infin f(x) e^{-2\pi ix\xi}dx
+    \hat f(\xi) = \int_{-\infty}^\infty f(x) e^{-2\pi ix\xi}dx
     $$
 - 逆フーリエ変換 inverse Fourier transform
     $$
-    f(x) = \int_{-\infin}^\infin \hat f(\xi) e^{2\pi ix\xi}d\xi
+    f(x) = \int_{-\infty}^\infty \hat f(\xi) e^{2\pi ix\xi}d\xi
     $$
 - 内積
 - 離散フーリエ変換

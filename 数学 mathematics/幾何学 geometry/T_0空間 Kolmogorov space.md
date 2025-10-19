@@ -1,6 +1,6 @@
 - topological space (X, O)
 $$
- \exist \mathcal O_x \subset \mathcal O, x \in \mathcal O_x \land y \notin \mathcal O_x
+ \existss \mathcal O_x \subset \mathcal O, x \in \mathcal O_x \land y \notin \mathcal O_x
 \\ \lor \\
- \exist \mathcal O_y \subset \mathcal O, x \notin \mathcal O_y \land y \in \mathcal O_y
+ \existss \mathcal O_y \subset \mathcal O, x \notin \mathcal O_y \land y \in \mathcal O_y
 $$

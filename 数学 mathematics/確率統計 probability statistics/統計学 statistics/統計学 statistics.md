@@ -45,11 +45,11 @@
             - 平均 average/mean
                 - median
                     $$
-                    \argmin_{x \in \R} \sum_{i=1}^n|x-x_i|
+                    \argmin_{x \in \mathbb R} \sum_{i=1}^n|x-x_i|
                     $$
                 - mode
                     $$
-                    \argmin_{x \in \R} \sum_{i=1}^n
+                    \argmin_{x \in \mathbb R} \sum_{i=1}^n
                     \left \{
                     \begin{matrix}
                     1 & if & x = x_i \\
@@ -60,23 +60,23 @@
                 - arithmetic mean
                     $$
                     \frac{\sum^n_{i=1}x_i}{n} \\
-                    =\argmin_{x \in \R} \sum_{i=1}^n (x-x_i)^2
+                    =\argmin_{x \in \mathbb R} \sum_{i=1}^n (x-x_i)^2
                     $$
                 - geometric mean
                     $$
                     \left(\prod_{i=1}^n x_i\right)^{\frac{1}{n}}
                     \\ =
-                    \argmin_{x \in \R_{\ne 0}} \sum_{i=1}^n \left(\ln(x) - \ln(x_i)\right)^2
+                    \argmin_{x \in \mathbb R_{\ne 0}} \sum_{i=1}^n \left(\ln(x) - \ln(x_i)\right)^2
                     $$
                 - harmonic mean
                     $$
                     \frac{n}{\sum_{i=1}^n \frac{1}{xi}} \\
-                    = \argmin_{x \in \R_{\ne 0}} \sum_{i=1}^n \left(\frac{1}{x} - \frac{1}{x_i}\right)^2
+                    = \argmin_{x \in \mathbb R_{\ne 0}} \sum_{i=1}^n \left(\frac{1}{x} - \frac{1}{x_i}\right)^2
                     $$
                 - weighted mean
                     $$
                     \frac{\sum_{i=1}^n w_ix_i}{\sum_{i=1}^n w_i} \\
-                    = \argmin_{x \in \R} \sum_{i=1}^n w_i(x-x_i)^2
+                    = \argmin_{x \in \mathbb R} \sum_{i=1}^n w_i(x-x_i)^2
                     $$
                 - generalized mean
                     $$

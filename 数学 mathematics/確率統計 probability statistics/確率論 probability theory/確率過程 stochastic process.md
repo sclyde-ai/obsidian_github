@@ -1,22 +1,22 @@
 - 確率空間 $(\Omega, \mathcal F, P)$
 - 確率変数 X
-    $$ X :T\times \Omega \to \R \\ \forall t \in T, A \in \mathcal B(\R), \{\omega \in \Omega|X(t, \omega) \in A\} \in \mathcal F $$
+    $$ X :T\times \Omega \to \mathbb R \\ \forall t \in T, A \in \mathcal B(\mathbb R), \{\omega \in \Omega|X(t, \omega) \in A\} \in \mathcal F $$
     for all t in T, X(t,•) is F-measurable
 - 時間(全順序集合) T
-    - 離散確率過程 : $\N$
-    - 連続確率過程 : $\R_+$
+    - 離散確率過程 : $\mathbb N$
+    - 連続確率過程 : $\mathbb R_+$
 $$ \{X_t\}_{t \in T} $$
 これを確率過程という
 $X(t)$ は任意の時間tで確率変数となる
 - 軌跡 path
-    $$ X(t, \omega): \Omega^T \to \R^T, \forall t \in T $$
+    $$ X(t, \omega): \Omega^T \to \mathbb R^T, \forall t \in T $$
 - 情報系/情報増大系 filtration
     - probability space $(\Omega, \mathcal F, P)$
-    $$ \{\mathcal F_t\}_{t\in T} \\ \forall s, t \in T, s < t \Rightarrow \mathcal{F}_s \subset \mathcal{F}_t \subset \mathcal{F} $$
+    $$ \{\mathcal F_t\}_{t\in T} \\ \forall s, t \in T, s < t \mathbb Rightarrow \mathcal{F}_s \subset \mathcal{F}_t \subset \mathcal{F} $$
     意味「時間の経過により情報が増加」
     all available information in t is contained
     - 適合過程 adapted process
-        $$ \forall t \in T, A \in \mathcal B(\R), \{\omega \in \Omega|X_t(\omega) \in A\} \in \mathcal F_t $$
+        $$ \forall t \in T, A \in \mathcal B(\mathbb R), \{\omega \in \Omega|X_t(\omega) \in A\} \in \mathcal F_t $$
         for all t in T, X(t, •) is F-measurable
         意味「未来が予測不可能」
     - 可予測性 predictable
@@ -40,10 +40,10 @@ $X(t)$ は任意の時間tで確率変数となる
         $$ \lim_{h\to 0} \mathbb E[|X(t+h) -X(t)|^2] = 0 $$
 - 増分 increments
     - 独立増分性 independent increment
-        $$ \forall t_1,s_1,t_2,s_2 \in T, \\ s_1 \leq t_1 \leq s_2 \leq t_2 \Rightarrow \\ \mathbb P[X_{t_1}-X_{s_1} \cap X_{t_2}-X_{s_2}] = \mathbb P[X_{t_1}-X_{s_1}] \mathbb P[X_{t_2}-X_{s_2}] $$
+        $$ \forall t_1,s_1,t_2,s_2 \in T, \\ s_1 \leq t_1 \leq s_2 \leq t_2 \mathbb Rightarrow \\ \mathbb P[X_{t_1}-X_{s_1} \cap X_{t_2}-X_{s_2}] = \mathbb P[X_{t_1}-X_{s_1}] \mathbb P[X_{t_2}-X_{s_2}] $$
         all increments are independent on each other
     - 定常増分性 stationary increment
-        $$ \forall t,s\in T, \\ s \leq t\Rightarrow \\ X_{s+h} - X_{s} \sim X_{t+h} - X_{t} $$
+        $$ \forall t,s\in T, \\ s \leq t\mathbb Rightarrow \\ X_{s+h} - X_{s} \sim X_{t+h} - X_{t} $$
         時間差が等しい増分は分布が等しい
 - martingale
     - probability space $(\Omega, \mathcal F, P)$
@@ -61,7 +61,7 @@ $X(t)$ は任意の時間tで確率変数となる
         現在 present : $X_n$
         未来 future : $X_{n+1}$
         - time homogeneous Markov chain/process
-            $$ P\{X_{n+1} = y | X_n = x\} = P\{X_{m+1} = y | X_m = x\}, \forall n, m \in \N $$
+            $$ P\{X_{n+1} = y | X_n = x\} = P\{X_{m+1} = y | X_m = x\}, \forall n, m \in \mathbb N $$
         - 確率遷移行列 probability transition matrix
             $$ [P_{ij}]\\ P_{ij} = \{X_{n+1} = j | X_n = i\},\ i, j \in \{1, 2, ..., m\} $$
             - 到達可能性
@@ -71,7 +71,7 @@ $X(t)$ は任意の時間tで確率変数となる
             $$ P(x_3, t_3|x_1, t_1)=\int dx_2 P(x_3, t_3|x_2,t_2) P(x_2, t_2|x_1,t_1) $$
         - 状態の分類
             - 到着可能
-                $$ i \to j : \exist n \geq 0, P_{ij} > 0 $$
+                $$ i \to j : \existss n \geq 0, P_{ij} > 0 $$
                 - $i \to i$
                     $$ P_{ii}^{(0)} = 1 $$
             - 相互到着可能
@@ -87,7 +87,7 @@ $X(t)$ は任意の時間tで確率変数となる
                     Sが一つの同値類から構成される
                 - 集合Aが閉じている
                     $$ \forall i \in A, \sum_{j \in A}P_{ij} = 1 $$
-                    $$ \Rightarrow k \in A, P_{ik} = 0 $$
+                    $$ \mathbb Rightarrow k \in A, P_{ik} = 0 $$
                 既約かつ閉じていれば同値類
                 - 再帰性
                     - def
@@ -99,7 +99,7 @@ $X(t)$ は任意の時間tで確率変数となる
                         $$ f_{ij}^{(1)} = P_{ij}^{(1)} = P_{ij} $$
                     - 最終推移確率
                         - def
-                            $$ f_{ij} = \sum_{n = 1}^\infin f_{ij}^{(n)} \leq 1 $$
+                            $$ f_{ij} = \sum_{n = 1}^\infty f_{ij}^{(n)} \leq 1 $$
                         単調収束定理より収束
                         - $i = j$
                             - 再帰的
@@ -111,62 +111,62 @@ $X(t)$ は任意の時間tで確率変数となる
                         - def
                             $$ T_i = \inf \{n \geq 1 | X_n = i\} $$
                         $$ f_{ii}^{(n)}= P(T_i = n| X_0 = i) $$
-                        $$ 1 - g_i = P(T_i = \infin | X_0 = i) $$
-                        $$ g_i = P(T_i < \infin | X_0 = i) = \sum_{n = 1}^\infin f_{ii}^{(n)} $$
+                        $$ 1 - g_i = P(T_i = \infty | X_0 = i) $$
+                        $$ g_i = P(T_i < \infty | X_0 = i) = \sum_{n = 1}^\infty f_{ii}^{(n)} $$
                         $g_i^m$ : m回戻ってくる(m乗している)
-                        - $m \to \infin$
+                        - $m \to \infty$
                             - 非再帰的
-                                $$ g_i < 1 \Rightarrow \lim_{m \to \infin} g_i^m = 0 $$
+                                $$ g_i < 1 \mathbb Rightarrow \lim_{m \to \infty} g_i^m = 0 $$
                                 無限回戻ってくることは不可能
                             - 再帰的
                                 $$ g_i^m = 1 $$
                     - 再帰性の判定
                         - lemma
-                            $$ P_{ij}^{(n)} = \sum_{k = 1}^\infin f_{ij}^{(n)} P_{jj}^{(n-k)} $$
+                            $$ P_{ij}^{(n)} = \sum_{k = 1}^\infty f_{ij}^{(n)} P_{jj}^{(n-k)} $$
                         - theorem
                             再帰的
                             if and only if
-                            $$ \sum_{n =1}^\infin P_{ij}^{(n)} = \infin $$
+                            $$ \sum_{n =1}^\infty P_{ij}^{(n)} = \infty $$
                         - cor
-                            $$ \sum_{n =1}^\infin P_{ij}^{(n)} = \frac{f_{ij}}{1 - g_i} $$
+                            $$ \sum_{n =1}^\infty P_{ij}^{(n)} = \frac{f_{ij}}{1 - g_i} $$
         - 周期性
-            $$ \exist n \geq 1, P_{ii}^{(n)} > 0 $$
-            $$ I_i = \{n \in \N| P_{ii}^{(n)} > 0\} $$
+            $$ \existss n \geq 1, P_{ii}^{(n)} > 0 $$
+            $$ I_i = \{n \in \mathbb N| P_{ii}^{(n)} > 0\} $$
             $I_i$ の最大公約数を周期 $d_i$
             - 非周期的
                 $$ d_i = 1 $$
             - theorem 1
                 $I_i$ は加法的な集合
-                $$ n, m \in I_i \Rightarrow n + m \in I_i $$
+                $$ n, m \in I_i \mathbb Rightarrow n + m \in I_i $$
                 - proof
-                    $$ \exist n, m \in \N , P_{ii}^{(n)} > 0, P_{ii}^{(m)} > 0 $$
+                    $$ \existss n, m \in \mathbb N , P_{ii}^{(n)} > 0, P_{ii}^{(m)} > 0 $$
                     Chapman-Kolmogorov equationより
                     $$ P_{ii}^{(n+m)} \geq P_{ii}^{(n)}P_{ii}^{(m)} > 0 $$
             - remark
                 $$ 2, 3 \in I_i $$
                 ならば非周期的
             - gcd
-                $$ \gcd(A_1, ..., A_m) = d \\ \Rightarrow \exist c_i \in \Z, c_1 A_1 + \cdots + c_M A_M = d $$
+                $$ \gcd(A_1, ..., A_m) = d \\ \mathbb Rightarrow \existss c_i \in \Z, c_1 A_1 + \cdots + c_M A_M = d $$
             - theorem 2
                 $I_i$ は差が $d_i$ の2つの $I_i$ の要素を含む
-                $$ \exist n_1, ..., n_M \in I_i, \gcd(A_1, ..., A_m) = d \\ \Rightarrow \exist c_i \in \Z, c_1 A_1 + \cdots + c_M A_M = d $$
+                $$ \existss n_1, ..., n_M \in I_i, \gcd(A_1, ..., A_m) = d \\ \mathbb Rightarrow \existss c_i \in \Z, c_1 A_1 + \cdots + c_M A_M = d $$
                 $$ c_i > 0, (1 \leq i \leq S) \\ c_i > 0, (S \leq i \leq M) $$
                 としても一般性を失わない
                 $$ n_1 c_1 + \cdots + n_Sc_S = (-c_{S+1})n_{S+1} + \cdots + (-c_M) n_M + d_i $$
                 $$ l = n_1 c_1 + \cdots + n_Sc_S \in I_i \\ m = (-c_{S+1})n_{S+1} + \cdots + (-c_M) n_M \in I_i $$
                 $$ l - m = d_i $$
             - theorem 3
-                $$ I_i \ne \phi \\ \exist n_1 \in I_i, n_1 + n d_i \in I_i, \forall n \geq 0 $$
+                $$ I_i \ne \phi \\ \existss n_1 \in I_i, n_1 + n d_i \in I_i, \forall n \geq 0 $$
                 $$ n_1, n_1 + d_i, n_1 + 2d_i , ... \in I_i $$
                 - proof
-                    $$ \exist n_0 \in \N, n_0, n_0 + d_i \in I_i $$
+                    $$ \existss n_0 \in \mathbb N, n_0, n_0 + d_i \in I_i $$
                     $I_i$ の加法性より
                     $$ K_2 = \{2n_0, 2n_0+d_i, 2n_0+2d_i, \} \subset I_i \\ K_j = \{jn_0, jn_0+d_i, \cdots ,jn_0+jd_i, \} \subset I_i $$
                     $$ K_{j + d_i} = \{(j + d_i)n_0, \cdots ,(j + d_i)(n_0+d_i)\} \subset I_i $$
                     $$ (j + d_i)n_0 + k d_i \in K_{j + d_i}, (0 \leq k \leq j + d_i) $$
                     $$ (j + d_i)n_0 + (j - n_0)d_i \\ = j n_0 + jd_i = P \\ K_j \cap K_{j + d_i} $$
             - theorem 4
-                $$ i \leftrightarrow j \Rightarrow d_i = d_j $$
+                $$ i \leftrightarrow j \mathbb Rightarrow d_i = d_j $$
     - Markov process (continuous)
         - filtration $\{F_t\}_{t \in T}$
         - X_t is adapted F_t
@@ -178,14 +178,14 @@ $X(t)$ は任意の時間tで確率変数となる
     |二項過程|幾何分布|二項分布|
     |Poisson 過程|指数分布|Poisson 分布|
     - 計数過程 counting process
-        $$ \{N_t\}_{t \in \N} $$
+        $$ \{N_t\}_{t \in \mathbb N} $$
         - 定義 def
             - 初期値 initial condition
                 $$ N_0 = 0 $$
             - 非負整数 non-negative integer
                 $$ N_t \in \Z_+ $$
             - 広義単調性 non-decreasing
-                $$ s < t \Rightarrow N_s \leq N_t \\ \forall s, t \in \N $$
+                $$ s < t \mathbb Rightarrow N_s \leq N_t \\ \forall s, t \in \mathbb N $$
         - 定義 def
             微小区間 h
             - 定常独立増分
@@ -228,7 +228,7 @@ $X(t)$ は任意の時間tで確率変数となる
             - $t_1$ の分布
                 $$ P(t_1 \leq S) = 1 -P(t_1 > S) = 1-P(N(S) = 0) = 1 - e^{-\lambda S} $$
                 S以降に1回目が起こる = 時刻Sで事象は発生していない
-                $$ f_{t_1}(S) = \lambda e^{-\lambda S} \\ f_{t_2 | t_1}(t | S) = \frac{f_{t_1, t_2}(S, t)}{f_{t_1}(S)} \\ F_{t_2 | t_1}(t | S) = \int_{-\infin}^t f_{t_2 | t_1}(u | S)du \\ = P(t_2 \leq t | t_1 = S) \\ = P(t_1 + t_2 \leq S +t | t_1 = S) \\ = 1 - P(t_1 + t_2 > S +t | t_1 = S) $$
+                $$ f_{t_1}(S) = \lambda e^{-\lambda S} \\ f_{t_2 | t_1}(t | S) = \frac{f_{t_1, t_2}(S, t)}{f_{t_1}(S)} \\ F_{t_2 | t_1}(t | S) = \int_{-\infty}^t f_{t_2 | t_1}(u | S)du \\ = P(t_2 \leq t | t_1 = S) \\ = P(t_1 + t_2 \leq S +t | t_1 = S) \\ = 1 - P(t_1 + t_2 > S +t | t_1 = S) $$
                 $$ N(S + t) = 1, N(S) = 1 \\ N (S + t) - N(S) = 1, N(S) - N(0) = 1 $$
                 $$ = 1 - P(N(S+t)-N(S) = 0 | N(S) - N(0) = 1) \\ independent \ increments \\ = 1 - P(N(S+t)-N(S) = 0) \\ stationary \\ = 1 - P(N(t)-N(0) = 0) \\ = 1 - e^{-\lambda t} $$
         - meaning

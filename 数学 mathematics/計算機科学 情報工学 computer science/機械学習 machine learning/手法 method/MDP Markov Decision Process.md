@@ -19,6 +19,6 @@ E --state--> A
     $$
 - return
     $$
-    G_t = \sum_{k = t}^\infin d^{k-t}R_t
+    G_t = \sum_{k = t}^\infty d^{k-t}R_t
     $$
 - state value function

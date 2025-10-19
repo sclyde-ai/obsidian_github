@@ -10,11 +10,11 @@
                 $$
             - 推移律 trasitivity
                 $$
-                \forall x, y, z \in X, x \leq y \land y \leq z \Rightarrow x \leq z
+                \forall x, y, z \in X, x \leq y \land y \leq z \mathbb Rightarrow x \leq z
                 $$
             - 対称律 symmetry
                 $$
-                \forall x, y \in X, x \leq y \Rightarrow y \leq x
+                \forall x, y \in X, x \leq y \mathbb Rightarrow y \leq x
                 $$
         - 同値類
         - 商集合
@@ -26,7 +26,7 @@
                 $$
             - 推移律 transitive
                 $$
-                \forall x, y, z \in X, x \leq y \land y \leq z \Rightarrow x \leq z
+                \forall x, y, z \in X, x \leq y \land y \leq z \mathbb Rightarrow x \leq z
                 $$
         - 半順序関係 partially ordered relation
             - 反射律 reflectivity
@@ -35,11 +35,11 @@
                 $$
             - 推移律 trasitivity
                 $$
-                \forall x, y, z \in X, x \leq y \land y \leq z \Rightarrow x \leq z
+                \forall x, y, z \in X, x \leq y \land y \leq z \mathbb Rightarrow x \leq z
                 $$
             - 反対称律 antisymmetry
                 $$
-                \forall x, y \in X, x \leq y \land y \leq x \Rightarrow x = y
+                \forall x, y \in X, x \leq y \land y \leq x \mathbb Rightarrow x = y
                 $$
         - 全順序関係 totally ordered relation
             - 反射律 reflectivity
@@ -48,11 +48,11 @@
                 $$
             - 推移律 trasitivity
                 $$
-                \forall x, y, z \in X, x \leq y \land y \leq z \Rightarrow x \leq z
+                \forall x, y, z \in X, x \leq y \land y \leq z \mathbb Rightarrow x \leq z
                 $$
             - 反対称律 antisymmetry
                 $$
-                \forall x, y \in X, x \leq y \land y \leq x \Rightarrow x = y
+                \forall x, y \in X, x \leq y \land y \leq x \mathbb Rightarrow x = y
                 $$
             - 完全律 complete
                 $$
@@ -80,20 +80,20 @@
     - 全単写 bijective
 - 上極限集合/最大極限集合 limit supremum
     $$
-    \limsup_{n \to \infin} A_n = 
-    \varlimsup_{n \to \infin} A_n = \bigcap_{n=1}^\infin \bigcup_{k=n}^\infin A_k
+    \limsup_{n \to \infty} A_n = 
+    \varlimsup_{n \to \infty} A_n = \bigcap_{n=1}^\infty \bigcup_{k=n}^\infty A_k
     $$
     $$
-    \{x \in A_k : \forall n \in \N, \exist k \geq n\}
+    \{x \in A_k : \forall n \in \mathbb N, \existss k \geq n\}
     $$
 - 下極限集合/最小極限集合 limit infimum
     $$
-    \liminf_{n \to \infin} A_n =
-    \varliminf_{n \to \infin} A_n =
-    \bigcup_{n=1}^\infin \bigcap_{k=n}^\infin A_k
+    \liminf_{n \to \infty} A_n =
+    \varliminf_{n \to \infty} A_n =
+    \bigcup_{n=1}^\infty \bigcap_{k=n}^\infty A_k
     $$
     $$
-    \{ x \in A_k:\exist n \in \N, \forall k \geq n\}
+    \{ x \in A_k:\existss n \in \mathbb N, \forall k \geq n\}
     $$
 - 不等式 inequality
     $$
@@ -101,37 +101,37 @@
     $$
     - proof
         $$
-        x \in \liminf A_n \Rightarrow x \in \limsup A_n \\
-        \exist n \in \N, \forall k \geq n, x \in A_k 
-        \Rightarrow 
-        \exist m \in \N, \forall l \geq m, x \in A_l
+        x \in \liminf A_n \mathbb Rightarrow x \in \limsup A_n \\
+        \existss n \in \mathbb N, \forall k \geq n, x \in A_k 
+        \mathbb Rightarrow 
+        \existss m \in \mathbb N, \forall l \geq m, x \in A_l
         $$
         を示す
         $x \in \liminf A_n$より
         $$
-        \exist n \in \N, \forall k \geq n, x \in A_k
+        \existss n \in \mathbb N, \forall k \geq n, x \in A_k
         $$
         - $\forall m \leq n$
             $$
             \forall k \geq n, x \in A_k 
             \\
-            \Rightarrow
-            \exist l \geq n, x \in A_l
+            \mathbb Rightarrow
+            \existss l \geq n, x \in A_l
             \\
-            \Rightarrow
-            \exist l \geq n \geq m, x \in A_l 
+            \mathbb Rightarrow
+            \existss l \geq n \geq m, x \in A_l 
             \\
-            \Rightarrow
-            \forall m \leq n, \exist l \geq m, x \in A_l
+            \mathbb Rightarrow
+            \forall m \leq n, \existss l \geq m, x \in A_l
             $$
         - $\forall m > n$
             $$
             \forall k \geq n, x \in A_k 
             \\
-            \Rightarrow 
-            \forall k \geq n \Rightarrow \exist l \geq m > n \\
-            \Rightarrow \exist l \geq m > n, x \in A_l\\
-            \Rightarrow \forall m > n, \exist l\geq m,  x \in A_l
+            \mathbb Rightarrow 
+            \forall k \geq n \mathbb Rightarrow \existss l \geq m > n \\
+            \mathbb Rightarrow \existss l \geq m > n, x \in A_l\\
+            \mathbb Rightarrow \forall m > n, \existss l\geq m,  x \in A_l
             $$
 - 極限集合 limit
     $$

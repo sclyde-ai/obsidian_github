@@ -1,9 +1,9 @@
 - 定義 def
-    写像 $f: \R^n \rightarrow \R^m$
+    写像 $f: \mathbb R^n \rightarrow \mathbb R^m$
     - 加法性 additivity
-        $$ f(x+ y) = f(x) + f(y) \\ \forall x, y \in \R^n $$
+        $$ f(x+ y) = f(x) + f(y) \\ \forall x, y \in \mathbb R^n $$
     - 斉次性 homogeneity
-        $$ f(kx) = k f(x) \\ \forall x \in \R^n, \forall k \in \R $$
+        $$ f(kx) = k f(x) \\ \forall x \in \mathbb R^n, \forall k \in \mathbb R $$
 - 拡大縮小変換 scale
     横にx倍、縦にy倍
     $$ \begin{pmatrix} x & 0 \\ 0 & y \end{pmatrix} $$

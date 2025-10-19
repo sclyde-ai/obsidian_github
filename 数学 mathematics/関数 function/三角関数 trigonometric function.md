@@ -20,7 +20,7 @@
     - exponential
         $$ \frac{e^x -e^{-ix}}{2i} $$
     - Maclaurin
-        $$ \sum^\infin_{n=0} = x - \frac{x^3}{3!} + \frac{x^5}{5!} ... $$
+        $$ \sum^\infty_{n=0} = x - \frac{x^3}{3!} + \frac{x^5}{5!} ... $$
 - cos 余弦 cosine
     $$ \cos x $$
     - differential
@@ -32,7 +32,7 @@
     - exponential
         $$ \frac{e^x + e^{-ix}}{2} $$
     - Maclaurin
-        $$ \sum^\infin_{n=0} = 1 - \frac{x^3}{2!} + \frac{x^5}{4!} ... $$
+        $$ \sum^\infty_{n=0} = 1 - \frac{x^3}{2!} + \frac{x^5}{4!} ... $$
 - tan 正接 tangent
     $$ \frac{\sin}{\cos} $$
     - differential

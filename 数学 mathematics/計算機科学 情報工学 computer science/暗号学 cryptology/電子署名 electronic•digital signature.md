@@ -28,12 +28,12 @@ $$ (G, S, V) $$
 		$$
 		- 公開鍵
 			$$
-			k_{pub}\in \N := \lnot (\exist m \in \N/1, ma=k_{pub} \land mb = (p-1)(q-1), \forall a, b \in \N)
+			k_{pub}\in \mathbb N := \lnot (\existss m \in \mathbb N/1, ma=k_{pub} \land mb = (p-1)(q-1), \forall a, b \in \mathbb N)
 			$$
 			を公開鍵という
 		- 秘密鍵
 			$$
-			k_{pri} \in \N := k_{pub} k_{pri}\equiv 1 \mod (p-1)(q-1)
+			k_{pri} \in \mathbb N := k_{pub} k_{pri}\equiv 1 \mod (p-1)(q-1)
 			$$
 			を秘密鍵という
 	nと公開鍵を公開

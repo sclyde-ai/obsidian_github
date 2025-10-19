@@ -1,5 +1,5 @@
 K上ベクトル空間
-- 内積 V \times V \to \R
+- 内積 V \times V \to \mathbb R
     - 正値
         $$
         \langle x, x \rangle \geq 0

@@ -11,7 +11,7 @@
     - 無限和
         $$
         \forall O_1, ...\in \mathcal{O},
-        \bigcup_{n = 1}^\infin O_n \in \mathcal{O}
+        \bigcup_{n = 1}^\infty O_n \in \mathcal{O}
         $$
     then, (S, O)を位相空間という。
 - 開集合 open set
@@ -19,25 +19,25 @@
     S \in \mathcal{O}, \phi \in \mathcal{O} \\
     \forall O_1, ..., O_n \in \mathcal{O}, \bigcap_{i=1}^n O_i \in \mathcal{O} \\ 
     \forall O_1, ...\in \mathcal{O},
-    \bigcup_{n = 1}^\infin O_n \in \mathcal{O} 
+    \bigcup_{n = 1}^\infty O_n \in \mathcal{O} 
     $$
     - 実数の開集合
         $$
-        \forall a \in A, \exist \epsilon > 0, (a- \epsilon, a+ \epsilon) \subset A
+        \forall a \in A, \existss \epsilon > 0, (a- \epsilon, a+ \epsilon) \subset A
         $$
     - 距離空間の開集合
     - 例
         - 無限積は開とは限らない
             $$
             A_i = (a-\frac{1}{i}, b+\frac{1}{i})\\
-            \bigcap_{i \in \N} A_i = [a,b]
+            \bigcap_{i \in \mathbb N} A_i = [a,b]
             $$
 - 閉集合 closed set
     $$
     S \in \mathcal{F}, \phi \in \mathcal{F} \\
     \forall F_1, ..., F_n \in \mathcal{F}, \bigcap_{i=1}^n F_i \in \mathcal{F} \\
      \forall F_1, ...\in \mathcal{F}
-    \bigcup_{n = 1}^\infin F_n \in \mathcal{F}
+    \bigcup_{n = 1}^\infty F_n \in \mathcal{F}
     $$
     - 実数の閉集合
     - 距離空間の閉集合
@@ -48,7 +48,7 @@
 - 近傍 neighborhood
     Xを位相空間、$x \in X$、 $V \subset X$
     $$
-    \exist U \in \mathcal O, U \subset X, x \in U \subset V
+    \existss U \in \mathcal O, U \subset X, x \in U \subset V
     $$
     Vを近傍という
     - 開近傍 open
@@ -83,12 +83,12 @@
     - 有限被覆
         $\{A_i\}_{i \in I}$の $I$ が有限集合の時、有限被覆という
         $$
-        |I| < \infin
+        |I| < \infty
         $$
     - 有限開被覆
         $\{A_i\}_{i \in I}$が開被覆かつ有限被覆
         $$
-        \{A_i\}_{i \in I} \subset \mathcal O, |I|< \infin
+        \{A_i\}_{i \in I} \subset \mathcal O, |I|< \infty
         $$
     - 部分被覆
         $\{A_j\}_{j \in J}\ J \subset I$が被覆の時$\{A_i\}_{i \in I}$の部分被覆という
@@ -97,12 +97,12 @@
         $$
     - 有限部分被覆
         $$
-        A \subset \{A_j\}_{j \in J}\ J \subset I, |I| < \infin
+        A \subset \{A_j\}_{j \in J}\ J \subset I, |I| < \infty
         $$
     - コンパクト
         Rの部分集合Aの任意の開被覆 $\{A_i\}_{i \in I}$に対し有限部分被覆が必ず存在するとき、SをR上のコンパクト集合という
         $$
-        A \subset \R
+        A \subset \mathbb R
         $$
     - ハイネボレルの被覆定理
         実数の位相空間の任意の有界閉集合はコンパクト

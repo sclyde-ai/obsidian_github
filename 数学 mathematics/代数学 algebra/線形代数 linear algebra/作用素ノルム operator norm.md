@@ -3,7 +3,7 @@ vector x に行列 Aをかけると、norm が何倍になるか
 - p = 1
     列ごとの成分の合計の最大値
 - p = 2 (spectral norm)
-- p = $\infin$
+- p = $\infty$
     行ごとの成分の合計の最大値
 - theorem
     $$ A = A^\top \\ \max | v^\top A v ｜= \|A\| $$

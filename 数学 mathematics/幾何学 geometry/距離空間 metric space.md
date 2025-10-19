@@ -1,6 +1,6 @@
 - 定義 def
     set X
-    - 距離 metric  $X \times X \to \R$
+    - 距離 metric  $X \times X \to \mathbb R$
         - 正値
             $$
             d(x,y) \geq 0
@@ -29,13 +29,13 @@
 - 基本列/コーシー列 cauchy sequence
     $$
     \{a_n\} \subset X \\
-    \forall \epsilon \in \R_{++}, \exist N \in \N, \forall n,m \in \N, \\ n, m \geq N \Rightarrow d(a_n, a_m) < \epsilon
+    \forall \epsilon \in \mathbb R_{++}, \existss N \in \mathbb N, \forall n,m \in \mathbb N, \\ n, m \geq N \mathbb Rightarrow d(a_n, a_m) < \epsilon
     $$
     を基本列という
 - 完備距離空間 complete metric space
     - 基本列 a_n
     $$
-    \lim_{n \to \infin} a_n \in X, \forall \{a_n\}_{n \in \N}
+    \lim_{n \to \infty} a_n \in X, \forall \{a_n\}_{n \in \mathbb N}
     $$
     を満たす距離空間を完備距離空間という
 - example
@@ -47,7 +47,7 @@
         $$
         d(x,y) = \sqrt {x^2+y^2}
         $$
-    - $L^\infin$ matrix/Manhattan distance
+    - $L^\infty$ matrix/Manhattan distance
         $$
         d(x, y) = \max(x,y)
         $$
@@ -60,7 +60,7 @@
         d(x, y) = 
         \begin{equation}
           \begin{cases}
-        |x-y| & (x = ky, \forall k \in \R) \\
+        |x-y| & (x = ky, \forall k \in \mathbb R) \\
         |x| + |y| & others
           \end{cases}
         \end{equation}

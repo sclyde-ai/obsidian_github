@@ -6,40 +6,40 @@ $$
     - 加法
         - 結合律
             $$
-            (x+y)+z = x+(y+z) \\ \forall x,y,z \in \R
+            (x+y)+z = x+(y+z) \\ \forall x,y,z \in \mathbb R
             $$
         - 交換律
             $$
-            x+y = y+x \\ \forall x,y \in \R
+            x+y = y+x \\ \forall x,y \in \mathbb R
             $$
         - 単位元
             $$
-            \exist 0 \in \R, x+0=0+x=x, \forall x \in \R
+            \existss 0 \in \mathbb R, x+0=0+x=x, \forall x \in \mathbb R
             $$
         - 逆元
             $$
-            \exist -x \in \R, x+(-x)= (-x)+x = 0, \forall x \in \R
+            \existss -x \in \mathbb R, x+(-x)= (-x)+x = 0, \forall x \in \mathbb R
             $$
     - 乗法
         - 結合律
             $$
-            (x\cdot y)\cdot z = x \cdot (y\cdot z) \\ \forall x,y,z \in \R
+            (x\cdot y)\cdot z = x \cdot (y\cdot z) \\ \forall x,y,z \in \mathbb R
             $$
         - 交換律
             $$
-            x \cdot y = y \cdot x \\ \forall x,y \in \R
+            x \cdot y = y \cdot x \\ \forall x,y \in \mathbb R
             $$
         - 単位元
             $$
-            \exist 1 \in \R, x \cdot 1= 1\cdot x = x, \forall x \in \R
+            \existss 1 \in \mathbb R, x \cdot 1= 1\cdot x = x, \forall x \in \mathbb R
             $$
         - 逆元
             $$
-            \exist y \in \R, x \cdot x^{-1}= x^{-1} \cdot x = 1, \forall x\in \R
+            \existss y \in \mathbb R, x \cdot x^{-1}= x^{-1} \cdot x = 1, \forall x\in \mathbb R
             $$
     - 分配律
         $$
-        x \cdot (y+z) = x \cdot y + x\cdot z, \forall x,y,z \in \R
+        x \cdot (y+z) = x \cdot y + x\cdot z, \forall x,y,z \in \mathbb R
         $$
 - 性質 prop
     - 単位元の一意性
@@ -64,7 +64,7 @@ $$
         $$
     - 加法単位元の乗法逆元
         $$
-        x \cdot 0 = 0, \forall x \in \R 
+        x \cdot 0 = 0, \forall x \in \mathbb R 
         $$
     - 積の逆元
         $$

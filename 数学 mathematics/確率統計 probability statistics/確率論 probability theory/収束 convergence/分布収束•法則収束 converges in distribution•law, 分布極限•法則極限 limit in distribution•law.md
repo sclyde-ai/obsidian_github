@@ -1,4 +1,4 @@
-$$ \lim_{n \rightarrow \infin} F_{X_n}(x) = F_X(x) $$
+$$ \lim_{n \rightarrow \infty} F_{X_n}(x) = F_X(x) $$
 確率変数列 $\{X_n\}$は確率変数Xに分布収束するという
 - 表記
     $$ X_n \to X\ c.d. \\ X_n \stackrel{d}{\to} X $$

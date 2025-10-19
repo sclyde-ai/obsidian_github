@@ -11,7 +11,7 @@ $$
 - 予測誤差分散分解 FEVD Forecast Error Variance Decomposition
     - 移動平均表現 MA version
         $$
-        y_t = \mu + \sum_{h=0}^\infin \psi_h  \epsilon_{t-h}
+        y_t = \mu + \sum_{h=0}^\infty \psi_h  \epsilon_{t-h}
         $$
         - impulse response coefficient matrix
             $$

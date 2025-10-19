@@ -9,7 +9,7 @@ if it exists, f(x) is differentiable at a
     - $C^n$級/n階連続微分可能
         関数fが微分可能
         導関数$f^{(n)}$が連続
-    - $C^\infin$級/無限回微分可能
+    - $C^\infty$級/無限回微分可能
         fが何回でも微分可能
     - $C^\omega$級/解析的 analytic
         任意の点aの十分近くでテイラー展開可能

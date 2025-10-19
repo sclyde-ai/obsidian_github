@@ -2,7 +2,7 @@
     - 加法的集合関数
         - 可測空間(X, F)
         $$
-        E = \sum_{n=1}^\infin E_n, E_n \in \mathcal F \\ \Rightarrow \Phi(E) = \sum_{n=1}^\infin \Phi(E_n) 
+        E = \sum_{n=1}^\infty E_n, E_n \in \mathcal F \\ \mathbb Rightarrow \Phi(E) = \sum_{n=1}^\infty \Phi(E_n) 
         $$
         $\Phi(E)$をXの上の加法的集合関数という
         - 単調増加
@@ -16,22 +16,22 @@
         - 単調減少
     - 各点収束
         $$
-        \lim_{n \to \infin} f_n(x) = f(x), \forall x \in X
+        \lim_{n \to \infty} f_n(x) = f(x), \forall x \in X
         $$
         $$
-        \forall \epsilon > 0, \exist N \in \N, \forall n > N, |f_n(x)-f(x)|<\epsilon, \forall x \in X
+        \forall \epsilon > 0, \existss N \in \mathbb N, \forall n > N, |f_n(x)-f(x)|<\epsilon, \forall x \in X
         $$
     - 概収束
         - 零集合N
         $$
-        \lim_{n \to \infin } f_n(x) = f(x), \forall x \in X/N
+        \lim_{n \to \infty } f_n(x) = f(x), \forall x \in X/N
         $$
         $$
-        \forall \epsilon > 0, \exist N \in \N, \forall n > N, |f_n(x)-f(x)|<\epsilon, \forall x \in X/N
+        \forall \epsilon > 0, \existss N \in \mathbb N, \forall n > N, |f_n(x)-f(x)|<\epsilon, \forall x \in X/N
         $$
     - 上昇列各点収束/増大列各点収束
         $$
-        f_n(x) \uparrow f(x), \forall x\in \R
+        f_n(x) \uparrow f(x), \forall x\in \mathbb R
         $$
         - 上昇列/増加列
             $$
@@ -43,17 +43,17 @@
         - 上昇列各点収束f
             [上昇列各点収束/増大列各点収束](https://www.notion.so/216ec42dd04b8112b7a3e8df0e2dffe1?pvs=21) 
         $$
-        \lim_{n \to \infin}\int_A f_n \ d \mu = \int_A f \ d \mu
+        \lim_{n \to \infty}\int_A f_n \ d \mu = \int_A f \ d \mu
         $$
         - 証明 proof
             $$
-            A(f_1 > t) \subset A(f_2 > t) \subset ... \land \bigcup^\infin_{n = 1} A(f_n > t) = A(f > t)\\
-            \lambda_{f_1}(t) \leq \lambda_{f_2}(t) \leq ... \land \lim_{n \to \infin}\lambda_{f_n} (t) = \lambda_f (t)
+            A(f_1 > t) \subset A(f_2 > t) \subset ... \land \bigcup^\infty_{n = 1} A(f_n > t) = A(f > t)\\
+            \lambda_{f_1}(t) \leq \lambda_{f_2}(t) \leq ... \land \lim_{n \to \infty}\lambda_{f_n} (t) = \lambda_f (t)
             $$
-            1. $\exist a > 0, \lambda_f (a) = \infin$
+            1. $\existss a > 0, \lambda_f (a) = \infty$
                 $$
                 $$
-            2. $\lambda_f (a) < \infin, \forall t > 0$
+            2. $\lambda_f (a) < \infty, \forall t > 0$
             - 分布関数
                 $$
                 A_t = A(f > t) = \{x \in X | f(x) > t\} \\
@@ -85,14 +85,14 @@
             $$
         $$
         f(x) = \sum^n_{i=1} a_i 1_{A_i} (x) \\
-        a_1, ..., a_n \in \R
+        a_1, ..., a_n \in \mathbb R
         $$
     - 可測関数は単関数で近似可能
         - 非負の場合
             - 可測関数f (域値は実数)
                 [可測関数 measurable function ](https://www.notion.so/measurable-function-216ec42dd04b815cac0cd90812258c6f?pvs=21) 
             $$
-            \exist \{f_n\}, f_n(x) \uparrow f(x), \forall x\in \R
+            \existss \{f_n\}, f_n(x) \uparrow f(x), \forall x\in \mathbb R
             $$
             - 上昇列各点収束
                 [上昇列各点収束/増大列各点収束](https://www.notion.so/216ec42dd04b8112b7a3e8df0e2dffe1?pvs=21) 
@@ -106,10 +106,10 @@
                 - 可測空間(X, F)
                     ‣ 
                 $$
-                f : (X, \mathcal F) \rightarrow \R \\ f^{-1}(G) \in \mathcal F, \forall G \in \mathcal G
+                f : (X, \mathcal F) \rightarrow \mathbb R \\ f^{-1}(G) \in \mathcal F, \forall G \in \mathcal G
                 $$
             $$
-            \exist \{f_n\}, f_n(x) \to f(x), \forall x\in \R
+            \existss \{f_n\}, f_n(x) \to f(x), \forall x\in \mathbb R
             $$
             - 証明 proof
                 $$
@@ -121,7 +121,7 @@
     - 非負単関数の積分
         - A_iは有限非交叉
             $$
-            a_1, ..., a_n \in \R, A_1,...,A_n \in \mathcal F, A_i \cap A_j \ne \phi, \bigcup_{i = 1}^n A_i = A
+            a_1, ..., a_n \in \mathbb R, A_1,...,A_n \in \mathcal F, A_i \cap A_j \ne \phi, \bigcup_{i = 1}^n A_i = A
             $$
         $$
         \int_A f\ d\mu = \int_A \sum^n_{i=1} a_i 1_{A_i} d\mu=\sum^n_{i=1} a_i \mu(A_i) 
@@ -148,10 +148,10 @@
     - 非負可測関数の積分
         - f_nは単調増加かつ収束する単関数
             $$
-            \{f_n\}_{n \in \N}, \\ \forall n \in \N, 0 < f_n(x) < f_{n+1}(x), \\ \lim_{n \to \infin} f_n (x) = f(x)
+            \{f_n\}_{n \in \mathbb N}, \\ \forall n \in \mathbb N, 0 < f_n(x) < f_{n+1}(x), \\ \lim_{n \to \infty} f_n (x) = f(x)
             $$
         $$
-        \int_A f\ d\mu = \lim_{n \to \infin} \int_A f_n\  d\mu
+        \int_A f\ d\mu = \lim_{n \to \infty} \int_A f_n\  d\mu
         $$
         ![image.png](学問%20academics/notion/math/ExportBlock-cb2c20a1-8e45-4a53-98cb-57377ce1c41e-Part-1/image%202.png)
     - 一般の可測関数の積分
@@ -168,23 +168,23 @@
         - 一般の可測関数の積分
             [一般の可測関数の積分](https://www.notion.so/216ec42dd04b81a88464f953c487d5b6?pvs=21) 
         $$
-        \int_X |f| d\mu< \infin
+        \int_X |f| d\mu< \infty
         $$
         この時、fを可積分という
         可積分な関数全体の集合を $L^1$という
         $$
-        L^1 = \{f | \int_K |f|d\mu < \infin\}
+        L^1 = \{f | \int_K |f|d\mu < \infty\}
         $$
     - 局所可積分
         - 測度空間 $(X, \mu)$
         - compact set K
         $$
-        \int_K |f| d\mu< \infin, \forall K \subset X
+        \int_K |f| d\mu< \infty, \forall K \subset X
         $$
         この時、fを局所可積分という。
         局所可積分な関数全体の集合を $L_{loc}^1$という
         $$
-        L_{loc}^1 = \{f | \int_K |f|d\mu < \infin, \forall K \subset X\}
+        L_{loc}^1 = \{f | \int_K |f|d\mu < \infty, \forall K \subset X\}
         $$
     - fatouの補題
 - 微分 differentiate
@@ -192,21 +192,21 @@
         - 一次元
             - 可積分関数f
                 $$
-                f : \R \to \mathbb C \\
-                \int_{\R} |f|dx < \infin
+                f : \mathbb R \to \mathbb C \\
+                \int_{\mathbb R} |f|dx < \infty
                 $$
-            - almost everywhere $x \in \R^n$
+            - almost everywhere $x \in \mathbb R^n$
             $$
             \lim_{h \to 0} \frac{1}{h} \int_x^{x+h} |f(y)-f(x)|dy = 0
             $$
         - 多次元
             - 可積分関数f
                 $$
-                f : \R^n \to \mathbb C \\
-                \int_{\R^n} |f|dx < \infin
+                f : \mathbb R^n \to \mathbb C \\
+                \int_{\mathbb R^n} |f|dx < \infty
                 $$
             - 開球 B(x, r)
-            - almost everywhere $x \in \R^n$
+            - almost everywhere $x \in \mathbb R^n$
             $$
             \lim_{r \downarrow 0} \frac{1}{|B(x, r)|} \int_{B(x, r)} |f(y)-f(x)|dy = 0
             $$
@@ -216,7 +216,7 @@
         - vがuに関して絶対連続
         - $f \in L_{loc}^1$
         $$
-        \exist!f \in L_{loc}^1 (\mu), \nu(A) = \int_A f\ d\mu, A \in \mathcal F
+        \existss!f \in L_{loc}^1 (\mu), \nu(A) = \int_A f\ d\mu, A \in \mathcal F
         $$
         この時、fをRadon-Nikodym derivativeという
         $$

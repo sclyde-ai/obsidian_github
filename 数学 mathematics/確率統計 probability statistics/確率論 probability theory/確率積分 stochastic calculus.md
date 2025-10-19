@@ -50,7 +50,7 @@
     - square differential
         $$ d I_t dI_t = \Delta^2_t d W_t dW_t = \Delta^2_t dt $$
 - Ito integral (limit)
-    $$ \int_0^t \Delta_u d W_u = \lim_{n \to \infin} \int_0^t \Delta_{u, n} d W_u $$
+    $$ \int_0^t \Delta_u d W_u = \lim_{n \to \infty} \int_0^t \Delta_{u, n} d W_u $$
     - theorem
         - an adapted stochastic process
         - integrability
