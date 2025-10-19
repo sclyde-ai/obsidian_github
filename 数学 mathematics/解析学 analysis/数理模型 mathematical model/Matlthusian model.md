@@ -1,6 +1,6 @@
 - model
     $$
-    \dot y = ky
+    $$ $$dot y = ky
     $$
 - 解 solution
     $$
