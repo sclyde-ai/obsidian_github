@@ -8,19 +8,19 @@
 - 欧米 Europe
     - 
     - 
-    - Dublin(Ireland)
-    - Geneva(Switzerland)
-    - Luxembourg
-    - Paris(France)
-    - Amsterdam(Netherlands)
-    - Zurich(Switzerland)
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
 - 東亜 East and South Asia
-    - 香港 Hong Kong(China)
+    - 
     - Singapore
-    - 上海 Shanghai(China)
-    - 深圳 Shenzhen(China)
-    - 서울 Seoul(Korea)
-    - 北京 Beijing(China)
-    - 東京 Tokyo(Japan)
+    - 
+    - 
+    - 
+    - 
+    - 
 - 中東 Middle East
-    - Dubai(UAE United Arab Emirates)
+    - 
