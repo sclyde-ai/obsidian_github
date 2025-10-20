@@ -6,15 +6,7 @@
     - CCP central counterparty clearing house
     - DCO derivative clearing organization
 - 国際金融機関 international financial institution
-    - WTO 世界貿易機関 World Trade Organization
-        - 自由貿易
-            非関税障壁の関税化
-        - 無差別主義
-            - 最恵国待遇
-            - 内国待遇
-        - 多角的交渉
-            - ラウンド
-    - WTC 世界貿易センター World Trade Center
+    - 
     - IMF 世界通貨基金 International Monetary Fund
         自国通貨安定の義務づけ
         - 目的

@@ -5,7 +5,7 @@
                 - 10 days
                 - 20 days
                 - 50 days
-         long-term
+        long-term
                 - 50 days
                 - 100 days
                 - 200 days
