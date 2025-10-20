@@ -1,4 +1,3 @@
-
 	金融派生商品の価格が基づく、元の資産や指数そのもの
 	the asset which a derivative's value is based
 	- stock 株式

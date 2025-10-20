@@ -1,1 +1,1 @@
-c{1}{\pi} \frac{\sigma}{\pi x^2 + \sigma^2} $$
+{1}{\pi} \frac{\sigma}{\pi x^2 + \sigma^2} $$

@@ -1,2 +1,1 @@
-
-		leveraged knock-out barrier option
+	leveraged knock-out barrier option

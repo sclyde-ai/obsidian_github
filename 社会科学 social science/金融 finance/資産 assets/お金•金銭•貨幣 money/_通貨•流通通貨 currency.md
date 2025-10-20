@@ -22,6 +22,5 @@ a standardization of money in any form, in use or circulation as a medium of exc
 - obsolete/out of date
     - FF French franc (France)
     - DEM mark (Germany)
-
 - 
 - 

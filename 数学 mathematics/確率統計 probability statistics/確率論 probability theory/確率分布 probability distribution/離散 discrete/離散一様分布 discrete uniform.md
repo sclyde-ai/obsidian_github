@@ -1,1 +1,1 @@
-all n \in \{1, ..., N\}, P(X=n) = \frac{1}{N} $$
+ll n \in \{1, ..., N\}, P(X=n) = \frac{1}{N} $$

@@ -1,4 +1,3 @@
-
 	exchange the cashflow between two parties
 	- expertise 専門用語
 		- leg

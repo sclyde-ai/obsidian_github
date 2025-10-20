@@ -1,5 +1,4 @@
-
-    - dirty price
-    - accrued interest
-    - clean price
-        dirty price - accrued interest
+- dirty price
+- accrued interest
+- clean price
+    dirty price - accrued interest

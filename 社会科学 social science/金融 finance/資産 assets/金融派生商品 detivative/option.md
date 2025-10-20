@@ -1,4 +1,3 @@
-
 	- component 構成要素
 		- strike 権利行使
 			- strike price 権利行使価格

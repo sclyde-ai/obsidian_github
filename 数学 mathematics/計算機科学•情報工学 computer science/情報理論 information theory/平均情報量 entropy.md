@@ -1,1 +1,1 @@
-um_{x \in \chi} p(x)\log \ p(x) \\ = -E_p[\log\ p(X)] $$
+m_{x \in \chi} p(x)\log \ p(x) \\ = -E_p[\log\ p(X)] $$
