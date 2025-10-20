@@ -55,12 +55,6 @@ def remove_leading_spaces(file_path, num_chars):
 if __name__ == '__main__':
     try:
         result = subprocess.run(
-            ["bash", "open_obsidian.sh"], 
-            capture_output=True, 
-            text=True, 
-            check=True
-        )
-        result = subprocess.run(
             ["git", "pull"], 
             capture_output=True, 
             text=True, 
