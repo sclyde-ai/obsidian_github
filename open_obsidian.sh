@@ -1,1 +1,2 @@
-explorer.exe "obsidian://open?vault=obsidian_github"
+explorer.exe "obsidian://"
+# cmd.exe /C "start obsidian://"
