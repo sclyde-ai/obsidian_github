@@ -1,0 +1,13 @@
+
+        - institution
+            - SGX Singapore Exchange
+            - MAS Monetary Authority of Singapore
+        - bank
+            - DBS
+            - OCBC
+            - UOB
+        - company
+        - industry
+            - wealth management
+            - forex trading
+            - fintech
