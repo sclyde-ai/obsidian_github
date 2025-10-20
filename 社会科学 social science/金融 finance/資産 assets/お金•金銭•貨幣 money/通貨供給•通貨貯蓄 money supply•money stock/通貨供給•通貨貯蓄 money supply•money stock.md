@@ -1,4 +1,4 @@
-- 通貨供給/通貨貯蓄 money supply/money stock
+
         - 現金通貨 cash
             - 銀行券発行高
             - 貨幣流通高

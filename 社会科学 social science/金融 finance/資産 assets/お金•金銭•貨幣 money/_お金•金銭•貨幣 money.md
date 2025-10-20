@@ -1,3 +1,5 @@
+物の交換を円滑にする媒介物のこと
+an item that is generally accepted as a medium of exchange
 - 定義 definition
     Oxford
         a current medium of exchange in the form of coins and banknotes
@@ -31,8 +33,6 @@
         貨幣同士が交換可能なぐらいに同質であること
     - 認識可能性 recognizable
         貨幣とそれ以外の識別が容易であり、利用者が価値を認めていること
-
-
 - 例 example 
     - 貴金属 metal
             - 金 gold
