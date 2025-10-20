@@ -1,0 +1,1 @@
+/home/sclyde/Obsidian-*.AppImage
