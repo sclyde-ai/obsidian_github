@@ -1,1 +1,1 @@
-[U.S.A United State of America]]
+U.S.A United State of America]]

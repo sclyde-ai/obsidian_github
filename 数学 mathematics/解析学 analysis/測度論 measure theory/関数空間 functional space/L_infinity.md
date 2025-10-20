@@ -1,1 +1,1 @@
-\infty (X, \mu)$ essential supremum
+infty (X, \mu)$ essential supremum

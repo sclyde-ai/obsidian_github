@@ -1,1 +1,1 @@
-[한국, South Korea]]
+한국, South Korea]]

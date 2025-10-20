@@ -1,1 +1,1 @@
-[amusement]]
+amusement]]

@@ -1,1 +1,1 @@
-[Deutschland, Germany]]
+Deutschland, Germany]]

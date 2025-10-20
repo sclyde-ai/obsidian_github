@@ -1,1 +1,1 @@
-rence between the selling price of a good or service and its marginal cost
+ence between the selling price of a good or service and its marginal cost
