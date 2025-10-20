@@ -1,0 +1,2 @@
+
+        defined by a central bank and government law as legal tender even if it has no intrinsic value

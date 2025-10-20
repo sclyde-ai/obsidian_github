@@ -1,13 +1,4 @@
-- type
-    - 既発債
-    - 新発債/新規債権
-- rank
-    - 優先債 senior debt
-        low risk
-    - 中間債 medium debt
-    - 劣後債 junior/subordinated debt
-        high risk 
-- 国債 government bond
+
     | return  |  |
     | --- | --- |
     | risk | low |
@@ -60,30 +51,3 @@
         - 復興債
         - 
     - SDR special drawing rights (IMF in UN)
-- 地方債 municipal bond
-    - general obligation bond
-        by tax of the issuer 
-        no collateral 
-    - revenue bond
-        by revenue from the project 
-- 事業債/社債 corporate bond
-    long-term bond issued by corporations
-    | return | high |
-    | --- | --- |
-    | risk | high |
-    | liquidity | low |
-- commercial paper
-    short-term bond issued by corporations
-    | return | low |
-    | --- | --- |
-    | risk | low |
-    | liquidity | high |
-- coupon bond
-    - dirty price
-    - accrued interest
-    - clean price
-        dirty price - accrued interest
-- zero coupon bond
-- callable bond
-- loan
-- mortgage
