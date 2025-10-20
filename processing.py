@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 import sys
+import subprocess
 
 def remove_empty_lines(file_path):
     try:
@@ -52,6 +53,16 @@ def remove_leading_spaces(file_path, num_chars):
         print(f"an error has occured: {e}")
 
 if __name__ == '__main__':
+    try:
+        result = subprocess.run(
+            ["bash", "test.sh"], 
+            capture_output=True, 
+            text=True, 
+            check=True
+        )
+    except Exception as e:
+        print(f"an error has occured: {e}")
+    
     if len(sys.argv) < 2:
         # Exit if no files or options are provided
         sys.exit(0)
