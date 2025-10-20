@@ -88,7 +88,6 @@ if __name__ == '__main__':
             print(file)
             remove_empty_lines(file)
             numbers_of_spaces = count_leading_spaces(file)
-            print(numbers_of_spaces)
             if numbers_of_spaces: # Check if list is not empty
                 min_number = min(numbers_of_spaces)
                 remove_leading_spaces(file, min_number)
