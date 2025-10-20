@@ -33,7 +33,12 @@ def count_leading_spaces(file_path):
         spaces_numbers = []
         with open(file_path, 'r', encoding='utf-8') as f:
             for i, line in enumerate(f):
-                leading_spaces = len(line.rstrip('\n')) - len(line.lstrip(' ')) +1
+                leading_spaces = 0
+                for char in line:
+                    if char == ' ':
+                        leading_spaces += 1
+                    if char != ' ':
+                        break
                 spaces_numbers.append(leading_spaces)
         return spaces_numbers
     except Exception as e:
@@ -83,6 +88,7 @@ if __name__ == '__main__':
             print(file)
             remove_empty_lines(file)
             numbers_of_spaces = count_leading_spaces(file)
+            print(numbers_of_spaces)
             if numbers_of_spaces: # Check if list is not empty
                 min_number = min(numbers_of_spaces)
                 remove_leading_spaces(file, min_number)
