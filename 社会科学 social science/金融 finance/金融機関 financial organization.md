@@ -5,3 +5,4 @@
     Intermediary ensuring proper settlement of trades
     - CCP central counterparty clearing house
     - DCO derivative clearing organization
+- 取引所 exchange
