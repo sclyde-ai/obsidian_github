@@ -1,5 +1,4 @@
-
-        - Berlin
-        - Hamburg
-        - Munich
-        - Cologne
+- Berlin
+- Hamburg
+- Munich
+- Cologne

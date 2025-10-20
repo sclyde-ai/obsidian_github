@@ -1,1 +1,1 @@
-orall n \in \{1, ..., N\}, P(X=n) = \frac{1}{N} $$
+rall n \in \{1, ..., N\}, P(X=n) = \frac{1}{N} $$

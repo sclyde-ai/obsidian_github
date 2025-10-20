@@ -1,1 +1,1 @@
- \sum_{x \in \chi} p(x)\log \ p(x) \\ = -E_p[\log\ p(X)] $$
+sum_{x \in \chi} p(x)\log \ p(x) \\ = -E_p[\log\ p(X)] $$

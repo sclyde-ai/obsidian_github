@@ -1,4 +1,3 @@
-
 ||def|differential|calculus|
 |---|---|---|---|
 |sin||cos|-cos|

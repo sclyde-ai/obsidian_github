@@ -1,1 +1,1 @@
-atical category in verbs that indicates the time of an action or event, with the three main types being past, present, and future
+tical category in verbs that indicates the time of an action or event, with the three main types being past, present, and future

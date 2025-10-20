@@ -1,1 +1,1 @@
-[[UAE United Arab Emirates]]
+[UAE United Arab Emirates]]

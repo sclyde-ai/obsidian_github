@@ -1,3 +1,2 @@
-
-        - Paris
-        - Marseille
+- Paris
+- Marseille

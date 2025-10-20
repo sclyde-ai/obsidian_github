@@ -1,7 +1,6 @@
-
-        - Mumbai
-        - Delhi
-        - Bengaluru
-        - Hyderabad
-        - Kolkata
-        - Chennai
+- Mumbai
+- Delhi
+- Bengaluru
+- Hyderabad
+- Kolkata
+- Chennai
