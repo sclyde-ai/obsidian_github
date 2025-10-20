@@ -1,25 +1,24 @@
 - neural network
     ![IMG_7275.jpeg](IMG_7275.jpeg)
-    - 全結合層 fully connected layer
+    - 
         where every neuron is connected to every neuron
     - CNN convolutional neural network
         - pooling layer
         - 畳み込み層 convolution layer
     - 例 example
-        - feedforward neural network
-        - recurrent neural network
-        - ResNet residual neural network
+        - 
+        - 
+        - 
         - Encoder-Decoder
         - attention
         - transformer
-        - GAN generative adversarial network
-        - DBN deep belief network
+        - 
     - probability inference
 - note
-    - ResNet
-    - PolyNet
-    - FractalNet
-    - RevNet
+    - 
+    - 
+    - 
+    - 
     https://qiita.com/konatsu/items/a016dbe136be9b626fff
 - perceptron
     - and
