@@ -1,1 +1,1 @@
-/home/sclyde/Obsidian-*.AppImage
+explorer.exe "obsidian://open?vault=obsidian_github"
