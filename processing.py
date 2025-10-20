@@ -15,7 +15,6 @@ def remove_empty_lines(file_path):
     except Exception as e:
         print(f"an error has occured: {e}")
 
-
 def remove_end_indnet(file_path):
     with open(file_path, 'rb+') as f:
         try:
