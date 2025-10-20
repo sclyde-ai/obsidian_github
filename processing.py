@@ -60,6 +60,12 @@ if __name__ == '__main__':
             text=True, 
             check=True
         )
+        result = subprocess.run(
+            ["git", "pull"], 
+            capture_output=True, 
+            text=True, 
+            check=True
+        )
     except Exception as e:
         print(f"an error has occured: {e}")
     
