@@ -1,16 +1,13 @@
 - 北米 North America
-    - New York(USA)
-        - wall street
-    - San Francisco(USA)
-    - Chicago(USA)
-        - the loop
-    - Los Angeles(USA)
-    - Washington D.C.(USA)
-    - Boston(USA)
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
 - 欧米 Europe
-    - London(UK)
-        - the city
-    - Frankfurt(Germany)
+    - 
+    - 
     - Dublin(Ireland)
     - Geneva(Switzerland)
     - Luxembourg
