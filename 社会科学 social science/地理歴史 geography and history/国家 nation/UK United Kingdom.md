@@ -1,0 +1,16 @@
+
+        - London
+            - the city
+            - institution
+                - LSE London Stock Exchange
+                - BoE Bank of England
+            - bank
+                - HSBC
+                - Barclays
+                - Standard Chartered
+            - company
+                - Lloyd’s of London
+            - industry
+                - insurance
+                - FX
+        - Birmingham

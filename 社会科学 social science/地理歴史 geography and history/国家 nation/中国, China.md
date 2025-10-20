@@ -1,0 +1,17 @@
+
+        - 上海 Shanghai
+        - 北京 Beijing
+        - 深圳 Shenzhen
+        - 广州 Guangzhou
+        - 重庆 Chongqing
+        - Hong Kong
+            - institution
+                - HKEX Hong Kong Stock Exchange
+            - bank
+                - HSBC
+                - Standard Chartered
+                - Bank of China
+            - company
+            - industry
+                - wealth management
+                - IPO
