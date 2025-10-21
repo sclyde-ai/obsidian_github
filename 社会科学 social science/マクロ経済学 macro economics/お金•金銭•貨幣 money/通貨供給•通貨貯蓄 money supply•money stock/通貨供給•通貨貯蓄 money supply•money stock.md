@@ -1,4 +1,4 @@
-金融部門から経済全体に供給されている通貨の総量
+金融部門から経済全体に供給されている通貨の総量のこと
 ![](https://www.jcer.or.jp/column/fukao/img/0906fukaograph1.jpg)
 
 
