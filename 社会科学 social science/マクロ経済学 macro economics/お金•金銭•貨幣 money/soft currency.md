@@ -1,0 +1,10 @@
+- 例 example
+    - [[CNY(renminbi•Chinese yen)]]
+    - [[HKD(Hong Kong dollar)]]
+    - [[SGD(Singapore dollar)]]
+    - [[KRW(South Korean won)]]
+    - [[INR(Indian rupee)]]
+    - [[MXN(Mexican peso)]]
+    - [[BRL(Brazilian real)]]
+    - [[ZAR(South Africa rand)]]
+    - [[RUB(Russian ruble)]]

@@ -1,24 +1,9 @@
 決済のための価値交換媒体のこと
 a standardization of money in any form, in use or circulation as a medium of exchange
 - major
-    - [[USD(US dollar)]]
-    - [[EUR(Euro)]]
-    - [[GBP (pond•sterling)]]
-    - [[JPY(Japanese yen)]]
-    - [[CAD(Canadian dollar)]]
-    - [[AUD(Australian dollar)]]
-    - [[NZD(NewZealand dollar)]]
-    - [[CHF(Swiss franc)]]
+    
 - minor
-    - [[CNY(renminbi•Chinese yen)]]
-    - [[香港 Hong Kong]]
-    - [[SGD(Singapore dollar)]]
-    - [[KRW(South Korean won)]]
-    - [[INR(Indian rupee)]]
-    - [[MXN(Mexican peso)]]
-    - [[BRL(Brazilian real)]]
-    - [[ZAR(South Africa rand)]]
-    - [[RUB(Russian ruble)]]
+    
 - obsolete/out of date
     - [[FF(French franc)]]
     - [[DEM(mark)]]
