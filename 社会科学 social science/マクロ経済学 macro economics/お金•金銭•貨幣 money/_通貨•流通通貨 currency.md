@@ -1,12 +1,12 @@
 決済のための価値交換媒体のこと
 a standardization of money in any form, in use or circulation as a medium of exchange
 - major
+    - [[USD(US dollar)]]
+    - [[EUR(Euro)]]
+    - [[GBP (pond•sterling)]]
+    - [[JPY(Japanese yen)]]
+    - [[CAD(Canadian dollar)]]
     - 
-    - 
-    - GBP pond sterling (UK)
-    - JPY Japanese yen (Japan)
-    - CAD Canadian dollar (Canada)
-    - AUD Australian dollar (Australia)
     - NZD NewZealand dollar (NewZealand)
     - CHF Swiss franc (Swiss)
 - minor
