@@ -1,13 +1,15 @@
 {
 	"nodes":[
 		{"id":"488ee931249dfe8b","type":"text","text":"language aquisition","x":-125,"y":-30,"width":250,"height":50},
-		{"id":"7868a25180f7ec32","type":"text","text":"developmental sequence \n1. single words\n2. declarative word order\n3. fronting\n4. ","x":-315,"y":164,"width":250,"height":296},
+		{"id":"7868a25180f7ec32","type":"text","text":"developmental sequence \n1. single words\n2. declarative word order\n3. fronting(wh-)\n4. inversion(question sentence)","x":-315,"y":164,"width":250,"height":196},
 		{"id":"41dc504b49cce0bb","type":"text","text":"","x":180,"y":-30,"width":250,"height":50},
-		{"id":"c1147ff01048b186","x":-317,"y":314,"width":250,"height":50,"type":"text","text":""}
+		{"id":"c1147ff01048b186","x":-315,"y":440,"width":250,"height":50,"type":"text","text":""},
+		{"id":"ff26c668c913a313","x":77,"y":252,"width":250,"height":50,"type":"text","text":"developmental error"}
 	],
 	"edges":[
 		{"id":"fa809015bfc44c76","fromNode":"488ee931249dfe8b","fromSide":"bottom","toNode":"7868a25180f7ec32","toSide":"top"},
 		{"id":"b81606321c49f31d","fromNode":"488ee931249dfe8b","fromSide":"right","toNode":"41dc504b49cce0bb","toSide":"left"},
-		{"id":"136e5d62250f6062","fromNode":"7868a25180f7ec32","fromSide":"bottom","toNode":"c1147ff01048b186","toSide":"top"}
+		{"id":"136e5d62250f6062","fromNode":"7868a25180f7ec32","fromSide":"bottom","toNode":"c1147ff01048b186","toSide":"top"},
+		{"id":"13adacec212a790f","fromNode":"7868a25180f7ec32","fromSide":"right","toNode":"ff26c668c913a313","toSide":"left"}
 	]
 }
