@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"488ee931249dfe8b","type":"text","text":"language aquisition","x":-125,"y":-30,"width":250,"height":50},
+		{"id":"7868a25180f7ec32","type":"text","text":"developmental sequence ","x":-315,"y":164,"width":250,"height":50},
+		{"id":"41dc504b49cce0bb","type":"text","text":"","x":180,"y":-30,"width":250,"height":50}
+	],
+	"edges":[
+		{"id":"fa809015bfc44c76","fromNode":"488ee931249dfe8b","fromSide":"bottom","toNode":"7868a25180f7ec32","toSide":"top"},
+		{"id":"b81606321c49f31d","fromNode":"488ee931249dfe8b","fromSide":"right","toNode":"41dc504b49cce0bb","toSide":"left"}
+	]
+}
