@@ -6,9 +6,9 @@ a standardization of money in any form, in use or circulation as a medium of exc
     - [[GBP (pond•sterling)]]
     - [[JPY(Japanese yen)]]
     - [[CAD(Canadian dollar)]]
-    - 
-    - NZD NewZealand dollar (NewZealand)
-    - CHF Swiss franc (Swiss)
+    - [[AUD(Australian dollar)]]
+    - [[NZD(NewZealand dollar)]]
+    - [[CHF(Swiss franc)]]
 - minor
     - CNY renminbi (China)
     - HKD Hong Kong dollar (Hong Kong)
