@@ -10,11 +10,11 @@ a standardization of money in any form, in use or circulation as a medium of exc
     - [[NZD(NewZealand dollar)]]
     - [[CHF(Swiss franc)]]
 - minor
-    - CNY renminbi (China)
-    - HKD Hong Kong dollar (Hong Kong)
-    - SGD Singapore dollar (Singapore)
-    - KRW South Korean won (South Korean)
-    - INR Indian rupee (India)
+    - [[CNY(renminbi•Chinese yen)]]
+    - [[香港 Hong Kong]]
+    - [[SGD(Singapore dollar)]]
+    - [[KRW(South Korean won)]]
+    - 
     - MXN Mexican peso (Mexico)
     - BRL Brazilian real (Brazil)
     - ZAR South Africa rand (South Africa)
