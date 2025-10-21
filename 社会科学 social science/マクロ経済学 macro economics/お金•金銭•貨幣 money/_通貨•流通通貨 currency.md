@@ -5,5 +5,4 @@ a standardization of money in any form, in use or circulation as a medium of exc
 - minor
     
 - obsolete/out of date
-    - [[FF(French franc)]]
-    - [[DEM(mark)]]
+    
