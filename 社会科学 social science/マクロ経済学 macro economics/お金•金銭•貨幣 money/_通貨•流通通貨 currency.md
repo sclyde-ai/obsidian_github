@@ -14,13 +14,11 @@ a standardization of money in any form, in use or circulation as a medium of exc
     - [[香港 Hong Kong]]
     - [[SGD(Singapore dollar)]]
     - [[KRW(South Korean won)]]
-    - 
-    - MXN Mexican peso (Mexico)
-    - BRL Brazilian real (Brazil)
-    - ZAR South Africa rand (South Africa)
-    - RUB Russian ruble (Russia)
+    - [[INR(Indian rupee)]]
+    - [[MXN(Mexican peso)]]
+    - [[BRL(Brazilian real)]]
+    - [[ZAR(South Africa rand)]]
+    - [[RUB(Russian ruble)]]
 - obsolete/out of date
-    - FF French franc (France)
-    - DEM mark (Germany)
-- 
-- 
+    - [[FF(French franc)]]
+    - [[DEM(mark)]]
