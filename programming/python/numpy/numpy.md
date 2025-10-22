@@ -1,5 +1,5 @@
 # class
-- np.ndarry
+- np.ndarray
     - properties
         - dtype
         - ndim
