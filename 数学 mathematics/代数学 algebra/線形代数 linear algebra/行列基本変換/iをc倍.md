@@ -1,6 +1,6 @@
 $$
 \begin{matrix}
-&& j
+&& i
 \\
 &&\downarrow 
 \end{matrix}
