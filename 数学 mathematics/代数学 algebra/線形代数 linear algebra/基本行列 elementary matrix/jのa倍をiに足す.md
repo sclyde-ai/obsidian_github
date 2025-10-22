@@ -1,4 +1,11 @@
 $$
+\begin{matrix}
+&&& i &&& j
+\\
+&&& \downarrow &&& \downarrow
+\end{matrix}
+$$
+$$
 A_{ij}(c) =
 \begin{pmatrix}
 1 & & & & & \\

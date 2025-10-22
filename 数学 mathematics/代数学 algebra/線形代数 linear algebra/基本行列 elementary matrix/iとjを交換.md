@@ -1,4 +1,11 @@
 $$
+\begin{matrix}
+i &&& j
+\\
+\downarrow &&& \downarrow
+\end{matrix}
+$$
+$$
 P_{ij} =
 \begin{pmatrix}
 1 & & & & & & \\
