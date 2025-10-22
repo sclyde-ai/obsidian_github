@@ -1,4 +1,4 @@
-```latex
+$$
 P_{ij} =
 \begin{pmatrix}
 1 & & & & & & \\
@@ -10,4 +10,4 @@ P_{ij} =
 & & & & & & 1
 \end{pmatrix}
 \begin{matrix} \\ \\ \leftarrow i \\ \\ \leftarrow j \\ \\ \\ \end{matrix}
-```
+$$
