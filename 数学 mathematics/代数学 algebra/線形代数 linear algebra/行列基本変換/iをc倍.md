@@ -1,4 +1,11 @@
 $$
+\begin{matrix}
+&& j
+\\
+&&\downarrow 
+\end{matrix}
+$$
+$$
 M_i(c) =
 \begin{pmatrix}
 1 & & & & \\
@@ -9,3 +16,4 @@ M_i(c) =
 \end{pmatrix}
 \begin{matrix} \\ \\ \leftarrow i \\ \\ \\ \end{matrix}
 $$
+
