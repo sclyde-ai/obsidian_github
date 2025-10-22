@@ -1,4 +1,4 @@
-[国際通貨 national currency](https://www.notion.so/national-currency-216ec42dd04b81d49773c79958abb447?pvs=21) 
+
 - pip
     forex 
     0.0001
