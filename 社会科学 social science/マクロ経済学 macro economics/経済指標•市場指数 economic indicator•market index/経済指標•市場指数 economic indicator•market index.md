@@ -24,12 +24,8 @@
                 divisor_{new} = \frac{divisor_{new}\times sum_{new}}{sum_{old}}
             $$
     - 株価 stock price
-        - DJIA Dow jones industrial average
-            $$
-            \frac{sum\:of\:stock\:price\:of\:top\:30}{divisor}
-            $$
-        - Nasdaq composite index
-            tech heavy
+	    [[DJIA Dow jones industrial average]]
+        [[Nasdaq composite index]]
     - 時価総額 market cap
         - S&P 500 index
             $$
