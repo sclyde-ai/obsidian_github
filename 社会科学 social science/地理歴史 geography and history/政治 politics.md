@@ -37,5 +37,3 @@
         小規模実験で成果を可視化し参加者を雪だるま式に増やす
     - critical-math tipping
         主要意思決定者の3割まで支持を拡大すると抵抗が追随に転じる
-- median voter hypothesis/Meltzer-Richard theory
-    所得の中央値と所得の平均値の差が、公共財の供給レベルを左右するという理論
