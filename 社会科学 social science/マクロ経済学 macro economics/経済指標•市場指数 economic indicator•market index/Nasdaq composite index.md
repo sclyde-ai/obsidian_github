@@ -1,2 +1,1 @@
-
-            tech heavy
+tech heavy
