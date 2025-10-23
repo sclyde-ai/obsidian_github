@@ -1,18 +1,18 @@
-    - Laspeyres
-        $$
-        L = \frac{\sum p_t q_0}{\sum p_0 q_0}
-        $$
-        - CPI consumer price index
-    - Passhe
-        $$
-        P = \frac{\sum p_t q_t}{\sum p_0 q_t}
-        $$
-        - GDP deflator
-    - fisher
-        LaspeyresとPaasheの幾何平均
-        $$
-        F = \sqrt {L\times P}
-        $$
+- Laspeyres
+	$$
+	L = \frac{\sum p_t q_0}{\sum p_0 q_0}
+	$$
+	- CPI consumer price index
+- Passhe
+	$$
+	P = \frac{\sum p_t q_t}{\sum p_0 q_t}
+	$$
+	- GDP deflator
+- fisher
+	LaspeyresとPaasheの幾何平均
+	$$
+	F = \sqrt {L\times P}
+	$$
 - 株価/時価総額 stock price/market cap
     - Dow divisor(divisor)
         number of stock (basically)
