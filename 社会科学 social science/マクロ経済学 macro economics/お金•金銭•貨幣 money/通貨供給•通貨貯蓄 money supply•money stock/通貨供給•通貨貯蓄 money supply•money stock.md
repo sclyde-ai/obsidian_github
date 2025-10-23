@@ -1,9 +1,5 @@
 金融部門から経済全体に供給されている通貨の総量のこと
 ![](https://www.jcer.or.jp/column/fukao/img/0906fukaograph1.jpg)
-
-
-
-
 - 通貨貯蓄 money stock
     通貨保有主体が保有する通貨量の残高
     流動性を基準に下記のように分類

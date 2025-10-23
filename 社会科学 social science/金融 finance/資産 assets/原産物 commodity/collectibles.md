@@ -1,2 +1,1 @@
-
-    an item valued and sought by collectors
+an item valued and sought by collectors

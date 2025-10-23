@@ -16,4 +16,3 @@ M_i(c) =
 \end{pmatrix}
 \begin{matrix} \\ \\ \leftarrow i \\ \\ \\ \end{matrix}
 $$
-
