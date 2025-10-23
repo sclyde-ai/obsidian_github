@@ -1,36 +1,8 @@
-- Laspeyres
-	$$
-	L = \frac{\sum p_t q_0}{\sum p_0 q_0}
-	$$
-	- CPI consumer price index
-- Passhe
-	$$
-	P = \frac{\sum p_t q_t}{\sum p_0 q_t}
-	$$
-	- GDP deflator
-- fisher
-	LaspeyresとPaasheの幾何平均
-	$$
-	F = \sqrt {L\times P}
-	$$
-- 株価/時価総額 stock price/market cap
-    - Dow divisor(divisor)
-        number of stock (basically)
-        - algorithm
-            $$
-                \frac{sum_{old}}{divisor_{old}} = \frac{sum_{new}}{divisor_{new}}
-            $$
-            $$
-                divisor_{new} = \frac{divisor_{new}\times sum_{new}}{sum_{old}}
-            $$
-    - 株価 stock price
-	    [[DJIA Dow jones industrial average]]
-        [[Nasdaq composite index]]
-    - 時価総額 market cap
-        - S&P 500 index
-            $$
-            \frac{sum\:of\:market\:cap\:of\:top\:500}{divisor}
-            $$
+- 株価 stock price
+	[[DJIA Dow jones industrial average]]
+	[[Nasdaq composite index]]
+- 時価総額 market cap
+    [[S&P 500 index]]
 - 物価 price
     - 消費者物価指数 CPI consumer price index
         $$
