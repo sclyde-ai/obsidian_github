@@ -17,7 +17,11 @@
     - ERC-20
         代替性tokenの規格
         [[totalSupply() → uint256]]
-        
+        [[balanceOf(address _owner) → uint256]]
+        [[transfer(address _to, uint _value) → bool]]
+        [[approve(address spender, uint  _value) → bool]]
+        [[transferFrom(address _from, address _to, uint _value) → bool]]
+        [[allowance(address _owner, address _spender) → bool]]
     - ERC-223
         誤送信時のtoken消失を解決
     - ERC-721
