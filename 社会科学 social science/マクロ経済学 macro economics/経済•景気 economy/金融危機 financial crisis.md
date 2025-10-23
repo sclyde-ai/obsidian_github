@@ -10,25 +10,10 @@ a severe disruption to the supply of money and credit, leading to a sharp declin
 - economic/speculative/financial bubble
     資産価格が実体経済の価値とかけ離れて高騰し、投機によって実態以上に膨らんだ状態
     a period when current asset prices greatly exceed their intrinsic valuation
-    - 日本のバブル崩壊
-- 株価大暴落 stock market crash
+- 大暴落 stock market crash
     株価が突如急激に低下すること
     a sudden dramatic decline of stock prices across a major cross-section of a stock market
-- 経済恐慌 economic collapse/meltdown
-    a severe, long-term economic downturn marked by a significant drop in overall economic activity
-    - the great depression 世界恐慌
-        戦後の戦債の返済による好況
-        過剰生産
-        - time table
-            | period  | event | content |
-            | --- | --- | --- |
-            | before | roaring twenties |  |
-            | 1929/10/24 (beginning) | black Thursday  | US stock market crash |
-            | 1930/6 | Smoot-Hawley tariff act |  |
-            | 1931/5 | bankruptcy of credit Anstalt  |  |
-            | 1931/6 | hoover moratorium  | suspension of germany repayment of WW2 |
-            | 1931/9/21 | UK ceased exchanging pond and gold |  |
-            | 1933/3 | new deal |  |
+
 - 財政危機 debt crisis
     政府が税収よりも大幅な支出を続け、財政赤字が累増することで、政府の信用が失われる状態
     a situation where a government or sovereign entity is unable to meet its financial obligations, leading to default or restructuring of its debt

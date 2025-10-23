@@ -1,0 +1,2 @@
+
+    a severe, long-term decline in economic activity characterized by significantly reduced output and productivity, high unemployment, and a substantial drop in GDP, lasting for several years or more
