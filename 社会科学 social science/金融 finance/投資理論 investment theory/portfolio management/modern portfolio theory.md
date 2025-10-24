@@ -54,8 +54,10 @@ $$
         $$
 - GMVP global minimum variance portfolio
     $$
-    \min_{w} \frac{1}{2} w^\top \Sigma w\\
-    s.t. \ \bm 1^\top w = 1
+    \min_{w} \frac{1}{2} w^\top \Sigma w
+    $$
+    $$
+    s.t. \ \mathbb 1^\top w = 1
     $$
     - GMVP weight vector
         $$
@@ -64,12 +66,11 @@ $$
     - expected return
         $$
         \mu_{GMVP} = \frac{\mu^\top \Sigma^{-1}\rm 1}{\rm 1^\top \Sigma^{-1} \rm 1}
-        $$ 
+        $$
     - variance
         $$
         \sigma^2_{GMVP} = \frac{1}{\rm 1^\top \Sigma^{-1} \rm 1}
         $$
-        it equals to the Lagrange multiplier 
     - differentiate
         - $\nabla (w^\top \mu) = \mu$
         - $\nabla (w^\top \rm 1) = 1$
