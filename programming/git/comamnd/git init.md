@@ -1,0 +1,1 @@
+current directoryをgit repositoryとして設定
