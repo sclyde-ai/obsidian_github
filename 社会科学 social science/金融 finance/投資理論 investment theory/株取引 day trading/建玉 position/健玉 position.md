@@ -2,11 +2,10 @@
             - 
             - 
             - 
-            - exit
-            - overnight
+            -l
             - 
         - 
-        - 出来高 volume
+        - 
         - 含み益 unrealized gain
         - 含み損 unrealized loss
         - spread
