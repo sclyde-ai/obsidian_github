@@ -30,12 +30,15 @@
         $$
     - 1 vector
         $$
-        \bm 1 = (1, 1, ...,1)^\top
+        \mathbb 1 = (1, 1, ...,1)^\top
         $$
 - portfolio
     - weight
         $$
-        w = (w_1, w_2, ...,w_n)^\top \\
+        w = (w_1, w_2, ...,w_n)^\top
+        
+        $$
+$$
         \sum_{i=1}^n w_i = 1
         $$
     - expected return
@@ -58,9 +61,13 @@
         $$
         w_{GMVP} = \frac{\Sigma^{-1}\rm 1}{\rm 1^\top \Sigma^{-1} \rm 1}
         $$
+    - expected return
+        $$
+        \mu_{GMVP} = \frac{\mu^\top \Sigma^{-1}\rm 1}{\rm 1^\top \Sigma^{-1} \rm 1}
+        $$ 
     - variance
         $$
-        w_{GMVP} = \frac{1}{\rm 1^\top \Sigma^{-1} \rm 1}
+        \sigma^2_{GMVP} = \frac{1}{\rm 1^\top \Sigma^{-1} \rm 1}
         $$
         it equals to the Lagrange multiplier 
     - differentiate

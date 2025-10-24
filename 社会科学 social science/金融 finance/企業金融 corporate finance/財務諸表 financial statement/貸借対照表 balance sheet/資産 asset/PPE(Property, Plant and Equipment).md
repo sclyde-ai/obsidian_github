@@ -1,3 +1,0 @@
-
-                        - Net PPE
-                        - Gross PPE
