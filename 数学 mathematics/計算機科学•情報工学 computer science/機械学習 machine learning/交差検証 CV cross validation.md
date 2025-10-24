@@ -5,8 +5,6 @@
         1. データを一つ選ぶ
         2. そのデータを検証に使い、他のn-1個を訓練に使う
         3. 全通り(n回)行う
-        - gif
-            ![image.gif](image.gif)
     - leave p out
         1. データをp個選ぶ
         2. そのデータを検証に使い、他のn-p個を訓練に使う
@@ -22,6 +20,6 @@
         1. データをk個に分割
         2. 1つを検証に使い、他のk-1個を訓練に使う
         3. 全通り(k回)行う
-        - gif
-            ![image.gif](image%201.gif)
     - repeated random sub-sampling validation
+- wikipedia
+  https://ja.wikipedia.org/wiki/%E4%BA%A4%E5%B7%AE%E6%A4%9C%E8%A8%BC

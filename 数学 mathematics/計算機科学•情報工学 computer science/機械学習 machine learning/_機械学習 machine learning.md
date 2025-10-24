@@ -5,9 +5,6 @@
     [[汎用性•汎化性能 generalization]]
     [[過学習 overfitting]]
 - problem
-    - 勾配消失 vanishing gradient
-    - no free lunch theorem
-        汎用性と最適性は両立不可能
     - 幻覚 hallucination
         事実でない情報や存在しない情報を本物のように出力すること
     - Potemkin understanding
