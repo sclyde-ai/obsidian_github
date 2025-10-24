@@ -32,49 +32,7 @@
         $$
         \mathbb 1 = (1, 1, ...,1)^\top
         $$
-- portfolio
-    - weight
-        $$
-        w = (w_1, w_2, ...,w_n)^\top
-        
-        $$
-$$
-        \sum_{i=1}^n w_i = 1
-        $$
-    - expected return
-        $$
-        \mu_p = \mathbb E[R_w] 
-        \\ = \mathbb E[\sum_{i=1}^n w_i R_i] 
-        \\ = \sum_{i=1}^n w_i \mathbb E[R_i] \\
-        = \sum_{i=1}^n w_i \mathbb \mu_i
-        $$
-    - variance
-        $$
-        \sigma_p^2 = w^\top \Sigma w
-        $$
-- GMVP global minimum variance portfolio
-    $$
-    \min_{w} \frac{1}{2} w^\top \Sigma w
-    $$
-    $$
-    s.t. \ \mathbb 1^\top w = 1
-    $$
-    - GMVP weight vector
-        $$
-        w_{GMVP} = \frac{\Sigma^{-1}\rm 1}{\rm 1^\top \Sigma^{-1} \rm 1}
-        $$
-    - expected return
-        $$
-        \mu_{GMVP} = \frac{\mu^\top \Sigma^{-1}\rm 1}{\rm 1^\top \Sigma^{-1} \rm 1}
-        $$
-    - variance
-        $$
-        \sigma^2_{GMVP} = \frac{1}{\rm 1^\top \Sigma^{-1} \rm 1}
-        $$
-    - differentiate
-        - $\nabla (w^\top \mu) = \mu$
-        - $\nabla (w^\top \rm 1) = 1$
-        - $\nabla (w^\top \Sigma w) = 2 \Sigma w$
+- 
 - mean-variance optimization
     $$
     \min_{w} \frac{1}{2} w^\top \Sigma w \\
