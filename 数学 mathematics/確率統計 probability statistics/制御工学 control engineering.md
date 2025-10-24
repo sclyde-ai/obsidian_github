@@ -38,5 +38,6 @@
                 $$
         - loop 整形法
     - 現代制御
+    - バーゼル制御
 - model free control
 [こんとろラボ](https://controlabo.com/)
