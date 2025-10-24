@@ -1,4 +1,4 @@
- - 傾向 trend
+- 傾向 trend
     - MA moving average 移動平均
         near-term
                 - 5 days
@@ -64,7 +64,6 @@
         oversold (below 30)
             A low RSI (below 30) suggests that a stock's price has fallen too quickly and may be due for a rebound.
             When RSI falls below 30 and then crosses back above it, it can signal a potential buying opportunity.        
-    - stochastics
     - 平均移動線乖離率
     - phycological line
 - S&R
@@ -83,5 +82,3 @@
         短期の移動平均線が長期の移動平均線を上から下に突き抜ける現象のこと
         相場の下降傾向への転換を示す。
         売り時
-- drawdown
-    the investment loss experienced from a high point to a low point
