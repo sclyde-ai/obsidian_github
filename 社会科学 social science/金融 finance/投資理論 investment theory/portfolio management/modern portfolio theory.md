@@ -1,9 +1,9 @@
 - setting
-    - assets
+    - 資産 assets
         $$
         N = \{1, 2, ..., n\}
         $$
-    - return
+    - 収益 return
         random variable
         $$
         \{R_i\}_{i \in N}

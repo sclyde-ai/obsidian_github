@@ -2,7 +2,11 @@ financial statement(English)
         - BS balance sheet
             - credit
                 - Assets
-                    - 
+                    - Total Assets
+                    - Cash and Cash Equivalents
+                    - PPE(Property, Plant and Equipment)
+                        - Net PPE
+                        - Gross PPE
                     - Receivable
                         - Accounts Receivable
                     - securities
@@ -266,6 +270,7 @@ financial statement(English)
                     | 前期損益修正益 | 前期損益修正損 |
                     | 雑益 | 雑損 |
                 - 
+
 簿記論/財務諸表論
     本支店会計
             - 本店集中計算制度
