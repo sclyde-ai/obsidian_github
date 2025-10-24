@@ -6,14 +6,9 @@
             - 
         - 
         - 
-        - 含み益 unrealized gain
-        - 含み損 unrealized loss
-        - spread
-            difference or gap between two related values.
-            - bid-ask spread
-                the difference between the highest price that a buyer is willing to pay for an asset and the lowest price that a seller is willing to accept
-            - interest rate spread
-            - credit spread
+        - 
+        - 
+        - 
         - 注文 order
             - order book
             - market order
