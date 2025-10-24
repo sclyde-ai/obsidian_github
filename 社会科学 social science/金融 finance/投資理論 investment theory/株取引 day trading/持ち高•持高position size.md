@@ -1,0 +1,2 @@
+
+                the number of units invested in a particular security by an investor or trader
