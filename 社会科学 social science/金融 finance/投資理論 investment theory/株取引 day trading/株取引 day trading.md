@@ -4,8 +4,7 @@
     - 
     - 戦略 strategy
         - algorithmic trading
-        - 損切り loss cut
-            含み損を損失として確定させて売却すること
+        
         - in & out
             短期間で大量の売り買いを行う
             buy and sell multiple times over a short period
