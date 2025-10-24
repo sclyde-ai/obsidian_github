@@ -57,4 +57,4 @@
     - 裁定 sure win strategy
         $$
         R > \vec 0 \lor R < \vec 0
-        $$
+        $$p
