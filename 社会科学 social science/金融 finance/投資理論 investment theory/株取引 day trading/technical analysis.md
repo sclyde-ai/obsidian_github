@@ -76,10 +76,12 @@
     when prices pass through and stay through an area of support or resistance
 - MA cross
     - golden cross
-        短期の移動平均線が長期の移動平均線を下から上に突き抜ける現象
-        相場の上昇傾向への転換を示す買いシグナル        
+        短期の移動平均線が長期の移動平均線を下から上に突き抜ける現象のこと
+        相場の上昇傾向への転換を示す。
+        買い時
     - dead cross
-        短期の移動平均線が長期の移動平均線を上から下に突き抜ける現象
-        相場の下降傾向への転換を示す売りシグナル
+        短期の移動平均線が長期の移動平均線を上から下に突き抜ける現象のこと
+        相場の下降傾向への転換を示す。
+        売り時
 - drawdown
     the investment loss experienced from a high point to a low point
