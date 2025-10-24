@@ -1,2 +1,3 @@
-[[golden cross]]
-[[dead cross]]
+![[golden cross]]
+
+![[dead cross]]

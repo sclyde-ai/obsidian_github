@@ -37,11 +37,3 @@ $$
         \lor $$ $$
         \forall E \in \mathcal F_t, X_t(E) \geq X_0)
         $$
-- example1
-    dealer A ask $1.62
-    dealer B bid $1.60
-- example2
-    A in NYK buy 1 pond as 1.58 dollar in 1 year
-    B in LDN sell 1 pond as 1.60 dollar at this time 
-    dollar rate 4%
-    pond rate 6%
