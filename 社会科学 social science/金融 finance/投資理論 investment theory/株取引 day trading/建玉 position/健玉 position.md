@@ -1,21 +1,11 @@
 健玉 position
             - 
-            - close position
-                sell, exit a market
-            - entry
-                - entry point/price
-                    the price at which an investor buys or sells a security
+            - 
+            - 
             - exit
             - overnight
-            - RTP reserve tranche position
-        - 買値 bid
-            the highest price a buyer is willing to pay for an asset
-            - 買い気配 bid interest/pressure
-                買い注文が売り注文より多く、売買が成立しない状態
-        - 売値 ask/offer
-            the lowest price at which a seller is willing to accept for an asset
-            - 売り気配 ask interest/pressure
-                売り注文が買い注文より多く、売買が成立しない状態
+            - 
+        - 
         - 出来高 volume
         - 含み益 unrealized gain
         - 含み損 unrealized loss
