@@ -57,32 +57,48 @@ def remove_leading_spaces(file_path, num_chars):
     except Exception as e:
         print(f"an error has occured: {e}")
 
+def combine_name(name_list: list):
+    name = "'"
+    for folder in name_list:
+        name += folder.replace("/", "'/'")
+        name += ' '
+    name = name[:-1]
+    name += "'"
+    print(name)
+    return name
+
+def combine_name(name_list: list):
+    name = ""
+    for folder in name_list:
+        name += folder
+        name += ' '
+    name = name[:-1]
+    print(name)
+    return name
+
+
 if __name__ == '__main__':
     try:
-        result = subprocess.run(
+        subprocess.run(
             ["git", "pull"], 
-            capture_output=True, 
+            capture_output=True,
             text=True, 
             check=True
         )
     except Exception as e:
         print(f"an error has occured: {e}")
-    
+
     if len(sys.argv) < 2:
-        # Exit if no files or options are provided
         sys.exit(0)
 
-    # Use if/elif/else for proper argument parsing
-    if sys.argv[1] == '-r':
-        files = Path('.').rglob('*.md')
-    elif sys.argv[1] == '-d':
-        files = []
-        # Start from the third argument to get folders
-        for folder in sys.argv[2:]:
-            files.extend(Path(folder).rglob('*.md'))
+    if sys.argv[1] == '-d':
+        print(sys.argv[2:])
+        folder_name = combine_name(sys.argv[2:])
+        files = Path(folder_name).rglob('*.md')
     else:
-        files = sys.argv[1:]
-    
+        file_name = combine_name(sys.argv[1:])
+        files = [file_name]
+
     for file in files:
         try:
             print(file)
@@ -94,3 +110,43 @@ if __name__ == '__main__':
         except Exception as e:
             print(f"Error processing {file}: {e}")
             continue
+
+# if __name__ == '__main__':
+#     try:
+#         subprocess.run(
+#             ["git", "pull"], 
+#             capture_output=True,
+#             text=True, 
+#             check=True
+#         )
+#     except Exception as e:
+#         print(f"an error has occured: {e}")
+
+#     print(sys.argv)
+    
+#     if len(sys.argv) < 2:
+#         # Exit if no files or options are provided
+#         sys.exit(0)
+
+#     # Use if/elif/else for proper argument parsing
+#     if sys.argv[1] == '-r':
+#         files = Path('.').rglob('*.md')
+#     elif sys.argv[1] == '-d':
+#         files = []
+#         # Start from the third argument to get folders
+#         for folder in sys.argv[2:]:
+#             files.extend(Path(folder).rglob('*.md'))
+#     else:
+#         files = sys.argv[1:]
+    
+#     for file in files:
+#         try:
+#             print(file)
+#             remove_empty_lines(file)
+#             numbers_of_spaces = count_leading_spaces(file)
+#             if numbers_of_spaces: # Check if list is not empty
+#                 min_number = min(numbers_of_spaces)
+#                 remove_leading_spaces(file, min_number)
+#         except Exception as e:
+#             print(f"Error processing {file}: {e}")
+#             continue

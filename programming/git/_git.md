@@ -15,7 +15,6 @@
 		1. 未追跡file
 		2. 変更されたがstageされてないfile
 		3. stageされたがcommitされてないfile
-- shortcut
 # useful command
 - git push by time to push 
     git add . && git commit -m "$(date '+%Y/%m/%d %H:%M:%S')" && git push
