@@ -2,11 +2,7 @@ financial statement(English)
         - BS balance sheet
             - credit
                 - Assets
-                    - Total Assets
-                    - Cash and Cash Equivalents
-                    - PPE(Property, Plant and Equipment)
-                        - Net PPE
-                        - Gross PPE
+                    - 
                     - Receivable
                         - Accounts Receivable
                     - securities
