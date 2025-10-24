@@ -1,3 +1,1 @@
-
-            the highest price a buyer is willing to pay for an asset
-            
+the highest price a buyer is willing to pay for an asset

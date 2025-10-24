@@ -1,2 +1,1 @@
-
-                sell, exit a market
+sell, exit a market

@@ -1,2 +1,1 @@
-
-        A price level where **demand (buying) is strong enough** to prevent further decline.
+A price level where **demand (buying) is strong enough** to prevent further decline.

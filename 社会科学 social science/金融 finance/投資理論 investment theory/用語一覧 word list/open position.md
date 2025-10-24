@@ -1,2 +1,1 @@
-
-                buy, in a market
+buy, in a market
