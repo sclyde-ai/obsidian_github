@@ -1,5 +1,5 @@
 # labels
-
+https://www.oxfordlearnersdictionaries.com/about/english/labels
 - particular
     - approving 
     - disapproving 
@@ -7,4 +7,28 @@
     - formal
     - humorous
     - informal
-    - 
+    - ironic
+    - literary
+    - offensive
+    - slang
+    - specialist
+    - taboo
+- era
+    - dialect
+    - old-fashioned
+    - old use
+    - saying
+- academic
+     - anatomy
+     - biochemistry
+     - biology
+     - business
+     - chemistry
+     - computing
+     - earth science
+     - ecology
+     - economics
+     - engineering
+     - finance
+     - geometry
+     - 
