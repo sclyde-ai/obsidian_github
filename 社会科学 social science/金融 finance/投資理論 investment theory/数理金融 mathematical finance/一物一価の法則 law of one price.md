@@ -5,4 +5,4 @@
         商品が完全に等しい
     - 為替の無裁定
         為替レート価格差が存在しない(無裁定)
-[[バラッサ・サミュエルソン効果 Balassa–Samuelson effect]]
+[[Balassa–Samuelson effect]]
