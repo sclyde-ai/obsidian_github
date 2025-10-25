@@ -3,4 +3,4 @@
     乱数を用いた近似計算
     - MCMC method/Markov chain Monte Carlo method
         - メトロポリス法 metro police
-        - ハミルトニアンモンテカルロ法 HMC hamiltonian monte carlo
+        - ハミルトニアンモンテカルロ法 
