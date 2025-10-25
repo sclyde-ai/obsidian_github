@@ -2,7 +2,7 @@
         $$
         w = (w_1, w_2, ...,w_n)^\top
         $$
-$$
+        $$
         \sum_{i=1}^n w_i = 1
         $$
     - expected return
