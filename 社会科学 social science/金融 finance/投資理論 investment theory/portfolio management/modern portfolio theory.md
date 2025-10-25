@@ -43,11 +43,3 @@
         $$
         \mathbb E[R_i] = r_f + \beta_i (\mathbb E[R_M] - r_f)
         $$
-    |  | CML | SML |
-    | --- | --- | --- |
-    | purpose  | optimizing a portfolio | evaluating an asset |
-    | above the line | super-efficient(not exist) | undervalue  |
-    | vertical axis  | exp of the portfolio | exp of the asset |
-    | under the line | inefficient | overvalue |
-    | horizontal axis | total risk(sigma) | systematic risk(beta) |
-    | meaning | the most efficient portfolio | the value of market |
