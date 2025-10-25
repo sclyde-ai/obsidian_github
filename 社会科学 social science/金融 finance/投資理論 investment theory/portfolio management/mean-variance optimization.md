@@ -7,8 +7,11 @@ $$
 \mu^\top w = \mu_T
 $$
 ![[CML capital market line]]
+
 ![[tangency portfolio]]
+
 ![[market portfolio]]
+
 ![[efficient frontier]]
 - tangency portfolio vs market portfolio
     these are the same in CAPM

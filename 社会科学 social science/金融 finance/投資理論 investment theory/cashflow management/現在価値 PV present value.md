@@ -26,4 +26,3 @@
         \lambda :YTM  yield to maturity
         m : the number of payment per year
         - use YTM instead of rate in bond
-a measure of the sensitivity of the price of a bond
