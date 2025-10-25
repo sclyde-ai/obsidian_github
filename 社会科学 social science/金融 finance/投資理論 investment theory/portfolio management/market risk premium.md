@@ -1,4 +1,3 @@
-
-    $$
-    \mathbb E[R_M] - r_f
-    $$
+$$
+\mathbb E[R_M] - r_f
+$$
