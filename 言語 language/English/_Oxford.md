@@ -31,4 +31,14 @@ https://www.oxfordlearnersdictionaries.com/about/english/labels
      - engineering
      - finance
      - geometry
-     - 
+     - grammar
+     - law
+     - linguistics
+     - mathematics
+     - medical
+     - philosophy 
+     - phonetics
+     - physics
+     - politics
+     - psycology
+     - statistics
