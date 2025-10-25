@@ -1,5 +1,6 @@
 ![[SML security market line]]
 ![[beta]]
+
 - 資産数を増やすと…
     全ての分散 $\sigma^2$と共分散 $\rho^2$が等しいと仮定する
     $$

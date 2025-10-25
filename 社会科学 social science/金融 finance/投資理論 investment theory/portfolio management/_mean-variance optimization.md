@@ -13,6 +13,3 @@ $$
 ![[market portfolio]]
 
 ![[efficient frontier]]
-
-- tangency portfolio vs market portfolio
-    these are the same in CAPM
