@@ -46,3 +46,4 @@
 - 文章要約
     - 抽出型
     - 生成型
+- semantic formula
