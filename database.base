@@ -1,5 +1,10 @@
+formulas:
+  Untitled: ""
 views:
   - type: table
     name: Table
+    order:
+      - file.name
+      - aliases
   - type: table
     name: View

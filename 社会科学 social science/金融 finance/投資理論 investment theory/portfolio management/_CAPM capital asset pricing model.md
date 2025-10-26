@@ -1,3 +1,4 @@
+
 ![[SML security market line]]
 ![[beta]]
 
