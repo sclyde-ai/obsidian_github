@@ -1,4 +1,0 @@
-- indentを減らす
-- 同じcodeをclassで一般化
-- 皆が理解できる名前を使え
-- python for 文減らせ
