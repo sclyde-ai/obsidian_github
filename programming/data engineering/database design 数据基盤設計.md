@@ -1,0 +1,3 @@
+- entity
+- 属性 attribute
+- 関係 relation
