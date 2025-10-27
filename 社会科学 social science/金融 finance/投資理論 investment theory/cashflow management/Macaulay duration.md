@@ -10,7 +10,7 @@ alias:
         m : the number of payment per year
         n : maturity
         y : yield
-- Macaulay duration (cross form solution)
+- cross form solution
     $$
     D = \frac{1+y}{my}-\frac{1+y+n(c-y)}{mc[(1+y)^n-1]+my}
     $$
