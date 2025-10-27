@@ -2,4 +2,4 @@
 alias:
     ['JPY(Japanese yen)']
 ---
-[[日本, Japan]]
+[[日本]]

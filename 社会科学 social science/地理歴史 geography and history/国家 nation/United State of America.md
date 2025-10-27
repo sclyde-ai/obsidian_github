@@ -1,6 +1,9 @@
 ---
 alias:
-    ['U', 'S', 'A', 'United State of America']
+  - USA
+  - U.S.A.
+  - US 
+  - U.S.
 ---
 | capital  | Washington D.C. |
 | --- | --- |

@@ -1,6 +1,8 @@
 ---
 alias:
-    ['UK', 'United Kingdom']
+  - UK
+  - U.K
+  - United Kingdom of Great Britain and Northern Ireland
 ---
 - London
     - the city

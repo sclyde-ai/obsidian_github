@@ -2,4 +2,4 @@
 alias:
     ['INR(Indian rupee)']
 ---
-[[भारत, India]]
+[[भारत]]

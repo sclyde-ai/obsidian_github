@@ -2,5 +2,5 @@
 alias:
     ['London']
 ---
-[[UK United Kingdom]]
+[[United Kingdom]]
 - the city
