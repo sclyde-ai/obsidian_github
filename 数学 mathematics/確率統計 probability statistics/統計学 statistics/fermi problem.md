@@ -1,0 +1,4 @@
+---
+alias:
+    ['fermi problem']
+---

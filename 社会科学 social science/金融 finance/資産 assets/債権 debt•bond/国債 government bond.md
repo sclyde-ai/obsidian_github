@@ -1,3 +1,7 @@
+---
+alias:
+    ['国債', 'government bond']
+---
 | return  |  |
 | --- | --- |
 | risk | low |

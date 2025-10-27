@@ -1,3 +1,7 @@
+---
+alias:
+    ['有限差分法', 'finite difference method']
+---
 時間と空間を一定区間で区切り離散化
 - 差分
     - 前進差分

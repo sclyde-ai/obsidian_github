@@ -1,3 +1,7 @@
+---
+alias:
+    ['Lagrange multiplier']
+---
 - C^1 級関数 f(x, y) g(x, y)
 - 条件1
     - 判別式 $D_f(a, b)$

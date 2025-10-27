@@ -1,3 +1,7 @@
+---
+alias:
+    ['自作模型', 'my model']
+---
 - 直近の上下動の回数に比例して上か下かの確率が変動するmodel
 - probability space
     - event space

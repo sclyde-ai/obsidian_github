@@ -1,3 +1,7 @@
+---
+alias:
+    ['平均収束', 'convergence in mean']
+---
 $$ \lim_{n \to \infty} \mathbb E(|X_n - X|^r) = 0 $$
 この時、確率変数列 $\{X_n\}$は確率変数Xへr次平均収束する
 - 表記

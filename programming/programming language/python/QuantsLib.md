@@ -1,3 +1,7 @@
+---
+alias:
+    ['QuantsLib']
+---
 # programing lang ver
     Java: JQunatLib
     C#: QLNet

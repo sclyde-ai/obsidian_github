@@ -1,3 +1,7 @@
+---
+alias:
+    ['Matlthusian model']
+---
 - model
     $$
     \dot y = ky

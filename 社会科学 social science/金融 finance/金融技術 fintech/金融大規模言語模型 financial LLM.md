@@ -1,3 +1,7 @@
+---
+alias:
+    ['金融大規模言語模型', 'financial', 'LLM']
+---
 - FinBen
     - 情報抽出 IE
     - text 分析 TA

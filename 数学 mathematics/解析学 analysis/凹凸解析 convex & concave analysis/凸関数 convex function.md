@@ -1,3 +1,7 @@
+---
+alias:
+    ['凸関数', 'convex function']
+---
 $f : \mathbb R \to \R$ 
             $$
             \forall x \in \mathbb R, \forall \lambda \in[0, 1],\\ f(\lambda x + (1- \lambda)y) \leq \lambda f(x)+ (1-\lambda)f(y)

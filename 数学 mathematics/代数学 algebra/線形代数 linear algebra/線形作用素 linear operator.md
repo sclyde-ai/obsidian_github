@@ -1,3 +1,7 @@
+---
+alias:
+    ['線形作用素', 'linear operator']
+---
 - vector space X, Y
 $$ \exists A \subset X, T : A \to Y $$
 then, T is called linear operator

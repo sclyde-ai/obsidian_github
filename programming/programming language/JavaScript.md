@@ -1,3 +1,7 @@
+---
+alias:
+    ['JavaScript']
+---
 - Javascript
             - concept
                 - async

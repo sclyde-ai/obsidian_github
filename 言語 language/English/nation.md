@@ -1,1 +1,5 @@
+---
+alias:
+    ['nation']
+---
 ountry]]

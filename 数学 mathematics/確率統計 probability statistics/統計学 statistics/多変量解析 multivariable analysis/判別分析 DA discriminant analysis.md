@@ -1,3 +1,7 @@
+---
+alias:
+    ['判別分析', 'DA', 'discriminant analysis']
+---
 - マハラノビス距離
 - 誤判別の確率
 - 変数選択

@@ -1,3 +1,7 @@
+---
+alias:
+    ['package manager']
+---
 - pip
 - venv
 - Conda

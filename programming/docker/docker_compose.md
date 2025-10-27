@@ -1,3 +1,7 @@
+---
+alias:
+    ['docker_compose']
+---
 # docker compose
     -f : docker-compose.ymlの名前を指定する
 ## docker compose up

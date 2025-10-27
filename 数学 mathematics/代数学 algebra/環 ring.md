@@ -1,3 +1,7 @@
+---
+alias:
+    ['環', 'ring']
+---
 - 定義 def
         set R
         - 加法 addiction +

@@ -1,3 +1,7 @@
+---
+alias:
+    ['docker_compose_yml']
+---
 # docker-compose.yml
 定義、識別
 1. container_name

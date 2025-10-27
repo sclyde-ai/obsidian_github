@@ -1,3 +1,7 @@
+---
+alias:
+    ['windows']
+---
 - c drive
     storage of windows
     - windows

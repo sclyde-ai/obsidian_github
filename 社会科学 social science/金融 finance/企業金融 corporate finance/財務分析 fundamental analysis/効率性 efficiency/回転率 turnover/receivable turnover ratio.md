@@ -1,0 +1,4 @@
+---
+alias:
+    ['receivable turnover ratio']
+---

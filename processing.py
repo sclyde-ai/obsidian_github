@@ -58,16 +58,6 @@ def remove_leading_spaces(file_path, num_chars):
         print(f"an error has occured: {e}")
 
 def combine_name(name_list: list):
-    name = "'"
-    for folder in name_list:
-        name += folder.replace("/", "'/'")
-        name += ' '
-    name = name[:-1]
-    name += "'"
-    print(name)
-    return name
-
-def combine_name(name_list: list):
     name = ""
     for folder in name_list:
         name += folder

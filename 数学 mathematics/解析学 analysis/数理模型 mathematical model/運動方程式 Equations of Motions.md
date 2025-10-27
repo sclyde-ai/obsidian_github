@@ -1,3 +1,7 @@
+---
+alias:
+    ['運動方程式', 'Equations of Motions']
+---
 $$
 m \frac{dv}{dt} = -mg 
 $$

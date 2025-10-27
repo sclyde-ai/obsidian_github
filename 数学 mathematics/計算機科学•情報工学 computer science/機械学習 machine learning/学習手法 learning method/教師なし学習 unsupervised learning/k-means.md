@@ -1,3 +1,7 @@
+---
+alias:
+    ['k-means']
+---
     - variable
          $n \in \mathbb N$ : the number of data
          $k \in \mathbb N$ : the number of means/centroids

@@ -1,3 +1,7 @@
+---
+alias:
+    ['RS', 'relative strength', '相対力']
+---
         $$
         RS = \frac{Average\ Gain}{Average\ Loss}
         $$

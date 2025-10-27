@@ -1,3 +1,7 @@
+---
+alias:
+    ['command']
+---
 - man
 - file or directory
 	- cd

@@ -1,3 +1,7 @@
+---
+alias:
+    ['logistic model']
+---
 - discrete
     $$
     x_{n+1} = \mu x_n(1-x_n)

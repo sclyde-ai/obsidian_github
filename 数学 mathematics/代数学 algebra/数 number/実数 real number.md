@@ -1,3 +1,7 @@
+---
+alias:
+    ['実数', 'real number']
+---
 - 体 field
     - 定義 def
         集合R

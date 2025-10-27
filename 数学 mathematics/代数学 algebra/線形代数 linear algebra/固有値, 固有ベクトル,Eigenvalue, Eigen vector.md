@@ -1,3 +1,7 @@
+---
+alias:
+    ['固有値', '固有ベクトル', 'Eigenvalue Eigen vector']
+---
 $$ A \vec x = \lambda \vec x $$
     $\lambda$ is the eigenvalues of A
     x is the eigen vector of A

@@ -1,3 +1,7 @@
+---
+alias:
+    ['index model']
+---
 資産の超過収益と市場の超過収益の相関モデル
 $$
 Y_i = \alpha + \beta X+ e_i $$ 

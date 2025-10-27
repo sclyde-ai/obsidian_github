@@ -1,3 +1,7 @@
+---
+alias:
+    ['確率分布', 'probability distribution']
+---
 - 分布の特徴量 feature of distribution
     - 母数 parameter
     - 台 support

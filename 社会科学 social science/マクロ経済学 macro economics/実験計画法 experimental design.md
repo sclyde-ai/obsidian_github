@@ -1,3 +1,7 @@
+---
+alias:
+    ['実験計画法', 'experimental design']
+---
 - 基本原則
     - 局所管理化
     - 反復

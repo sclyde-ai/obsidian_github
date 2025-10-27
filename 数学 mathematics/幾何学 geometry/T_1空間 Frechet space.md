@@ -1,3 +1,7 @@
+---
+alias:
+    ['T_1空間', 'Frechet space']
+---
 - topological space
 $$
  \exists \mathcal O_x \subset \mathcal O, x \in \mathcal O_x \land y \notin \mathcal O_x

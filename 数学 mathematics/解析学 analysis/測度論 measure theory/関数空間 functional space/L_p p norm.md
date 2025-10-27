@@ -1,3 +1,7 @@
+---
+alias:
+    ['L_p p norm']
+---
 $L^p (X, \mu)$ p norm
         - 測度空間 $(X, \mu)$
         - 一般の可測関数の積分

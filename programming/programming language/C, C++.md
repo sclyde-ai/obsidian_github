@@ -1,3 +1,7 @@
+---
+alias:
+    ['C', 'C++']
+---
 - concept
     - Makefile
         - template

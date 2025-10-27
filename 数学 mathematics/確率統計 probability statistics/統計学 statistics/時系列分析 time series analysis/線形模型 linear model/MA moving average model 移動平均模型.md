@@ -1,3 +1,7 @@
+---
+alias:
+    ['MA', 'moving average model', '移動平均模型']
+---
 過去の誤差が現在の値に影響
 - white noise $\epsilon_t$
 $$

@@ -1,3 +1,7 @@
+---
+alias:
+    ['Dow divisor(divisor)']
+---
 number of stock (basically)
 - algorithm
 	$$

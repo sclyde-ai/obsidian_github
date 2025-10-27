@@ -1,3 +1,7 @@
+---
+alias:
+    ['定常性', 'stationary']
+---
 時間的な不変性をもつ
 - 弱定常性 weak stationary
     - 期待値一定 the expectation is constant

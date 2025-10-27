@@ -1,3 +1,7 @@
+---
+alias:
+    ['白色雑音', 'white noise']
+---
 - 期待値は0 the expectation is 0
     $$
     \mathbb E[\epsilon_t] = 0

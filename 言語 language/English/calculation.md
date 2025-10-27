@@ -1,1 +1,5 @@
+---
+alias:
+    ['calculation']
+---
 [[calculate]]

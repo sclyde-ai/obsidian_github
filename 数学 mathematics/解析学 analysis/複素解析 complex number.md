@@ -1,3 +1,7 @@
+---
+alias:
+    ['複素解析', 'complex number']
+---
 $$
 a + b
 i = \sqrt{-1}

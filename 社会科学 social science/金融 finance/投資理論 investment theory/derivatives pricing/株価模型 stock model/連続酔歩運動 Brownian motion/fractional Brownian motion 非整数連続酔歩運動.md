@@ -1,3 +1,7 @@
+---
+alias:
+    ['fractional Brownian motion', '非整数連続酔歩運動']
+---
 - 定義 def
     - 初期値0
         $$

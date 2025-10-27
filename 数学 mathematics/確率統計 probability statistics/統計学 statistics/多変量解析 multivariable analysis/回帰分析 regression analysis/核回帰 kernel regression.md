@@ -1,3 +1,7 @@
+---
+alias:
+    ['核回帰', 'kernel regression']
+---
 $$
 $$
 - 特徴関数

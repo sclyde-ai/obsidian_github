@@ -1,3 +1,7 @@
+---
+alias:
+    ['確率収束', 'converges in probability', '確率極限', 'probability limit']
+---
 - 同一確率空間上の確率変数列 $\{X_n\}$
 - probability 0 version
     $$ \forall \epsilon > 0, \lim_{n \rightarrow \infty} P(|X_n-X| \geq \epsilon\}) = 0 $$

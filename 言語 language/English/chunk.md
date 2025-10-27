@@ -1,3 +1,7 @@
+---
+alias:
+    ['chunk']
+---
 - Oxford
   a thick, solid piece of something.
   "huge **chunks of** masonry littered the street"

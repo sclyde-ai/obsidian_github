@@ -1,3 +1,7 @@
+---
+alias:
+    ['cloud']
+---
 - types
     - IaaS infrastructure as a service
         - networking

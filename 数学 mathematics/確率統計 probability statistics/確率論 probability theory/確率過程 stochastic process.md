@@ -1,3 +1,7 @@
+---
+alias:
+    ['確率過程', 'stochastic process']
+---
 - 確率空間 $(\Omega, \mathcal F, P)$
 - 確率変数 X
     $$ X :T\times \Omega \to \mathbb R\\ \forall t \in T, A \in \mathcal B(\R), \{\omega \in \Omega|X(t, \omega) \in A\} \in \mathcal F $$

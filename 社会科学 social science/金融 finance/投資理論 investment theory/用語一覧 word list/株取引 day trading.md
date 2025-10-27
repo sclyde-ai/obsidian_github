@@ -1,3 +1,7 @@
+---
+alias:
+    ['株取引', 'day trading']
+---
 - 専門用語 expertise
     - 戦略 strategy
         - 

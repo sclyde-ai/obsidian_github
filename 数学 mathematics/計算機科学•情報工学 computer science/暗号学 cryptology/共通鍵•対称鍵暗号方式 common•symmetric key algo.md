@@ -1,3 +1,7 @@
+---
+alias:
+    ['共通鍵', '対称鍵暗号方式', 'common symmetric key algo']
+---
 - block cipher
     dataを固定長のblockに分割して暗号化
     - DES data encryption standard

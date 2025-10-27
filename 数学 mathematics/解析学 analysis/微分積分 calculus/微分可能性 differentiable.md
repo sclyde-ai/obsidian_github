@@ -1,3 +1,7 @@
+---
+alias:
+    ['微分可能性', 'differentiable']
+---
 $$ f'(a) = \frac{df}{dx} (a) = \\ \lim_{h \to 0} \frac{f(a+h)-f(a)}{h} \\ \lim_{x \to a} \frac{f(x)-f(a)}{x-a} $$
 if it exists, f(x) is differentiable at a
 - differentiability class

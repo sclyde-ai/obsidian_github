@@ -1,3 +1,7 @@
+---
+alias:
+    ['時系列分析', 'time series analysis']
+---
 $$
 \{y_t\}_{t \in T}
 $$

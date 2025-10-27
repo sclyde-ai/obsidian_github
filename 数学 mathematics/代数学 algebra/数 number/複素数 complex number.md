@@ -1,3 +1,7 @@
+---
+alias:
+    ['複素数', 'complex number']
+---
 $$
 \mathbb C
 $$

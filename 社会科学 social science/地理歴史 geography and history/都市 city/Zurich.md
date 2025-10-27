@@ -1,1 +1,5 @@
+---
+alias:
+    ['Zurich']
+---
 witzerland]]

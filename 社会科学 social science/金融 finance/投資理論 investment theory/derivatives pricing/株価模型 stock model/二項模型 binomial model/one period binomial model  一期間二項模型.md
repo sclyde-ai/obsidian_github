@@ -1,3 +1,7 @@
+---
+alias:
+    ['one period binomial model', '一期間二項模型']
+---
 - def
     - probability space
         $$

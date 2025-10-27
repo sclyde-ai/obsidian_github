@@ -1,3 +1,7 @@
+---
+alias:
+    ['object_oriented']
+---
 # object
     class & instance
 # class

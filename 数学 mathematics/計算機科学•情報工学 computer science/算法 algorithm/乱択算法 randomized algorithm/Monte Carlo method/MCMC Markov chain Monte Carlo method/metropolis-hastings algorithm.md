@@ -1,0 +1,4 @@
+---
+alias:
+    ['metropolis-hastings algorithm']
+---

@@ -1,3 +1,7 @@
+---
+alias:
+    ['CML', 'capital market line']
+---
 $$
 \mathbb E[R_P] = r_f + \frac{\mathbb E[R_T] - r_f}{\sigma_T}\sigma_P
 $$

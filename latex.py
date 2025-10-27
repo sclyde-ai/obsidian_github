@@ -50,17 +50,6 @@ def replace(file_path, original_word, new_word):
 #             print(f"Error processing {file}: {e}")
 #             continue
 
-
-def combine_name(name_list: list):
-    name = "'"
-    for folder in name_list:
-        name += folder.replace("/", "'/'")
-        name += ' '
-    name = name[:-1]
-    name += "'"
-    print(name)
-    return name
-
 def combine_name(name_list: list):
     name = ""
     for folder in name_list:

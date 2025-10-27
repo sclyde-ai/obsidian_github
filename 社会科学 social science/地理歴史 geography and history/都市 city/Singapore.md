@@ -1,3 +1,7 @@
+---
+alias:
+    ['Singapore']
+---
 - institution
     - SGX Singapore Exchange
     - MAS Monetary Authority of Singapore

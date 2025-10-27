@@ -1,3 +1,7 @@
+---
+alias:
+    ['注文', 'order']
+---
 - order book
 - market order
 - limit order

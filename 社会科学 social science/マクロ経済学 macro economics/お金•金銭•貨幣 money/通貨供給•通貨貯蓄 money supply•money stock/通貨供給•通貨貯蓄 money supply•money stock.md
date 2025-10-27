@@ -1,3 +1,7 @@
+---
+alias:
+    ['通貨供給', '通貨貯蓄', 'money supply money stock']
+---
 金融部門から経済全体に供給されている通貨の総量のこと
 ![](https://www.jcer.or.jp/column/fukao/img/0906fukaograph1.jpg)
 - 通貨貯蓄 money stock

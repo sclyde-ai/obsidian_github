@@ -1,3 +1,7 @@
+---
+alias:
+    ['ROIC', 'return on invested capital']
+---
 $$
 \frac{NOPAT}{Invested\ Capital}
 $$

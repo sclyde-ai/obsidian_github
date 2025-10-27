@@ -1,3 +1,7 @@
+---
+alias:
+    ['数値解析', 'numerical analysis']
+---
 - 二分法
 - ニュートン法
     - 目的 purpose

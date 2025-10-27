@@ -1,3 +1,7 @@
+---
+alias:
+    ['iをc倍']
+---
 $$
 \begin{matrix}
 && i

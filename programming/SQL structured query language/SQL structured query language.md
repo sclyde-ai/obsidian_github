@@ -1,3 +1,7 @@
+---
+alias:
+    ['SQL', 'structured query language']
+---
 - DML data manipulation language
     - INSERT INTO VALUES
         ```sql

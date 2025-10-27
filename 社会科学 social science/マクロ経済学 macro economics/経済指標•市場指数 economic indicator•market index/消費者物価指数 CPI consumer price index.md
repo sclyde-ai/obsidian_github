@@ -1,3 +1,7 @@
+---
+alias:
+    ['消費者物価指数', 'CPI', 'consumer price index']
+---
 $$
 CPI_t = \frac{C_t}{C_0}*100
 $$

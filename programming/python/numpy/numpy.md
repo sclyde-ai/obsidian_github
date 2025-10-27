@@ -1,3 +1,7 @@
+---
+alias:
+    ['numpy']
+---
 # class
 - np.ndarray
     - properties

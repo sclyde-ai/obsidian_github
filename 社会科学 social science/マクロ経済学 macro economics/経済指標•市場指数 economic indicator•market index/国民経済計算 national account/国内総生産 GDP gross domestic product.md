@@ -1,3 +1,7 @@
+---
+alias:
+    ['国内総生産', 'GDP', 'gross domestic product']
+---
 the value produced in the country
 - formula
     GDP = C + I + G + EX - IM

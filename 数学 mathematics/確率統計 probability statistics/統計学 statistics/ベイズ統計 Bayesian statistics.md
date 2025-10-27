@@ -1,3 +1,7 @@
+---
+alias:
+    ['ベイズ統計', 'Bayesian statistics']
+---
     主観に基づく確率を新情報を追加しながら改善する
 - 客観確率 objective probability
     客観的な観測結果と理論的考察により導く確率

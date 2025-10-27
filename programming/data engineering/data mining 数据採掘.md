@@ -1,3 +1,7 @@
+---
+alias:
+    ['data mining', '数据採掘']
+---
 - extract information
 - from large data
 - wiki

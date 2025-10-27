@@ -1,3 +1,7 @@
+---
+alias:
+    ['hypervisor virtual machine monitor']
+---
 物理的なcomputer上で複数の仮想機械（VM）を同時に実行・管理し、resourceを効率的に配分するsoftware
 software that allows multiple virtual machines (VMs) to run on a single physical machine by abstracting and managing the hardware resources.
 - type1/native

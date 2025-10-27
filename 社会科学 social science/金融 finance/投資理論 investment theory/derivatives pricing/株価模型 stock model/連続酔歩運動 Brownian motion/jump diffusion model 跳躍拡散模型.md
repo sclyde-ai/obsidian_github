@@ -1,3 +1,7 @@
+---
+alias:
+    ['jump diffusion model', '跳躍拡散模型']
+---
 - merton
     $$
     dS_t = (\mu -\lambda \cdot k)S_t dt + \sigma S_t dW_t + S_t dJ_t

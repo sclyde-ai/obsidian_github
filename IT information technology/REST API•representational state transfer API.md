@@ -1,3 +1,7 @@
+---
+alias:
+    ['REST', 'API', 'representational state transfer', 'API']
+---
 - stateless
     serverがclientの情報を保持しない
 - client-server

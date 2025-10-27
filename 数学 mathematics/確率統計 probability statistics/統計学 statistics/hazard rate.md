@@ -1,3 +1,7 @@
+---
+alias:
+    ['hazard rate']
+---
 - N 事象の回数
     $$
     N : 2^T \to \mathbb N

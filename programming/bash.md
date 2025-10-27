@@ -1,3 +1,7 @@
+---
+alias:
+    ['bash']
+---
 - arguments
     - $0 script name
     - $1, 2, ...　引数 arguments

@@ -1,3 +1,7 @@
+---
+alias:
+    ['有理数', 'rational number']
+---
 $$
 \mathbb Q
 $$

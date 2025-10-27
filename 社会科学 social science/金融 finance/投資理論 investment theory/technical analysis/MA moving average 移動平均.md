@@ -1,3 +1,7 @@
+---
+alias:
+    ['MA', 'moving average', '移動平均']
+---
 near-term
         - 5 days
         - 10 days

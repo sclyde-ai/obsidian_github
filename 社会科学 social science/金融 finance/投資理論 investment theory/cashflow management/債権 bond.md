@@ -1,3 +1,7 @@
+---
+alias:
+    ['債権', 'bond']
+---
 - ZCB zero coupon bond
     - 満期に額面が
     - 一度だけ

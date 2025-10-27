@@ -1,3 +1,7 @@
+---
+alias:
+    ['bias-variance tradeoff']
+---
 汎化誤差はbiasとvarianceとerrorに分解できる
 |  | overfitting | underfitting |
 | --- | --- | --- |

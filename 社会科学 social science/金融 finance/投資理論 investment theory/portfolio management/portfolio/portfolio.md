@@ -1,3 +1,7 @@
+---
+alias:
+    ['portfolio']
+---
 - weight
     $$
     w = (w_1, w_2, ...,w_n)^\top

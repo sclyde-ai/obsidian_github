@@ -1,3 +1,7 @@
+---
+alias:
+    ['株式', 'stock share equity']
+---
 | 収益性 return    | high |
 | ------------- | ---- |
 | 安全性 risk      | low  |

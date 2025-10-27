@@ -1,3 +1,7 @@
+---
+alias:
+    ['beta']
+---
 the sensitivity 
 of the return of an asset 
 to the return of the market portfolio

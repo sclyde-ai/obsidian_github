@@ -1,3 +1,7 @@
+---
+alias:
+    ['one period trinomial model', '一期間三項模型']
+---
 - probability space
     $$
     \Omega = \{H, N, T\} \\

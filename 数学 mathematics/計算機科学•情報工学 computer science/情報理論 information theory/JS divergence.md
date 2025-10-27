@@ -1,3 +1,7 @@
+---
+alias:
+    ['JS', 'divergence']
+---
 $$
 D_{JS} (P || Q)= \frac{1}{2}D_{KL} (P||M) + \frac{1}{2}D_{KL} (Q||M) 
 $$

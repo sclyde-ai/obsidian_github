@@ -1,3 +1,7 @@
+---
+alias:
+    ['Ho-Lee']
+---
 $$
 dr_t = a_t dt+\sigma dW_t
 $$

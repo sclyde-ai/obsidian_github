@@ -1,3 +1,7 @@
+---
+alias:
+    ['概収束', 'almost sure everywhere convergent', '概極限', 'almost sure everywhere limit']
+---
 - 同一確率空間上の確率変数列 $\{X_n\}$
 $$ P(\{\forall \omega \in \Omega :\lim_{n \to \infty} X_n(\omega)\in \mathbb R\}) = 1 $$
 この時、確率変数列 $\{X_n\}$は概収束する

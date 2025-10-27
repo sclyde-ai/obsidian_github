@@ -1,3 +1,7 @@
+---
+alias:
+    ['規約', 'protocol']
+---
 - 応用層 application layer
     - HTTP hypertext transfer protocol
         web browserとweb serverの間で情報を交換するための通信規則

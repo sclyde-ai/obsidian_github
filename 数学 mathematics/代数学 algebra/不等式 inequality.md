@@ -1,3 +1,7 @@
+---
+alias:
+    ['不等式', 'inequality']
+---
 - Cauchy-schwarz inequality
     - metric vector space X
     $$

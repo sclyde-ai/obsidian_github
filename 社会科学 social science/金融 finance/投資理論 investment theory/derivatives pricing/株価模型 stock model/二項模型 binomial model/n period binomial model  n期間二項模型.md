@@ -1,3 +1,7 @@
+---
+alias:
+    ['n period binomial model n期間二項模型']
+---
 $$
 S_n(\omega_1\omega_2...\omega_n\{H, T\}^{N-n}) = S_0 u^{H_n}d^{T_n} \\
 n = H_n + T_n

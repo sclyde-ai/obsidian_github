@@ -1,0 +1,4 @@
+---
+alias:
+    ['Daniell integral']
+---

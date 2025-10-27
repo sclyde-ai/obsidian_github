@@ -1,3 +1,7 @@
+---
+alias:
+    ['金融市場', 'financial market']
+---
 $$
 N = \{1, ..., n\}
 $$

@@ -1,3 +1,7 @@
+---
+alias:
+    ['行動経済学', 'behavioral economics']
+---
 - 期待効用理論
     - 主観確率型期待効用 subjective probability
 - 曖昧性忌避 ambiguity aversion

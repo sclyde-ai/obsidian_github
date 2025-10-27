@@ -1,3 +1,7 @@
+---
+alias:
+    ['欠損値', 'missing value data']
+---
 - 無作為 random
     - MCAR missing completely at random
         無作為に発生

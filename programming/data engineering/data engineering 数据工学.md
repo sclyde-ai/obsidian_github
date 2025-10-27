@@ -1,3 +1,7 @@
+---
+alias:
+    ['data engineering', '数据工学']
+---
 - data engineering
         - data
             - 種類 type

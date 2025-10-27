@@ -1,3 +1,7 @@
+---
+alias:
+    ['VAR', 'vector autoregressive model', '複数列自己回帰模型']
+---
 - vector $\bm y_t$
 - coefficient matrix $A_k$
 - error/shock/innovation $\epsilon_t$

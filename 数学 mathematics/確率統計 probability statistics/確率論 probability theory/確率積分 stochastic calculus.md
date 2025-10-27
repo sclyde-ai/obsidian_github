@@ -1,3 +1,7 @@
+---
+alias:
+    ['確率積分', 'stochastic calculus']
+---
 - Ito integral
     - simple process
         - partition

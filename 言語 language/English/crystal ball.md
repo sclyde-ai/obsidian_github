@@ -1,3 +1,7 @@
+---
+alias:
+    ['crystal ball']
+---
 - Oxford
 	a solid globe of glass or rock crystal, used by fortune-tellers and clairvoyants for crystal-gazing.
 - Chambridge

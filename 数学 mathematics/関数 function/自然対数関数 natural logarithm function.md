@@ -1,3 +1,7 @@
+---
+alias:
+    ['自然対数関数', 'natural logarithm function']
+---
 $$ \ln x $$
 - 微分 differential
     $$ \frac{1}{x} $$

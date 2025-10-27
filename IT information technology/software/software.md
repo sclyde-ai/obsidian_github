@@ -1,3 +1,7 @@
+---
+alias:
+    ['software']
+---
 - [[firmware]]
 - [[bootloader]]
 - [[OS operating system]]

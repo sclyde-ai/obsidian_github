@@ -1,3 +1,7 @@
+---
+alias:
+    ['自己相関', 'autocorrelation']
+---
 - 自己共分散 autocovariance
 - 自己相関係数 autocorrelation
 - 偏自己相関

@@ -1,3 +1,7 @@
+---
+alias:
+    ['the limit of binomial model', '極限二項模型']
+---
 - up & down factor
     $$
     u_n = 1 + \frac{\sigma}{\sqrt n}\\

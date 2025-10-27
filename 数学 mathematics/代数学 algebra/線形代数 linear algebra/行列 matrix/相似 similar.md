@@ -1,3 +1,7 @@
+---
+alias:
+    ['相似', 'similar']
+---
 $$ B = P^{-1} A P, \exists P $$
 A and B are similar
 - equivalence relation

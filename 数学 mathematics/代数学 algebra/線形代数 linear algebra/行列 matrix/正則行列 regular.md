@@ -1,3 +1,7 @@
+---
+alias:
+    ['正則行列', 'regular']
+---
 $$ AX = XA = I $$
 A is a regular matrix
 X is the inverse matrix of A

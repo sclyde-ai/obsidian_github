@@ -1,0 +1,4 @@
+---
+alias:
+    ['see the light']
+---

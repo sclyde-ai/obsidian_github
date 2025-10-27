@@ -1,3 +1,7 @@
+---
+alias:
+    ['Gamma function']
+---
 $$ \Gamma(z) = \int_0^\infty x^{z-1}e^{-x} dx $$
 - convergence
     - real number

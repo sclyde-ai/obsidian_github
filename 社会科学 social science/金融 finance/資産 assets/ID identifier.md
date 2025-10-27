@@ -1,3 +1,7 @@
+---
+alias:
+    ['ID', 'identifier']
+---
 - CUSIP Committee on Uniform Security Identification Procedure
     北米で発行される株式や債券などの金融商品に割り当てられる9桁の英数字の識別番号
     a unique nine-character alphanumeric code that identifies most North American financial instruments

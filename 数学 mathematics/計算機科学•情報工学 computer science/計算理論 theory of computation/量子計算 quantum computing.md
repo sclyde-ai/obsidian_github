@@ -1,3 +1,7 @@
+---
+alias:
+    ['量子計算', 'quantum computing']
+---
 - bra & ket
 - 量子単位 qubi/quantum bit
     $$ \alpha \ket 0 + \beta \ket 1 \\ \alpha, \beta \in \mathbb C $$

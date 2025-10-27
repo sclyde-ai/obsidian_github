@@ -1,3 +1,7 @@
+---
+alias:
+    ['docker_system']
+---
 ## docker system
 ### docker system prune
     使われていないdocker containerを削除する

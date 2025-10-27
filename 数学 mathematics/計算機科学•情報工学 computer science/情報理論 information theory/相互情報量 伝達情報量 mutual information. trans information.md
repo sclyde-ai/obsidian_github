@@ -1,1 +1,5 @@
+---
+alias:
+    ['相互情報量', '伝達情報量', 'mutual information trans information']
+---
 um_{x \in \mathcal{X}}\sum_{y \in \mathcal{Y}} p(x, y) \log\ \frac{p(x, y)}{p(x)p(y)} \\ = D(p(x, y)||(p(x)p(y))) \\ = E_{p(x, y)}[\log\frac{p(X, Y)}{p(X)p(Y)}] $$

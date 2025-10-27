@@ -1,3 +1,7 @@
+---
+alias:
+    ['ReLU Rectified Linear Unit']
+---
 $$
     f(x) = 
     \left\{

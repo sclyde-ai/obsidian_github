@@ -1,3 +1,7 @@
+---
+alias:
+    ['Greeks']
+---
 the partial differential with respect to the random variable
 the sensitivity of the price to changes in the stochastic variable
 - main

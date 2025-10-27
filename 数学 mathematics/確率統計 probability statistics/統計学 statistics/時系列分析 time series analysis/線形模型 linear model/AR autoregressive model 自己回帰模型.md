@@ -1,3 +1,7 @@
+---
+alias:
+    ['AR', 'autoregressive model', '自己回帰模型']
+---
 過去の値が現在の値に影響
 - white noise $\epsilon_t$
 $$

@@ -1,3 +1,7 @@
+---
+alias:
+    ['半定値行列', 'semi-defined']
+---
 - 半正定値 positive semi-defined matrix
             $$ A \succeq 0 \\ x^TAx \geq 0, \forall x \in \mathbb R $$
             Aを半正定値行列という

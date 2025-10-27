@@ -1,3 +1,7 @@
+---
+alias:
+    ['対数正規分布', 'logarithm']
+---
 - 母数 parameter
 - PDF
     $$ N(\mu, \sigma) = \frac{1}{\sigma \sqrt{2\pi}}\exp{\left(−\frac{1}2\left(\frac{\ln x−\mu}{\sigma}\right)^2\right)} $$

@@ -1,3 +1,7 @@
+---
+alias:
+    ['正準相関分析', 'CCA', 'canonical correlation analysis']
+---
 - data
     nはデータ数
     pは軸の数

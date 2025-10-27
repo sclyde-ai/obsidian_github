@@ -1,3 +1,7 @@
+---
+alias:
+    ['yield curve']
+---
 - yield(zero coupon bond)
     $$
     y_n^N = -\frac{1}{N-n}\log(B_n^N)

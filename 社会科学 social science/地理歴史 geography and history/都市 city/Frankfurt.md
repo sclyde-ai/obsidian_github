@@ -1,1 +1,5 @@
+---
+alias:
+    ['Frankfurt']
+---
 eutschland, Germany]]

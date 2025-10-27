@@ -1,3 +1,7 @@
+---
+alias:
+    ['微分', 'differentiate']
+---
 - 導関数 derivative function
     $$ f'(x) = \frac{df}{dx} (x) = \frac{d}{dx} f(x) \\ \forall a \in U, \exists f'(a) $$
     f(x) is differentiable on U

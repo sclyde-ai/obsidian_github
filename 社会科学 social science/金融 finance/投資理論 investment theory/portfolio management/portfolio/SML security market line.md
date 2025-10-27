@@ -1,3 +1,7 @@
+---
+alias:
+    ['SML', 'security market line']
+---
 $$
 \mathbb E[R_i] = r_f + \beta_i (\mathbb E[R_M] - r_f)
 $$

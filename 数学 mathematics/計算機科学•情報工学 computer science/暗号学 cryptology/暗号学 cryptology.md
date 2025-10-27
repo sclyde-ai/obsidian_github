@@ -1,3 +1,7 @@
+---
+alias:
+    ['暗号学', 'cryptology']
+---
 - 暗号理論 cryptography
 - 暗号解析 crypto analysis
 - 暗号方式 crypto system

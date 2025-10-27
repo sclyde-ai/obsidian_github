@@ -1,3 +1,7 @@
+---
+alias:
+    ['極限集合', 'limit set']
+---
 - 上極限集合/最大極限集合 limit supremum
     $$
     \limsup_{n \to \infty} A_n = 

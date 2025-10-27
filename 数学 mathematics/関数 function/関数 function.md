@@ -1,3 +1,7 @@
+---
+alias:
+    ['関数', 'function']
+---
 - 代数関数 algebraic function
 　　$$ g_n(x)\{f(x)\}^n + g_{n-1}(x)\{f( x)\}^{n-1} + \dots + g_1(x)f(x) + g_0(x) = 0 $$
 - 有理関数 rational function

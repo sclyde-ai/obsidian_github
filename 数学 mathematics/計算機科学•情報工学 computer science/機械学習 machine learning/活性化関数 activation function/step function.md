@@ -1,3 +1,7 @@
+---
+alias:
+    ['step function']
+---
 $$
 f(x) = 
 \left\{

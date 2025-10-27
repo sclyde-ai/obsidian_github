@@ -1,3 +1,7 @@
+---
+alias:
+    ['線形回帰分析', 'linear regression']
+---
 - data
     nはデータ数
     pは軸の数

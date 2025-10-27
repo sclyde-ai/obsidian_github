@@ -1,3 +1,7 @@
+---
+alias:
+    ['現在価値', 'PV', 'present value']
+---
     - PV
         $$
         PV = \sum_{i=0}^n PV_{t_i}

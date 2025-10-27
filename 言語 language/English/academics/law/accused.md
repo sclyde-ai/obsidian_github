@@ -1,3 +1,7 @@
+---
+alias:
+    ['accused']
+---
 - Oxford
   a person or group of people who are charged with or on trial for a crime.
   "the accused was ordered to stand trial on a number of charges"

@@ -1,3 +1,7 @@
+---
+alias:
+    ['級数', 'series']
+---
 - マクローリン級数 Maclaurin series
     - 一変数
         $$ \sum_{n=0}^\infty \frac{f^{(n)}(0)}{n!}x^n $$

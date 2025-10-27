@@ -1,3 +1,7 @@
+---
+alias:
+    ['ベクトル解析', 'vector analysis']
+---
 - スカラー scalar
     実数
 - ベクトル vector

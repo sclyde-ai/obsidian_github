@@ -1,3 +1,7 @@
+---
+alias:
+    ['MDP', 'Markov Decision Process']
+---
 ```mermaid
 graph LR
 A[agnet]

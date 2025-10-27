@@ -1,3 +1,7 @@
+---
+alias:
+    ['how to make package']
+---
 ## special files
 - __init__.py
 - setup.py

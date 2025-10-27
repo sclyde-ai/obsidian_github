@@ -1,3 +1,7 @@
+---
+alias:
+    ['フーリエ解析', 'Fourier transform']
+---
 関数を三角関数に分解
 - 三角関数系 trigonometric system
     $$

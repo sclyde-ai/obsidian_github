@@ -1,3 +1,7 @@
+---
+alias:
+    ['volatility']
+---
 - volatility skew
     - forward skew
         ![download.jpg](download.jpg)

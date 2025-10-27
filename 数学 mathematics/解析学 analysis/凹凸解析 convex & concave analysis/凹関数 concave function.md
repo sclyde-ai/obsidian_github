@@ -1,3 +1,7 @@
+---
+alias:
+    ['凹関数', 'concave function']
+---
 $f : \mathbb R \to \R$ 
 $$
 \forall x \in \mathbb R, \forall \lambda \in[0, 1], f(\lambda x + (1- \lambda)y) \geq \lambda f(x)+ (1-\lambda)f(y)

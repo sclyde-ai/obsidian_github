@@ -1,3 +1,7 @@
+---
+alias:
+    ['統計学', 'statistics']
+---
 - 基礎単語 basic vocabulary
     - 標本 sample
     - 母集団 population

@@ -1,3 +1,7 @@
+---
+alias:
+    ['modern portfolio theory']
+---
 - setting
     - 資産 assets
         $$

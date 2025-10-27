@@ -1,3 +1,7 @@
+---
+alias:
+    ['blockchain']
+---
 - 仕組み system
     - block
         - transaction data

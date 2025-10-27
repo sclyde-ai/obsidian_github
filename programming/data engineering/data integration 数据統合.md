@@ -1,3 +1,7 @@
+---
+alias:
+    ['data integration', '数据統合']
+---
 - 3要素
     - 抽出 extract
         extract or copy raw data from multiple sources and store it in a staging area.

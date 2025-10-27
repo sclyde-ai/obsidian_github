@@ -1,3 +1,7 @@
+---
+alias:
+    ['data series']
+---
 data/series
     - panel data
     - time series data

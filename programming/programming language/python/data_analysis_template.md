@@ -1,3 +1,7 @@
+---
+alias:
+    ['data_analysis_template']
+---
 ## import template
 ```
 import numpy as np

@@ -1,3 +1,7 @@
+---
+alias:
+    ['CAPM', 'capital asset pricing model']
+---
 
 ![[SML security market line]]
 ![[beta]]

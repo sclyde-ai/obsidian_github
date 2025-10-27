@@ -1,3 +1,7 @@
+---
+alias:
+    ['huber loss']
+---
 $$
 \left\{
 \begin{matrix}

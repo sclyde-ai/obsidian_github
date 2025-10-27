@@ -1,3 +1,7 @@
+---
+alias:
+    ['git spec kit']
+---
 仕様駆動開発を行う
 [[仕様駆動開発 SDD spec driven development]]
 - /specify

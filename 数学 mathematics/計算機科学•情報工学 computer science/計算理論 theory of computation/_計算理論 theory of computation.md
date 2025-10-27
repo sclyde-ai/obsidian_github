@@ -1,3 +1,7 @@
+---
+alias:
+    ['計算理論', 'theory of computation']
+---
 - turing machine
         $$ M = (Q, \Gamma, b, \Sigma, \delta, q_0, F) $$
         - 状態 Q

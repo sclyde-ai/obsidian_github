@@ -1,3 +1,7 @@
+---
+alias:
+    ['負の二項分布', 'negative binomial']
+---
 $$ NB(k, p) = \binom{x+r-1}{k} p^r(1-p)^k $$
 - meaning
     k回成功までの失敗回数

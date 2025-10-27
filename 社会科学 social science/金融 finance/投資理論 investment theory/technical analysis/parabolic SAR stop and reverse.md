@@ -1,3 +1,7 @@
+---
+alias:
+    ['parabolic', 'SAR', 'stop and reverse']
+---
 $$
 SAR_{n+1} = SAR_n + AF(EP - SAR_n)
 $$

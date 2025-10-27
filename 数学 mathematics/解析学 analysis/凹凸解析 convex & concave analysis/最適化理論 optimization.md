@@ -1,3 +1,7 @@
+---
+alias:
+    ['最適化理論', 'optimization']
+---
 - 凹凸解析 convex and concave analysis
     - 離散凸解析
         $$

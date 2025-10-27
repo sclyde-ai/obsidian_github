@@ -1,3 +1,7 @@
+---
+alias:
+    ['Navier-Stokes Equations']
+---
 - 非圧縮性
 - 等質
 $$

@@ -1,3 +1,7 @@
+---
+alias:
+    ['Barone-Adesi and Whaley']
+---
 considering early exercise of American option
 $$
 V_{BAW} = V_{BS} + V_{Early\ Exercise}

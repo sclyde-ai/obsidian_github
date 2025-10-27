@@ -1,3 +1,7 @@
+---
+alias:
+    ['Deutschland Germany']
+---
 - Berlin
 - Hamburg
 - Munich

@@ -1,3 +1,7 @@
+---
+alias:
+    ['Bollinger band']
+---
     $$
     MA \pm n SD
     $$

@@ -1,3 +1,7 @@
+---
+alias:
+    ['保険', 'insurance']
+---
 病気や事故、災害などの不測の事態に備え、加入者が保険料を支払うことで、万が一の際に保険金を受け取れる仕組み
 a contract where an individual or business pays a regular fee (premium) to an insurance company for protection against financial loss from a specific event, like an accident, illness, or theft.
 - guarantee

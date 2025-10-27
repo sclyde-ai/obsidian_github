@@ -1,3 +1,7 @@
+---
+alias:
+    ['CRR', 'Cox-Ross-Rubinstein method']
+---
 $$
 \Delta t = \frac{t}{n}\\
 S_t = S_0 u^x d^{n-x}

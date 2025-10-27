@@ -1,3 +1,7 @@
+---
+alias:
+    ['scaled random walk']
+---
 $$
 W^{(n)}(t) = \frac{1}{\sqrt{n}}M_{nt}
 $$

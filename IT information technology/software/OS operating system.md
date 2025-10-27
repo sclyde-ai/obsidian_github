@@ -1,3 +1,7 @@
+---
+alias:
+    ['OS', 'operating system']
+---
 - kernel
     - process management
         - CPU central processing unit

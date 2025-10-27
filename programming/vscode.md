@@ -1,3 +1,7 @@
+---
+alias:
+    ['vscode']
+---
 # shortcut確認方法
 1. ctrl+k
 2. ctrl+s

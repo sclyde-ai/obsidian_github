@@ -1,3 +1,7 @@
+---
+alias:
+    ['Laudau’s notation']
+---
 - big O
     $$ \exists M, \delta > 0, |x-a| < \delta \Rightarrow \\ |f(x)| \leq M |g(x)| \\
     $$

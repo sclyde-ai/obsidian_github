@@ -1,3 +1,7 @@
+---
+alias:
+    ['零知識証明', 'zero knowledge proof']
+---
 - 匿名化
 - 秘匿化
 - 原則

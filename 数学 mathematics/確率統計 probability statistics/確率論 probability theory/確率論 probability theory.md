@@ -1,3 +1,7 @@
+---
+alias:
+    ['確率論', 'probability theory']
+---
 - 測度 measure
     - 可測空間 measurable space
         - 集合X

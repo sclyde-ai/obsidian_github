@@ -1,3 +1,7 @@
+---
+alias:
+    ['超幾何分布', 'hypergeometric']
+---
 $$ HG(N, M, n) = \frac{\binom{M}{k}\binom{N-M}{n-k}}{\binom{N}{n}} \\ \max\{0, n-(N-M)\} \leq k \leq \min\{n, M\} $$
 - meaning
     赤玉M個、白玉N-M個から

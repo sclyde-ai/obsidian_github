@@ -1,3 +1,7 @@
+---
+alias:
+    ['金融技術', 'fintech']
+---
 finance + technology
 金融serviceと情報技術を結びつけたさまざまな革新的な動きのこと
 - fintech 1.0

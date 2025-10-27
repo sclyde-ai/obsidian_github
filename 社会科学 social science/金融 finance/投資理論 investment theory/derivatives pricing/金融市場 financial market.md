@@ -1,3 +1,7 @@
+---
+alias:
+    ['金融市場', 'financial market']
+---
 - 株価 stock
     $$
     S_t 

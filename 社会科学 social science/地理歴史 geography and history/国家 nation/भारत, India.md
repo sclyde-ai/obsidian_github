@@ -1,3 +1,7 @@
+---
+alias:
+    ['भारत', 'India']
+---
 - Mumbai
 - Delhi
 - Bengaluru

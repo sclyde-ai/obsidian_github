@@ -1,3 +1,7 @@
+---
+alias:
+    ['微分方程式', 'differential equation']
+---
 - 変数分離形/一階微分方程式
     $$
     \frac{dy}{dx} = f(x)g(y)

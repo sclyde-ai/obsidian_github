@@ -1,3 +1,7 @@
+---
+alias:
+    ['UK', 'United Kingdom']
+---
 - London
     - the city
     - institution

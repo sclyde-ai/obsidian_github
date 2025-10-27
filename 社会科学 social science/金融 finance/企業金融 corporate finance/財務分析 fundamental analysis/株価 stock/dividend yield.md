@@ -1,0 +1,4 @@
+---
+alias:
+    ['dividend yield']
+---

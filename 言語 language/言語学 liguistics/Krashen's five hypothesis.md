@@ -1,3 +1,7 @@
+---
+alias:
+    ["Krashen's five hypothesis"]
+---
 1. Acquisition Learning Hypothesis
 	acquisition, not learning, is the source of fluent language use
 	- Acquisition

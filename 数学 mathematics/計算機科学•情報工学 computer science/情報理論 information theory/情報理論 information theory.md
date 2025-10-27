@@ -1,3 +1,7 @@
+---
+alias:
+    ['情報理論', 'information theory']
+---
 - 平均情報量 entropy
     - 相互情報量と平均情報量の関係
         $$ I(X; Y) = H(X) - H(X|Y) \\ I(X; Y) = H(Y) - H(Y|X) \\ I(X; Y) = H(X) + H(Y) - H(X, Y) \\ I(X; Y) = I(Y; X) \\ I(X; X) = H(X) $$

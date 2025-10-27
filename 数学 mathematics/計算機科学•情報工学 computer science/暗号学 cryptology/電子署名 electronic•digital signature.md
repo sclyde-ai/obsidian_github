@@ -1,3 +1,7 @@
+---
+alias:
+    ['電子署名', 'electronic digital signature']
+---
 - parameter
 	- m 平文 plaintext
 	- s 署名 signature

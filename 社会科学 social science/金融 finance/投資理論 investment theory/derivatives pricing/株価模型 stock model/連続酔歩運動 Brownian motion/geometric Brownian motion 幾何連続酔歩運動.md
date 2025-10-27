@@ -1,3 +1,7 @@
+---
+alias:
+    ['geometric Brownian motion', '幾何連続酔歩運動']
+---
 - SDE stochastic differential equations
     $$
     d S_t = \mu S_t dt + \sigma S_t d W_t

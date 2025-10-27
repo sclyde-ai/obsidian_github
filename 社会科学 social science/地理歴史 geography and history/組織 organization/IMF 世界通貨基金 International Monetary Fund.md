@@ -1,3 +1,7 @@
+---
+alias:
+    ['IMF', '世界通貨基金', 'International Monetary Fund']
+---
 自国通貨安定の義務づけ
 - 目的
     - 為替の安定化

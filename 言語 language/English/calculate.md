@@ -1,1 +1,5 @@
+---
+alias:
+    ['calculate']
+---
 [[calibration]]

@@ -1,3 +1,7 @@
+---
+alias:
+    ['内積空間', 'metric vector space']
+---
 K上ベクトル空間
 - 内積 V \times V \to \R
     - 正値

@@ -1,3 +1,7 @@
+---
+alias:
+    ['Ethereum']
+---
 - component
     - Eth
         計算資源の利用料

@@ -1,3 +1,7 @@
+---
+alias:
+    ['OAuth']
+---
 - role
     - resource owner
         resourceへのaccessを認可する

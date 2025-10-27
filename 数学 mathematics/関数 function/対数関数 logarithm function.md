@@ -1,3 +1,7 @@
+---
+alias:
+    ['対数関数', 'logarithm function']
+---
 $$ \log_a x $$
 - 微分 differential
     $$ \frac{1}{\ln a}\frac{1}{x} $$

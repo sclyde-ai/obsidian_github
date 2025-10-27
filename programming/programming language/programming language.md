@@ -1,3 +1,7 @@
+---
+alias:
+    ['programming language']
+---
 - Q
 - Java
 - VBA

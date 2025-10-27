@@ -1,3 +1,7 @@
+---
+alias:
+    ['会計', 'accounting']
+---
 financial statement(English)
         - BS balance sheet
             - credit

@@ -1,3 +1,7 @@
+---
+alias:
+    ['中国', 'China']
+---
 - 上海 Shanghai
 - 北京 Beijing
 - 深圳 Shenzhen

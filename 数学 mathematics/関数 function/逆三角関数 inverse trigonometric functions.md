@@ -1,3 +1,7 @@
+---
+alias:
+    ['逆三角関数', 'inverse trigonometric functions']
+---
 - arcsin 逆正弦関数 inverse sine curve
     $$ \sin^{-1} $$
     - differential

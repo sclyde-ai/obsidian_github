@@ -1,3 +1,7 @@
+---
+alias:
+    ['金融市場', 'finance market']
+---
 資金の貸し借りが取引される場のこと
 - 期間 term
     - 長期金融市場/資本市場 capital market

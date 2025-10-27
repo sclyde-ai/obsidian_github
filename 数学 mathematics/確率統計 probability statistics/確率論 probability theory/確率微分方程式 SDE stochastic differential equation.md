@@ -1,3 +1,7 @@
+---
+alias:
+    ['確率微分方程式', 'SDE', 'stochastic differential equation']
+---
 $$ dW_t^2 = \sigma^2dt $$
 - SDE
     $$ dX(t) = f(t, X(t))dt + g(t, X(t)) dW(t) $$

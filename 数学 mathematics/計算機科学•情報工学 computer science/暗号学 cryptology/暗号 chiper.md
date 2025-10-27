@@ -1,3 +1,7 @@
+---
+alias:
+    ['暗号', 'chiper']
+---
 $$ (P, C, K, E, D) $$
 - meaning
     - P 平文 plaintext

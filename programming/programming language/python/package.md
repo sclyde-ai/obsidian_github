@@ -1,3 +1,7 @@
+---
+alias:
+    ['package']
+---
 ## special files
 - __init__.py
 - setup.py

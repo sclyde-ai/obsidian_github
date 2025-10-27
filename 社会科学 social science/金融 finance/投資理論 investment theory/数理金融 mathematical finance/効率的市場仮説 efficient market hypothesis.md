@@ -1,3 +1,7 @@
+---
+alias:
+    ['効率的市場仮説', 'efficient market hypothesis']
+---
 情報は即座に市場全体に浸透する
 投資家の反応が正規分布に従う
 - weak-form efficiency

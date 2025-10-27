@@ -1,3 +1,7 @@
+---
+alias:
+    ['iとjを交換']
+---
 $$
 \begin{matrix}
 i &&& j

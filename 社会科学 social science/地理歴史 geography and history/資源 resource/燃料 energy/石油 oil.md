@@ -1,3 +1,7 @@
+---
+alias:
+    ['石油', 'oil']
+---
 - WTI/west texas intermediate 
     北米 texas州内陸
     取引所 : NYMEX NewYork Mercantile Exchange

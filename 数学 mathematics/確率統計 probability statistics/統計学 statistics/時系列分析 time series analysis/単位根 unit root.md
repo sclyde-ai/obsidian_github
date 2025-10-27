@@ -1,3 +1,7 @@
+---
+alias:
+    ['単位根', 'unit root']
+---
 差分が定常である非定常過程
 non-stationary process that differencing is stationary 
 - 単位根検定 unit root test

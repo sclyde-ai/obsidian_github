@@ -1,3 +1,7 @@
+---
+alias:
+    ['hardware']
+---
 - storage device
     - semiconductor memory
         - RAM random access memory

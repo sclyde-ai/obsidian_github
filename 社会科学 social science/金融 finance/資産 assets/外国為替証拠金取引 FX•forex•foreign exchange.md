@@ -1,3 +1,7 @@
+---
+alias:
+    ['外国為替証拠金取引', 'FX', 'forex foreign exchange']
+---
 - pip
     forex 
     0.0001

@@ -1,3 +1,7 @@
+---
+alias:
+    ['L_p_local']
+---
 $L^p_{loc} (X, \mu)$ local
         - 測度空間 $(X, \mu)$
         - compact set K

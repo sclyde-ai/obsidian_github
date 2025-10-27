@@ -1,3 +1,7 @@
+---
+alias:
+    ['symmetric random walk', '対処酔歩運動']
+---
 the outcome of the nth toss $X_j$
 $$
 X_j =

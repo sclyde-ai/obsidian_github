@@ -1,3 +1,7 @@
+---
+alias:
+    ['Langevin equation']
+---
 $$ \langle (\Delta x)^2 \rangle \propto t
 \\
 # m\frac{d^2 x}{d t^2}

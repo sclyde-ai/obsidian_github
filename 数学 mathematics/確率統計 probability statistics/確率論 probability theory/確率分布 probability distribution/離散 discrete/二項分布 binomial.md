@@ -1,3 +1,7 @@
+---
+alias:
+    ['二項分布', 'binomial']
+---
 $$ Bin(n, p) = \binom{n}{k} \ p^k(1-p)^{n-k} $$
 - meaning
     n回Bernoulli試行の成功回数

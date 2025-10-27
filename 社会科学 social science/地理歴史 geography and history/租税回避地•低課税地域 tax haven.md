@@ -1,3 +1,7 @@
+---
+alias:
+    ['租税回避地', '低課税地域', 'tax haven']
+---
 基本的に島
 - Caribbean
     - BVI British Virgin Islands

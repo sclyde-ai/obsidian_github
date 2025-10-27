@@ -1,3 +1,7 @@
+---
+alias:
+    ['Eular method']
+---
 $$
 w(t+1) = w(t) - \nabla L(w)
 $$

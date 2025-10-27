@@ -1,3 +1,7 @@
+---
+alias:
+    ['作用素ノルム', 'operator norm']
+---
 $$ \|A\|_p = \max_{\vec x \ne 0} \frac{\|A\vec x\|_p}{\|\vec x\|_p} = \max_{\|\vec x\|_p = 1} \|A\vec x\|_p $$
 vector x に行列 Aをかけると、norm が何倍になるか
 - p = 1

@@ -1,3 +1,7 @@
+---
+alias:
+    ['電子資産', 'digital asset']
+---
 internet上で管理する無形の財産
 - 電子通貨 digital currency
   internet上で管理する通貨

@@ -1,3 +1,7 @@
+---
+alias:
+    ['firmware']
+---
 hardwareの基本的な制御を行うために機器に組み込まれたsoftware
 - BIOS basic input output system
     PCの電源投入直後に動作し、mother boardに搭載されたhardwareを初期化・制御するfirmware

@@ -1,3 +1,7 @@
+---
+alias:
+    ['gemini-cli']
+---
 # how to call
 gemini
 # save a chat history

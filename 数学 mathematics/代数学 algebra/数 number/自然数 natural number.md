@@ -1,3 +1,7 @@
+---
+alias:
+    ['自然数', 'natural number']
+---
 $$
 \mathbb N
 $$

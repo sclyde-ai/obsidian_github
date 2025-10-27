@@ -1,3 +1,7 @@
+---
+alias:
+    ['risk premium']
+---
 rはPを用いて次のように変形できる
 $$
 r_i = (r_m - r_f)\beta + r_f, \beta = \frac{\sigma_{im}}{\sigma_m^2}$$ 

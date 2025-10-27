@@ -1,3 +1,7 @@
+---
+alias:
+    ['線形代数', 'linear algebra']
+---
 - 直接法
 	- LU分解
 		$$ A = LU $$

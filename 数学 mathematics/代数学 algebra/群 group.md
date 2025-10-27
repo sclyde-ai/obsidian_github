@@ -1,3 +1,7 @@
+---
+alias:
+    ['群', 'group']
+---
 - 定義
     集合 X, 演算/写像• : X \times X \to X
     - 結合律 associativity

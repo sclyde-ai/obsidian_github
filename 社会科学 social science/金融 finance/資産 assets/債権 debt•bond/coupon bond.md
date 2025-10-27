@@ -1,3 +1,7 @@
+---
+alias:
+    ['coupon bond']
+---
 - dirty price
 - accrued interest
 - clean price

@@ -1,3 +1,7 @@
+---
+alias:
+    ['pandas']
+---
 # data型
 - datetime
 - string

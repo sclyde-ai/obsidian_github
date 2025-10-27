@@ -1,3 +1,7 @@
+---
+alias:
+    ['passive']
+---
 - Oxford
   accepting or allowing what happens or what others do, without active response or resistance.
   "the women were portrayed as passive victims"

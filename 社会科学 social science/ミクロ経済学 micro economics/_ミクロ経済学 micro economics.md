@@ -1,3 +1,7 @@
+---
+alias:
+    ['ミクロ経済学', 'micro economics']
+---
 - 消費者理論
         - 財 goods
             $$

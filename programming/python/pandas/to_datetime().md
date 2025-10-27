@@ -1,3 +1,7 @@
+---
+alias:
+    ['to_datetime()']
+---
 ```
 pd.to_datetime(df)
 ```

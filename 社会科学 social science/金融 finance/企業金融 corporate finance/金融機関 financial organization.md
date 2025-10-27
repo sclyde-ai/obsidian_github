@@ -1,3 +1,7 @@
+---
+alias:
+    ['金融機関', 'financial organization']
+---
 - 銀行 bank
     - blunge bracket bank
     - boutique bank

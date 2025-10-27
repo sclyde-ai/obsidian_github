@@ -1,3 +1,7 @@
+---
+alias:
+    ['accuser']
+---
 - Oxford 
   a person who claims that someone has committed an offence done something wrong.
   "I dislike any law that puts the burden of proof on the accused rather than the accuser"

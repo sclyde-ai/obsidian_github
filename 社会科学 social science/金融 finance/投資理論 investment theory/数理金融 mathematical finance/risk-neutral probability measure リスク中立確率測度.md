@@ -1,3 +1,7 @@
+---
+alias:
+    ['risk-neutral probability measure', 'リスク中立確率測度']
+---
 martingaleとなるような確率測度
 - 確率空間 probability space $(\Omega, \mathcal{F}, \mathbb P)$
 - 確率測度 probability measure $\tilde{\mathbb P}$

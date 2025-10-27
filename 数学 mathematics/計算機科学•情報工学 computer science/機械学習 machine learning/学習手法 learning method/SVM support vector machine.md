@@ -1,3 +1,7 @@
+---
+alias:
+    ['SVM', 'support vector machine']
+---
 超平面と集団の最近点を最大化
 ![image.png](学問%20academics/notion/data_analysis/ExportBlock-8be93bf0-4b33-41d8-a364-5b0c7eb222bc-Part-1/image%202.png)
 - hard margin

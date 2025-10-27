@@ -1,3 +1,7 @@
+---
+alias:
+    ['perceptron']
+---
 - and
     | x1 | x2 | y |
     | --- | --- | --- |

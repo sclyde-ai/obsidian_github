@@ -1,3 +1,7 @@
+---
+alias:
+    ['次元の呪い', 'the curse of dimensionally']
+---
 $$
 \lim_{d \to \infty} \mathbb E\left[\frac{D_{max}(d)-D_{min}(d)}{D_{min}(d)}\right] \to 0
 $$

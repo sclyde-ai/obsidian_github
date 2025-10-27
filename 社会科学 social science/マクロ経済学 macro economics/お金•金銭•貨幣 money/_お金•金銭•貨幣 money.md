@@ -1,3 +1,7 @@
+---
+alias:
+    ['お金', '金銭', '貨幣', 'money']
+---
 物の交換を円滑にする媒介物のこと
 an item that is generally accepted as a medium of exchange
 - 定義 definition

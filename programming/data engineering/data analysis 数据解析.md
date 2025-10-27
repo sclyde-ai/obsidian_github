@@ -1,3 +1,7 @@
+---
+alias:
+    ['data analysis', '数据解析']
+---
 - the process
 - using data
 - for decision-making

@@ -1,3 +1,7 @@
+---
+alias:
+    ['解析学', 'analysis']
+---
 - 測度論 measure theory
     - 関数空間 functional space
         - $L^0 (X, \mu)$ u-測度可能な関数

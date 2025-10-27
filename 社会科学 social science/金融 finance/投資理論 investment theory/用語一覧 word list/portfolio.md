@@ -1,2 +1,6 @@
+---
+alias:
+    ['portfolio']
+---
 複数の資産に投資した時の資本構成のこと
 a collection of investments

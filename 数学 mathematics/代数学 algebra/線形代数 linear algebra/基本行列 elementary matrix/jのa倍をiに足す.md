@@ -1,3 +1,7 @@
+---
+alias:
+    ['jのa倍をiに足す']
+---
 $$
 \begin{matrix}
 &&& i &&& j

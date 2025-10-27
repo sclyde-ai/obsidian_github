@@ -1,3 +1,7 @@
+---
+alias:
+    ['深層学習', 'deep learning']
+---
 - 
 - MAMBA
 - neural ordinary differential equation

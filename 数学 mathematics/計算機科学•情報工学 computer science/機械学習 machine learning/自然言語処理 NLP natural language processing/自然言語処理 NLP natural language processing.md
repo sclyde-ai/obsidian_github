@@ -1,3 +1,7 @@
+---
+alias:
+    ['自然言語処理', 'NLP', 'natural language processing']
+---
 - 言語
 	- Oxford
 		一定のきまりに従い音声や文字・記号を連ねて、意味を表すもの。

@@ -1,3 +1,7 @@
+---
+alias:
+    ['notion']
+---
 # GET
 ## database
 ### method to get

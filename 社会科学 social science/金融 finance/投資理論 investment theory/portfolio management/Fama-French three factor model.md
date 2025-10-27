@@ -1,3 +1,7 @@
+---
+alias:
+    ['Fama-French three factor model']
+---
 |              | cap: small    | cap: big    |
 | ------------ | ------------- | ----------- |
 | BPR: high    | small value   | big value   |

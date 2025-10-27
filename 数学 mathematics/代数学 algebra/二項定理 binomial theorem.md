@@ -1,3 +1,7 @@
+---
+alias:
+    ['二項定理', 'binomial theorem']
+---
 $$
 (a+ b)^n = \sum_{i = 0}^n \frac{n!}{k!(n-k)!}a^kb^{n-k}
 $$

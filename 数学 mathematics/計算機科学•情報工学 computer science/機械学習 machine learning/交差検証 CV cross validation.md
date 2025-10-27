@@ -1,3 +1,7 @@
+---
+alias:
+    ['交差検証', 'CV', 'cross validation']
+---
 データを分割して学習と検証を繰り返すこと
 - 排他的 exhaustive
     learn and test on all possible ways to divide the original sample into a training and a validation set

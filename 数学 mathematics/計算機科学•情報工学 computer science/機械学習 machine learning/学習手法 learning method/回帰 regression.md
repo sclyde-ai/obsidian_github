@@ -1,3 +1,7 @@
+---
+alias:
+    ['回帰', 'regression']
+---
 入力ｘから連続値の出力yを推定する
  回帰 regression
         - 定式化 formulation

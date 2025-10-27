@@ -1,3 +1,7 @@
+---
+alias:
+    ['CLI', 'command line interface', 'CUI', 'character user interface']
+---
 - shell
     - 環境変数 global variable
         - errno

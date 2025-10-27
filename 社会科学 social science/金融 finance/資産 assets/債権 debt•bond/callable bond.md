@@ -1,0 +1,4 @@
+---
+alias:
+    ['callable bond']
+---

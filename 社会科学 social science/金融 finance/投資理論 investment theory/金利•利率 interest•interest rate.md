@@ -1,3 +1,7 @@
+---
+alias:
+    ['金利', '利率', 'interest interest rate']
+---
 - variable
     - P principal 元本
     - r interest rate 利率

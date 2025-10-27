@@ -1,3 +1,7 @@
+---
+alias:
+    ['状態空間模型', 'state space model']
+---
 観測できない「状態」が「観測値」に影響を与える
 - 画像 image
     ![image.jpeg](学問%20academics/notion/data_analysis/ExportBlock-8be93bf0-4b33-41d8-a364-5b0c7eb222bc-Part-1/image.jpeg)

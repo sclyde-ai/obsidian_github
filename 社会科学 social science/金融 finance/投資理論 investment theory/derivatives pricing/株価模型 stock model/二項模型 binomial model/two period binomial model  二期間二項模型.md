@@ -1,3 +1,7 @@
+---
+alias:
+    ['two period binomial model', '二期間二項模型']
+---
 $$
 S_1(\omega_1\omega_2)= 
 \left\{ 

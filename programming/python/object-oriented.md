@@ -1,3 +1,7 @@
+---
+alias:
+    ['object-oriented']
+---
 # method
 - __init__
     最初に実行する

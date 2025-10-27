@@ -1,3 +1,7 @@
+---
+alias:
+    ['位相空間', 'topological space']
+---
 - 定義 def
     set S、family O
     - 全体集合と空集合

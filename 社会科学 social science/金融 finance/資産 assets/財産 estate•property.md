@@ -1,3 +1,7 @@
+---
+alias:
+    ['財産', 'estate property']
+---
 all the money and property owned by a particular person
 - freehold/non-freehold
     | freehold | an indefinite |

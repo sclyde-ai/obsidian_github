@@ -1,3 +1,7 @@
+---
+alias:
+    ['cashless payment', 'キャッシュレス決済']
+---
 - ledger 台帳
 - internet cash 電子現金
     - safety 安全性

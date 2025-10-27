@@ -1,3 +1,7 @@
+---
+alias:
+    ['二項関係', 'binary relation']
+---
 $$
 R \subset A \times A
 $$

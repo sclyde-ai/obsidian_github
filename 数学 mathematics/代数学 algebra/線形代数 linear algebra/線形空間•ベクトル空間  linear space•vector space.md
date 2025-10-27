@@ -1,3 +1,7 @@
+---
+alias:
+    ['線形空間', 'ベクトル空間', 'linear space vector space']
+---
 - 定義 def
     集合V、体K
     $$ \forall x, y, z \in V, \forall a, b \in K $$

@@ -1,3 +1,7 @@
+---
+alias:
+    ['生産関数', 'production function']
+---
     $$
     Y = AK^\alpha L^\beta
     $$

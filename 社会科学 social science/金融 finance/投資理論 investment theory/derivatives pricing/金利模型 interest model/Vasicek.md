@@ -1,3 +1,7 @@
+---
+alias:
+    ['Vasicek']
+---
 $$
 dr_t = \beta(\theta-r_t)dt+\sigma dW_t
 $$

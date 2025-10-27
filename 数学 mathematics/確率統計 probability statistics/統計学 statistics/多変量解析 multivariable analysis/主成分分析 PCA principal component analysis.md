@@ -1,3 +1,7 @@
+---
+alias:
+    ['主成分分析', 'PCA', 'principal component analysis']
+---
 pは説明変数の数
 - data
     nはデータ数

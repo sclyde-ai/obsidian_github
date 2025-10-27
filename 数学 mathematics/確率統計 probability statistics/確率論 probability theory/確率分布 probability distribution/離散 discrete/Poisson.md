@@ -1,3 +1,7 @@
+---
+alias:
+    ['Poisson']
+---
 $$ Po(\lambda) = \frac{\lambda^k}{k!} e^{-\lambda} $$
 - parameter
     $\lambda$ : the average rate of occurrence of events

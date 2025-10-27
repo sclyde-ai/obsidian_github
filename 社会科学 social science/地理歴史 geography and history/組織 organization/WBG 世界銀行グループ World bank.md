@@ -1,3 +1,7 @@
+---
+alias:
+    ['WBG', '世界銀行グループ', 'World bank']
+---
 Bank Group
 make leverage loans to developing company
 - 世界銀行 World Bank

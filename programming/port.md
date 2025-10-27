@@ -1,3 +1,7 @@
+---
+alias:
+    ['port']
+---
 - 80 : http
 - 25 : SMAP
 - 110 : POP3

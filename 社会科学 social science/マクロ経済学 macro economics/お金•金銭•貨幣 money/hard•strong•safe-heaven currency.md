@@ -1,3 +1,7 @@
+---
+alias:
+    ['hard strong safe-heaven currency']
+---
 a globally traded currency from a country with a strong, stable economy and political system, characterized by its reliability and low volatility
 - 性質 property
     - 安定性 stability

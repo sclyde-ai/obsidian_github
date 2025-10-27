@@ -1,3 +1,7 @@
+---
+alias:
+    ['soft currency']
+---
 a currency that tends to fluctuate or decrease in value due to economic or political instability.
 - 例 example
     - [[CNY(renminbi•Chinese yen)]]

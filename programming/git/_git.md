@@ -1,3 +1,7 @@
+---
+alias:
+    ['git']
+---
 - local
 	- index(staging area)
 	- working directory

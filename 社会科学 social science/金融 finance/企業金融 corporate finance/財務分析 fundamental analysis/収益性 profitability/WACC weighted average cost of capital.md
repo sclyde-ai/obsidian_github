@@ -1,3 +1,7 @@
+---
+alias:
+    ['WACC', 'weighted average cost of capital']
+---
 $$
 \frac{E}{E+D}C_e + \frac{D}{E+D}C_d(1-Tax)
 $$

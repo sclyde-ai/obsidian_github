@@ -1,3 +1,7 @@
+---
+alias:
+    ['金融市場', 'financial market']
+---
 - 仮定 assumption
     - 無裁定
     - 取引費用なし

@@ -1,3 +1,7 @@
+---
+alias:
+    ['WTO', '世界貿易機関', 'World Trade Organization']
+---
 - 自由貿易
     非関税障壁の関税化
 - 無差別主義

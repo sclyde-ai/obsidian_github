@@ -1,3 +1,7 @@
+---
+alias:
+    ['線形写像', '線形変換', 'linear mapping linear transformation']
+---
 - 定義 def
     写像 $f: \mathbb R \rightarrow \R^m$
     - 加法性 additivity

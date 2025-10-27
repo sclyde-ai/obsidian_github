@@ -1,3 +1,7 @@
+---
+alias:
+    ['凸集合', 'convex set']
+---
 $$
 \forall x \in S \land \forall y \in S \Rightarrow \\  \lambda x + (1-\lambda)y \in S, \forall \lambda \in [0, 1]
 $$

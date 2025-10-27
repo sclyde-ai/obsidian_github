@@ -1,3 +1,7 @@
+---
+alias:
+    ['markdown']
+---
 # header1
 ## header2
 ### header3

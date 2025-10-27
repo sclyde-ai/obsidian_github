@@ -1,3 +1,7 @@
+---
+alias:
+    ['ノルム空間', 'norm space']
+---
 - vector space V on K
 - norm $V \rightarrow \R$
     - 正値

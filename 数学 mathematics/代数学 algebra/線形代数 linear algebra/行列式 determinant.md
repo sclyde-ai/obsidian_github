@@ -1,3 +1,7 @@
+---
+alias:
+    ['行列式', 'determinant']
+---
 $$ \det A = |A| = \sum_{\sigma \in S_n}(sgn\ \sigma) a_{1 \sigma(1)}...a_{n\sigma(n)} $$
 - 演算 operation
     - 基本変形

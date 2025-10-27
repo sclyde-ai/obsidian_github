@@ -1,3 +1,7 @@
+---
+alias:
+    ['module vs package vs library']
+---
 - **Module** 
   A single file containing code definitions. 
 - **Package** 

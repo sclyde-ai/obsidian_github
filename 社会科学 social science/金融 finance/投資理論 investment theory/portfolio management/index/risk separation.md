@@ -1,3 +1,7 @@
+---
+alias:
+    ['risk separation']
+---
 $$
 \beta_i^2 \sigma_M^2 + \sigma^2_{\epsilon_i}
 $$

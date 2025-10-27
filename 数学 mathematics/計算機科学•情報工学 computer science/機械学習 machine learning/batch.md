@@ -1,3 +1,7 @@
+---
+alias:
+    ['batch']
+---
 data集合のこと
 - batch size
     dataの大きさ

@@ -1,3 +1,7 @@
+---
+alias:
+    ['bandit problem']
+---
 - 環境 environment
 - 仲介者 agent
 - 行動 action

@@ -1,3 +1,7 @@
+---
+alias:
+    ['電子印', 'digital token']
+---
 a digital representation of something of value or right        
 - tokenization トークン化
     a data security process that replaces sensitive data with a non-sensitive equivalent called a token

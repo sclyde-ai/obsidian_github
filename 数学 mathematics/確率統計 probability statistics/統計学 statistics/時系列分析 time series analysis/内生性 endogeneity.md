@@ -1,3 +1,7 @@
+---
+alias:
+    ['内生性', 'endogeneity']
+---
 $$
 Cov(X, \epsilon) \ne 0
 $$

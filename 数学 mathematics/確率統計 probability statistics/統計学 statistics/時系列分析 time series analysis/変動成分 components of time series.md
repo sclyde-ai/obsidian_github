@@ -1,3 +1,7 @@
+---
+alias:
+    ['変動成分', 'components of time series']
+---
 - trend 傾向
     長期的傾向
 - seasonality 季節変動

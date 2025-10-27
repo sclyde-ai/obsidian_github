@@ -1,3 +1,7 @@
+---
+alias:
+    ['CASB', 'cloud access security broker']
+---
 - 可視化 visibility
     授業員の利用しているcloud serviceの情報を把握する
     - access頻度

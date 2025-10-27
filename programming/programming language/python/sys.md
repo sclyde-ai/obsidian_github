@@ -1,3 +1,7 @@
+---
+alias:
+    ['sys']
+---
 - .path
     moduleをimportする際に検索するdirectory
     list型

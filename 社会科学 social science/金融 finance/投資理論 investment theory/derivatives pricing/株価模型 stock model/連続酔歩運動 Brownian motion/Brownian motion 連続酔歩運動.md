@@ -1,3 +1,7 @@
+---
+alias:
+    ['Brownian motion', '連続酔歩運動']
+---
 - probability space
 - def 定義
     - initial condition 初期値

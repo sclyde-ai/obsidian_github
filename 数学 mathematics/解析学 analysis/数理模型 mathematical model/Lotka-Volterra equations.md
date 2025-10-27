@@ -1,3 +1,7 @@
+---
+alias:
+    ['Lotka-Volterra equations']
+---
 $$
 \frac{dx}{dt}=ax-bxy $$ $$
 \frac{dy}{dt}=cxy-dy

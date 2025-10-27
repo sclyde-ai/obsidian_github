@@ -1,3 +1,7 @@
+---
+alias:
+    ['hash function']
+---
 - SHA256
 - Keccak
 - Scrypt

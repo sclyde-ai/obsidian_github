@@ -1,3 +1,7 @@
+---
+alias:
+    ['極限', 'limit']
+---
 $$ \lim_{x \to a} f(x) = \alpha $$
 $$ \forall \epsilon>0, \exists \delta >0, \forall x \in \mathbb R \\ 0 < |x-a|< \delta \Rightarrow |f(x)-\alpha| < \epsilon $$
 - 左極限

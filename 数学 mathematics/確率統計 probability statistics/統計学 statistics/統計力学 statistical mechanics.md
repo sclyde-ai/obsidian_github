@@ -1,4 +1,8 @@
 ---
+alias:
+    ['統計力学', 'statistical mechanics']
+---
+---
 aliases:
 ---
 - 統計力学 statistical mechanics

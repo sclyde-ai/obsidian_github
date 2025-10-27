@@ -1,3 +1,7 @@
+---
+alias:
+    ['python']
+---
 ### data型
 - bool
 ### prefix

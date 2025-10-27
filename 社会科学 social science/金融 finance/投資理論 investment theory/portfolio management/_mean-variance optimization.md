@@ -1,3 +1,7 @@
+---
+alias:
+    ['mean-variance optimization']
+---
 $$
 \min_{w} \frac{1}{2} w^\top \Sigma w $$
  

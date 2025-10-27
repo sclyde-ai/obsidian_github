@@ -1,3 +1,7 @@
+---
+alias:
+    ['マクロ経済学', 'macro economics']
+---
 - 数学理論 math theory
     - 45度分析
     - IS-LM analysis

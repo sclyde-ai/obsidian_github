@@ -1,1 +1,5 @@
+---
+alias:
+    ['entertainment']
+---
 musement]]

@@ -1,3 +1,7 @@
+---
+alias:
+    ['距離空間', 'metric space']
+---
 - 定義 def
     set X
     - 距離 metric  $X \times X \to \R$

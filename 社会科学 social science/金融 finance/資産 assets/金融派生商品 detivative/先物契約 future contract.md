@@ -1,3 +1,7 @@
+---
+alias:
+    ['先物契約', 'future contract']
+---
 	先物市場と
 	1. 原資産を取引日に売買 
 	2. 期日毎にCFを交換(値洗い m2m mark to market)

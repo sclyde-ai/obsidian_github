@@ -1,3 +1,7 @@
+---
+alias:
+    ['momentum']
+---
     $$
     \frac{\partial^2 S}{\partial t^2}
     $$

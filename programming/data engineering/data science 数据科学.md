@@ -1,3 +1,7 @@
+---
+alias:
+    ['data science', '数据科学']
+---
 - wiki
     a concept to unify statistics, data analysis, informatics, and their related methods to understand and analyze actual phenomena with data.
 - IBM

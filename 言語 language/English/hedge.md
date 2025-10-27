@@ -1,3 +1,7 @@
+---
+alias:
+    ['hedge']
+---
 - Oxford
   a fence or boundary formed by closely growing bushes or shrub.
 - Cambridge

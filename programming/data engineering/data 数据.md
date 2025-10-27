@@ -1,3 +1,7 @@
+---
+alias:
+    ['data', '数据']
+---
 - data
     - Oxford
     - Cambridge

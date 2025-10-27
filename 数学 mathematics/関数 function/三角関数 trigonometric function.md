@@ -1,3 +1,7 @@
+---
+alias:
+    ['三角関数', 'trigonometric function']
+---
 ||def|differential|calculus|
 |---|---|---|---|
 |sin||cos|-cos|

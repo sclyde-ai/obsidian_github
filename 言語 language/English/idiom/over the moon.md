@@ -1,0 +1,4 @@
+---
+alias:
+    ['over the moon']
+---

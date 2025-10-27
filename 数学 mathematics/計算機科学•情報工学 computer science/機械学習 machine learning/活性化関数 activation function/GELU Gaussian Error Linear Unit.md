@@ -1,3 +1,7 @@
+---
+alias:
+    ['GELU', 'Gaussian Error Linear Unit']
+---
 $$
 f(x) = x \Phi(x)
 $$

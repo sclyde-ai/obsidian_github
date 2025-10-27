@@ -1,3 +1,7 @@
+---
+alias:
+    ['測度論', 'measure theory']
+---
 - 収束 converge
     - 加法的集合関数
         - 可測空間(X, F)

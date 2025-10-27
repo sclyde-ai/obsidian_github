@@ -1,3 +1,7 @@
+---
+alias:
+    ['エルミート行列', 'Hermitian matrix']
+---
 $$ \overline A^\top = A $$
 - 随伴行列/エルミート転置 adjoint matrix/Hermitian transpose
     $$ \overline A^\top = \\ A^* = A^\dagger = \begin{pmatrix} \bar a_{11} & \bar a_{21} & \dots & \bar a_{m1} \\ \bar a_{12} & \bar a_{22} & \dots & \bar a_{m2} \\ \vdots & \vdots & \ddots & \vdots \\ \bar a_{1n} & \bar a_{2n} & \dots & \bar a_{mn} \end{pmatrix} $$
