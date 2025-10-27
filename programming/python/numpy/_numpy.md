@@ -1,14 +1,6 @@
----
-alias:
-    ['numpy']
----
 # class
 - np.ndarray
-    - properties
-        - dtype
-        - ndim
-        - shape
-        - size
+
 # making vector
 - np.array(object)
     objectのnumpyを作成する

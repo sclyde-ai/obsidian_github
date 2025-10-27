@@ -6,8 +6,8 @@ $$
 f(x) = 
 \left\{
 \begin{matrix}
-0 & if & x < 0 \\
-1 & if & x \geq0 
+1 & if & x \geq 0 \\ 
+0 & if & x < 0
 \end{matrix}
 \right.
 $$

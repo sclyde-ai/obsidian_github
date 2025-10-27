@@ -1,35 +1,3 @@
----
-alias:
-    ['pandas']
----
-# data型
-- datetime
-- string
-- object
-- category
-# accessor
-data型固有の属性やmethodをSeriesから直接利用可能にする機能
-- .dt
-    datetime
-    - property
-        - .year
-        - .month
-        - .day
-        - .date
-        - .weekday
-        - .day_name()
-        - .quarter
-        - .hour
-        - .minute
-        - .second
-    - method
-        - .normalize()
-            時刻を00:00:00にする
-        - 
-- .str
-    string
-- .cat
-    category 
 # data指定方法
 .loc : labelで指定する
 .iloc : 座標で指定する
