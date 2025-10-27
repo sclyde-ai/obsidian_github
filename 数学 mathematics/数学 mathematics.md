@@ -3,9 +3,9 @@ alias:
     ['数学', 'mathematics']
 ---
 - はじめに
-    - 論理性
-    - 抽象性
-    - 厳密性
+    - 論理性 logical 
+    - 抽象性 abstract
+    - 厳密性 strict
 - Oxford 
   the abstract science of number, quantity, and space, either as abstract concepts ( **pure mathematics** ), or as applied to other disciplines such as physics and engineering ( **applied mathematics** ).
 - Cambridge
