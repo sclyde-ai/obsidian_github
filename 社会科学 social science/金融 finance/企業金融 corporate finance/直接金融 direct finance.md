@@ -10,3 +10,4 @@ alias:
 - 投資信託
 - PE private equity
 - cloud funding
+- venture capital
