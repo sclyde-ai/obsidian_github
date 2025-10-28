@@ -1,6 +1,7 @@
 ---
 alias:
-    ['Deutschland Germany']
+  - Getmany
+  - ドイツ
 ---
 - Berlin
 - Hamburg

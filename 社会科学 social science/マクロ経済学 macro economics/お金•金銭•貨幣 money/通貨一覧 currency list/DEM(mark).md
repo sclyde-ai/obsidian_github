@@ -2,4 +2,4 @@
 alias:
     ['DEM(mark)']
 ---
-[[Deutschland, Germany]]
+[[Deutschland]]
