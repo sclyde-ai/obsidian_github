@@ -5,7 +5,6 @@ prefix:
 suffix:
 origin:
 derivative:
-usage:
 academic:
-antonym:
+usage:
 ---
