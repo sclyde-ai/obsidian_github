@@ -8,4 +8,7 @@ based on the Oxford dictionary.
 # properties
 - usage
     - idiom
-    - 
+    - proverb
+    - slang
+    - literary
+    - taboo
