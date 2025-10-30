@@ -2,10 +2,8 @@
 alias:
     ['正則化', 'regularization']
 ---
-- 日本語
-	過学習を防ぎ、モデルの汎化能力を高めるための手法
-- English
-	a technique to reduce overfitting in machine learning models by adding a penalty to the loss function
+過学習を防ぎ、モデルの汎化能力を高めるための手法
+a technique to reduce overfitting in machine learning models by adding a penalty to the loss function
 $$
 \min_w \mathbb E[w] + \lambda R(w)
 $$
