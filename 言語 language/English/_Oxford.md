@@ -4,20 +4,20 @@ alias:
 ---
 # labels
 https://www.oxfordlearnersdictionaries.com/about/english/labels
-- particular
+- situation
     - approving 
     - disapproving 
     - figurative 
-    - formal
+    - **formal**
     - humorous
-    - informal
+    - **informal**
     - ironic
-    - literary
+    - **literary**
     - offensive
-    - slang
+    - **slang**
     - specialist
     - taboo
-- era
+- fashion
     - dialect
     - old-fashioned
     - old use

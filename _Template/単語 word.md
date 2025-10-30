@@ -1,0 +1,7 @@
+---
+situation:
+fashion:
+academic:
+antonym:
+---
+[[]]
