@@ -1,4 +1,4 @@
-$$
+                                                                                        $$
 \sigma(x) = \frac{1}{1+\exp(-x)}
 $$
 - 微分 derivative
