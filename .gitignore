@@ -1,4 +1,4 @@
 .obsidian
 .*
 *Zone.Identifier
-*.json
+node_modules/
