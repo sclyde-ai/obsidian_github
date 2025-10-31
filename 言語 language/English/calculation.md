@@ -1,5 +1,1 @@
----
-alias:
-    ['calculation']
----
 [[calculate]]

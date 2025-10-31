@@ -1,7 +1,3 @@
----
-alias:
-    ['vocabulary']
----
 - Oxford
   the body of words used in a particular language.
   "a comparison of the vocabularies of different languages"

@@ -1,7 +1,3 @@
----
-alias:
-    ['idiom']
----
 - Oxford
   a group of words established by usage as having a meaning not deducible from those of the individual words
 - Cambridge

@@ -1,4 +1,0 @@
----
-alias:
-    ['amusement vs entertainment']
----

@@ -1,7 +1,3 @@
----
-alias:
-    ['diligence']
----
 - Oxford
   careful and persistent work or effort.
   "few party members challenge his diligence as an MP"

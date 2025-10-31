@@ -1,4 +1,0 @@
----
-alias:
-    ['look and feel']
----

@@ -1,5 +1,1 @@
----
-alias:
-    ['calculate']
----
 [[calibration]]

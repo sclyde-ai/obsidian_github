@@ -1,7 +1,3 @@
----
-alias:
-    ['alternative']
----
 adjective
 - Oxford
     1. (of one or more things) available as another possibility or choice.

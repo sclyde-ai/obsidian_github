@@ -1,5 +1,1 @@
----
-alias:
-    ['compute']
----
 [[computation]]

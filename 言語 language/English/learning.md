@@ -1,7 +1,3 @@
----
-alias:
-    ['learning']
----
 - Oxford
 	 the acquisition of knowledge or skills through study, experience, or being taught.
 - Cambridge

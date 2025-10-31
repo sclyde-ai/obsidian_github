@@ -1,5 +1,1 @@
----
-alias:
-    ['active']
----
 - antonym: [[passive]]

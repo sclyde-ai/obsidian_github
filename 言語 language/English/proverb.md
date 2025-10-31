@@ -1,7 +1,3 @@
----
-alias:
-    ['proverb']
----
 - Oxford
   a short, well-known pity saying, stating a general truth or piece of advice.
 - Cambridge

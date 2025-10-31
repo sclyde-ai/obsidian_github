@@ -1,7 +1,3 @@
----
-alias:
-    ['paycheck']
----
 alias
 	pay-slip
 	paystub

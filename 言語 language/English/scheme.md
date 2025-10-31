@@ -1,7 +1,3 @@
----
-alias:
-    ['scheme']
----
 verb
 make plans, especially in a devious or with intent to do something illegal or wrong.
 

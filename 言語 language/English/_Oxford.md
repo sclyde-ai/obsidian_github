@@ -1,7 +1,3 @@
----
-alias:
-    ['Oxford']
----
 # labels
 https://www.oxfordlearnersdictionaries.com/about/english/labels
 - situation

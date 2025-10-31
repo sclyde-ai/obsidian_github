@@ -1,7 +1,3 @@
----
-alias:
-    ['subsidiary']
----
 adjective 
 - Oxford
   less important than but related or supplementary to something.
