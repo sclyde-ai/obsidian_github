@@ -1,6 +1,6 @@
 ---
 alias:
-    ['package']
+    ['how to make package']
 ---
 ## special files
 - __init__.py

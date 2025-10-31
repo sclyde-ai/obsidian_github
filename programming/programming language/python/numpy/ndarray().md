@@ -1,0 +1,5 @@
+- properties
+	- dtype
+	- ndim
+	- shape
+	- size
