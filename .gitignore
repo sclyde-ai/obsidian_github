@@ -1,3 +1,6 @@
 .obsidian
+.env
 .*
 *Zone.Identifier
+node_modules/
+open_obsidian.sh
