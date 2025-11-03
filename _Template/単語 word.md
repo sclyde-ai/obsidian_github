@@ -8,3 +8,7 @@ derivative:
 academic:
 usage:
 ---
+## meaning 1
+- Oxford
+- Cambridge
+- wikipedia
