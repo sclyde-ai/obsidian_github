@@ -9,17 +9,15 @@ ax & if & x \leq
 \right.
 $$
 
-$$
-= \max(x, 0) = \frac{x+|x|}{2}
-$$
 - 微分 derivative
 $$
 ReLU(x) =
 \left\{
 \begin{matrix}
 1 & if & x > 0 \\
-0 & if & x \leq
-0
+a & if & x \leq
+0, a << 1
 \end{matrix}
 \right.
 $$
+a = 0.01が一般的
