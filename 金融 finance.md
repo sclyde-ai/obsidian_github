@@ -10,3 +10,4 @@
 [[融資 financing]]
 [[仲介 brokerage]]
 [[資金調達 fundrasing]]
+

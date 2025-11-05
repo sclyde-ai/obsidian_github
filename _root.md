@@ -2,4 +2,6 @@
 
 [[金融 finance]]
 
+[[財産 property•estate]]
+
 [[programming]]
