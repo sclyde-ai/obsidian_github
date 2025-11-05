@@ -9,3 +9,9 @@ alias:
 ![[minimum variance portfolio]]
 
 ![[minimum variance frontier]]
+
+$$
+\sigma^2_{GMVP} = \min_{\bar \mu}\{\hat w (\bar \mu) ^\top C \hat w (\bar \mu)\}
+$$
+
+[[efficient frontier]]
