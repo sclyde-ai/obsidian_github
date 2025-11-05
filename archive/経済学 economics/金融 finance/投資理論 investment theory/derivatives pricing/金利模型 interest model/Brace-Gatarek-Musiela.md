@@ -1,4 +1,0 @@
----
-alias:
-    ['Brace-Gatarek-Musiela']
----

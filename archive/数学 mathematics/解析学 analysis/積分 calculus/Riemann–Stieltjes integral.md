@@ -1,4 +1,0 @@
----
-alias:
-    ['Riemann–Stieltjes integral']
----

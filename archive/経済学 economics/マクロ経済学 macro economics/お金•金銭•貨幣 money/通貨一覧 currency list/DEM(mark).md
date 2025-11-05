@@ -1,5 +1,0 @@
----
-alias:
-    ['DEM(mark)']
----
-[[Deutschland]]

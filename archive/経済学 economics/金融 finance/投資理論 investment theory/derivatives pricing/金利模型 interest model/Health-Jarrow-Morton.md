@@ -1,4 +1,0 @@
----
-alias:
-    ['Health-Jarrow-Morton']
----

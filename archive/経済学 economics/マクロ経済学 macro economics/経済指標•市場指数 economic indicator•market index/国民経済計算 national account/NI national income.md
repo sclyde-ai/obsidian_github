@@ -1,4 +1,0 @@
----
-alias:
-    ['NI', 'national income']
----

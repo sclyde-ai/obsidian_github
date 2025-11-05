@@ -1,6 +1,0 @@
----
-alias:
-    ['support']
----
-A price level where **demand (buying) is strong enough** to prevent further decline.
-[[resistance|resistance]]

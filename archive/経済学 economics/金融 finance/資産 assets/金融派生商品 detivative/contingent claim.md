@@ -1,5 +1,0 @@
----
-alias:
-    ['contingent claim']
----
-[option]]

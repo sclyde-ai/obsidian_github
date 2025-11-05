@@ -1,4 +1,0 @@
----
-alias:
-    ['Monte Carlo simulation']
----

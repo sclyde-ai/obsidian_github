@@ -1,4 +1,0 @@
----
-alias:
-    ['CROSS', 'JOIN']
----

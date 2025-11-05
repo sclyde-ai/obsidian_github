@@ -1,4 +1,0 @@
----
-alias:
-    ['NZD(NewZealand dollar)']
----

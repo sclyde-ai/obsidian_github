@@ -1,4 +1,0 @@
----
-alias:
-    ['zero coupon bond']
----

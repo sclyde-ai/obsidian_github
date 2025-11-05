@@ -1,4 +1,0 @@
----
-alias:
-    ['asset turnover ratio']
----

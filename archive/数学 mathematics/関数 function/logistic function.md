@@ -1,5 +1,0 @@
----
-alias:
-    ['logistic function']
----
-$$ f(x) = \frac{L}{1+e^{-k(x-x_0)}} $$

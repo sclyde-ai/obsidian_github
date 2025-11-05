@@ -1,4 +1,0 @@
----
-alias:
-    ['inventory turnover ratio']
----

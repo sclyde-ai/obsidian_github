@@ -1,4 +1,0 @@
----
-alias:
-    ['Weierstrass function']
----

@@ -1,4 +1,0 @@
----
-alias:
-    ['Lebesgue–Stieltjes integration']
----

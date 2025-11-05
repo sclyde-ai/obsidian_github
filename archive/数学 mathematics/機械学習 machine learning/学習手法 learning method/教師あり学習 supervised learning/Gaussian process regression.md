@@ -1,4 +1,0 @@
----
-alias:
-    ['Gaussian process regression']
----

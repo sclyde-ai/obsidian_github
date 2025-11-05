@@ -1,4 +1,0 @@
----
-alias:
-    ['poisson loss']
----

@@ -1,5 +1,0 @@
----
-alias:
-    ['specie']
----
-money in the form of coins rather than notes.

@@ -1,4 +1,0 @@
----
-alias:
-  - feedforward neural network
----

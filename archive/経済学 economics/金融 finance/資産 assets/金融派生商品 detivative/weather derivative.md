@@ -1,5 +1,0 @@
----
-alias:
-    ['weather derivative']
----
-financial contracts that pay out based on specific, measurable weather conditions, such as temperature, precipitation, or wind speed, to manage financial risks associated with adverse weather events

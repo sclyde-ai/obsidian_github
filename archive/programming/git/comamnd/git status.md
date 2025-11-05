@@ -1,4 +1,0 @@
----
-alias:
-    ['git status']
----

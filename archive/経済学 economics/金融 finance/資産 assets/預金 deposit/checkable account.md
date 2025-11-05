@@ -1,4 +1,0 @@
----
-alias:
-    ['checkable account']
----

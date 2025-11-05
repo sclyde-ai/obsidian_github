@@ -1,4 +1,0 @@
----
-alias:
-    ['Bjerksund and Stensland']
----

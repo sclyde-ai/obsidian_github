@@ -1,5 +1,0 @@
----
-alias:
-    ['Paris']
----
-rance]]

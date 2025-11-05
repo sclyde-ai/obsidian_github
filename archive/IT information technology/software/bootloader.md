@@ -1,5 +1,0 @@
----
-alias:
-    ['bootloader']
----
-に起動し、補助記憶装置に保存されているOSをmemoryに読み込んで起動させるための特殊なprogram

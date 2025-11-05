@@ -1,6 +1,0 @@
----
-alias:
-    ['France']
----
-- Paris
-- Marseille

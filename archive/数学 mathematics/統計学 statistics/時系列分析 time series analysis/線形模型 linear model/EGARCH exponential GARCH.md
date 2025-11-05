@@ -1,4 +1,0 @@
----
-alias:
-    ['EGARCH', 'exponential', 'GARCH']
----

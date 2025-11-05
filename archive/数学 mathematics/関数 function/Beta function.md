@@ -1,5 +1,0 @@
----
-alias:
-    ['Beta function']
----
-$$ \beta (x, y) = \int_0^1 t^{x-1}(1-t)^{y-1} dt $$

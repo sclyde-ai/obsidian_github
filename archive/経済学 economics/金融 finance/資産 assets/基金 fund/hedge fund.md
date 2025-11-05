@@ -1,4 +1,0 @@
----
-alias:
-    ['hedge fund']
----
