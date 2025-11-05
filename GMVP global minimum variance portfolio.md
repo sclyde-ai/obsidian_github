@@ -5,11 +5,16 @@ alias:
 parent: "[[mean-variance optimization]]"
 ---
 $$
+w_{GVMP} \in \mathbb R
+$$
+$$
 \min_{w} \frac{1}{2} w^\top \Sigma w
 $$
 $$
 \vec 1^\top w = 1
 $$
+分散が最小となるportfolio
+期待値は未定
 - GMVP weight vector
     $$
     w_{GMVP} = \frac{\Sigma^{-1}\rm 1}{\rm 1^\top \Sigma^{-1} \rm 1}

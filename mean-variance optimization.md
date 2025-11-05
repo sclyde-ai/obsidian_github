@@ -2,7 +2,9 @@
 alias:
   - mean-variance optimization
 ---
-期待値をさい
+期待値を最大化
+分散を最小化
+
 ![[投資機会集合 feasible set]]
 
 ![[GMVP global minimum variance portfolio]]
