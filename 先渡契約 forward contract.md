@@ -6,9 +6,10 @@ alias:
 - 特定の将来時点で (満期日 maturity)
 - 現時点で決めた価格で (先渡価格 forward price)
 取引する売買契約
-- S_t underlying asset 原資産
-- T maturity 満期
-- [[forward price 先渡価格]]
+
+- [[原資産 underlying asset]]
+- [[満期 maturity]]
+- [[先渡価格 forward price]]
 		- forward price (no carry cost)
 			$$ 
 			For_S(t, T) = S(t)/B(t, T)
@@ -108,23 +109,8 @@ alias:
 			$$ 
 			F(0, T) = S_0 e^{-r_{div}T}/B(0, T)
 			$$ 
-- basis
-	現物と先物の価格差
-	$$ 
-	F(t, T) - S_t
-	$$ 
-	- theorem
-		$$ 
-		F(t, T) - S_t 	o 0 \
-		(t 	o T)
-		$$ 
-- market value 時価
-	時刻tの契約書(先渡契約)の価値
-	$$ 
-	V(t) = (F(t, T) - F(0, T))B(t, T)
-	$$ 
-	- 含み損 unrealized loss
-	- 含み益 unrealized gain
+
+
 - cashflow
 	| position  | price up 価格上昇 | price down 価格下落 |
 	| --- | --- | --- |
