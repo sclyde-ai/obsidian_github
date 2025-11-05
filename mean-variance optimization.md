@@ -6,6 +6,6 @@ alias:
 
 ![[GMVP global minimum variance portfolio]]
 
-
 ![[minimum variance portfolio]]
 
+![[minimum variance frontier]]

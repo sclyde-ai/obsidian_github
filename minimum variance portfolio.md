@@ -2,7 +2,6 @@
 parent: "[[mean-variance optimization]]"
 ---
 
-
 $$
 \hat w(\bar \mu) \in \mathbb R
 $$
