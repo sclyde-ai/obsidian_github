@@ -14,3 +14,12 @@ alias:
   the science of structure, order, and relation that has evolved from counting, measuring, and describing the shapes of objects.
 - wikipedia
   a field of study that discovers and organizes methods, theories and theorems that are developed and proved for the ne
+
+- 純粋数学 pure math
+	[[解析学 analysis]]
+	[[幾何学 geometry]]
+	[[代数学 algebra]]
+	[[離散数学 discrete math]]
+- 応用数学 applied math
+	[[確率論 probability theory]]
+	[[とうけい]]
