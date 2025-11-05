@@ -10,4 +10,5 @@
 [[融資 financing]]
 [[仲介 brokerage]]
 [[資金調達 fundrasing]]
-
+[[貸付 lending]]
+[[賃貸 lease]]

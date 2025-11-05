@@ -2,6 +2,7 @@
 alias:
     ['portfolio']
 ---
+
 - weight
     $$
     w = (w_1, w_2, ...,w_n)^\top
@@ -20,3 +21,5 @@ alias:
     $$
     \sigma_p^2 = w^\top \Sigma w
     $$
+
+[[modern portfolio theory]]
