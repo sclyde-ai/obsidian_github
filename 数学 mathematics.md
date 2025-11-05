@@ -6,20 +6,18 @@ alias:
     - 論理性 logical 
     - 抽象性 abstract
     - 厳密性 strict
-- Oxford 
-  the abstract science of number, quantity, and space, either as abstract concepts ( **pure mathematics** ), or as applied to other disciplines such as physics and engineering ( **applied mathematics** ).
-- Cambridge
-  the study of numbers, shapes, and space using reason and usually a special system of symbols and rules for organizing them
-- Britannica 
-  the science of structure, order, and relation that has evolved from counting, measuring, and describing the shapes of objects.
-- wikipedia
-  a field of study that discovers and organizes methods, theories and theorems that are developed and proved for the ne
-
 - 純粋数学 pure math
+	[[集合論 set theory]]
+	[[論理学 logic]]
 	[[解析学 analysis]]
 	[[幾何学 geometry]]
 	[[代数学 algebra]]
 	[[離散数学 discrete math]]
 - 応用数学 applied math
 	[[確率論 probability theory]]
-	[[とうけい]]
+	[[統計学 statistics]]
+	[[情報理論 information theory]]
+	[[暗号学 cryptology]]
+	[[計算理論 theory of computation]]
+	[[機械学習 machine learning]]
+	
