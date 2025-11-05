@@ -1,39 +1,40 @@
 ---
 parent: "[[金融派生商品 derivative]]"
 ---
-- component 構成要素
-	- strike 権利行使
-		- strike price 権利行使価格
-		- strike shift
-	- maturity 満期
-	- intrinsic value
-	- the relation between European and American
-		- no carry cost (assumption)
-		$$ 
-		CE_T = CA_T
-		$$ 
-		- proof
-			- $CE_T < CA_T$
-				- time 0
-					- short 1 unit American call
-					- long 1 unit European call
-				- time t
-				- time T
+
+- strike 権利行使
+	- strike price 権利行使価格
+	- strike shift
+- maturity 満期
+- intrinsic value
 - vanilla option
 	[[European option]]
 	[[American option]]
-- [[exotic option]]
+	[[Bermudan option]]
+	[[Boston option]]
+- exotic option
 	[[Asian option]]
-	
-
-	
-	
-	
+	[[barrier option]]
+	[[Parisian option]]
+	[[look-back option]]
+	[[binary•digital option]]
 	- cross option/composite option
-		- quanto option
+	- quanto option
 	- basket option
-		- rainbow option
+	- rainbow option
 	- exchange option
+- the relation between European and American
+	- no carry cost (assumption)
+	$$ 
+	CE_T = CA_T
+	$$ 
+	- proof
+		- $CE_T < CA_T$
+			- time 0
+				- short 1 unit American call
+				- long 1 unit European call
+			- time t
+			- time T
 - option strategy
 	- money-ness
 		- ITM in the money
@@ -48,17 +49,8 @@ parent: "[[金融派生商品 derivative]]"
 	- put
 		- long
 		- short
-	- covered call
-		selling call options by an equivalent amount of the underlying security
-		- premium
-		- stable and bull
-		![image.jpeg](image%201.jpeg)
-	- protective/married put
-		buying put options by an equivalent amount of the underlying security
-		- payoff
-		- volatile and bull
-		- to hedge the potential loss
-		![image.jpeg](image%202.jpeg)
+
+		
 	- straddle
 		simultaneously 
 		either buying or selling 
