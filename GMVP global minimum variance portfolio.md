@@ -1,6 +1,8 @@
 ---
 alias:
-    ['GMVP', 'global minimum variance portfolio']
+  - GMVP
+  - global minimum variance portfolio
+parent: "[[mean-variance optimization]]"
 ---
 $$
 \min_{w} \frac{1}{2} w^\top \Sigma w
@@ -20,7 +22,3 @@ $$
     $$
     \sigma^2_{GMVP} = \frac{1}{\rm 1^\top \Sigma^{-1} \rm 1}
     $$
-- differentiate
-    - $\nabla (w^\top \mu) = \mu$
-    - $\nabla (w^\top \rm 1) = 1$
-    - $\nabla (w^\top \Sigma w) = 2 \Sigma w$
