@@ -1,0 +1,4 @@
+---
+alias:
+    ['RD', 'relational database']
+---

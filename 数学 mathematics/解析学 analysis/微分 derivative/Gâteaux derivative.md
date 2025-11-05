@@ -1,0 +1,4 @@
+---
+alias:
+    ['Gâteaux derivative']
+---

@@ -1,0 +1,4 @@
+---
+alias:
+    ['custom', 'URL', 'scheme']
+---

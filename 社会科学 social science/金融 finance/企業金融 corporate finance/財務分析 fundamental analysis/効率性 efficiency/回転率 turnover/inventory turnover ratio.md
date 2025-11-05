@@ -1,0 +1,4 @@
+---
+alias:
+    ['inventory turnover ratio']
+---

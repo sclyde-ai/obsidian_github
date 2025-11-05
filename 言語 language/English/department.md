@@ -1,0 +1,2 @@
+noun
+a division of a large organization such as a government, university, or business, dealing with a specific area of activity.

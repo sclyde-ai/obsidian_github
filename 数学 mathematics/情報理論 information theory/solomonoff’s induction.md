@@ -1,0 +1,4 @@
+---
+alias:
+    ['solomonoff’s induction']
+---

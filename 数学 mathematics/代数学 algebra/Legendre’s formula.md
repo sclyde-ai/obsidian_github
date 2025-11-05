@@ -1,0 +1,4 @@
+---
+alias:
+    ['Legendre’s formula']
+---
