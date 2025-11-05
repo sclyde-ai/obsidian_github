@@ -2,7 +2,7 @@
 alias:
     ['modern portfolio theory']
 ---
-- setting
+- 資産 assets
     - 資産 assets
         $$
         N = \{1, 2, ..., n\}
@@ -12,11 +12,14 @@ alias:
         $$
         \{R_i\}_{i \in N}
         $$
-    - expected return
+    - 期待収益 expected return
         $$
         \mu_i = \mathbb E[R_i]
         $$
-    - variance
+        $$
+        \mu = (\mu_1, \mu_2,...,\mu_n)^\top
+        $$
+    - 分散 variance
         $$
         \sigma_i^2 = Var(R_i) = \mathbb E[(R_i - \mu_i)^2]
         $$
@@ -24,18 +27,13 @@ alias:
         $$
         \sigma_{ij} = Cov(R_i, R_j) = \mathbb E[(R_i - \mu_i)(R_j - \mu_j)]
         $$
-    - expected return vector
-        $$
-        \mu = (\mu_1, \mu_2,...,\mu_n)^\top
-        $$
     - variance covariance matrix
         $$
         \Sigma = (\sigma_{ij})
         $$
-    - 1 vector
-        $$
-        \mathbb 1 = (1, 1, ...,1)^\top
-        $$
+- [[portfolio]]
+	
+    
 - CML vs SML
     - CML capital market line
         optimizing a portfolio
