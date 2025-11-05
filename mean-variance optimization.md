@@ -1,7 +1,8 @@
 ---
 alias:
-    ['mean-variance optimization']
+  - mean-variance optimization
 ---
+期待値をさい
 ![[投資機会集合 feasible set]]
 
 ![[GMVP global minimum variance portfolio]]
@@ -14,4 +15,4 @@ $$
 \sigma^2_{GMVP} = \min_{\bar \mu}\{\hat w (\bar \mu) ^\top C \hat w (\bar \mu)\}
 $$
 
-[[efficient frontier]]
+![[efficient frontier]]

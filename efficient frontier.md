@@ -1,7 +1,7 @@
 ---
-alias:
-    ['efficient frontier']
+parent: "[[mean-variance optimization]]"
 ---
+
 $$
-W^{EF} = 
+W^{EF} = \{\hat w (\bar \mu) | \bar \mu \geq \mu_{GMVP}\}
 $$

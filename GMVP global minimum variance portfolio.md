@@ -8,7 +8,7 @@ $$
 \min_{w} \frac{1}{2} w^\top \Sigma w
 $$
 $$
-s.t. \ \mathbb 1^\top w = 1
+\vec 1^\top w = 1
 $$
 - GMVP weight vector
     $$
