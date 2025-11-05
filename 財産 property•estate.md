@@ -3,9 +3,7 @@ alias:
 ---
 [[お金•金銭•貨幣 money]]
 [[通貨•流通通貨 currency]]
-
 [[portfolio]]
-
 [[現金 cash]]
 [[資産 asset]]
 [[預金 deposit]]
