@@ -9,10 +9,13 @@ $$
 \vec \mu^\top w = \mu_T
 $$
 
-![[CML capital market line]]
 
-![[tangency portfolio]]
 
-![[market portfolio]]
 
-![[efficient frontier]]
+
+
+
+
+
+
+
