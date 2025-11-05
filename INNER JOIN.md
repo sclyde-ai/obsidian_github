@@ -1,0 +1,4 @@
+---
+alias:
+    ['INNER', 'JOIN']
+---

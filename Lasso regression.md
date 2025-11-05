@@ -1,0 +1,4 @@
+---
+alias:
+    ['Lasso regression']
+---

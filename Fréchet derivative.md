@@ -1,0 +1,4 @@
+---
+alias:
+    ['Fréchet derivative']
+---

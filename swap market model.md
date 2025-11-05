@@ -1,0 +1,4 @@
+---
+alias:
+    ['swap market model']
+---

@@ -1,0 +1,4 @@
+---
+alias:
+    ['EGARCH', 'exponential', 'GARCH']
+---

@@ -1,0 +1,4 @@
+---
+alias:
+    ['power spectrum analysis']
+---

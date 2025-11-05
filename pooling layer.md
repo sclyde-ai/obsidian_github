@@ -1,0 +1,4 @@
+---
+alias:
+    ['pooling layer']
+---

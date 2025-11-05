@@ -1,0 +1,1 @@
+find . -mindepth 1 -type d -empty $(printf "! -name %q " "$@") -delete

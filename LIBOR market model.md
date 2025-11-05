@@ -1,0 +1,4 @@
+---
+alias:
+    ['LIBOR', 'market model']
+---

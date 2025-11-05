@@ -1,0 +1,44 @@
+# labels
+https://www.oxfordlearnersdictionaries.com/about/english/labels
+- situation
+    - approving 
+    - disapproving 
+    - figurative 
+    - **formal**
+    - humorous
+    - **informal**
+    - ironic
+    - **literary**
+    - offensive
+    - **slang**
+    - specialist
+    - taboo
+- fashion
+    - dialect
+    - old-fashioned
+    - old use
+    - saying
+- academic
+     - anatomy
+     - biochemistry
+     - biology
+     - business
+     - chemistry
+     - computing
+     - earth science
+     - ecology
+     - economics
+     - engineering
+     - finance
+     - geometry
+     - grammar
+     - law
+     - linguistics
+     - mathematics
+     - medical
+     - philosophy 
+     - phonetics
+     - physics
+     - politics
+     - psycology
+     - statistics
