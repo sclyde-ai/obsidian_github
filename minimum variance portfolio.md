@@ -1,7 +1,6 @@
 ---
 parent: "[[mean-variance optimization]]"
 ---
-
 $$
 \hat w(\bar \mu) \in \mathbb R
 $$
@@ -12,9 +11,7 @@ $$
 $$
 \vec \mu^\top w = \mu_T
 $$
-
-
-
+指定した期待値の中で分散が最小のportfolio
 
 
 
