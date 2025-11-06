@@ -2,6 +2,7 @@
 alias:
     ['first', 'FTAP', '資産価格付けの第一基本定理']
 ---
+[[数理金融 mathematical finance]]
 裁定機会の非存在とリスク中立確率の存在は必要十分条件
 - n=2 金融資産2つ
     - 利益 gain/payoff

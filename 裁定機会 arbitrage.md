@@ -1,7 +1,9 @@
 ---
 alias:
-    ['裁定機会', 'arbitrage']
+  - 裁定機会
+  - arbitrage
 ---
+[[数理金融 mathematical finance]]
 - 確率空間 $(\Omega, F, P)$
 - 確率変数 X
 - 確率過程
