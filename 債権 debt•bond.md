@@ -3,13 +3,15 @@ alias:
   - 債権
   - debt
   - bond
+parent:
 ---
+[[既発債]]
+[[新発債]]
 
-    - 既発債
-    - 新発債/新規債権
-- rank
-    - 優先債 senior debt
-        low risk
-    - 中間債 medium debt
-    - 劣後債 junior/subordinated debt
-        high risk 
+[[優先債 senior debt]]
+[[中間債 medium debt]]
+[[劣後債 junior•subordinated debt]]
+
+[[国債 government bond]]
+[[地方債 municipal bond]]
+[[事業債•社債 corporate bond]]
