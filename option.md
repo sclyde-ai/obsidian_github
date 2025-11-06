@@ -19,10 +19,10 @@ parent: "[[金融派生商品 derivative]]"
 	[[look-back option]]
 	[[binary•digital option]]
 	cross option/composite option
-	- quanto option
-	- basket option
-	- rainbow option
-	- exchange option
+	quanto option
+	basket option
+	rainbow option
+	exchange option
 - the relation between European and American
 	- no carry cost (assumption)
 	$$ 
@@ -35,6 +35,11 @@ parent: "[[金融派生商品 derivative]]"
 				- long 1 unit European call
 			- time t
 			- time T
+- strategy
+	[[covered call]]
+	[[protective•married put]]
+	[[straddle]]
+	[[strangle]]
 - option strategy
 	- money-ness
 		- ITM in the money
@@ -49,52 +54,6 @@ parent: "[[金融派生商品 derivative]]"
 	- put
 		- long
 		- short
-
-		
-	- straddle
-		simultaneously 
-		either buying or selling 
-		both a call and a put option 
-		with the same strike price 
-		with the same expiration
-		![image.jpeg](image%203.jpeg)
-		- long straddle
-			buying
-			- payoff
-			- volatile
-			![IMG_7406.jpeg](IMG_7406.jpeg)
-		- short straddle
-			selling
-			- premium
-			- stable
-			- greeks
-				- short gamma
-					$$ 
-					Γ < 0
-					$$ 
-				- short vega
-					$$ 
-					ℤ < 0
-					$$ 
-			![IMG_7406.jpeg](IMG_7406%201.jpeg)
-	- strangle
-		simultaneously 
-		either buying or selling 
-		both a call and a put option 
-		with the different strike price 
-		with the same expiration
-		- lower cost than straddle
-		![image.jpeg](image%204.jpeg)
-		- long strangle
-			buying
-			- payoff
-			- volatile
-			![IMG_7407.jpeg](IMG_7407.jpeg)
-		- short strangle
-			selling
-			- premium
-			- stable
-			![IMG_7407.jpeg](IMG_7407%201.jpeg)
 	- vertical spread
 		simultaneously 
 		both selling and buying 
