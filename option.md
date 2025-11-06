@@ -40,6 +40,8 @@ parent: "[[金融派生商品 derivative]]"
 	[[protective•married put]]
 	[[straddle]]
 	[[strangle]]
+	[[diagonal spread]]
+	[[butterfly spread]]
 - option strategy
 	- money-ness
 		- ITM in the money
@@ -54,46 +56,6 @@ parent: "[[金融派生商品 derivative]]"
 	- put
 		- long
 		- short
-	- vertical spread
-		simultaneously 
-		both selling and buying 
-		either a call or a put option
-		with the different strike prices
-		with the same expiration
-		![image.jpeg](image%205.jpeg)
-		- bull call spread
-		- bear put spread
-	- diagonal spread
-		simultaneously entering into 
-		a long and short position 
-		with the different strike prices 
-		with the different expirations
-	- butterfly spread
-		![image.jpeg](image%206.jpeg)
-		- long call
-			long one ITM call
-			short two ATM calls
-			long one OTM call
-			- profit from low volatility
-		- short call
-			short one ITM call
-			long two ATM calls
-			short one OTM call
-			- profit from high volatility
-		- long put
-			long one ITM call
-			short two ATM calls
-			long one OTM call
-			- profit from low volatility
-		- short put
-			short one ITM call
-			long two ATM calls
-			short one OTM call
-			- profit from high volatility
-	- iron butterfly spread
-		sell one ATM call
-		sell one ATM put 
-		buy one OTM call at higher strike price
 	- condor spread
 		![](https://www.investopedia.com/thmb/JBLXXJUqPhCfxQma97fXQk8TdxM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/CondorSpread1-c6ce24585200444cabb8914138fec306.png)
 		- long call
