@@ -9,3 +9,5 @@
 [[会社•企業 company•corporation]]
 
 [[data 数据]]
+
+[[IT information technology 情報技術]]

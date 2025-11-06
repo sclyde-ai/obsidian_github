@@ -20,11 +20,5 @@ alias:
 		2. 変更されたがstageされてないfile
 		3. stageされたがcommitされてないfile
 # useful command
-- git push by time to push 
-    git add . && git commit -m "$(date '+%Y/%m/%d %H:%M:%S')" && git push
-- branchを作成して切り替える
-    git checkout -b $1 
-- remoteのbranchを削除する
-    git push origin --delete [name]
--  もとから存在するfileをgitignoreする
-	git rm --cached
+
+-  
