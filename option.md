@@ -19,7 +19,8 @@ parent: "[[金融派生商品 derivative]]"
 	[[Parisian option]]
 	[[look-back option]]
 	[[binary•digital option]]
-	cross option/composite option
+	cross option
+	composite option
 	quanto option
 	basket option
 	rainbow option
