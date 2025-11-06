@@ -1,8 +1,10 @@
 ---
 alias:
-    ['債権', 'debt bond']
+  - 債権
+  - debt
+  - bond
 ---
-- type
+
     - 既発債
     - 新発債/新規債権
 - rank
