@@ -1,12 +1,19 @@
 ---
 alias:
-    ['会社', '企業', 'company']
+  - 会社
+  - 企業
+  - company
+  - corpotation
 ---
 - 企業 company
     1. 資金を調達する
     2. 資金を運用する
     3. 利益を得る
-[[会社法]]
+[[会社法 business law]]
+
+[[企業金融 corporate finance]]
+
+[[事業債•社債 corporate bond]]
 
 - 役職 role
         - chair
@@ -21,8 +28,6 @@ alias:
                     the day-to-day operations
             - CSO chief strategist officer
                 a senior executive responsible for leading the development and execution of a company's long-term vision and strategic initiatives
-        - entrepreneur
-            a person who undertakes the risk of starting a new business venture is called an entrepreneur.
         - director/BofD board of directors
             1. Decision-Making
             2. Supervision of Executive:
@@ -40,11 +45,6 @@ alias:
             manufacturing, construction 
         - tertiary sector
             services
-        - 流動化する liquidate
-            to cause a business to close
-            不動産や債権などの、現金化や取引しにくい資産を、投資家が取引しやすい有価証券などに形を変え、資金調達を行う仕組み
-        - conglomerate
-        - corporate action
 - 最後の略語
         - Co.
             company
