@@ -4,10 +4,11 @@ alias:
   - underlying asset
 parent: "[[金融派生商品 derivative]]"
 ---
-	金融派生商品の価格が基づく、元の資産や指数そのもの
-	the asset which a derivative's value is based
-	- stock 株式
-	- commodity 商品
-	- currency 通貨
-	- interest rate 金利
-	- market index 市場指数
+金融派生商品の価格が基づく、元の資産や指数そのもの
+the asset which a derivative's value is based
+
+- [[株式 stock•share•equity]]
+- [[商品 commodity]]
+- [[通貨•流通通貨 currency]]
+- [[金利•利率 interest•interest rate]]
+- [[m]]
