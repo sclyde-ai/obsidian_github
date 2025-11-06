@@ -1,0 +1,1 @@
+[[法貨 legal tender]]

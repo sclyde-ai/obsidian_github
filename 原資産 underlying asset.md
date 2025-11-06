@@ -8,7 +8,7 @@ parent: "[[金融派生商品 derivative]]"
 the asset which a derivative's value is based
 
 - [[株式 stock•share•equity]]
-- [[商品 commodity]]
+- [[産物 commodity]]
 - [[通貨•流通通貨 currency]]
 - [[金利•利率 interest•interest rate]]
 - [[経済指標•市場指数 economic indicator•market index]]

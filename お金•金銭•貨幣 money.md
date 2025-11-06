@@ -38,13 +38,11 @@ an item that is generally accepted as a medium of exchange
     - 認識可能性 recognizable
         貨幣とそれ以外の識別が容易であり、利用者が価値を認めていること
 - 例 example 
-    - 貴金属 metal
-            - 金 gold
-	            - 1g 2万円
-            - 銀 silver
-            - 白金 platinum
-    - 商品 commodity
-            - 農作物 agricultural commodity (prehistory)
-            - 貝殻 seashell (prehistory)
-            - タバコ cigarette (WW2)
-            - cocoa beans (Maya & Aztec civilization)
+    - [[金 gold]]
+    - [[銀 silver]]
+    - [[白金 platinum]]
+    - [[産物 commodity]]
+		- 農作物 agricultural commodity (prehistory)
+		- 貝殻 seashell (prehistory)
+		- タバコ cigarette (WW2)
+		- cocoa beans (Maya & Aztec civilization)
