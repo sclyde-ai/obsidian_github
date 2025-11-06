@@ -13,3 +13,5 @@
 - [[貸付 lending]]
 - [[賃貸 lease]]
 
+[[金融工学 financial engineering]]
+[[数理金融 mathematical finance]]
