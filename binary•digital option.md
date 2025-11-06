@@ -6,8 +6,8 @@ parent: "[[option]]"
 		℀(S_T>K)
 		$$ 
 		$$ 
-		λ C_K(t, T) - λ C_{K+½/λ}} (t, T) \
+		\lambda C_K(t, T) - \lambda C_{K+ \frac{1}{2} \lambda}} (t, T) \
 		→
-		-∂ C/∂ K
+		- \partial C/ \K
 		… D_K(t, T)
 		$$ 

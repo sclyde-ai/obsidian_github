@@ -1,3 +1,6 @@
+---
+parent: "[[option]]"
+---
 
 any time before the maturity
 - call
