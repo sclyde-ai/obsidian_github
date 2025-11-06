@@ -19,6 +19,8 @@
 - [[venture capital]]
 - [[PE private equity]]
 
+[[財産 property•estate]]
+
 [[金融工学 financial engineering]]
 [[数理金融 mathematical finance]]
 [[企業金融 corporate finance]]
