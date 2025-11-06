@@ -23,13 +23,6 @@ the sensitivity of the price to changes in the stochastic variable
         $$
         \frac{\partial \nu}{\partial \sigma} = \frac{\partial^2 V}{\partial \sigma^2}
         $$
-- normal distribution
-    $$
-    N(x) = \frac{1}{\sqrt {2\pi}} \int_{-\infin}^x e^{-\frac{y^2}{2}}dy
-    $$
-    $$
-    N'(d_1)= \frac{1}{\sqrt {2\pi}} e^{-\frac{x^2}{2}}
-    $$
 - hedge by greeks
     - delta hedging/delta neutral
         dynamic rebalance 
