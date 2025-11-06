@@ -49,17 +49,3 @@ parent: "[[金融派生商品 derivative]]"
 	[[iron butterfly spread]]
 	[[iron condor spread]]
 	[[calendar•horizontal•time spread]]
-- option strategy
-	- money-ness
-		- ITM in the money
-			the derivative have a positive intrinsic value
-		- ATM at the money
-			the derivative have a same intrinsic value
-		- OTM out of the money
-			the derivative have a negative intrinsic value
-	- call
-		- long
-		- short
-	- put
-		- long
-		- short
