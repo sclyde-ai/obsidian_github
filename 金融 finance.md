@@ -12,6 +12,11 @@
 - [[資金調達 fundrasing]]
 - [[貸付 lending]]
 - [[賃貸 lease]]
+- [[公募 public offering]]
+- [[cloud funding]]
+- [[venture capital]]
+- 
+
 
 [[金融工学 financial engineering]]
 [[数理金融 mathematical finance]]
