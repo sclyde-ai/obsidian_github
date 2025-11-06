@@ -7,7 +7,6 @@
 [[効率的市場仮説 efficient market hypothesis]]
 [[一物一価の法則 law of one price]]
 
-
 - 株価模型 stock model
 	[[symmetric random walk 対称酔歩運動]]
 	[[athematic Brownian motion 算術連続酔歩運動]]
@@ -16,3 +15,7 @@
 	[[fractional Brownian motion 非整数連続酔歩運動]]
 
 - 金利模型 interest rate model
+[[Barone-Adesi and Whaley]]
+[[Bjerksund and Stensland]]
+[[Black-Derman-Toy]]
+[[]]
