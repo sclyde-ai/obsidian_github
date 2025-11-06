@@ -1,15 +1,15 @@
 [[金融 finance]]
 
-- index
-	[[金利•利率 interest•interest rate]]
-	[[volatility]]
-	[[Greeks]]
+- [[金利•利率 interest•interest rate]]
 
-- [[yield curve]]
+- [[volatility]]
 
-- risk
-	[[VaR value at risk]]
-	[[expected shortfall]]
+- [[Greeks]]
+
+ - [[yield curve]]
+
+- [[VaR value at risk]]
+- [[expected shortfall]]
 
 [[modern portfolio theory]]
 
