@@ -7,18 +7,7 @@ alias:
     2. 資金を運用する
     3. 利益を得る
 [[会社法]]
-- 企業金融 corporate finance
-    資金調達 funding
-        企業を経営するために必要な運転資金を集める行為
-        money provided, especially by an organization or government, for a particular purpose
-        - 負債金融 debt finance
-        - 資本金融 equity finance
-        - 資産金融 asset finance
-        - MM/Modigliani–Miller theorem
-            企業価値は資本構成や配当政策によって変化しない
-            ![image.jpeg](学問%20academics/notion/economics/ExportBlock-5173355a-40b0-4550-b453-181e6713355d-Part-1/image%202.jpeg)
-        - debt equity swap
-        - 
+
 - 役職 role
         - chair
             an executive elected by a company's board of directors who is responsible for presiding over board meetings.

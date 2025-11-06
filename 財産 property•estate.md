@@ -14,3 +14,5 @@
 - [[portfolio]]
 
 - [[金融商品 financial instrument]]
+
+[[金融 finance]]
