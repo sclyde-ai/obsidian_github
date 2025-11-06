@@ -1,5 +1,5 @@
 ---
-pare:
+pare: "[[option]]"
 ---
 
 		buying put options by an equivalent amount of the underlying security
