@@ -11,8 +11,8 @@
 - [[電子資産 digital asset]]
 - [[産物 commodity]]
 
-- [[portfolio]]
+[[portfolio]]
 
-- [[金融商品 financial instrument]]
+[[金融商品 financial instrument]]
 
 [[金融 finance]]

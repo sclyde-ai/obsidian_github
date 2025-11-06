@@ -12,3 +12,5 @@
 	[[expected shortfall]]
 
 [[modern portfolio theory]]
+
+[[数理金融 mathematical finance]]

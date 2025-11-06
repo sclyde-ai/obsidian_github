@@ -1,6 +1,8 @@
 ---
 alias:
-    ['有価証券', 'securities']
+  - 有価証券
+  - securities
+parent: "[[財産 property•estate]]"
 ---
 財産的価値を持つ権利を表章する証券や証書
 a fungible & tradable financial instrument with monetary value

@@ -3,7 +3,7 @@ alias:
   - 債権
   - debt
   - bond
-parent:
+parent: "[[財産 property•estate]]"
 ---
 [[既発債]]
 [[新発債]]
