@@ -1,11 +1,11 @@
 ---
 alias:
-    ['金利', '利率', 'interest interest rate']
+  - 金利
+  - 利率
+  - interest
+  - interest rate
 ---
-- variable
-    - P principal 元本
-    - r interest rate 利率
-    - V_t deposit balance
+
 - period 期間
     - annually
     - semi-annually
