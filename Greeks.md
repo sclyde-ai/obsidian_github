@@ -1,59 +1,11 @@
----
-alias:
-    ['Greeks']
----
 the partial differential with respect to the random variable
 the sensitivity of the price to changes in the stochastic variable
 - main
-    - delta (stock)
-        $$
-        \Delta_V =\frac{\partial V}{\partial S}
-        $$
-        stock price
-        - call
-            $$
-            \Delta_C =\frac{\partial C}{\partial S} = N(d_1)
-            $$
-        - put
-    - gamma (change of stock)
-        stock price^2
-        $$
-        \Gamma = \frac{\partial \Delta}{\partial S} = \frac{\partial^2 V}{\partial S^2}
-        $$
-        - call & put
-            $$
-            \frac{N'(d_1)}{S\sigma\sqrt{T}}
-            $$
-        - call
-            $$
-            \Gamma = \frac{\partial^2 C}{\partial S^2} = \frac{N'(d_1)}{S \sigma \sqrt{T -t}}
-            $$
-        - put
-        - long gamma
-            $$
-            \Gamma > 0
-            $$
-        - short gamma
-            $$
-            \Gamma < 0
-            $$
-    - theta
-        time
-        - call
-            $$
-            \Theta = \frac{\partial C}{\partial t}
-            $$
-        - put
-    - Vega
-        volatility
-        $$
-        \nu = \frac{\partial V}{\partial \sigma}
-        $$
-    - rho
-        interest rate
-        $$
-        \rho = \frac{\partial V}{\partial r}
-        $$
+    [[delta]]
+    [[gamma]]
+    [[theta]]
+    [[Vega]]
+    [[rho]]
 - minor
     - lambda
         $$
