@@ -7,3 +7,5 @@
 [[programming]]
 
 [[会社•企業 company•corporation]]
+
+[[data 数据]]

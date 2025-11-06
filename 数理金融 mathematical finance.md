@@ -15,6 +15,7 @@
 	[[fractional Brownian motion 非整数連続酔歩運動]]
 
 - 金利模型 interest rate model
+	[[CEV constant elasticity of variance model]]
 	[[Barone-Adesi and Whaley]]
 	[[Bjerksund and Stensland]]
 	[[Black-Derman-Toy]]
