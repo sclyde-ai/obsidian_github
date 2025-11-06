@@ -1,6 +1,7 @@
 ---
 alias:
-    ['first', 'FTAP', '資産価格付けの第一基本定理']
+  - 資産価格付けの第一基本定理
+  - first fundamental theorem of asset pricing
 ---
 [[数理金融 mathematical finance]]
 裁定機会の非存在とリスク中立確率の存在は必要十分条件

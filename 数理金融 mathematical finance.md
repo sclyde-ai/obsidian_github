@@ -4,6 +4,9 @@
 [[risk-neutral probability measure リスク中立確率測度]]
 [[first FTAP 資産価格付けの第一基本定理]]
 [[second FTAP 資産価格付けの第二基本定理]]
+[[効率的市場仮説 efficient market hypothesis]]
+[[一物一価の法則 law of one price]]
+
 
 - 株価模型 stock model
 	[[symmetric random walk 対称酔歩運動]]
