@@ -12,3 +12,4 @@
 - [[資金調達 fundrasing]]
 - [[貸付 lending]]
 - [[賃貸 lease]]
+
