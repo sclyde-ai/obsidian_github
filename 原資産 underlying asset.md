@@ -11,4 +11,4 @@ the asset which a derivative's value is based
 - [[商品 commodity]]
 - [[通貨•流通通貨 currency]]
 - [[金利•利率 interest•interest rate]]
-- [[m]]
+- [[経済指標•市場指数 economic indicator•market index]]
