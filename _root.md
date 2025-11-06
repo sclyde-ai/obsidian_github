@@ -6,4 +6,4 @@
 
 [[programming]]
 
-[[会社•企業 company]]
+[[会社•企業 company•corporation]]

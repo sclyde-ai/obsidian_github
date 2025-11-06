@@ -40,11 +40,6 @@ alias:
             manufacturing, construction 
         - tertiary sector
             services
-- M&A merger and acquisition
-            - 合併 merger
-            - 買収 acquisition
-            - LBO leverage buyout
-                M&A対象会社の信用力に依拠して資金調達し、買収する手法
         - 流動化する liquidate
             to cause a business to close
             不動産や債権などの、現金化や取引しにくい資産を、投資家が取引しやすい有価証券などに形を変え、資金調達を行う仕組み
@@ -74,8 +69,3 @@ alias:
             有限責任会社、合同会社
         - KK.
             株式会社
-- custody
-        the legal right or duty to care for someone or something
-- retail
-- DIY/do-it-yourself/self-directed investing/self-managed investing
-        an investment approach where the investor chooses to build and manage their own investment portfolio instead of others
