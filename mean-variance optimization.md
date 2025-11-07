@@ -17,6 +17,6 @@ $$
 \sigma^2_{GMVP} = \min_{\bar \mu}\{\sigma^2_V(\hat w (\bar \mu))\}
 = \min_{\bar \mu}\{\hat w (\bar \mu) ^\top C \hat w (\bar \mu)\}
 $$
-MVFのもとで分散が最小となるportfolioはGMVPである
+[[minimum variance frontier]]のもとで分散が最小となるportfolioは[[GMVP global minimum variance portfolio]]である
 
 ![[efficient frontier]]
