@@ -1,7 +1,4 @@
----
-alias:
-  - mean-variance optimization
----
+[[金融工学 financial engineering]]
 期待値を最大化
 分散を最小化
 
