@@ -13,7 +13,7 @@ $$
 $$
 \vec 1^\top w = 1
 $$
-分散が最小となるportfolio
+[[投資機会集合 feasible set]]の中で分散が最小となるportfolio
 - GMVP weight vector
     $$
     w_{GMVP} = \frac{\Sigma^{-1}\rm 1}{\rm 1^\top \Sigma^{-1} \rm 1}

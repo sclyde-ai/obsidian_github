@@ -11,7 +11,7 @@ $$
 $$
 \vec \mu^\top w = \mu_T
 $$
-指定した期待値の中で分散が最小のportfolio
+ある期待値のもとで分散が最小のportfolio
 
 
 
