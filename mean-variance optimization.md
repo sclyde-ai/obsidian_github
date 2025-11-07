@@ -14,7 +14,9 @@ alias:
 ![[minimum variance frontier]]
 
 $$
-\sigma^2_{GMVP} = \min_{\bar \mu}\{\hat w (\bar \mu) ^\top C \hat w (\bar \mu)\}
+\sigma^2_{GMVP} = \min_{\bar \mu}\{\sigma^2(\hat w (\bar \mu))\}
+= \min_{\bar \mu}\{\hat w (\bar \mu) ^\top C \hat w (\bar \mu)\}
 $$
+
 
 ![[efficient frontier]]
