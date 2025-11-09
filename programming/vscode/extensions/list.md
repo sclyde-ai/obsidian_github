@@ -1,0 +1,8 @@
+- vscode extension
+    - Thunder Client
+    - Prettier
+    - Material icon Theme
+    - Live Server
+    - Live Preview
+    - IntelliCode
+    - ES Lint
