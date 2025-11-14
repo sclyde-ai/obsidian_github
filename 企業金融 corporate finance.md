@@ -9,3 +9,6 @@
 - MM/Modigliani–Miller theorem
 	企業価値は資本構成や配当政策によって変化しない
 - debt equity swap
+
+- 企業の資金調達の方法
+	- 
